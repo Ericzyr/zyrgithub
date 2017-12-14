@@ -2,7 +2,17 @@ git init
 git add README.txt
 git commit -m "first commit"
 git remote add origin https://github.com/Ericzyr/zyrgithub.git
+
+
+git push -u origin master
 Username for 'https://github.com': Ericzyr
 Password for 'https://Ericzyr@github.com':
 
-git push -u origin master
+
+git add README.txt
+git commit -m "first commit"
+got commit -am "add new cdod "
+
+git reset + file ³·Ïú
+git checkout +file  ³·Ïú
+git checkout HEAD +file ³·Ïú
