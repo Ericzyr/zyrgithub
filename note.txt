@@ -23,3 +23,13 @@ got commit -am "add new cdod "
 git reset + file 撤销
 git checkout +file  撤销
 git checkout HEAD +file 撤销
+
+git branch 查看git的分支属于那一个
+
+git branch + 要创建的分支
+
+git branch -d + 要删除的某个分支
+
+git checkout +分支  切换到某一个分支
+
+git merge + 分支  合并分支
