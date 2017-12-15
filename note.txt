@@ -3,6 +3,13 @@ git add README.txt
 git commit -m "first commit"
 git remote add origin https://github.com/Ericzyr/zyrgithub.git
 
+git pull --rebase origin master
+
+git push origin master
+
+
+
+
 
 git push -u origin master
 Username for 'https://github.com': Ericzyr
