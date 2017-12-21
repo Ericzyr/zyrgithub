@@ -1,0 +1,5 @@
+
+apt install cifs-utils
+
+
+mount.cifs //imgrepo-cnbj.devops.letv.com/dailybuild /mnt/app
