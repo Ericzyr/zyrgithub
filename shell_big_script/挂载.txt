@@ -1,5 +1,4 @@
 
 apt install cifs-utils
-
-
+root su权限enter
 mount.cifs //imgrepo-cnbj.devops.letv.com/dailybuild /mnt/app
