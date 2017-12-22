@@ -1,0 +1,1 @@
+jenjins服务重启命令 systemctl restart jenkins
