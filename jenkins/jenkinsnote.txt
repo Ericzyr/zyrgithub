@@ -1,1 +1,5 @@
 jenjins服务重启命令 systemctl restart jenkins
+
+
+tomcat 
+https://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.0.48/bin/apache-tomcat-8.0.48.tar.gz
