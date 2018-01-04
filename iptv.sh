@@ -1,6 +1,6 @@
 #!/bin/bash -
 echo list TV connect IP address:
-echo tv1=10.75.111.75
+echo tv1=10.58.81.227
 echo tv2=10.75.108.140
 echo tv3=10.75.109.255
 echo tv4=10.75.110.44
