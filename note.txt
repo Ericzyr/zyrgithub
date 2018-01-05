@@ -10,7 +10,6 @@ $ git config --global user.email "your_email@youremail.com"
 ssh -T git@github.com
 
 
-
 git init
 git add README.txt
 git commit -m "first commit"
