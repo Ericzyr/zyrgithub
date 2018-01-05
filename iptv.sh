@@ -1,8 +1,8 @@
 #!/bin/bash -
 echo list TV connect IP address:
-echo tv1=10.58.81.2288888888v2=10.75.108.140
+echo tv1=10.58.81.215
 echo tv3=10.75.109.255
-echdffaadfasffffffffffffffffffffffffffo tv4=10.75.110.44
+echo tv4=10.75.110.44
 echo tv5=10.75.111.117
 read -p 'choic tv Ip number:' ipnumber
 case $ipnumber in
