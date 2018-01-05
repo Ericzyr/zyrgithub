@@ -33,18 +33,23 @@ git add README.txt
 git commit -m "first commit"
 got commit -am "add new cdod "
 
-git reset + file ����
-git checkout +file  ����
-git checkout HEAD +file ����
+git reset + file 撤销
+git checkout +file  撤销
+git checkout HEAD +file 撤销
 
-git branch �鿴git�ķ�֧������һ��
+git branch 查看git的分支属于那一个
 
-git branch + Ҫ�����ķ�֧
+git branch + 要创建的分支
 
-git branch -d + Ҫɾ����ĳ����֧
+git branch -d + 要删除的某个分支
 
-git checkout +��֧  �л���ĳһ����֧
+git checkout +分支  切换到某一个分支
 
-git checkout -b +Ҫ�����ķ�֧ ��ָ���֧
+git checkout -b +要创建的分支 并指向分支
 
-git merge + ��֧  �ϲ���֧
+git merge + 分支  合并分支
+
+
+如果保留修改的撤销->只删掉提交记录<- ： git reset HEAD^ 或者 git reset XXX(上一次哈希值)
+
+如果把修改记录也干掉，用git reset --hard HEAD^
