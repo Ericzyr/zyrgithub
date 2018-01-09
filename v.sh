@@ -1,6 +1,4 @@
-dsfasd
-t
-t
-asdf
-asdf
-
+echo "fist"
+echo "second"
+echo "third"
+echo "forth"
