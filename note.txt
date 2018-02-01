@@ -1,54 +1,21 @@
 
-
-ssh-keygen -t rsa -C "your_email@youremail.com"
-
-$ git config --global user.name "your name"
-$ git config --global user.email "your_email@youremail.com"
+the command is look at you file size
+ du -h --max-depth=1 AAA is file
 
 
+the command is look at pc size
+df -h
+date +%Y-%m-%d"  "%H:%M
 
-ssh -T git@github.com
-
-
-git init
-git add README.txt
-git commit -m "first commit"
-git remote add origin https://github.com/Ericzyr/zyrgithub.git
-
-git pull --rebase origin master
-
-git push origin master
+the command is look at you file size
+ du -h --max-depth=1 AAA is file
 
 
+the command is look at pc size
+df -h
+sort -h 排列从大到小
+
+自动增加脚本的目录
+root@pc7:/etc# vim crontab
 
 
-
-git push -u origin master
-Username for 'https://github.com': Ericzyr
-Password for 'https://Ericzyr@github.com':
-
-
-git add README.txt
-git commit -m "first commit"
-got commit -am "add new cdod "
-
-git reset + file 撤销
-git checkout +file  撤销
-git checkout HEAD +file 撤销
-
-git branch 查看git的分支属于那一个
-
-git branch + 要创建的分支
-
-git branch -d + 要删除的某个分支
-
-git checkout +分支  切换到某一个分支
-
-git checkout -b +要创建的分支 并指向分支
-
-git merge + 分支  合并分支
-
-
-如果保留修改的撤销->只删掉提交记录<- ： git reset HEAD^ 或者 git reset XXX(上一次哈希值)
-
-如果把修改记录也干掉，用git reset --hard HEAD^
