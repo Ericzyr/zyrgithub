@@ -1,1 +1,0 @@
-mount -t cifs -o user=adminpc,password=admin,iocharset=utf8,codepage=cp936 //10.58.81.228 /home/pc7/MYshare
