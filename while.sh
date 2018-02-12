@@ -7,4 +7,3 @@ while [ $i -ne 10 ];do
 done
 
 
-

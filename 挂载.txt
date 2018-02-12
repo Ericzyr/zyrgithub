@@ -2,9 +2,8 @@
 apt install cifs-utils
 
 
+挂载方法
 mount.cifs //imgrepo-cnbj.devops.letv.com/dailybuild /mnt/app
-
-
 
 mount -t cifs -o username=zy01,password=mlt.cn //10.58.90.159/mlt /home/pc7/mlt 
 
@@ -36,3 +35,15 @@ NT_STATUS_ACCESS_DENIED making remote directory /share1
 4，除了使用smbclient，还可以通过mount和smbcount挂载远程共享文件夹
 挂载 mount -t cifs -o username=administrator,password=123456 //192.168.0.1/tmp /mnt/tmp
 取消挂载 umount /mnt/tmp
+
+
+从服务器上cope文件到当前目录
+smbclient //10.58.81.227/jiralog -c "cd MTBFAPK/TVAPK/CN;prompt;mget app-debug.apk app-debug-androidTest.apk" -N
+
+
+apt install cifs-utils
+root su权限enter
+mount.cifs //imgrepo-cnbj.devops.letv.com/dailybuild /mnt/app
+
+从一台ssh copy 到另一台ssh pc 
+scp appdate.sh pc7@10.58.81.227:/home/pc7
