@@ -47,3 +47,4 @@ mount.cifs //imgrepo-cnbj.devops.letv.com/dailybuild /mnt/app
 
 从一台ssh copy 到另一台ssh pc 
 scp appdate.sh pc7@10.58.81.227:/home/pc7
+scp adminpc@10.58.81.228:/home/adminpc/po.sh ./
