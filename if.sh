@@ -5,4 +5,4 @@ if [ -e 'thtest' ];then
 else
     mkdir thtest
 fi
-each "to"
+echo "to"
