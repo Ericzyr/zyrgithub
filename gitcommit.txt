@@ -4,19 +4,18 @@ ssh-keygen -t rsa -C "your_email@youremail.com"
 $ git config --global user.name "your name"
 $ git config --global user.email "your_email@youremail.com"
 
-
-
 ssh -T git@github.com
-
-
 
 git init
 git add README.txt
 git commit -m "first commit"
 git remote add origin https://github.com/Ericzyr/zyrgithub.git
 
+
+把服务器上的代码拉到本地文件，使服务器上的与本地同步相同。
 git pull --rebase origin master
 
+把本地代码推送到服务器上，使本地文件与服务器上的代码同步
 git push origin master
 
 
@@ -28,8 +27,8 @@ Username for 'https://github.com': Ericzyr
 Password for 'https://Ericzyr@github.com':
 
 
-git add README.txt
-git commit -m "first commit"
+git add README.txt 增加/添加
+git commit -m "first commit" 提交
 got commit -am "add new cdod "
 
 git reset + file 撤销
