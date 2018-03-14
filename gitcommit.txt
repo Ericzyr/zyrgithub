@@ -61,7 +61,7 @@ git checkout -b +要创建的分支 并指向分支
 git merge + 分支  合并分支
 
 
-如果保留修改的撤销->只删掉提交记录<- ： git reset HEAD^ 或者 git reset XXX(上一次哈希值)
+如果保留修改的撤销->只删掉提交记录<- ： git reset HEAD^ （回退版本，一个^表示一个版本）或者 git reset XXX(上一次哈希值)
 
 如果把修改记录也干掉，用git reset --hard HEAD^
 
