@@ -16,8 +16,7 @@ git remote add origin https://github.com/Ericzyr/zyrgithub.git
 git pull --rebase origin master
 
 把本地代码推送到服务器上，使本地文件与服务器上的代码同步
-git p3ush origin master
-
+git push origin master
 
 
 
@@ -38,6 +37,16 @@ git diff +file 比较修改文件差别
 git reset + file 撤销     绿色M 撤销
 git checkout +file  撤销  红色M 撤销
 git checkout HEAD +file 撤销  绿色M 撤销到原来文件
+git reset HEAD +file 撤销  绿色M 撤销到 red M
+
+git rm +file  delete file
+git rm --cached +file 删除git服务中文件，不删除本地文件
+git mv +file +fiel 文件的重命名
+
+git stash 紧急修护，放在抽屉
+git stash pop 修护完，打开抽屉
+
+
 
 git branch 查看git的分支属于那一个
 
