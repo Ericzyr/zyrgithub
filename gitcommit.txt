@@ -37,7 +37,7 @@ git diff +file 比较修改文件差别
 
 git reset + file 撤销     绿色M 撤销
 git checkout +file  撤销  红色M 撤销
-git checkout HEAD +file 撤销
+git checkout HEAD +file 撤销  绿色M 撤销到原来文件
 
 git branch 查看git的分支属于那一个
 
