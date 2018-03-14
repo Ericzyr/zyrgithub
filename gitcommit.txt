@@ -6,7 +6,7 @@ $ git config --global user.email "your_email@youremail.com"
 
 ssh -T git@github.com
 
-git init
+git init 初始化git藏库 .git 生成file
 git add README.txt
 git commit -m "first commit"
 git remote add origin https://github.com/Ericzyr/zyrgithub.git
@@ -16,7 +16,7 @@ git remote add origin https://github.com/Ericzyr/zyrgithub.git
 git pull --rebase origin master
 
 把本地代码推送到服务器上，使本地文件与服务器上的代码同步
-git push origin master
+git p3ush origin master
 
 
 
@@ -51,3 +51,7 @@ git merge + 分支  合并分支
 如果保留修改的撤销->只删掉提交记录<- ： git reset HEAD^ 或者 git reset XXX(上一次哈希值)
 
 如果把修改记录也干掉，用git reset --hard HEAD^
+
+
+2
+3
