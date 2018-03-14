@@ -31,8 +31,12 @@ git add README.txt 增加/添加
 git commit -m "first commit" 提交
 got commit -am "add new cdod " 文件修改后的一次性提交，中间少了add 步骤
 
-git reset + file 撤销
-git checkout +file  撤销
+
+git diff +file 比较修改文件差别
+
+
+git reset + file 撤销     绿色M 撤销
+git checkout +file  撤销  红色M 撤销
 git checkout HEAD +file 撤销
 
 git branch 查看git的分支属于那一个
