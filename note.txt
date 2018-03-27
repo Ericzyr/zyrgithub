@@ -1,21 +1,20 @@
 
-the command is look at you file size
- du -h --max-depth=1 AAA is file
-
 
 the command is look at pc size
 df -h
+
 date +%Y-%m-%d"  "%H:%M
 
 the command is look at you file size
  du -h --max-depth=1 AAA is file
 
-
-the command is look at pc size
-df -h
 sort -h 排列从大到小
+
+sort -nrk 5  按照第几列，从大到小  k代表第几列  r代表 从大到小
+
 
 自动增加脚本的目录
 root@pc7:/etc# vim crontab
 
 
+tr ' ' '\n'   # \n 表示换行的意思 
