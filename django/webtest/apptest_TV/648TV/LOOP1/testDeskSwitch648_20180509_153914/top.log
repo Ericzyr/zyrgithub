@@ -1,0 +1,34 @@
+
+
+
+User 5%, System 5%, IOW 0%, IRQ 0%
+User 73 + Nice 0 + Sys 61 + Idle 1073 + IOW 0 + IRQ 0 + SIRQ 10 = 1217
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+25501 808464393   2% S   130 1387380K 251040K  fg system   com.stv.launcher
+ 1274  2   2% S    32 441492K  25376K  fg media    /system/bin/mediaserver
+ 1280  1   1% S    58 885372K  18656K  fg root     /applications/bin/tvos
+ 1267  2   1% S    44 278932K  17892K  fg system   /system/bin/surfaceflinger
+ 2710  0   0% S    20 785980K  66116K  fg u0_a12   com.stv.cdeapk:cde
+28717  1   0% R     1   3584K   1080K  fg root     top
+28702  0   0% S     1      0K      0K  fg root     kworker/0:2
+ 3360  3   0% S    11 720388K  24740K  bg system   letv.remotemanager
+24236  0   0% S     1   1340K    828K  fg mdnsr    /system/bin/mdnsd
+ 1788 -1005594368   0% S   102 1466864K 109268K  fg system   system_server
+
+
+
+User 3%, System 3%, IOW 0%, IRQ 0%
+User 44 + Nice 2 + Sys 43 + Idle 1064 + IOW 2 + IRQ 0 + SIRQ 4 = 1159
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+25501  2   3% S   130 1387740K 251284K  fg system   com.stv.launcher
+ 1274  0   2% S    32 441492K  25376K  fg media    /system/bin/mediaserver
+ 1280  1   1% S    58 885372K  18656K  fg root     /applications/bin/tvos
+ 1267  2   1% S    44 278932K  17892K  fg system   /system/bin/surfaceflinger
+ 2710  0   0% S    20 785980K  66372K  fg u0_a12   com.stv.cdeapk:cde
+28717  3   0% R     1   3592K   1080K  fg root     top
+ 1788  1   0% S   102 1466896K 109436K  fg system   system_server
+28702  0   0% S     1      0K      0K  fg root     kworker/0:2
+ 1246  0   0% S     1      0K      0K  fg root     irq/202-scaler
+24236  0   0% S     1   1340K    828K  fg mdnsr    /system/bin/mdnsd

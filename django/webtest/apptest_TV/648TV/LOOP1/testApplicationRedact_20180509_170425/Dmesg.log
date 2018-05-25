@@ -1,0 +1,52 @@
+[90010.551789] [0089710180][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90047.002872] init: Starting service 'cpudvfsscaling'...
+[90047.050527] [dvfs_boost] this client is not running
+[90047.056222] [dvfs_boost] this client is not running
+[90047.284444] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90047.735422] binder: 1788:1788 transaction failed 29189, size 100-0
+[90047.743012] binder: 1788:1788 transaction failed 29189, size 100-0
+[90048.294425] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90049.304627] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90050.314423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90051.324428] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90052.067451] init: Service 'cpudvfsscaling' (pid 31267) exited with status 0
+[90068.430147] [0089768060][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90068.572363] init: Starting service 'cpudvfsscaling'...
+[90068.640269] [dvfs_boost] this client is not running
+[90068.646797] [dvfs_boost] this client is not running
+[90069.504881] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90070.514462] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90071.524625] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90072.534419] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90073.544683] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90073.655568] init: Service 'cpudvfsscaling' (pid 31391) exited with status 0
+[90075.707033] [0089775340][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90121.904292] init: Starting service 'cpudvfsscaling'...
+[90121.956171] [dvfs_boost] this client is not running
+[90121.961471] [dvfs_boost] this client is not running
+[90122.024429] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90123.034457] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90123.035407] binder: 1788:1788 transaction failed 29189, size 100-0
+[90123.043091] binder: 1788:1788 transaction failed 29189, size 100-0
+[90123.930644] init: Service 'cpudvfsscaling' is being killed...
+[90123.937094] init: Service 'cpudvfsscaling' (pid 31631) killed by signal 9
+[90123.960951] init: Starting service 'cpudvfsscaling'...
+[90124.000087] [dvfs_boost] this client is not running
+[90124.006104] [dvfs_boost] this client is not running
+[90124.045394] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90125.054442] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90126.064450] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90127.074463] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90128.084430] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[90129.018729] init: Service 'cpudvfsscaling' (pid 31642) exited with status 0
+[90199.238684] [0089898870][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90246.991192] [0089946620][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90315.161227] [0090014790][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90384.338785] [0090083970][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90452.292259] [0090151920][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90521.416883] [0090221050][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90590.200037] [0090289830][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[90663.114941] binder: release 31182:31195 transaction 30605648 out, still active
+[90663.126518] binder: 1788:2566 transaction failed 29189, size 4-0
+[90663.133202] binder: send failed reply for transaction 30605648, target dead
+[90663.305955] init: Untracked pid 31174 exited with status 0

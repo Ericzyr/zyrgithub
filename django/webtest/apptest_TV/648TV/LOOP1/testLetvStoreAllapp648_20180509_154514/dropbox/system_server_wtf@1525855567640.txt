@@ -1,0 +1,13 @@
+Process: system_server
+Subject: ActivityManager
+Build: Letv/HeraUHD/HeraUHD:6.0/V2602RCN02C060064B12281S/171228.214004:user/release-keys
+
+android.util.Log$TerribleFailure: Already have existing proc ProcessRecord{48378d8 3384:com.kuyun.common.androidtv/u0a22} when adding ProcessRecord{48378d8 3384:com.kuyun.common.androidtv/u0a22}
+	at android.util.Log.wtf(Log.java:291)
+	at android.util.Slog.wtf(Slog.java:82)
+	at com.android.server.am.ActivityManagerService.addProcessNameLocked(ActivityManagerService.java:6098)
+	at com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked(ActivityManagerService.java:16110)
+	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:4702)
+	at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:4874)
+	at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1340)
+	at android.os.BinderProxy.sendDeathNotice(Binder.java:558)

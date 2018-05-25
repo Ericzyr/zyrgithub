@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id='Description'>jqxChart Spline Series Example</title>
+    <link rel="stylesheet" href="http://tc.letv.leshiren.com/static/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxdraw.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxchart.core.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxcombobox.js"></script>
+    <script type="text/javascript" src="http://tc.letv.leshiren.com/static/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function () {
+            // prepare the data
+            var source =
+            {
+                datatype: "csv",
+                datafields: [
+                    {% for data in datafields %}{ name: '{{data}}' },
+                    {% endfor %}
+                ],
+                url: './out.csv'
+            };
+
+             var dataAdapter = new $.jqx.dataAdapter(source, { async: false, autoBind: true, loadError: function (xhr, status, error) { alert('Error loading "' + source.url + '" : ' + error); } });
+
+            
+             // prepare the data
+             var data = [
+                    {% for data in datafields %}{% if forloop.first %}{% else %}"{{data}}",{% endif %}
+                    {% endfor %}
+            ];
+
+            // Create a jqxComboBox
+           $("#jqxComboBox").jqxComboBox({  placeHolder: "支持输入或选择多个进程" ,multiSelect: true, source: data, width: 450, height: 25,searchMode: 'contains', autoComplete:true});
+           
+            // subscribe to the checkChange event.
+            $("#jqxComboBox").on('change', function (event) {
+                 selectSeries=[];
+                 var items = $("#jqxComboBox").jqxComboBox('getSelectedItems');
+                 $.each(items, function (index) {
+                        selectedItem = { dataField: this.label, displayText: this.label, lineWidth:1.5 };
+                        selectSeries.push(selectedItem);                       
+                 });
+                 settings.seriesGroups[0].series=selectSeries;
+             });
+          
+            // prepare jqxChart settings
+            var settings = {
+                title: "本次测试任务进程PSS图",
+                description: "单击图例控制单个进程显示/隐藏",
+                enableAnimations: true,
+                showLegend: true,
+                padding: { left: 5, top: 5, right: 25, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                source: dataAdapter,
+                xAxis:
+                    {
+                        dataField: 'Second',
+                        showTickMarks: true,
+                        tickMarksInterval: 1,
+                        tickMarksColor: '#888888',
+                        unitInterval: 100,
+                        axisSize: 'auto',
+                        description: 'second(s)'
+                    },
+                colorScheme: 'scheme04',
+                seriesGroups:
+                    [
+                        {
+                            type: 'spline',
+                            valueAxis:
+                            {
+                                description: 'memory pss(k)'
+                            },
+                            series: [
+                                    {% for data in top5processes %}{ dataField: '{{data}}', displayText: '{{data}}', lineWidth:1.5 },
+                                    {% endfor %}
+                                ]
+                        }
+                    ]
+            };
+
+            // setup the chart
+            $('#chartContainer').jqxChart(settings);
+            $("#jqxbutton").jqxButton({
+                theme: 'energyblue',
+                width: 150,
+                height: 30
+            });
+
+            $('#jqxbutton').click(function () {               
+              
+                 $('#chartContainer').jqxChart('refresh');                  
+            });
+
+        });
+    </script>
+</head>
+<body class='default'>
+    <div style='margin-top: 10px;'>默认显示各时间点的前5进程并集，但支持选择(多个)其他进程。</div>
+    <div id='jqxComboBox' style="margin-top: 5px;float:left" >  </div> 
+    <div style="float:left"><input type="button" style="margin: 5px" id="jqxbutton" value="刷新" /> </div> 
+    <br></br>
+    <div id='chartContainer' style="width:100%; height:700px">
+    </div>
+</body>
+</html>

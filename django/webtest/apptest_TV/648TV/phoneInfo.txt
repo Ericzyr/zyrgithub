@@ -1,0 +1,7 @@
+buildModel==X4-65T
+productDevice==HeraUHD
+productUitype==cibn
+buildVersion==6.0.064S_1228
+buildDate==2017-12-28
+testStartTime==2018-05-09 15:34:32
+testEndTime==2018-05-10 09:10:12
