@@ -36,3 +36,8 @@ sudo apt-get install libmysqlclient-dev
 1
 	
 sudo apt-get install mysql-workbench
+
+
+
+
+类中各接口https://blog.csdn.net/iiiiher/article/details/72935275

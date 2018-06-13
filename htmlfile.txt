@@ -1,0 +1,12 @@
+image 外部调用 
+<img src="../static/images/12.png">
+
+css 外部调用 
+<style type="text/css">
+@import '../static/css/a.css';
+</style>
+<link rel="stylesheet" href="../static/css/a.css" type="text/css">
+
+javaScript  外部调用 
+<script type="text/javascript" src="../static/js/attack.js"></script>
+
