@@ -1,0 +1,31 @@
+<4>[90047.050527] [dvfs_boost] this client is not running
+<7>[90048.294425] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90049.304627] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90050.314423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90051.324428] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[90052.067451] init: Service 'cpudvfsscaling' (pid 31267) exited with status 0
+<4>[90068.640269] [dvfs_boost] this client is not running
+<7>[90069.504881] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90070.514462] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90071.524625] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90072.534419] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90073.544683] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[90073.655568] init: Service 'cpudvfsscaling' (pid 31391) exited with status 0
+<4>[90121.961471] [dvfs_boost] this client is not running
+<7>[90122.024429] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[90123.930644] init: Service 'cpudvfsscaling' is being killed...
+<13>[90123.937094] init: Service 'cpudvfsscaling' (pid 31631) killed by signal 9
+<7>[90125.054442] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90126.064450] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90127.074463] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[90128.084430] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[90129.018729] init: Service 'cpudvfsscaling' (pid 31642) exited with status 0
+<4>[90199.238684] [0089898870][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[90246.991192] [0089946620][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[90384.338785] [0090083970][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[90452.292259] [0090151920][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[90521.416883] [0090221050][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[90590.200037] [0090289830][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<6>[90663.114941] binder: release 31182:31195 transaction 30605648 out, still active
+<6>[90663.133202] binder: send failed reply for transaction 30605648, target dead
+<13>[90663.305955] init: Untracked pid 31174 exited with status 0

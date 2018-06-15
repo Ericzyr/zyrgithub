@@ -1,0 +1,1554 @@
+[89577.079429] [32mcma_area having [m<7>[89577.079436] [32m22784 free pages[m
+[89577.085651] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89577.085663] [32mcma_area having [m<7>[89577.085674] [32m27648 free pages[m
+[89577.085681] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89577.085686] [35mCMA_POOL_IOC_FREE costs 14 ms[m
+[89577.085686] 
+[89577.101083] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89577.101180] [35mFunction = free_buffer_list, Line = 2037, free back[m
+[89577.101184] [35mFunction = free_buffer_list, Line = 2053[m
+[89577.101207] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89577.101210] [32mcma_area having [m<7>[89577.101216] [32m768 free pages[m
+[89577.101934] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89577.101938] [32mcma_area having [m<7>[89577.101942] [32m1792 free pages[m
+[89577.101949] dump heap_id 26 information: min_start 0x26400000, max_end 0x27D00000
+[89577.101958] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89577.101962] [35mCMA_POOL_IOC_FREE costs 0 ms[m
+[89577.101962] 
+[89577.244252] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89577.594496] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89578.604750] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89579.614439] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89579.646808] [0089279280][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89580.624503] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89581.613329] init: Service 'cpudvfsscaling' (pid 28126) exited with status 0
+[89582.948216] init: Starting service 'cpudvfsscaling'...
+[89582.996649] [dvfs_boost] this client is not running
+[89583.002013] [dvfs_boost] this client is not running
+[89583.061846] init: Service 'cpudvfsscaling' is being killed...
+[89583.071121] init: Service 'cpudvfsscaling' (pid 28162) killed by signal 9
+[89583.106611] init: Starting service 'cpudvfsscaling'...
+[89583.167049] [dvfs_boost] this client is not running
+[89583.172539] [dvfs_boost] this client is not running
+[89583.654483] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89584.664712] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89585.674649] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89586.545943] [0089286180][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89586.684766] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89586.951950] init: Service 'cpudvfsscaling' is being killed...
+[89586.959129] init: Service 'cpudvfsscaling' (pid 28167) killed by signal 9
+[89586.988626] init: Starting service 'cpudvfsscaling'...
+[89587.047268] [dvfs_boost] this client is not running
+[89587.053257] [dvfs_boost] this client is not running
+[89587.694485] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89587.723798] binder: 26501: binder_alloc_buf failed to map pages in userspace, no vma
+[89587.732120] binder: 26553:28244 transaction failed 29201, size 624-0
+[89587.759138] binder: 26501: binder_alloc_buf failed to map pages in userspace, no vma
+[89587.766978] binder: 1788:1872 transaction failed 29201, size 312-8
+[89587.775046] binder: send failed reply for transaction 30269235 to 26553:28261
+[89587.782377] binder: send failed reply for transaction 30269244 to 26553:26553
+[89587.813214] binder: 26553:28261 transaction failed 29189, size 116-0
+[89587.899402] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89588.042492] binder: 28262:28269 refcount change on invalid ref 10
+[89588.078050] binder: 28262:28262 refcount change on invalid ref 10
+[89588.084322] binder: 28262:28262 refcount change on invalid ref 10
+[89588.090490] binder: transaction release 30269454 bad handle 10
+[89588.452380] binder: 28290:28299 refcount change on invalid ref 9
+[89588.461223] binder: 28290:28290 refcount change on invalid ref 9
+[89588.467884] binder: 28290:28290 refcount change on invalid ref 9
+[89588.474443] binder: transaction release 30269978 bad handle 9
+[89588.556228] binder: 28314:28321 refcount change on invalid ref 9
+[89588.578039] binder: 28314:28314 refcount change on invalid ref 9
+[89588.585112] binder: 28314:28314 refcount change on invalid ref 9
+[89588.593219] binder: transaction release 30270084 bad handle 9
+[89588.704590] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89589.348556] init: Service 'cpudvfsscaling' is being killed...
+[89589.356044] init: Service 'cpudvfsscaling' (pid 28257) killed by signal 9
+[89589.385959] init: Starting service 'cpudvfsscaling'...
+[89589.420360] [dvfs_boost] this client is not running
+[89589.426269] [dvfs_boost] this client is not running
+[89589.714492] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89590.724631] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89591.734431] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89592.145984] init: Service 'cpudvfsscaling' is being killed...
+[89592.154924] init: Service 'cpudvfsscaling' (pid 28467) killed by signal 9
+[89592.179118] init: Starting service 'cpudvfsscaling'...
+[89592.220054] [dvfs_boost] this client is not running
+[89592.225670] [dvfs_boost] this client is not running
+[89592.744445] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89593.636629] [0089293270][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89593.754447] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89594.764419] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89595.190317] init: Service 'cpudvfsscaling' is being killed...
+[89595.197698] init: Service 'cpudvfsscaling' (pid 28533) killed by signal 9
+[89595.225469] init: Starting service 'cpudvfsscaling'...
+[89595.284532] [dvfs_boost] this client is not running
+[89595.289869] [dvfs_boost] this client is not running
+[89595.774683] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89596.784420] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89597.794425] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89597.865421] init: Service 'cpudvfsscaling' is being killed...
+[89597.874740] init: Service 'cpudvfsscaling' (pid 28544) killed by signal 9
+[89597.898020] init: Starting service 'cpudvfsscaling'...
+[89597.942221] [dvfs_boost] this client is not running
+[89597.947678] [dvfs_boost] this client is not running
+[89598.804589] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89599.353802] [0089298980][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89599.814574] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89600.824629] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89601.834425] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89602.844649] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89602.955606] init: Service 'cpudvfsscaling' (pid 28577) exited with status 0
+[89604.941968] [0089304570][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89606.573384] init: Starting service 'cpudvfsscaling'...
+[89606.608712] [dvfs_boost] this client is not running
+[89606.614241] [dvfs_boost] this client is not running
+[89606.884491] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89607.894480] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89608.035484] binder: 1788:1788 transaction failed 29189, size 100-0
+[89608.061168] binder: 1788:1788 transaction failed 29189, size 100-0
+[89608.904432] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89609.838530] init: Service 'cpudvfsscaling' is being killed...
+[89609.844980] init: Service 'cpudvfsscaling' (pid 28621) killed by signal 9
+[89609.871593] init: Starting service 'cpudvfsscaling'...
+[89609.907309] [dvfs_boost] this client is not running
+[89609.912450] [dvfs_boost] this client is not running
+[89609.921592] binder: 28607: binder_alloc_buf, no vma
+[89609.924487] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89609.926654] binder: 1788:1872 transaction failed 29201, size 104-0
+[89609.933279] binder: 28607: binder_alloc_buf, no vma
+[89609.938232] binder: 1788:1872 transaction failed 29201, size 104-0
+[89610.016333] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89610.934462] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89611.944490] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89612.954698] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89613.964421] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89614.131384] [0089313760][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89614.924050] init: Service 'cpudvfsscaling' (pid 28647) exited with status 0
+[89617.728022] init: Starting service 'cpudvfsscaling'...
+[89617.766082] [dvfs_boost] this client is not running
+[89617.771177] [dvfs_boost] this client is not running
+[89618.004499] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89619.014455] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89620.024540] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89621.034630] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89621.874860] binder: undelivered transaction 30282924
+[89621.879911] binder: undelivered transaction 30282964
+[89621.947354] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89622.047234] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89622.083059] init: Service 'cpudvfsscaling' is being killed...
+[89622.089360] init: Service 'cpudvfsscaling' (pid 28676) killed by signal 9
+[89622.118739] init: Starting service 'cpudvfsscaling'...
+[89622.152938] [dvfs_boost] this client is not running
+[89622.158460] [dvfs_boost] this client is not running
+[89622.770271] [0089322400][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89623.054475] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89624.064432] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89625.074426] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89626.084443] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89627.094503] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89627.172533] init: Service 'cpudvfsscaling' (pid 28711) exited with status 0
+[89628.690490] [0089328320][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89634.606606] [0089334240][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89640.525381] [0089340160][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89647.016389] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89647.016406] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89647.016411] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89647.016415] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89647.016419] [32mcma_area having [m<7>[89647.016423] [32m5120 free pages[m
+[89647.017413] [35mmigration data is 0 kb[m
+[89647.017974] [35malloc_contig_range costs 1 ms[m
+[89647.017974] 
+[89647.018264] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89647.018277] [32mcma_area having [m<7>[89647.018283] [32m3072 free pages[m
+[89647.019946] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89647.019967] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89647.019974] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89647.019980] [35mCMA_POOL_IOC_ALLOC costs 3 ms[m
+[89647.019980] 
+[89647.027767] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89647.027784] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89647.027790] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89647.027795] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89647.027795] 
+[89647.028265] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89647.028275] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89647.028281] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89647.028290] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89647.028290] 
+[89647.028763] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89647.028779] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89647.028784] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89647.028914] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89647.028921] [32mcma_area having [m<7>[89647.028927] [32m27648 free pages[m
+[89647.036330] [35mmigration data is 0 kb[m
+[89647.067397] [35malloc_contig_range costs 38 ms[m
+[89647.067397] 
+[89647.067424] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89647.067429] [32mcma_area having [m<7>[89647.067435] [32m0 free pages[m
+[89647.114789] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89647.114801] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89647.114809] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89647.114815] [35mCMA_POOL_IOC_ALLOC costs 86 ms[m
+[89647.114815] 
+[89647.238882] [0089346870][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89647.274731] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89647.324598] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89647.324625] [31mdma_alloc_at_from_contiguous(alloc 4608 pages, at_addr 0x2D400000, start pfn 0x2D400)[m
+[89647.324631] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x3000[m
+[89647.324635] [32m[tvos] Before dma_alloc_at_from_contiguous [m
+[89647.324639] [32mcma_area having [m<7>[89647.324648] [32m24576 free pages[m
+[89647.328495] [35mmigration data is 0 kb[m
+[89647.329628] [35malloc_contig_range costs 4 ms[m
+[89647.329628] 
+[89647.329676] [32m[tvos] After dma_alloc_at_from_contiguous [m
+[89647.329682] [32mcma_area having [m<7>[89647.329691] [32m19968 free pages[m
+[89647.331698] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+[89647.331710] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+[89647.331721] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+[89647.331728] [35mCMA_POOL_IOC_ALLOC costs 7 ms[m
+[89647.331728] 
+[89647.484330] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89647.502249] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89647.542736] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89647.560607] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89647.662951] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89648.374252] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89648.380548] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89657.001430] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89657.002639] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89657.002646] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89657.009708] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89657.009717] [32mcma_area having [m<7>[89657.009726] [32m0 free pages[m
+[89657.032898] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89657.032911] [32mcma_area having [m<7>[89657.032921] [32m27648 free pages[m
+[89657.032929] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89657.032935] [35mCMA_POOL_IOC_FREE costs 31 ms[m
+[89657.032935] 
+[89657.033355] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89657.033556] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89657.033561] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89657.040685] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89657.040693] [32mcma_area having [m<7>[89657.040700] [32m3072 free pages[m
+[89657.042358] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89657.042361] [32mcma_area having [m<7>[89657.042366] [32m5120 free pages[m
+[89657.042374] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89657.042379] [35mCMA_POOL_IOC_FREE costs 9 ms[m
+[89657.042379] 
+[89657.185604] init: Starting service 'cpudvfsscaling'...
+[89657.230796] [dvfs_boost] this client is not running
+[89657.236436] [dvfs_boost] this client is not running
+[89657.395475] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89657.585008] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89657.585193] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89657.585197] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89657.592389] [32m[tvos] Before dma_release_from_contiguous [m
+[89657.592395] [32mcma_area having [m<7>[89657.592401] [32m19968 free pages[m
+[89657.595613] [32m[tvos] After dma_release_from_contiguous [m
+[89657.595620] [32mcma_area having [m<7>[89657.595627] [32m24576 free pages[m
+[89657.595633] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89657.595638] [35mCMA_POOL_IOC_FREE costs 10 ms[m
+[89657.595638] 
+[89657.764256] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89657.929641] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89657.929659] [31mdma_alloc_at_from_contiguous(alloc 1024 pages, at_addr 0x27D00000, start pfn 0x27D00)[m
+[89657.929663] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x1900[m
+[89657.929668] [32m[MControl Monito] Before dma_alloc_at_from_contiguous [m
+[89657.929672] [32mcma_area having [m<7>[89657.929676] [32m1792 free pages[m
+[89657.930214] [35mmigration data is 0 kb[m
+[89657.930362] [35malloc_contig_range costs 0 ms[m
+[89657.930362] 
+[89657.930380] [32m[MControl Monito] After dma_alloc_at_from_contiguous [m
+[89657.930383] [32mcma_area having [m<7>[89657.930388] [32m768 free pages[m
+[89657.930834] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x27D00000 to 0x28100000[m
+[89657.930838] dump heap_id 26 information: min_start 0x26400000, max_end 0x28100000
+[89657.930846] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89657.930852] allocated info: cpu address 0xC9600000, phy_addr 0x27D00000, length 0x400000, pid 1280, freed 0, mapped 1 "tvos"
+[89657.930857] [35mCMA_POOL_IOC_ALLOC costs 1 ms[m
+[89657.930857] 
+[89658.039238] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89658.404465] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89658.620971] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89658.620986] [31mdma_alloc_at_from_contiguous(alloc 4864 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89658.620991] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89658.620995] [32m[ATV SigMonitor ] Before dma_alloc_at_from_contiguous [m
+[89658.620998] [32mcma_area having [m<7>[89658.621004] [32m27648 free pages[m
+[89658.623213] [35mmigration data is 0 kb[m
+[89658.624075] [35malloc_contig_range costs 3 ms[m
+[89658.624075] 
+[89658.624106] [32m[ATV SigMonitor ] After dma_alloc_at_from_contiguous [m
+[89658.624110] [32mcma_area having [m<7>[89658.624116] [32m22784 free pages[m
+[89658.626212] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA2B00000[m
+[89658.626222] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA2B00000
+[89658.626229] allocated info: cpu address 0xE5B00000, phy_addr 0xA1800000, length 0x1300000, pid 1280, freed 0, mapped 1 "tvos"
+[89658.626234] [35mCMA_POOL_IOC_ALLOC costs 5 ms[m
+[89658.626234] 
+[89658.783203] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89658.800226] LUT set  ffee ddcc 
+[89658.805097] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89658.820478] LUT set  ffee ddcc 
+[89658.861735] [31m [Mapi_Cfd_ColorFormatDriver_Control] Analog source[m
+[89658.872008] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89659.414701] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89659.476327] init: Service 'cpudvfsscaling' is being killed...
+[89659.482707] init: Service 'cpudvfsscaling' (pid 28890) killed by signal 9
+[89659.500386] LUT set  ffee ddcc 
+[89659.512190] init: Starting service 'cpudvfsscaling'...
+[89659.557365] [dvfs_boost] this client is not running
+[89659.564522] [dvfs_boost] this client is not running
+[89659.985840] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89659.986129] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89659.986136] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89659.994338] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89659.994399] [32mcma_area having [m<7>[89659.994407] [32m22784 free pages[m
+[89659.997775] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89659.997788] [32mcma_area having [m<7>[89659.997797] [32m27648 free pages[m
+[89659.997805] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89659.997811] [35mCMA_POOL_IOC_FREE costs 11 ms[m
+[89659.997811] 
+[89660.006124] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89660.006254] [35mFunction = free_buffer_list, Line = 2037, free back[m
+[89660.006260] [35mFunction = free_buffer_list, Line = 2053[m
+[89660.006297] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89660.006303] [32mcma_area having [m<7>[89660.006308] [32m768 free pages[m
+[89660.007116] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89660.007129] [32mcma_area having [m<7>[89660.007136] [32m1792 free pages[m
+[89660.007144] dump heap_id 26 information: min_start 0x26400000, max_end 0x27D00000
+[89660.007154] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89660.007160] [35mCMA_POOL_IOC_FREE costs 1 ms[m
+[89660.007160] 
+[89660.164253] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89660.250824] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89660.250897] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89660.250903] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89660.250907] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89660.250911] [32mcma_area having [m<7>[89660.250915] [32m5120 free pages[m
+[89660.251638] [35mmigration data is 0 kb[m
+[89660.252037] [35malloc_contig_range costs 1 ms[m
+[89660.252037] 
+[89660.252062] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89660.252066] [32mcma_area having [m<7>[89660.252071] [32m3072 free pages[m
+[89660.252973] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89660.252983] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89660.252991] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89660.252996] [35mCMA_POOL_IOC_ALLOC costs 2 ms[m
+[89660.252996] 
+[89660.253427] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89660.253455] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89660.253465] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89660.253476] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89660.253476] 
+[89660.253547] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89660.253552] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89660.253556] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89660.253560] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89660.253560] 
+[89660.253687] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89660.253696] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89660.253700] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89660.253705] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89660.253709] [32mcma_area having [m<7>[89660.253715] [32m27648 free pages[m
+[89660.255945] [35mmigration data is 0 kb[m
+[89660.261922] [35malloc_contig_range costs 8 ms[m
+[89660.261922] 
+[89660.261947] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89660.261952] [32mcma_area having [m<7>[89660.261958] [32m0 free pages[m
+[89660.276119] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89660.276134] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89660.276142] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89660.276147] [35mCMA_POOL_IOC_ALLOC costs 22 ms[m
+[89660.276147] 
+[89660.349825] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89660.377472] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89660.377486] [31mdma_alloc_at_from_contiguous(alloc 4608 pages, at_addr 0x2D400000, start pfn 0x2D400)[m
+[89660.377491] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x3000[m
+[89660.377495] [32m[tvos] Before dma_alloc_at_from_contiguous [m
+[89660.377499] [32mcma_area having [m<7>[89660.377504] [32m24576 free pages[m
+[89660.378186] [35mmigration data is 0 kb[m
+[89660.378560] [35malloc_contig_range costs 1 ms[m
+[89660.378560] 
+[89660.378579] [32m[tvos] After dma_alloc_at_from_contiguous [m
+[89660.378583] [32mcma_area having [m<7>[89660.378588] [32m19968 free pages[m
+[89660.380490] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+[89660.380495] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+[89660.380503] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+[89660.380508] [35mCMA_POOL_IOC_ALLOC costs 3 ms[m
+[89660.380508] 
+[89660.413752] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89660.414736] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89660.414741] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89660.421829] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89660.421834] [32mcma_area having [m<7>[89660.421840] [32m0 free pages[m
+[89660.424421] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89660.439763] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89660.439774] [32mcma_area having [m<7>[89660.439782] [32m27648 free pages[m
+[89660.439789] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89660.439794] [35mCMA_POOL_IOC_FREE costs 26 ms[m
+[89660.439794] 
+[89660.440223] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89660.440323] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89660.440327] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89660.447614] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89660.447626] [32mcma_area having [m<7>[89660.447632] [32m3072 free pages[m
+[89660.449007] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89660.449012] [32mcma_area having [m<7>[89660.449017] [32m5120 free pages[m
+[89660.449023] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89660.449027] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89660.449027] 
+[89660.546889] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89660.575299] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89660.675855] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89660.804734] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89660.835279] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89660.858141] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89660.858356] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89660.858360] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89660.865432] [32m[tvos] Before dma_release_from_contiguous [m
+[89660.865448] [32mcma_area having [m<7>[89660.865457] [32m19968 free pages[m
+[89660.868557] [32m[tvos] After dma_release_from_contiguous [m
+[89660.868565] [32mcma_area having [m<7>[89660.868571] [32m24576 free pages[m
+[89660.868578] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89660.868584] [35mCMA_POOL_IOC_FREE costs 10 ms[m
+[89660.868584] 
+[89661.054301] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89661.434705] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89662.444626] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89663.285775] [0089362920][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89663.454666] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89664.464857] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89664.575167] init: Service 'cpudvfsscaling' (pid 28904) exited with status 0
+[89667.864746] init: Starting service 'cpudvfsscaling'...
+[89667.916091] [dvfs_boost] this client is not running
+[89667.925417] [dvfs_boost] this client is not running
+[89668.504446] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89669.514433] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89670.480132] init: Service 'cpudvfsscaling' is being killed...
+[89670.486478] init: Service 'cpudvfsscaling' (pid 28959) killed by signal 9
+[89670.512552] init: Starting service 'cpudvfsscaling'...
+[89670.524670] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89670.552889] [dvfs_boost] this client is not running
+[89670.558224] [dvfs_boost] this client is not running
+[89671.188620] [0089370820][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89671.534742] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89672.544952] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89672.739985] init: Service 'cpudvfsscaling' is being killed...
+[89672.746571] init: Service 'cpudvfsscaling' (pid 28972) killed by signal 9
+[89672.767557] init: Starting service 'cpudvfsscaling'...
+[89672.806810] [dvfs_boost] this client is not running
+[89672.812034] [dvfs_boost] this client is not running
+[89673.554633] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89674.564424] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89675.400034] init: Service 'cpudvfsscaling' is being killed...
+[89675.406422] init: Service 'cpudvfsscaling' (pid 28982) killed by signal 9
+[89675.427848] init: Starting service 'cpudvfsscaling'...
+[89675.469066] [dvfs_boost] this client is not running
+[89675.475261] [dvfs_boost] this client is not running
+[89675.574443] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89676.584463] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89676.892905] [0089376520][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89677.594614] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89678.446338] init: Service 'cpudvfsscaling' is being killed...
+[89678.453011] init: Service 'cpudvfsscaling' (pid 28994) killed by signal 9
+[89678.489741] init: Starting service 'cpudvfsscaling'...
+[89678.535616] [dvfs_boost] this client is not running
+[89678.541119] [dvfs_boost] this client is not running
+[89678.604439] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89679.357124] binder: 1788:1788 transaction failed 29189, size 100-0
+[89679.614653] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89680.624431] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89681.172419] init: Service 'cpudvfsscaling' is being killed...
+[89681.179279] init: Service 'cpudvfsscaling' (pid 29007) killed by signal 9
+[89681.206161] init: Starting service 'cpudvfsscaling'...
+[89681.247615] [dvfs_boost] this client is not running
+[89681.254869] [dvfs_boost] this client is not running
+[89681.634652] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89682.644664] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89683.654422] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89684.205908] init: Service 'cpudvfsscaling' is being killed...
+[89684.213340] init: Service 'cpudvfsscaling' (pid 29039) killed by signal 9
+[89684.245098] init: Starting service 'cpudvfsscaling'...
+[89684.313422] [dvfs_boost] this client is not running
+[89684.318828] [dvfs_boost] this client is not running
+[89684.664441] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89685.005734] binder: 1788:1788 transaction failed 29189, size 100-0
+[89685.674427] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89686.684418] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89686.871505] init: Service 'cpudvfsscaling' is being killed...
+[89686.877964] init: Service 'cpudvfsscaling' (pid 29049) killed by signal 9
+[89686.902452] init: Starting service 'cpudvfsscaling'...
+[89686.939697] [dvfs_boost] this client is not running
+[89686.944890] [dvfs_boost] this client is not running
+[89687.694483] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89688.704673] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89689.714439] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89689.905990] init: Service 'cpudvfsscaling' is being killed...
+[89689.912400] init: Service 'cpudvfsscaling' (pid 29077) killed by signal 9
+[89689.946212] init: Starting service 'cpudvfsscaling'...
+[89689.998195] [dvfs_boost] this client is not running
+[89690.004866] [dvfs_boost] this client is not running
+[89690.724774] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89690.727579] binder: 1788:1788 transaction failed 29189, size 100-0
+[89691.734424] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89692.581113] init: Service 'cpudvfsscaling' is being killed...
+[89692.592634] init: Service 'cpudvfsscaling' (pid 29087) killed by signal 9
+[89692.621626] init: Starting service 'cpudvfsscaling'...
+[89692.661871] [dvfs_boost] this client is not running
+[89692.668296] [dvfs_boost] this client is not running
+[89692.744484] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89693.754459] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89694.764647] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89695.774619] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89696.784425] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89697.683021] init: Service 'cpudvfsscaling' (pid 29115) exited with status 0
+[89701.290173] [0089400920][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89701.874610] init: Starting service 'cpudvfsscaling'...
+[89701.921922] [dvfs_boost] this client is not running
+[89701.932730] [dvfs_boost] this client is not running
+[89702.844459] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89703.854710] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89704.598840] init: Service 'cpudvfsscaling' is being killed...
+[89704.605274] init: Service 'cpudvfsscaling' (pid 29129) killed by signal 9
+[89704.627053] init: Starting service 'cpudvfsscaling'...
+[89704.664507] [dvfs_boost] this client is not running
+[89704.670298] [dvfs_boost] this client is not running
+[89704.864699] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89705.361961] [0089404990][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89705.874445] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89706.884640] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89706.945939] init: Service 'cpudvfsscaling' is being killed...
+[89706.952959] init: Service 'cpudvfsscaling' (pid 29141) killed by signal 9
+[89706.987942] init: Starting service 'cpudvfsscaling'...
+[89707.039342] [dvfs_boost] this client is not running
+[89707.045000] [dvfs_boost] this client is not running
+[89707.894638] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89708.904437] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89709.914434] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89710.925195] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89711.669405] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89711.682055] init: Service 'cpudvfsscaling' is being killed...
+[89711.688796] init: Service 'cpudvfsscaling' (pid 29162) killed by signal 9
+[89711.715997] init: Starting service 'cpudvfsscaling'...
+[89711.763023] [dvfs_boost] this client is not running
+[89711.769007] [dvfs_boost] this client is not running
+[89711.934523] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89712.693903] [0089412320][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89712.944643] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89713.954422] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89714.289168] init: Service 'cpudvfsscaling' is being killed...
+[89714.300173] init: Service 'cpudvfsscaling' (pid 29345) killed by signal 9
+[89714.324812] init: Starting service 'cpudvfsscaling'...
+[89714.368568] [dvfs_boost] this client is not running
+[89714.373639] [dvfs_boost] this client is not running
+[89714.964468] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89715.974414] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89716.984418] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89717.884119] init: Service 'cpudvfsscaling' is being killed...
+[89717.890722] init: Service 'cpudvfsscaling' (pid 29366) killed by signal 9
+[89717.914699] init: Starting service 'cpudvfsscaling'...
+[89717.958038] [dvfs_boost] this client is not running
+[89717.963571] [dvfs_boost] this client is not running
+[89717.994880] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89718.798387] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89719.004653] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89719.377380] [0089419010][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89720.014437] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89720.918998] init: Service 'cpudvfsscaling' is being killed...
+[89720.925834] init: Service 'cpudvfsscaling' (pid 29440) killed by signal 9
+[89720.949034] init: Starting service 'cpudvfsscaling'...
+[89721.006263] [dvfs_boost] this client is not running
+[89721.012243] [dvfs_boost] this client is not running
+[89721.024421] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89722.034448] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89723.044629] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89723.663174] init: Service 'cpudvfsscaling' is being killed...
+[89723.670055] init: Service 'cpudvfsscaling' (pid 29450) killed by signal 9
+[89723.701264] init: Starting service 'cpudvfsscaling'...
+[89723.748890] [dvfs_boost] this client is not running
+[89723.754584] [dvfs_boost] this client is not running
+[89724.054462] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89725.064446] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89725.142023] [0089424770][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89726.074419] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89726.683289] init: Service 'cpudvfsscaling' is being killed...
+[89726.693476] init: Service 'cpudvfsscaling' (pid 29464) killed by signal 9
+[89726.717945] init: Starting service 'cpudvfsscaling'...
+[89726.767576] [dvfs_boost] this client is not running
+[89726.774004] [dvfs_boost] this client is not running
+[89727.084693] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89728.094429] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89729.104418] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89729.742130] init: Service 'cpudvfsscaling' is being killed...
+[89729.748570] init: Service 'cpudvfsscaling' (pid 29472) killed by signal 9
+[89729.769084] init: Starting service 'cpudvfsscaling'...
+[89729.805136] [dvfs_boost] this client is not running
+[89729.811326] [dvfs_boost] this client is not running
+[89730.114449] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89731.124448] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89732.134427] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89733.144440] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89733.906726] [0089433540][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89734.154421] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89734.823251] init: Service 'cpudvfsscaling' (pid 29484) exited with status 0
+[89735.524071] init: Starting service 'cpudvfsscaling'...
+[89735.558791] [dvfs_boost] this client is not running
+[89735.563893] [dvfs_boost] this client is not running
+[89736.174639] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89737.184418] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89738.194832] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89738.204088] init: Service 'cpudvfsscaling' is being killed...
+[89738.210603] init: Service 'cpudvfsscaling' (pid 29496) killed by signal 9
+[89738.231285] init: Starting service 'cpudvfsscaling'...
+[89738.273739] [dvfs_boost] this client is not running
+[89738.282033] [dvfs_boost] this client is not running
+[89738.944940] [0089438580][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89739.204675] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89740.214434] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89740.527231] init: Service 'cpudvfsscaling' is being killed...
+[89740.533972] init: Service 'cpudvfsscaling' (pid 29506) killed by signal 9
+[89740.560642] init: Starting service 'cpudvfsscaling'...
+[89740.594688] [dvfs_boost] this client is not running
+[89740.600666] [dvfs_boost] this client is not running
+[89741.224452] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89742.234483] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89743.244456] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89743.257353] init: Service 'cpudvfsscaling' is being killed...
+[89743.264055] init: Service 'cpudvfsscaling' (pid 29518) killed by signal 9
+[89743.298709] init: Starting service 'cpudvfsscaling'...
+[89743.342473] [dvfs_boost] this client is not running
+[89743.348264] [dvfs_boost] this client is not running
+[89744.254591] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89744.731936] [0089444360][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89745.264656] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89746.274685] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89746.303472] init: Service 'cpudvfsscaling' is being killed...
+[89746.310057] init: Service 'cpudvfsscaling' (pid 29530) killed by signal 9
+[89746.334837] init: Starting service 'cpudvfsscaling'...
+[89746.368872] [dvfs_boost] this client is not running
+[89746.374733] [dvfs_boost] this client is not running
+[89747.284437] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89748.294427] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89749.010894] init: Service 'cpudvfsscaling' is being killed...
+[89749.017363] init: Service 'cpudvfsscaling' (pid 29540) killed by signal 9
+[89749.041805] init: Starting service 'cpudvfsscaling'...
+[89749.077400] [dvfs_boost] this client is not running
+[89749.083378] [dvfs_boost] this client is not running
+[89749.304663] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89750.314435] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89750.498370] [0089450130][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89751.324436] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89752.067532] init: Service 'cpudvfsscaling' is being killed...
+[89752.074321] init: Service 'cpudvfsscaling' (pid 29551) killed by signal 9
+[89752.096978] init: Starting service 'cpudvfsscaling'...
+[89752.141660] [dvfs_boost] this client is not running
+[89752.147670] [dvfs_boost] this client is not running
+[89752.335365] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89753.344423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89754.354636] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89754.778777] init: Service 'cpudvfsscaling' is being killed...
+[89754.785194] init: Service 'cpudvfsscaling' (pid 29559) killed by signal 9
+[89754.811633] init: Starting service 'cpudvfsscaling'...
+[89754.848993] [dvfs_boost] this client is not running
+[89754.854442] [dvfs_boost] this client is not running
+[89755.364484] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89756.264502] [0089455900][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89756.374482] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89757.384623] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89757.825351] init: Service 'cpudvfsscaling' is being killed...
+[89757.832611] init: Service 'cpudvfsscaling' (pid 29571) killed by signal 9
+[89757.859269] init: Starting service 'cpudvfsscaling'...
+[89757.905275] [dvfs_boost] this client is not running
+[89757.910525] [dvfs_boost] this client is not running
+[89758.394442] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89759.404417] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89760.414618] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89760.538662] init: Service 'cpudvfsscaling' is being killed...
+[89760.547654] init: Service 'cpudvfsscaling' (pid 29582) killed by signal 9
+[89760.571215] init: Starting service 'cpudvfsscaling'...
+[89760.607880] [dvfs_boost] this client is not running
+[89760.612968] [dvfs_boost] this client is not running
+[89761.424437] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89762.434443] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89763.444427] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89764.454423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89764.702208] [0089464330][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89765.464421] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89765.624974] init: Service 'cpudvfsscaling' (pid 29593) exited with status 0
+[89766.551599] init: Starting service 'cpudvfsscaling'...
+[89766.605012] [dvfs_boost] this client is not running
+[89766.611167] [dvfs_boost] this client is not running
+[89767.484444] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89768.494422] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89769.338241] init: Service 'cpudvfsscaling' is being killed...
+[89769.344739] init: Service 'cpudvfsscaling' (pid 29607) killed by signal 9
+[89769.366101] init: Starting service 'cpudvfsscaling'...
+[89769.414423] [dvfs_boost] this client is not running
+[89769.420665] [dvfs_boost] this client is not running
+[89769.504434] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89770.086712] [0089469720][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89770.514662] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89771.524415] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89771.642523] init: Service 'cpudvfsscaling' is being killed...
+[89771.648860] init: Service 'cpudvfsscaling' (pid 29619) killed by signal 9
+[89771.670560] init: Starting service 'cpudvfsscaling'...
+[89771.712544] [dvfs_boost] this client is not running
+[89771.718976] [dvfs_boost] this client is not running
+[89772.534433] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89773.544423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89774.304707] init: Service 'cpudvfsscaling' is being killed...
+[89774.311047] init: Service 'cpudvfsscaling' (pid 29629) killed by signal 9
+[89774.332176] init: Starting service 'cpudvfsscaling'...
+[89774.369760] [dvfs_boost] this client is not running
+[89774.375355] [dvfs_boost] this client is not running
+[89774.556272] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89775.564459] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89775.781809] [0089475410][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89776.574620] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89777.584455] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89778.594415] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89779.385075] init: Service 'cpudvfsscaling' (pid 29641) exited with status 0
+[89780.973031] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89780.973048] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89780.973052] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89780.973056] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89780.973061] [32mcma_area having [m<7>[89780.973065] [32m5120 free pages[m
+[89780.974041] [35mmigration data is 0 kb[m
+[89780.976766] [35malloc_contig_range costs 3 ms[m
+[89780.976766] 
+[89780.976794] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89780.976799] [32mcma_area having [m<7>[89780.976803] [32m3072 free pages[m
+[89780.977693] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89780.977701] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89780.977708] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89780.977712] [35mCMA_POOL_IOC_ALLOC costs 4 ms[m
+[89780.977712] 
+[89780.978295] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89780.978305] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89780.978310] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89780.978315] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89780.978315] 
+[89780.978386] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89780.978390] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89780.978395] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89780.978399] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89780.978399] 
+[89780.980531] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89780.980554] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89780.980559] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89780.980563] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89780.980567] [32mcma_area having [m<7>[89780.980574] [32m27648 free pages[m
+[89780.983525] [35mmigration data is 0 kb[m
+[89780.992066] [35malloc_contig_range costs 11 ms[m
+[89780.992066] 
+[89780.992099] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89780.992103] [32mcma_area having [m<7>[89780.992109] [32m0 free pages[m
+[89781.005489] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89781.005503] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89781.005512] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89781.005518] [35mCMA_POOL_IOC_ALLOC costs 24 ms[m
+[89781.005518] 
+[89781.099517] [0089480730][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89781.144332] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89781.177124] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89781.177155] [31mdma_alloc_at_from_contiguous(alloc 4608 pages, at_addr 0x2D400000, start pfn 0x2D400)[m
+[89781.177160] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x3000[m
+[89781.177164] [32m[tvos] Before dma_alloc_at_from_contiguous [m
+[89781.177170] [32mcma_area having [m<7>[89781.177177] [32m24576 free pages[m
+[89781.178979] [35mmigration data is 0 kb[m
+[89781.179835] [35malloc_contig_range costs 2 ms[m
+[89781.179835] 
+[89781.179873] [32m[tvos] After dma_alloc_at_from_contiguous [m
+[89781.179878] [32mcma_area having [m<7>[89781.179888] [32m19968 free pages[m
+[89781.181906] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+[89781.181918] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+[89781.181929] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+[89781.181935] [35mCMA_POOL_IOC_ALLOC costs 4 ms[m
+[89781.181935] 
+[89781.275158] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89781.295679] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89781.396466] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89781.524292] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89781.534301] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89781.807176] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89781.808377] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89781.808385] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89781.815651] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89781.815662] [32mcma_area having [m<7>[89781.815671] [32m0 free pages[m
+[89781.838059] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89781.838069] [32mcma_area having [m<7>[89781.838078] [32m27648 free pages[m
+[89781.838087] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89781.838093] [35mCMA_POOL_IOC_FREE costs 30 ms[m
+[89781.838093] 
+[89781.838557] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89781.838675] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89781.838694] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89781.845789] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89781.845796] [32mcma_area having [m<7>[89781.845802] [32m3072 free pages[m
+[89781.847467] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89781.847470] [32mcma_area having [m<7>[89781.847475] [32m5120 free pages[m
+[89781.847481] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89781.847487] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89781.847487] 
+[89787.078431] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89787.078455] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89787.078460] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89787.078465] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89787.078470] [32mcma_area having [m<7>[89787.078474] [32m5120 free pages[m
+[89787.079551] [35mmigration data is 0 kb[m
+[89787.080479] [35malloc_contig_range costs 1 ms[m
+[89787.080479] 
+[89787.080511] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89787.080516] [32mcma_area having [m<7>[89787.080520] [32m3072 free pages[m
+[89787.081408] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89787.081416] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89787.081425] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89787.081430] [35mCMA_POOL_IOC_ALLOC costs 3 ms[m
+[89787.081430] 
+[89787.081867] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89787.081880] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89787.081887] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89787.081899] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89787.081899] 
+[89787.081972] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89787.081977] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89787.081981] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89787.081985] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89787.081985] 
+[89787.082153] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89787.082163] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89787.082168] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89787.082172] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89787.082176] [32mcma_area having [m<7>[89787.082183] [32m27648 free pages[m
+[89787.084918] [35mmigration data is 0 kb[m
+[89787.091141] [35malloc_contig_range costs 8 ms[m
+[89787.091141] 
+[89787.091179] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89787.091186] [32mcma_area having [m<7>[89787.091193] [32m0 free pages[m
+[89787.103951] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89787.104090] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89787.104098] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89787.104104] [35mCMA_POOL_IOC_ALLOC costs 21 ms[m
+[89787.104104] 
+[89787.880579] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89787.881538] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89787.881545] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89787.888777] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89787.888785] [32mcma_area having [m<7>[89787.888792] [32m0 free pages[m
+[89787.911182] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89787.911194] [32mcma_area having [m<7>[89787.911203] [32m27648 free pages[m
+[89787.911212] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89787.911218] [35mCMA_POOL_IOC_FREE costs 30 ms[m
+[89787.911218] 
+[89787.911648] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89787.911762] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89787.911767] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89787.918896] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89787.918901] [32mcma_area having [m<7>[89787.918907] [32m3072 free pages[m
+[89787.920594] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89787.920598] [32mcma_area having [m<7>[89787.920603] [32m5120 free pages[m
+[89787.920609] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89787.920615] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89787.920615] 
+[89793.544030] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89793.544053] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89793.544058] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89793.544062] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89793.544067] [32mcma_area having [m<7>[89793.544072] [32m5120 free pages[m
+[89793.548218] [35mmigration data is 0 kb[m
+[89793.548785] [35malloc_contig_range costs 4 ms[m
+[89793.548785] 
+[89793.548820] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89793.548825] [32mcma_area having [m<7>[89793.548830] [32m3072 free pages[m
+[89793.549760] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89793.549770] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89793.549781] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89793.549786] [35mCMA_POOL_IOC_ALLOC costs 5 ms[m
+[89793.549786] 
+[89793.550486] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89793.550499] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89793.550506] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89793.550512] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89793.550512] 
+[89793.550583] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89793.550588] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89793.550593] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89793.550597] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89793.550597] 
+[89793.550775] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89793.550792] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89793.550799] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89793.550803] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89793.550808] [32mcma_area having [m<7>[89793.550815] [32m27648 free pages[m
+[89793.553239] [35mmigration data is 0 kb[m
+[89793.563274] [35malloc_contig_range costs 12 ms[m
+[89793.563274] 
+[89793.563309] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89793.563313] [32mcma_area having [m<7>[89793.563321] [32m0 free pages[m
+[89793.580080] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89793.580101] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89793.580111] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89793.580117] [35mCMA_POOL_IOC_ALLOC costs 29 ms[m
+[89793.580117] 
+[89793.754672] [0089493390][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89794.064239] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89794.082013] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89801.364249] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89801.398156] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89804.853798] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89804.855048] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89804.855057] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89804.862129] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89804.862134] [32mcma_area having [m<7>[89804.862142] [32m0 free pages[m
+[89804.885036] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89804.885049] [32mcma_area having [m<7>[89804.885059] [32m27648 free pages[m
+[89804.885068] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89804.885074] [35mCMA_POOL_IOC_FREE costs 31 ms[m
+[89804.885074] 
+[89804.886111] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89804.886228] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89804.886233] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89804.893345] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89804.893351] [32mcma_area having [m<7>[89804.893356] [32m3072 free pages[m
+[89804.895072] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89804.895077] [32mcma_area having [m<7>[89804.895082] [32m5120 free pages[m
+[89804.895089] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89804.895094] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89804.895094] 
+[89805.041767] init: Starting service 'cpudvfsscaling'...
+[89805.089548] [dvfs_boost] this client is not running
+[89805.095844] [dvfs_boost] this client is not running
+[89805.244375] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89805.266700] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89805.411080] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89805.411278] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89805.411282] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89805.418486] [32m[tvos] Before dma_release_from_contiguous [m
+[89805.418495] [32mcma_area having [m<7>[89805.418503] [32m19968 free pages[m
+[89805.421597] [32m[tvos] After dma_release_from_contiguous [m
+[89805.421603] [32mcma_area having [m<7>[89805.421608] [32m24576 free pages[m
+[89805.421614] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89805.421619] [35mCMA_POOL_IOC_FREE costs 10 ms[m
+[89805.421619] 
+[89805.604219] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89805.700194] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89805.700213] [31mdma_alloc_at_from_contiguous(alloc 1024 pages, at_addr 0x27D00000, start pfn 0x27D00)[m
+[89805.700218] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x1900[m
+[89805.700223] [32m[MControl Monito] Before dma_alloc_at_from_contiguous [m
+[89805.700226] [32mcma_area having [m<7>[89805.700231] [32m1792 free pages[m
+[89805.700801] [35mmigration data is 0 kb[m
+[89805.700962] [35malloc_contig_range costs 0 ms[m
+[89805.700962] 
+[89805.700985] [32m[MControl Monito] After dma_alloc_at_from_contiguous [m
+[89805.700988] [32mcma_area having [m<7>[89805.700993] [32m768 free pages[m
+[89805.701472] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x27D00000 to 0x28100000[m
+[89805.701477] dump heap_id 26 information: min_start 0x26400000, max_end 0x28100000
+[89805.701484] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89805.701491] allocated info: cpu address 0xC9600000, phy_addr 0x27D00000, length 0x400000, pid 1280, freed 0, mapped 1 "tvos"
+[89805.701495] [35mCMA_POOL_IOC_ALLOC costs 1 ms[m
+[89805.701495] 
+[89805.771104] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89805.864430] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89806.687369] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89806.687385] [31mdma_alloc_at_from_contiguous(alloc 4864 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89806.687389] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89806.687393] [32m[ATV SigMonitor ] Before dma_alloc_at_from_contiguous [m
+[89806.687397] [32mcma_area having [m<7>[89806.687403] [32m27648 free pages[m
+[89806.688636] [35mmigration data is 0 kb[m
+[89806.691139] [35malloc_contig_range costs 3 ms[m
+[89806.691139] 
+[89806.691176] [32m[ATV SigMonitor ] After dma_alloc_at_from_contiguous [m
+[89806.691181] [32mcma_area having [m<7>[89806.691187] [32m22784 free pages[m
+[89806.693419] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA2B00000[m
+[89806.693428] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA2B00000
+[89806.693437] allocated info: cpu address 0xE5B00000, phy_addr 0xA1800000, length 0x1300000, pid 1280, freed 0, mapped 1 "tvos"
+[89806.693442] [35mCMA_POOL_IOC_ALLOC costs 6 ms[m
+[89806.693442] 
+[89806.870288] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89806.884444] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89806.886828] LUT set  ffee ddcc 
+[89806.888355] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89806.947875] [31m [Mapi_Cfd_ColorFormatDriver_Control] Analog source[m
+[89806.957844] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89807.357783] init: Service 'cpudvfsscaling' is being killed...
+[89807.364222] init: Service 'cpudvfsscaling' (pid 29865) killed by signal 9
+[89807.386586] init: Starting service 'cpudvfsscaling'...
+[89807.430414] [dvfs_boost] this client is not running
+[89807.437560] [dvfs_boost] this client is not running
+[89807.894874] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89807.909202] LUT set  ffee ddcc 
+[89808.153892] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89808.154089] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89808.154094] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89808.161180] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89808.161186] [32mcma_area having [m<7>[89808.161192] [32m22784 free pages[m
+[89808.164388] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89808.164393] [32mcma_area having [m<7>[89808.164401] [32m27648 free pages[m
+[89808.164407] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89808.164411] [35mCMA_POOL_IOC_FREE costs 10 ms[m
+[89808.164411] 
+[89808.172612] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89808.172695] [35mFunction = free_buffer_list, Line = 2037, free back[m
+[89808.172699] [35mFunction = free_buffer_list, Line = 2053[m
+[89808.172719] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89808.172722] [32mcma_area having [m<7>[89808.172726] [32m768 free pages[m
+[89808.173523] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89808.173527] [32mcma_area having [m<7>[89808.173531] [32m1792 free pages[m
+[89808.173538] dump heap_id 26 information: min_start 0x26400000, max_end 0x27D00000
+[89808.173544] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89808.173549] [35mCMA_POOL_IOC_FREE costs 0 ms[m
+[89808.173549] 
+[89808.234216] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89808.904507] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89809.914503] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89810.476685] [0089510110][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89810.924484] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89811.934417] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89812.445589] init: Service 'cpudvfsscaling' (pid 29878) exited with status 0
+[89813.742033] init: Starting service 'cpudvfsscaling'...
+[89813.786736] [dvfs_boost] this client is not running
+[89813.791802] [dvfs_boost] this client is not running
+[89813.856312] init: Service 'cpudvfsscaling' is being killed...
+[89813.865578] init: Service 'cpudvfsscaling' (pid 29914) killed by signal 9
+[89813.903236] init: Starting service 'cpudvfsscaling'...
+[89813.954652] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89813.957337] [dvfs_boost] this client is not running
+[89813.962923] [dvfs_boost] this client is not running
+[89814.964648] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89815.974877] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89816.984772] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89817.046595] [0089516680][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89817.561714] init: Service 'cpudvfsscaling' is being killed...
+[89817.568064] init: Service 'cpudvfsscaling' (pid 29919) killed by signal 9
+[89817.589387] init: Starting service 'cpudvfsscaling'...
+[89817.646365] [dvfs_boost] this client is not running
+[89817.652307] [dvfs_boost] this client is not running
+[89817.994468] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89818.466248] binder: send failed reply for transaction 30383589 to 28314:30013
+[89818.473749] binder: send failed reply for transaction 30383593 to 28314:28314
+[89818.481471] binder: send failed reply for transaction 30383594 to 28314:29991
+[89818.521861] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89818.679649] binder: 28314:28314 transaction failed 29189, size 136-0
+[89818.810250] binder: undelivered transaction 30383889
+[89818.923096] binder: 30014:30021 refcount change on invalid ref 10
+[89818.935277] binder: 30014:30014 refcount change on invalid ref 10
+[89818.941809] binder: 30014:30014 refcount change on invalid ref 10
+[89818.948343] binder: transaction release 30384023 bad handle 10
+[89819.004908] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89819.313584] binder: 30037:30044 refcount change on invalid ref 9
+[89819.334697] binder: 30037:30037 refcount change on invalid ref 9
+[89819.341101] binder: 30037:30037 refcount change on invalid ref 9
+[89819.347778] binder: transaction release 30384509 bad handle 9
+[89819.472736] binder: 30058:30067 refcount change on invalid ref 9
+[89819.534510] binder: 30058:30058 refcount change on invalid ref 9
+[89819.541303] binder: 30058:30058 refcount change on invalid ref 9
+[89819.548023] binder: transaction release 30384705 bad handle 9
+[89819.810532] binder: 30014:30021 refcount change on invalid ref 14
+[89819.893808] binder: 30014:30054 refcount change on invalid ref 14
+[89819.905632] binder: 30014:30054 refcount change on invalid ref 14
+[89819.914417] binder: transaction release 30385217 bad handle 14
+[89819.932678] init: Service 'cpudvfsscaling' is being killed...
+[89819.942277] init: Service 'cpudvfsscaling' (pid 30008) killed by signal 9
+[89819.972995] init: Starting service 'cpudvfsscaling'...
+[89820.010743] [dvfs_boost] this client is not running
+[89820.018429] [dvfs_boost] this client is not running
+[89820.024471] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89821.034754] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89822.044436] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89822.729991] init: Service 'cpudvfsscaling' is being killed...
+[89822.736408] init: Service 'cpudvfsscaling' (pid 30192) killed by signal 9
+[89822.756838] init: Starting service 'cpudvfsscaling'...
+[89822.800226] [dvfs_boost] this client is not running
+[89822.805906] [dvfs_boost] this client is not running
+[89823.054469] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89824.064460] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89824.220721] [0089523850][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89825.074420] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89825.771669] init: Service 'cpudvfsscaling' is being killed...
+[89825.778311] init: Service 'cpudvfsscaling' (pid 30276) killed by signal 9
+[89825.804267] init: Starting service 'cpudvfsscaling'...
+[89825.865596] [dvfs_boost] this client is not running
+[89825.870846] [dvfs_boost] this client is not running
+[89826.084587] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89827.094621] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89828.104504] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89828.450222] init: Service 'cpudvfsscaling' is being killed...
+[89828.456790] init: Service 'cpudvfsscaling' (pid 30286) killed by signal 9
+[89828.476658] init: Starting service 'cpudvfsscaling'...
+[89828.511531] [dvfs_boost] this client is not running
+[89828.517203] [dvfs_boost] this client is not running
+[89829.114519] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89829.937717] [0089529570][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89830.124431] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89831.134630] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89832.144621] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89833.154424] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89833.528634] init: Service 'cpudvfsscaling' (pid 30304) exited with status 0
+[89835.533000] [0089535160][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89837.185697] init: Starting service 'cpudvfsscaling'...
+[89837.220987] [dvfs_boost] this client is not running
+[89837.226969] [dvfs_boost] this client is not running
+[89838.204471] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89838.675467] binder: 1788:1788 transaction failed 29189, size 100-0
+[89838.687348] binder: 1788:1788 transaction failed 29189, size 100-0
+[89839.214614] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89840.224420] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89840.451782] init: Service 'cpudvfsscaling' is being killed...
+[89840.458858] init: Service 'cpudvfsscaling' (pid 30369) killed by signal 9
+[89840.486533] init: Starting service 'cpudvfsscaling'...
+[89840.519826] [dvfs_boost] this client is not running
+[89840.526185] [dvfs_boost] this client is not running
+[89840.544458] binder: 30355: binder_alloc_buf, no vma
+[89840.549374] binder: 1788:5238 transaction failed 29201, size 104-0
+[89840.556094] binder: 30355: binder_alloc_buf, no vma
+[89840.560988] binder: 1788:5238 transaction failed 29201, size 104-0
+[89840.669014] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89841.234470] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89842.244485] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89843.254680] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89844.264424] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89844.735859] [0089544370][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89845.274441] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89845.535577] init: Service 'cpudvfsscaling' (pid 30394) exited with status 0
+[89848.316137] init: Starting service 'cpudvfsscaling'...
+[89848.356022] [dvfs_boost] this client is not running
+[89848.361474] [dvfs_boost] this client is not running
+[89849.314451] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89850.324579] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89851.334424] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89852.344439] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89852.434884] binder: undelivered transaction 30397221
+[89852.439966] binder: undelivered transaction 30397263
+[89852.510383] [35mFunction = is_default_cma_buffer, Line = 197, check from 0x5A800000 to 0x5B800000[m
+[89852.646396] init: Service 'cpudvfsscaling' is being killed...
+[89852.653649] init: Service 'cpudvfsscaling' (pid 30423) killed by signal 9
+[89852.681391] init: Starting service 'cpudvfsscaling'...
+[89852.718945] [dvfs_boost] this client is not running
+[89852.724419] [dvfs_boost] this client is not running
+[89853.336911] [0089552970][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89853.354675] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89854.364464] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89855.374639] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89856.384433] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89857.394756] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89857.737940] init: Service 'cpudvfsscaling' (pid 30457) exited with status 0
+[89858.493440] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89858.493462] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89858.493467] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89858.493471] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89858.493474] [32mcma_area having [m<7>[89858.493478] [32m5120 free pages[m
+[89858.497570] [35mmigration data is 0 kb[m
+[89858.498027] [35malloc_contig_range costs 4 ms[m
+[89858.498027] 
+[89858.498061] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89858.498066] [32mcma_area having [m<7>[89858.498071] [32m3072 free pages[m
+[89858.498977] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89858.498983] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89858.498991] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89858.498996] [35mCMA_POOL_IOC_ALLOC costs 5 ms[m
+[89858.498996] 
+[89858.499477] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89858.499494] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89858.499501] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89858.499507] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89858.499507] 
+[89858.499577] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89858.499582] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89858.499587] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89858.499591] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89858.499591] 
+[89858.499762] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89858.499774] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89858.499779] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89858.499782] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89858.499787] [32mcma_area having [m<7>[89858.499794] [32m27648 free pages[m
+[89858.501753] [35mmigration data is 0 kb[m
+[89858.511081] [35malloc_contig_range costs 11 ms[m
+[89858.511081] 
+[89858.511110] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89858.511115] [32mcma_area having [m<7>[89858.511122] [32m0 free pages[m
+[89858.524160] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89858.524170] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89858.524178] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89858.524445] [35mCMA_POOL_IOC_ALLOC costs 24 ms[m
+[89858.524445] 
+[89858.668525] [0089558300][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89858.699653] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89858.744187] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89858.744250] [31mdma_alloc_at_from_contiguous(alloc 4608 pages, at_addr 0x2D400000, start pfn 0x2D400)[m
+[89858.744256] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x3000[m
+[89858.744261] [32m[tvos] Before dma_alloc_at_from_contiguous [m
+[89858.744265] [32mcma_area having [m<7>[89858.744272] [32m24576 free pages[m
+[89858.746937] [35mmigration data is 0 kb[m
+[89858.748725] [35malloc_contig_range costs 4 ms[m
+[89858.748725] 
+[89858.748775] [32m[tvos] After dma_alloc_at_from_contiguous [m
+[89858.748781] [32mcma_area having [m<7>[89858.748790] [32m19968 free pages[m
+[89858.751097] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+[89858.751110] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+[89858.751118] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+[89858.751123] [35mCMA_POOL_IOC_ALLOC costs 6 ms[m
+[89858.751123] 
+[89858.901858] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89858.921713] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89859.022983] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89859.373531] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89859.374781] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89859.374788] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89859.382319] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89859.382330] [32mcma_area having [m<7>[89859.382339] [32m0 free pages[m
+[89859.405235] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89859.405246] [32mcma_area having [m<7>[89859.405256] [32m27648 free pages[m
+[89859.405263] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89859.405268] [35mCMA_POOL_IOC_FREE costs 31 ms[m
+[89859.405268] 
+[89859.405633] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89859.405730] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89859.405734] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89859.412938] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89859.412950] [32mcma_area having [m<7>[89859.412958] [32m3072 free pages[m
+[89859.414517] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89859.414521] [32mcma_area having [m<7>[89859.414526] [32m5120 free pages[m
+[89859.414532] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89859.414536] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89859.414536] 
+[89861.874276] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89861.899893] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89864.634932] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89864.634949] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89864.634953] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89864.634958] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89864.634962] [32mcma_area having [m<7>[89864.634966] [32m5120 free pages[m
+[89864.635965] [35mmigration data is 0 kb[m
+[89864.636733] [35malloc_contig_range costs 1 ms[m
+[89864.636733] 
+[89864.636768] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89864.636772] [32mcma_area having [m<7>[89864.636778] [32m3072 free pages[m
+[89864.639247] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89864.639259] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89864.639267] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89864.639273] [35mCMA_POOL_IOC_ALLOC costs 4 ms[m
+[89864.639273] 
+[89864.641553] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89864.641567] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89864.641573] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89864.641578] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89864.641578] 
+[89864.641822] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89864.641832] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89864.641837] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89864.641844] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89864.641844] 
+[89864.642514] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89864.642673] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89864.642679] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89864.642683] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89864.642686] [32mcma_area having [m<7>[89864.642695] [32m27648 free pages[m
+[89864.654623] [35mmigration data is 0 kb[m
+[89864.671959] [35malloc_contig_range costs 29 ms[m
+[89864.671959] 
+[89864.672067] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89864.672074] [32mcma_area having [m<7>[89864.672317] [32m0 free pages[m
+[89864.722145] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89864.722156] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89864.722164] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89864.722290] [35mCMA_POOL_IOC_ALLOC costs 79 ms[m
+[89864.722290] 
+[89864.944268] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89864.959919] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89865.540408] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89865.541608] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89865.541613] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89865.548821] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89865.548828] [32mcma_area having [m<7>[89865.548837] [32m0 free pages[m
+[89865.573482] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89865.573495] [32mcma_area having [m<7>[89865.573504] [32m27648 free pages[m
+[89865.573512] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89865.573518] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[89865.573518] 
+[89865.574065] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89865.574285] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89865.574291] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89865.581850] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89865.581860] [32mcma_area having [m<7>[89865.581867] [32m3072 free pages[m
+[89865.583186] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89865.583189] [32mcma_area having [m<7>[89865.583193] [32m5120 free pages[m
+[89865.583199] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89865.583204] [35mCMA_POOL_IOC_FREE costs 9 ms[m
+[89865.583204] 
+[89867.504240] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89867.559894] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89868.064279] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89868.179895] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89871.004263] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89871.059896] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89871.602159] [0089571230][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89875.764452] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89875.764733] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89875.764741] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89875.771958] [32m[tvos] Before dma_release_from_contiguous [m
+[89875.771977] [32mcma_area having [m<7>[89875.771989] [32m19968 free pages[m
+[89875.776373] [32m[tvos] After dma_release_from_contiguous [m
+[89875.776385] [32mcma_area having [m<7>[89875.776393] [32m24576 free pages[m
+[89875.776401] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89875.776407] [35mCMA_POOL_IOC_FREE costs 11 ms[m
+[89875.776407] 
+[89875.944275] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89878.385541] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89878.385560] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+[89878.385564] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89878.385569] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89878.385574] [32mcma_area having [m<7>[89878.385578] [32m5120 free pages[m
+[89878.386134] [35mmigration data is 0 kb[m
+[89878.386927] [35malloc_contig_range costs 1 ms[m
+[89878.386927] 
+[89878.386963] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89878.386970] [32mcma_area having [m<7>[89878.386975] [32m3072 free pages[m
+[89878.387901] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+[89878.387915] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+[89878.387923] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89878.387930] [35mCMA_POOL_IOC_ALLOC costs 2 ms[m
+[89878.387930] 
+[89878.388391] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89878.388404] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89878.388410] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89878.388808] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89878.388808] 
+[89878.388956] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+[89878.388965] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+[89878.388971] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+[89878.388976] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+[89878.388976] 
+[89878.389138] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89878.389150] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89878.389155] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89878.389159] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+[89878.389164] [32mcma_area having [m<7>[89878.389171] [32m27648 free pages[m
+[89878.392007] [35mmigration data is 0 kb[m
+[89878.397409] [35malloc_contig_range costs 8 ms[m
+[89878.397409] 
+[89878.397436] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+[89878.397439] [32mcma_area having [m<7>[89878.397445] [32m0 free pages[m
+[89878.412721] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+[89878.412735] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+[89878.412744] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+[89878.412751] [35mCMA_POOL_IOC_ALLOC costs 23 ms[m
+[89878.412751] 
+[89878.545691] [0089578180][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89878.552903] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89878.561655] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89878.561670] [31mdma_alloc_at_from_contiguous(alloc 4608 pages, at_addr 0x2D400000, start pfn 0x2D400)[m
+[89878.561674] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x3000[m
+[89878.561678] [32m[tvos] Before dma_alloc_at_from_contiguous [m
+[89878.561682] [32mcma_area having [m<7>[89878.561687] [32m24576 free pages[m
+[89878.564187] [35mmigration data is 0 kb[m
+[89878.565252] [35malloc_contig_range costs 3 ms[m
+[89878.565252] 
+[89878.565310] [32m[tvos] After dma_alloc_at_from_contiguous [m
+[89878.565315] [32mcma_area having [m<7>[89878.565324] [32m19968 free pages[m
+[89878.567568] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+[89878.567583] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+[89878.567593] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+[89878.567599] [35mCMA_POOL_IOC_ALLOC costs 5 ms[m
+[89878.567599] 
+[89878.681127] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89878.700464] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89878.764298] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89878.803665] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89878.919887] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89888.651993] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89888.653200] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89888.653206] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89888.660791] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89888.660800] [32mcma_area having [m<7>[89888.660809] [32m0 free pages[m
+[89888.682887] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89888.682899] [32mcma_area having [m<7>[89888.682908] [32m27648 free pages[m
+[89888.682915] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89888.682920] [35mCMA_POOL_IOC_FREE costs 30 ms[m
+[89888.682920] 
+[89888.683291] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89888.683384] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89888.683388] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89888.690531] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+[89888.690536] [32mcma_area having [m<7>[89888.690541] [32m3072 free pages[m
+[89888.691852] [32m[MS_OMX_MessageH] After dma_release_from_contiguous [m
+[89888.691855] [32mcma_area having [m<7>[89888.691858] [32m5120 free pages[m
+[89888.691864] dump heap_id 27 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89888.691869] [35mCMA_POOL_IOC_FREE costs 8 ms[m
+[89888.691869] 
+[89888.830224] init: Starting service 'cpudvfsscaling'...
+[89888.875965] [dvfs_boost] this client is not running
+[89888.882138] [dvfs_boost] this client is not running
+[89889.084250] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89889.099877] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89889.243999] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89889.244218] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89889.244222] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89889.251244] [32m[tvos] Before dma_release_from_contiguous [m
+[89889.251251] [32mcma_area having [m<7>[89889.251257] [32m19968 free pages[m
+[89889.254380] [32m[tvos] After dma_release_from_contiguous [m
+[89889.254387] [32mcma_area having [m<7>[89889.254393] [32m24576 free pages[m
+[89889.254400] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89889.254405] [35mCMA_POOL_IOC_FREE costs 10 ms[m
+[89889.254405] 
+[89889.424351] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89889.457887] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89889.457902] [31mdma_alloc_at_from_contiguous(alloc 1024 pages, at_addr 0x27D00000, start pfn 0x27D00)[m
+[89889.457907] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x1900[m
+[89889.457911] [32m[MControl Monito] Before dma_alloc_at_from_contiguous [m
+[89889.457915] [32mcma_area having [m<7>[89889.457919] [32m1792 free pages[m
+[89889.458352] [35mmigration data is 0 kb[m
+[89889.458516] [35malloc_contig_range costs 0 ms[m
+[89889.458516] 
+[89889.458532] [32m[MControl Monito] After dma_alloc_at_from_contiguous [m
+[89889.458535] [32mcma_area having [m<7>[89889.458549] [32m768 free pages[m
+[89889.458999] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x27D00000 to 0x28100000[m
+[89889.459004] dump heap_id 26 information: min_start 0x26400000, max_end 0x28100000
+[89889.459011] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89889.459018] allocated info: cpu address 0xC9600000, phy_addr 0x27D00000, length 0x400000, pid 1280, freed 0, mapped 1 "tvos"
+[89889.459021] [35mCMA_POOL_IOC_ALLOC costs 1 ms[m
+[89889.459021] 
+[89889.545898] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+[89889.714443] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89890.180468] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+[89890.180484] [31mdma_alloc_at_from_contiguous(alloc 4864 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+[89890.180488] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+[89890.180492] [32m[ATV SigMonitor ] Before dma_alloc_at_from_contiguous [m
+[89890.180496] [32mcma_area having [m<7>[89890.180501] [32m27648 free pages[m
+[89890.182290] [35mmigration data is 0 kb[m
+[89890.184337] [35malloc_contig_range costs 3 ms[m
+[89890.184337] 
+[89890.184370] [32m[ATV SigMonitor ] After dma_alloc_at_from_contiguous [m
+[89890.184376] [32mcma_area having [m<7>[89890.184385] [32m22784 free pages[m
+[89890.187123] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA2B00000[m
+[89890.187133] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA2B00000
+[89890.187141] allocated info: cpu address 0xE5B00000, phy_addr 0xA1800000, length 0x1300000, pid 1280, freed 0, mapped 1 "tvos"
+[89890.187146] [35mCMA_POOL_IOC_ALLOC costs 6 ms[m
+[89890.187146] 
+[89890.302826] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89890.319742] LUT set  ffee ddcc 
+[89890.323978] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89890.339727] LUT set  ffee ddcc 
+[89890.400656] [31m [Mapi_Cfd_ColorFormatDriver_Control] Analog source[m
+[89890.410256] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+[89890.724439] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89891.057757] init: Service 'cpudvfsscaling' is being killed...
+[89891.064055] init: Service 'cpudvfsscaling' (pid 30718) killed by signal 9
+[89891.087891] init: Starting service 'cpudvfsscaling'...
+[89891.133003] [dvfs_boost] this client is not running
+[89891.138577] [dvfs_boost] this client is not running
+[89891.544347] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89891.544585] [35mFunction = free_buffer_list, Line = 2023, free front[m
+[89891.544591] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+[89891.552478] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89891.552493] [32mcma_area having [m<7>[89891.552502] [32m22784 free pages[m
+[89891.555958] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89891.555967] [32mcma_area having [m<7>[89891.555975] [32m27648 free pages[m
+[89891.555982] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[89891.555987] [35mCMA_POOL_IOC_FREE costs 11 ms[m
+[89891.555987] 
+[89891.564331] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+[89891.564470] [35mFunction = free_buffer_list, Line = 2037, free back[m
+[89891.564475] [35mFunction = free_buffer_list, Line = 2053[m
+[89891.564506] [32m[MControl Monito] Before dma_release_from_contiguous [m
+[89891.564512] [32mcma_area having [m<7>[89891.564518] [32m768 free pages[m
+[89891.565228] [32m[MControl Monito] After dma_release_from_contiguous [m
+[89891.565234] [32mcma_area having [m<7>[89891.565239] [32m1792 free pages[m
+[89891.565249] dump heap_id 26 information: min_start 0x26400000, max_end 0x27D00000
+[89891.565258] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+[89891.565264] [35mCMA_POOL_IOC_FREE costs 0 ms[m
+[89891.565264] 
+[89891.724252] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+[89891.734482] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89892.744484] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89893.754442] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89894.250124] [0089593880][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89894.764464] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89895.774482] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89896.150333] init: Service 'cpudvfsscaling' (pid 30733) exited with status 0
+[89899.606139] init: Starting service 'cpudvfsscaling'...
+[89899.657808] [dvfs_boost] this client is not running
+[89899.664757] [dvfs_boost] this client is not running
+[89899.814491] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89900.824428] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89901.834411] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89902.247023] init: Service 'cpudvfsscaling' is being killed...
+[89902.253640] init: Service 'cpudvfsscaling' (pid 30778) killed by signal 9
+[89902.279032] init: Starting service 'cpudvfsscaling'...
+[89902.318352] [dvfs_boost] this client is not running
+[89902.325491] [dvfs_boost] this client is not running
+[89902.844489] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89902.963273] [0089602590][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89903.854475] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89904.513540] init: Service 'cpudvfsscaling' is being killed...
+[89904.520497] init: Service 'cpudvfsscaling' (pid 30791) killed by signal 9
+[89904.540523] init: Starting service 'cpudvfsscaling'...
+[89904.584704] [dvfs_boost] this client is not running
+[89904.590468] [dvfs_boost] this client is not running
+[89904.864642] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89905.874422] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89906.884636] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89907.173472] init: Service 'cpudvfsscaling' is being killed...
+[89907.180685] init: Service 'cpudvfsscaling' (pid 30824) killed by signal 9
+[89907.206564] init: Starting service 'cpudvfsscaling'...
+[89907.243587] [dvfs_boost] this client is not running
+[89907.249087] [dvfs_boost] this client is not running
+[89907.894463] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89908.664883] [0089608300][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[89908.904459] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89909.914422] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89910.218605] init: Service 'cpudvfsscaling' is being killed...
+[89910.225864] init: Service 'cpudvfsscaling' (pid 30833) killed by signal 9
+[89910.255673] init: Starting service 'cpudvfsscaling'...
+[89910.313695] [dvfs_boost] this client is not running
+[89910.318908] [dvfs_boost] this client is not running
+[89910.924469] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89911.145726] binder: 1788:1788 transaction failed 29189, size 100-0
+[89911.934423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89912.944644] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89912.949252] init: Service 'cpudvfsscaling' is being killed...
+[89912.955835] init: Service 'cpudvfsscaling' (pid 30847) killed by signal 9
+[89912.975614] init: Starting service 'cpudvfsscaling'...
+[89913.017464] [dvfs_boost] this client is not running
+[89913.022857] [dvfs_boost] this client is not running
+[89913.955751] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89914.964657] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89915.974441] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89915.994279] init: Service 'cpudvfsscaling' is being killed...
+[89916.000772] init: Service 'cpudvfsscaling' (pid 30875) killed by signal 9
+[89916.029380] init: Starting service 'cpudvfsscaling'...
+[89916.081404] [dvfs_boost] this client is not running
+[89916.086600] [dvfs_boost] this client is not running
+[89916.835375] binder: 1788:1788 transaction failed 29189, size 100-0
+[89916.984636] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89917.994436] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89918.659841] init: Service 'cpudvfsscaling' is being killed...
+[89918.667326] init: Service 'cpudvfsscaling' (pid 30887) killed by signal 9
+[89918.689504] init: Starting service 'cpudvfsscaling'...
+[89918.727616] [dvfs_boost] this client is not running
+[89918.732849] [dvfs_boost] this client is not running
+[89919.004457] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89920.014471] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89921.024433] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89921.705488] init: Service 'cpudvfsscaling' is being killed...
+[89921.714733] init: Service 'cpudvfsscaling' (pid 30914) killed by signal 9
+[89921.746140] init: Starting service 'cpudvfsscaling'...
+[89921.797757] [dvfs_boost] this client is not running
+[89921.803283] [dvfs_boost] this client is not running
+[89922.044507] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89922.525951] binder: 1788:1788 transaction failed 29189, size 100-0
+[89923.054459] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89924.064431] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89924.368487] init: Service 'cpudvfsscaling' is being killed...
+[89924.374973] init: Service 'cpudvfsscaling' (pid 30924) killed by signal 9
+[89924.395465] init: Starting service 'cpudvfsscaling'...
+[89924.443457] [dvfs_boost] this client is not running
+[89924.449273] [dvfs_boost] this client is not running
+[89925.074509] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89926.084561] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89927.094426] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89928.104423] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89929.114776] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+[89929.461132] init: Service 'cpudvfsscaling' (pid 30955) exited with status 0
+[89932.484834] binder: release 28752:28765 transaction 30440803 out, still active
+[89932.493050] binder: 1788:4843 transaction failed 29189, size 4-0
+[89932.499101] binder: send failed reply for transaction 30440803, target dead
+[89932.710073] init: Untracked pid 28742 exited with status 0

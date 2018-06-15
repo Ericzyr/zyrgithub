@@ -1,0 +1,241 @@
+<6>[84884.307896] EXT4-fs (mmcblk0p14): re-mounted. Opts: (null)
+<4>[84892.716740] [0084592350][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84900.574135] [0084600200][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84907.558409] [0084607190][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<7>[84916.594612] [31m[Emergency] Binder_3 doing fork, thread_info_cache_cnt 8 is extremely low[m
+<7>[84916.594764] [31m[Emergency] Binder_3 doing fork, thread_info_cache_cnt 7 is extremely low[m
+<7>[84916.597821] [31m[Emergency] netd doing fork, thread_info_cache_cnt 6 is extremely low[m
+<7>[84916.600999] [31m[Emergency] CodecLooper doing fork, thread_info_cache_cnt 5 is extremely low[m
+<7>[84916.601198] [31m[Emergency] CodecLooper doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[84916.623250] [31m[Emergency] netd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84916.636429] [35mmigration data is 0 kb[m
+<7>[84916.636783] [35malloc_contig_range costs 1 ms[m
+<7>[84916.636783] 
+<7>[84916.636808] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+<7>[84916.636811] [32mcma_area having [m<7>[84916.636816] [32m3072 free pages[m
+<7>[84916.638038] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+<7>[84916.638050] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+<7>[84916.638058] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+<7>[84916.638063] [35mCMA_POOL_IOC_ALLOC costs 2 ms[m
+<7>[84916.638063] 
+<7>[84916.638536] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[84916.638548] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[84916.638554] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[84916.638560] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[84916.638560] 
+<7>[84916.639330] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[84916.639343] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[84916.639350] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[84916.639355] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[84916.639355] 
+<7>[84916.639541] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+<7>[84916.639553] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+<7>[84916.639558] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+<7>[84916.639562] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+<7>[84916.639565] [32mcma_area having [m<7>[84916.639572] [32m27648 free pages[m
+<7>[84916.641183] [31m[Emergency] mediaserver doing fork, thread_info_cache_cnt 2 is extremely low[m
+<7>[84916.642368] [31m[Emergency] mediaserver doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84916.671511] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA1800000 to 0xA8400000[m
+<7>[84916.671524] dump heap_id 19 information: min_start 0xA1800000, max_end 0xA8400000
+<7>[84916.671533] allocated info: cpu address 0xE4246000, phy_addr 0xA1800000, length 0x6C00000, pid 1274, freed 0, mapped 1 "mediaserver"
+<7>[84916.671539] [35mCMA_POOL_IOC_ALLOC costs 31 ms[m
+<7>[84916.671539] 
+<7>[84916.681548] [31m[Emergency] MS_OMX_MessageH doing fork, thread_info_cache_cnt 2 is extremely low[m
+<7>[84916.682867] [31m[Emergency] MS_OMX_MessageH doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84916.719741] [31m[Emergency] surfaceflinger doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84916.720040] [31m[Emergency] surfaceflinger doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84916.727818] [31m[Emergency] MS_OMX_MessageH doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84916.727901] [31m[Emergency] MS_OMX_MessageH doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84916.796338] [31m[Emergency] LauncherApplica doing fork, thread_info_cache_cnt 3 is extremely low[m
+<4>[84916.804404] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+<7>[84916.817167] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 2 is extremely low[m
+<4>[84916.908537] [0084616540][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84916.937890] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+<4>[84916.958044] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+<7>[84916.970336] [31m[Emergency] Thread-5028 doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[84916.970716] [31m[Emergency] netd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84917.063585] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<4>[84917.120714] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+<7>[84917.563208] [31m[Emergency] netd doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84918.151246] [31m[Emergency] launcher-loader doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[84918.160253] [31m[Emergency] netd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84919.326557] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84919.880819] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84919.881114] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 0 is extremely low[m
+<7>[84919.966044] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 2 is extremely low[m
+<7>[84919.966347] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84920.894848] [31m[Emergency] kuyun.identifer doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84924.449765] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84924.848865] [31m[Emergency] netd doing fork, thread_info_cache_cnt 1 is extremely low[m
+<7>[84926.813798] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 5 is extremely low[m
+<7>[84926.934833] [31m[Emergency] kuyun.identifer doing fork, thread_info_cache_cnt 4 is extremely low[m
+<4>[84927.414225] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+<4>[84927.434868] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+<7>[84927.968662] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+<7>[84927.969862] [35mFunction = free_buffer_list, Line = 2023, free front[m
+<5>[84927.969869] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+<7>[84927.977285] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+<7>[84927.977293] [32mcma_area having [m<7>[84927.977301] [32m0 free pages[m
+<7>[84928.000634] [35mFunction = free_buffer_list, Line = 2023, free front[m
+<5>[84928.000639] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+<7>[84928.670548] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+<7>[84928.670740] [35mFunction = free_buffer_list, Line = 2023, free front[m
+<5>[84928.670745] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+<7>[84928.678351] [32m[tvos] Before dma_release_from_contiguous [m
+<7>[84928.678369] [32mcma_area having [m<7>[84928.678381] [32m19968 free pages[m
+<7>[84928.681952] [32m[tvos] After dma_release_from_contiguous [m
+<7>[84928.681970] [32mcma_area having [m<7>[84928.681981] [32m24576 free pages[m
+<7>[84928.681989] dump heap_id 20 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+<7>[84928.681995] [35mCMA_POOL_IOC_FREE costs 11 ms[m
+<7>[84928.681995] 
+<7>[84929.334415] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[84929.582672] allocated info: cpu address 0xE5B00000, phy_addr 0xA1800000, length 0x1300000, pid 1280, freed 0, mapped 1 "tvos"
+<7>[84929.582678] [35mCMA_POOL_IOC_ALLOC costs 5 ms[m
+<7>[84929.582678] 
+<4>[84929.748809] LUT set  ffee ddcc 
+<4>[84929.776917] LUT set  ffee ddcc 
+<7>[84930.344512] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[84930.446116] init: Service 'cpudvfsscaling' is being killed...
+<13>[84930.452614] init: Service 'cpudvfsscaling' (pid 28156) killed by signal 9
+<4>[84930.520967] [dvfs_boost] this client is not running
+<7>[84930.992948] [32m[MControl Monito] Before dma_release_from_contiguous [m
+<7>[84930.992959] [32mcma_area having [m<7>[84930.992970] [32m22784 free pages[m
+<7>[84930.996259] [32m[MControl Monito] After dma_release_from_contiguous [m
+<7>[84930.996270] [32mcma_area having [m<7>[84930.996279] [32m27648 free pages[m
+<7>[84930.996286] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+<7>[84930.996291] [35mCMA_POOL_IOC_FREE costs 15 ms[m
+<7>[84930.996291] 
+<7>[84931.008294] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+<7>[84931.008421] [35mFunction = free_buffer_list, Line = 2037, free back[m
+<7>[84931.008427] [35mFunction = free_buffer_list, Line = 2053[m
+<7>[84931.008462] [32m[MControl Monito] Before dma_release_from_contiguous [m
+<7>[84931.008468] [32mcma_area having [m<7>[84931.008474] [32m768 free pages[m
+<7>[84931.009197] [32m[MControl Monito] After dma_release_from_contiguous [m
+<7>[84931.009201] [32mcma_area having [m<7>[84931.009206] [32m1792 free pages[m
+<7>[84931.009214] dump heap_id 26 information: min_start 0x26400000, max_end 0x27D00000
+<7>[84931.009223] allocated info: cpu address 0x7F7EB13000, phy_addr 0x26400000, length 0x1900000, pid 1267, freed 0, mapped 1 "surfaceflinger"
+<7>[84931.009229] [35mCMA_POOL_IOC_FREE costs 0 ms[m
+<7>[84931.009229] 
+<4>[84931.114959] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+<7>[84931.296323] [31mdma_alloc_at_from_contiguous(alloc 2048 pages, at_addr 0xA0400000, start pfn 0xA0400)[m
+<7>[84931.296328] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+<7>[84931.296332] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+<7>[84931.296336] [32mcma_area having [m<7>[84931.296340] [32m5120 free pages[m
+<7>[84931.297201] [35mmigration data is 0 kb[m
+<7>[84931.297586] [35malloc_contig_range costs 1 ms[m
+<7>[84931.297586] 
+<7>[84931.297614] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+<7>[84931.297618] [32mcma_area having [m<7>[84931.297623] [32m3072 free pages[m
+<7>[84931.298204] [31m[Emergency] ExoPlayerImplIn doing fork, thread_info_cache_cnt 10 is extremely low[m
+<7>[84931.298516] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0xA0400000 to 0xA0C00000[m
+<7>[84931.298525] dump heap_id 27 information: min_start 0xA0400000, max_end 0xA0C00000
+<7>[84931.298532] allocated info: cpu address 0xECC9B000, phy_addr 0xA0400000, length 0x800000, pid 1274, freed 0, mapped 1 "mediaserver"
+<7>[84931.298537] [35mCMA_POOL_IOC_ALLOC costs 2 ms[m
+<7>[84931.298537] 
+<7>[84931.299103] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[84931.299113] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[84931.299119] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[84931.299124] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[84931.299124] 
+<7>[84931.299193] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[84931.299197] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[84931.299201] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[84931.299205] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[84931.299205] 
+<7>[84931.299343] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+<7>[84931.299353] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+<7>[84931.299358] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+<7>[84931.299363] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+<7>[84931.299367] [32mcma_area having [m<7>[84931.299373] [32m27648 free pages[m
+<7>[84931.300063] [31m[Emergency] Binder_8 doing fork, thread_info_cache_cnt 9 is extremely low[m
+<7>[84931.300956] [31m[Emergency] Binder_8 doing fork, thread_info_cache_cnt 8 is extremely low[m
+<7>[84931.302019] [35mmigration data is 0 kb[m
+<7>[84931.352078] [31m[Emergency] surfaceflinger doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[84931.352281] [31m[Emergency] surfaceflinger doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[84931.431015] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+<7>[84931.431020] [35mCMA_POOL_IOC_ALLOC costs 3 ms[m
+<7>[84931.431020] 
+<7>[84931.520403] [32m[MS_OMX_MessageH] Before dma_release_from_contiguous [m
+<7>[84931.520412] [32mcma_area having [m<7>[84931.520420] [32m0 free pages[m
+<7>[84931.868678] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 24 bytes[m
+<7>[84931.868902] [35mFunction = free_buffer_list, Line = 2023, free front[m
+<5>[84931.868907] [35mFunction = free_buffer_list, Line = 2047, list is empty[m
+<4>[84932.054284] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+<7>[84932.364435] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[84933.374447] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<7>[84935.394496] [35mFunction = Mdrv_CPU_T_sensor_Check_callback, Line = 1782, due to boost, change t_sensor_max_freq from 1600000 to 1400000[m
+<13>[84935.536723] init: Service 'cpudvfsscaling' (pid 28167) exited with status 0
+<4>[84938.969921] [0084638600][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84951.662129] [0084651290][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84962.435447] [0084662070][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84967.420195] [0084667050][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[84980.141339] [0084679770][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85001.699422] [0084701330][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85024.669829] [0084724300][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85030.412801] [0084730040][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85053.283120] [0084752910][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85076.978241] [0084776610][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85087.894969] [0084787530][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85110.827445] [0084810460][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85116.564826] [0084816200][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85134.319900] [0084833950][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85139.529216] [0084839160][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85145.270073] [0084844900][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85152.234063] [0084851860][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85163.001209] [0084862630][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85167.952872] [0084867580][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85173.680704] [0084873310][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<4>[85180.655416] [0084880290][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<7>[85192.199902] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[85192.199913] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[85192.199918] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[85192.199922] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[85192.199922] 
+<7>[85192.199988] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 56 bytes[m
+<7>[85192.199993] [35mFunction = CMA_Pool_Init, Line = 799, already having proc_info, do not init again[m
+<7>[85192.199997] [35mFunction = CMA_Pool_Init, Line = 813, already having heap_info, do not init again[m
+<7>[85192.200001] [35mCMA_POOL_IOC_INIT costs 0 ms[m
+<7>[85192.200001] 
+<7>[85192.200121] [35mFunction = CMA_Pool_ioctl, Line = 3035, copy_from_user: 40 bytes[m
+<7>[85192.200129] [31mdma_alloc_at_from_contiguous(alloc 27648 pages, at_addr 0xA1800000, start pfn 0xA1800)[m
+<7>[85192.200133] [35mFunction = dma_alloc_at_from_contiguous, Line = 941, find bit_map from 0x0[m
+<7>[85192.200137] [32m[MS_OMX_MessageH] Before dma_alloc_at_from_contiguous [m
+<7>[85192.200141] [32mcma_area having [m<7>[85192.200146] [32m27648 free pages[m
+<7>[85192.202477] [35mmigration data is 0 kb[m
+<7>[85192.208180] [35malloc_contig_range costs 8 ms[m
+<7>[85192.208180] 
+<7>[85192.208231] [32m[MS_OMX_MessageH] After dma_alloc_at_from_contiguous [m
+<7>[85192.208236] [32mcma_area having [m<7>[85192.208244] [32m0 free pages[m
+<7>[85192.271121] [31m[Emergency] surfaceflinger doing fork, thread_info_cache_cnt 10 is extremely low[m
+<7>[85192.274262] [31m[Emergency] LauncherApplica doing fork, thread_info_cache_cnt 9 is extremely low[m
+<4>[85192.364223] [0084892000][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+<7>[85192.393191] [31m[Emergency] AsyncTask #17 doing fork, thread_info_cache_cnt 10 is extremely low[m
+<4>[85192.393211] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+<7>[85192.393539] [31m[Emergency] netd doing fork, thread_info_cache_cnt 9 is extremely low[m
+<7>[85192.432765] [35malloc_contig_range costs 5 ms[m
+<7>[85192.432765] 
+<7>[85192.432794] [32m[tvos] After dma_alloc_at_from_contiguous [m
+<7>[85192.432798] [32mcma_area having [m<7>[85192.432805] [32m19968 free pages[m
+<7>[85192.434801] [35mFunction = CMA_Pool_Alloc, Line = 1946, mapping from 0x2D400000 to 0x2E600000[m
+<7>[85192.434813] dump heap_id 20 information: min_start 0x2D400000, max_end 0x2E600000
+<7>[85192.434822] allocated info: cpu address 0xEF700000, phy_addr 0x2D400000, length 0x1200000, pid 1280, freed 0, mapped 1 "tvos"
+<7>[85192.434827] [35mCMA_POOL_IOC_ALLOC costs 8 ms[m
+<7>[85192.434827] 
+<7>[85192.483182] [31m[Emergency] netd doing fork, thread_info_cache_cnt 9 is extremely low[m
+<4>[85192.568518] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+<4>[85192.687912] [31m[MHal_XC_SetSWDRInfo 6169]Warning:SWDR Data Incorrect[m
+<7>[85192.820088] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[85192.879972] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 4 is extremely low[m
+<7>[85192.880220] [31m[Emergency] adbd doing fork, thread_info_cache_cnt 3 is extremely low[m
+<7>[85193.513245] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 6 is extremely low[m
+<7>[85195.169336] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 7 is extremely low[m
+<7>[85195.353156] [31m[Emergency] kthreadd doing fork, thread_info_cache_cnt 6 is extremely low[m
+<7>[85195.888003] [31m[Emergency] netd doing fork, thread_info_cache_cnt 5 is extremely low[m
+<7>[85198.705739] [31m[Emergency] kuyun.identifer doing fork, thread_info_cache_cnt 6 is extremely low[m
+<6>[85199.174868] binder: release 28000:28013 transaction 28096784 out, still active
+<6>[85199.192543] binder: send failed reply for transaction 28096784, target dead
+<13>[85199.345031] init: Untracked pid 27991 exited with status 0
+<4>[85203.044229] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+<4>[85203.102716] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!
+<4>[85206.284226] [_MDrv_XC_UpdateNoSignalStatus 652]no signal now!
+<4>[85206.408295] [_MDrv_XC_ClearNoSignalStatus 637]signal is in!

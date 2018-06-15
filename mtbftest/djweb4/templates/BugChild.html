@@ -1,0 +1,20 @@
+{% extends "Bugbase.html" %}
+
+{% block summary %}
+<table class="summary_table">
+	<tr ID="table title">
+		<td>ID</td><td>Title</td><td>Status</td><td>SubmitDate</td><td>Assignee</td><td>Area</td>
+	</tr>
+	{% for loop in bugData %}
+		<tr>
+			<td>{{loop.ID}}</td>
+			<td>{{loop.title}}</td>
+			<td>{{loop.status}}</td>
+			<td>{{loop.sumbitdate}}</td>
+			<td>{{loop.Assignee}}</td>
+			<td>{{loop.Component}}</td>
+		</tr>
+	{% endfor %}
+</table>
+{% endblock %}
+{% debug %}

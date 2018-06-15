@@ -1,0 +1,34 @@
+
+
+
+User 0%, System 1%, IOW 0%, IRQ 0%
+User 5 + Nice 0 + Sys 14 + Idle 1170 + IOW 0 + IRQ 0 + SIRQ 4 = 1193
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1280  3   1% S    58 885372K  10460K  fg root     /applications/bin/tvos
+32331  0   0% S     1      0K      0K  fg root     kworker/0:1
+ 1274  0   0% S    25 412168K   7932K  fg media    /system/bin/mediaserver
+32414  0   0% R     1   3592K   1084K  fg root     top
+28843  3   0% S     1      0K      0K  fg root     kworker/3:0
+ 1246  0   0% S     1      0K      0K  fg root     irq/202-scaler
+  842  0   0% D     1      0K      0K  fg root     T_sensor_Check
+ 1282  2   0% S     5  32532K   1028K  fg root     /system/bin/livecap
+10987  1   0% S    23 751968K  49616K  bg u0_a22   com.stv.t2.account
+ 1230  3   0% S     7  12808K   3172K  bg logd     /system/bin/logd
+
+
+
+User 0%, System 1%, IOW 0%, IRQ 0%
+User 6 + Nice 0 + Sys 15 + Idle 1170 + IOW 0 + IRQ 0 + SIRQ 8 = 1199
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1280  3   1% S    58 885372K  10460K  fg root     /applications/bin/tvos
+ 1274  0   0% S    25 412168K   7932K  fg media    /system/bin/mediaserver
+32414  0   0% R     1   3596K   1084K  fg root     top
+32331  0   0% S     1      0K      0K  fg root     kworker/0:1
+ 3360  1   0% S    11 720388K  18476K  bg system   letv.remotemanager
+ 1246  0   0% S     1      0K      0K  fg root     irq/202-scaler
+10775  1   0% S    53 1067788K  91188K  fg u0_a13   com.android.browser
+30014  3   0% S    50 1054200K  46336K  bg u0_a41   com.tencent.qqmusictv.qing
+ 1207  0   0% S     1      0K      0K  fg root     kworker/0:1H
+ 1788  3   0% S   102 1486576K  89120K  fg system   system_server

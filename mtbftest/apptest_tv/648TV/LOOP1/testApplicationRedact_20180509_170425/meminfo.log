@@ -1,0 +1,251 @@
+MemTotal:        1943260 kB
+MemFree:          278352 kB
+Buffers:            8308 kB
+Cached:           329852 kB
+SwapCached:         1212 kB
+Active:           610468 kB
+Inactive:         305656 kB
+Active(anon):     447328 kB
+Inactive(anon):   154772 kB
+Active(file):     163140 kB
+Inactive(file):   150884 kB
+Unevictable:        5472 kB
+Mlocked:              12 kB
+SwapTotal:        255992 kB
+SwapFree:          61768 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        582664 kB
+Mapped:           161752 kB
+Shmem:             18676 kB
+Slab:             275640 kB
+SReclaimable:     233160 kB
+SUnreclaim:        42480 kB
+KernelStack:       29360 kB
+PageTables:        30596 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1227620 kB
+Committed_AS:   32045308 kB
+VmallocTotal:   251658176 kB
+VmallocUsed:      137000 kB
+VmallocChunk:   251420416 kB
+CMA Free: 235344 kB 
+CMA heap info(name,alloc,in cache,fail,total free): 
+ DEFAULT_CMA_BUFFER (604kb 0kb 0kb 15780kb) RETURN_ENUM0 (25600kb 0kb 0kb 7168kb) OTHERS (32768kb 0kb 0kb 0kb) VDEC_XC_STR_MBOOT (0kb 0kb 0kb 98304kb) RETURN_ENUM2 (0kb 0kb 0kb 20480kb) VDEC_XC1 (0kb 0kb 0kb 110592kb) 
+Applications Memory Usage (kB):
+Uptime: 90684820 Realtime: 90684821
+
+Total PSS by process:
+    97730 kB: com.stv.launcher (pid 25501 / activities)
+    75701 kB: com.letv.tvos.appstore (pid 4558)
+    69404 kB: system (pid 1788)
+    56663 kB: com.letv.tv (pid 24001 / activities)
+    38197 kB: surfaceflinger (pid 1267)
+    34247 kB: com.android.browser (pid 10775 / activities)
+    32104 kB: com.stv.ucenter (pid 4638 / activities)
+    25916 kB: com.stv.android.videochat (pid 32236 / activities)
+    23611 kB: com.stv.signalsourcemanager (pid 26736 / activities)
+    22412 kB: com.stv.t2.account (pid 10987 / activities)
+    22334 kB: sina.mobile.tianqitongstv (pid 30661 / activities)
+    17944 kB: com.stv.shopping (pid 29195)
+    16777 kB: com.stv.music (pid 29727)
+    16442 kB: com.tencent.qqmusictv.qing (pid 30014)
+    13124 kB: com.stv.cdeapk:cde (pid 2710)
+    13050 kB: com.android.browser:sandboxed_process0 (pid 10810)
+    12615 kB: com.stv.globalsetting (pid 2205 / activities)
+    12189 kB: com.tencent.qqmusictv.qing:wns (pid 30037)
+    11697 kB: com.tencent.qqmusictv.qing:QQPlayerProcess (pid 30058)
+     9595 kB: com.android.testing.dummyime (pid 31685)
+     8705 kB: tvos (pid 1280)
+     8638 kB: com.stv.stvpush (pid 2919)
+     8114 kB: android.process.media (pid 2063)
+     7185 kB: com.kuyun.common.androidtv (pid 22783)
+     7174 kB: com.stv.reportlog (pid 2276)
+     6578 kB: com.stv.bq (pid 2524)
+     6061 kB: com.letv.tv:smartconnectedservice (pid 24223)
+     5715 kB: com.stv.bootadmanager (pid 2894)
+     5443 kB: com.stv.helper.service (pid 2047)
+     4744 kB: com.kuyun.identifer (pid 3483)
+     4728 kB: mediaserver (pid 1274)
+     4485 kB: com.stv.voice (pid 4528)
+     4355 kB: com.letv.tv:cde (pid 24083)
+     4047 kB: mstar.factorymenu.ui (pid 25370)
+     3954 kB: com.stv.commonservice (pid 2259)
+     3952 kB: com.stv.factorytest (pid 3091 / activities)
+     3816 kB: com.mstar.android.providers.tv (pid 2833)
+     3788 kB: com.android.defcontainer (pid 4480)
+     3788 kB: com.mstar.tv.service (pid 2132)
+     3576 kB: android.process.acore (pid 4496)
+     3237 kB: com.android.bluetooth (pid 2227)
+     3094 kB: com.android.systemui (pid 2124)
+     3085 kB: com.amap.android.location (pid 2484)
+     2651 kB: zygote64 (pid 1286)
+     2547 kB: com.android.packageinstaller (pid 6030)
+     2527 kB: com.stv.settingadapter.service (pid 2245)
+     2402 kB: logd (pid 1230)
+     2363 kB: com.stv.net.misc (pid 3464)
+     2356 kB: com.stv.network.diagnotics (pid 2801)
+     1966 kB: letv.remotemanager (pid 3360)
+     1757 kB: zygote (pid 1287)
+     1489 kB: com.stv.cdeapk (pid 2695)
+     1297 kB: com.stv.systemupgrade (pid 3010)
+     1272 kB: com.stv.launcher:download (pid 25604)
+     1152 kB: netd (pid 1270)
+     1084 kB: com.stv.bsp.qccrashhandler (pid 2501)
+     1046 kB: letvmanager (pid 1288)
+      872 kB: com.stv.smartControl (pid 3622)
+      775 kB: sdcard (pid 2067)
+      762 kB: com.stv.systemcontrol (pid 4546)
+      700 kB: mdnsd (pid 24236)
+      680 kB: wpa_supplicant (pid 2479)
+      508 kB: dumpsys (pid 32409)
+      490 kB: virtualkeypad (pid 1281)
+      375 kB: /init (pid 1)
+      317 kB: resourcemanager (pid 1268)
+      312 kB: adbd (pid 1302)
+      291 kB: dhcpcd (pid 21550)
+      235 kB: sh (pid 1301)
+      228 kB: healthd (pid 1264)
+      204 kB: installd (pid 1275)
+      174 kB: tvos (pid 1498)
+      171 kB: logcat (pid 1435)
+      167 kB: keystore (pid 1277)
+      159 kB: drmserver (pid 1273)
+      155 kB: lmkd (pid 1265)
+      134 kB: ueventd (pid 897)
+      102 kB: servicemanager (pid 1266)
+       98 kB: livecap (pid 1282)
+       80 kB: tee-supplicant (pid 1278)
+       67 kB: vold (pid 1260)
+       38 kB: tee_shmem (pid 1284)
+       38 kB: gatekeeperd (pid 1289)
+       32 kB: debuggerd64 (pid 1272)
+       10 kB: debuggerd (pid 1271)
+
+Total PSS by OOM adjustment:
+    67178 kB: Native
+               38197 kB: surfaceflinger (pid 1267)
+                8705 kB: tvos (pid 1280)
+                4728 kB: mediaserver (pid 1274)
+                2651 kB: zygote64 (pid 1286)
+                2402 kB: logd (pid 1230)
+                1757 kB: zygote (pid 1287)
+                1152 kB: netd (pid 1270)
+                1046 kB: letvmanager (pid 1288)
+                 775 kB: sdcard (pid 2067)
+                 700 kB: mdnsd (pid 24236)
+                 680 kB: wpa_supplicant (pid 2479)
+                 508 kB: dumpsys (pid 32409)
+                 490 kB: virtualkeypad (pid 1281)
+                 375 kB: /init (pid 1)
+                 317 kB: resourcemanager (pid 1268)
+                 312 kB: adbd (pid 1302)
+                 291 kB: dhcpcd (pid 21550)
+                 235 kB: sh (pid 1301)
+                 228 kB: healthd (pid 1264)
+                 204 kB: installd (pid 1275)
+                 174 kB: tvos (pid 1498)
+                 171 kB: logcat (pid 1435)
+                 167 kB: keystore (pid 1277)
+                 159 kB: drmserver (pid 1273)
+                 155 kB: lmkd (pid 1265)
+                 134 kB: ueventd (pid 897)
+                 102 kB: servicemanager (pid 1266)
+                  98 kB: livecap (pid 1282)
+                  80 kB: tee-supplicant (pid 1278)
+                  67 kB: vold (pid 1260)
+                  38 kB: tee_shmem (pid 1284)
+                  38 kB: gatekeeperd (pid 1289)
+                  32 kB: debuggerd64 (pid 1272)
+                  10 kB: debuggerd (pid 1271)
+   195235 kB: Persistent
+               97730 kB: com.stv.launcher (pid 25501 / activities)
+               69404 kB: system (pid 1788)
+                8114 kB: android.process.media (pid 2063)
+                6578 kB: com.stv.bq (pid 2524)
+                5443 kB: com.stv.helper.service (pid 2047)
+                3788 kB: com.mstar.tv.service (pid 2132)
+                3094 kB: com.android.systemui (pid 2124)
+                1084 kB: com.stv.bsp.qccrashhandler (pid 2501)
+     3237 kB: Persistent Service
+                3237 kB: com.android.bluetooth (pid 2227)
+     3816 kB: Foreground
+                3816 kB: com.mstar.android.providers.tv (pid 2833)
+    31585 kB: Visible
+               13124 kB: com.stv.cdeapk:cde (pid 2710)
+               12615 kB: com.stv.globalsetting (pid 2205 / activities)
+                3085 kB: com.amap.android.location (pid 2484)
+                1489 kB: com.stv.cdeapk (pid 2695)
+                1272 kB: com.stv.launcher:download (pid 25604)
+     9595 kB: Perceptible
+                9595 kB: com.android.testing.dummyime (pid 31685)
+    31994 kB: A Services
+               11697 kB: com.tencent.qqmusictv.qing:QQPlayerProcess (pid 30058)
+                8638 kB: com.stv.stvpush (pid 2919)
+                7174 kB: com.stv.reportlog (pid 2276)
+                4485 kB: com.stv.voice (pid 4528)
+    47297 kB: Previous
+               34247 kB: com.android.browser (pid 10775 / activities)
+               13050 kB: com.android.browser:sandboxed_process0 (pid 10810)
+   243602 kB: B Services
+               75701 kB: com.letv.tvos.appstore (pid 4558)
+               56663 kB: com.letv.tv (pid 24001 / activities)
+               23611 kB: com.stv.signalsourcemanager (pid 26736 / activities)
+               17944 kB: com.stv.shopping (pid 29195)
+               16442 kB: com.tencent.qqmusictv.qing (pid 30014)
+               12189 kB: com.tencent.qqmusictv.qing:wns (pid 30037)
+                7185 kB: com.kuyun.common.androidtv (pid 22783)
+                6061 kB: com.letv.tv:smartconnectedservice (pid 24223)
+                5715 kB: com.stv.bootadmanager (pid 2894)
+                4744 kB: com.kuyun.identifer (pid 3483)
+                3954 kB: com.stv.commonservice (pid 2259)
+                2547 kB: com.android.packageinstaller (pid 6030)
+                2527 kB: com.stv.settingadapter.service (pid 2245)
+                2363 kB: com.stv.net.misc (pid 3464)
+                2356 kB: com.stv.network.diagnotics (pid 2801)
+                1966 kB: letv.remotemanager (pid 3360)
+                 872 kB: com.stv.smartControl (pid 3622)
+                 762 kB: com.stv.systemcontrol (pid 4546)
+   140558 kB: Cached
+               32104 kB: com.stv.ucenter (pid 4638 / activities)
+               25916 kB: com.stv.android.videochat (pid 32236 / activities)
+               22412 kB: com.stv.t2.account (pid 10987 / activities)
+               22334 kB: sina.mobile.tianqitongstv (pid 30661 / activities)
+               16777 kB: com.stv.music (pid 29727)
+                4355 kB: com.letv.tv:cde (pid 24083)
+                4047 kB: mstar.factorymenu.ui (pid 25370)
+                3952 kB: com.stv.factorytest (pid 3091 / activities)
+                3788 kB: com.android.defcontainer (pid 4480)
+                3576 kB: android.process.acore (pid 4496)
+                1297 kB: com.stv.systemupgrade (pid 3010)
+
+Total PSS by category:
+   325815 kB: Dalvik
+   153824 kB: Native
+    48853 kB: .art mmap
+    40767 kB: .dex mmap
+    37118 kB: .so mmap
+    35485 kB: Dalvik Other
+    33808 kB: .oat mmap
+    32400 kB: EGL mtrack
+    18544 kB: Ashmem
+    13971 kB: .apk mmap
+    13608 kB: Stack
+     9409 kB: Unknown
+     8017 kB: Other mmap
+     2456 kB: Other dev
+       22 kB: .ttf mmap
+        0 kB: Cursor
+        0 kB: Gfx dev
+        0 kB: .jar mmap
+        0 kB: GL mtrack
+        0 kB: Other mtrack
+
+Total RAM: 1943260 kB (status moderate)
+ Free RAM: 594910 kB (140558 cached pss + 176496 cached kernel + 277856 free)
+ Used RAM: 987755 kB (633539 used pss + 354216 kernel)
+ Lost RAM: 360595 kB
+     ZRAM: 62156 kB physical used for 194224 kB in swap (255992 kB total swap)
+   Tuning: 128 (large 256), oom 35840 kB, restore limit 11946 kB (high-end-gfx)

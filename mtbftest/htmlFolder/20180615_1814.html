@@ -1,0 +1,1258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+	<head>
+		<title>LeTV STRESS Report</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Test Report" />
+
+		<style type="text/css">
+			/*css reset code */
+
+			/****  文字大小初始化,使1em=10px *****/
+			body {
+				font-size: 62.5%;
+			}/* for IE/Win */
+			html > body {
+				font-size: 10px;
+			}/* for everything else */
+
+			/*字体边框等初始化*/
+			body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+				padding: 0;
+				margin: 0;
+			}
+			pre{
+				white-space:pre-wrap;
+				word-wrap:break-word;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			fieldset, img {
+				border: 0;
+			}
+			img {
+				display: block;
+			}
+			address, caption, cite, code, dfn, th, var {
+				font-weight: normal;
+				font-style: normal;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			caption, th {
+				text-align: left;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: normal;
+				font-size: 100%;
+			}
+			q:before, q:after {
+				content: '';
+			}
+			abbr, acronym {
+				border: 0;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			/*-----以下是报告样式*/
+
+			body {
+
+				color: #4f6b72;
+				background: #eff0f0;
+			}
+			.container {
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			.header {
+				/* background: #DDDDDD; */
+				height: 40px;
+				width: 1210px;
+				margin: 30px 0px 20px 0px;
+				border-radius: 15px 15px 15px 15px;
+				/* box-shadow: 3px 3px 4px #818181; */
+
+			}
+
+			.header span {
+				margin: 0px 0px 0px 10px;
+				font-size: 30px;
+				line-height: 60px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: #CC0000;
+				font-weight: bold;
+			}
+
+			.header a {
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 95px;
+				margin-left: 460px;
+			}
+			.header a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.header a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.header a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.main {
+				width: 1200px;
+				margin: 10px 0px 10px 0px;
+			}
+
+			.subtittle_up {
+				width: 850px;
+				height: 30px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down {
+				width: 1150px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				height: 30px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down span {
+				margin-left: 20px;
+				font-size: 15px;
+				color: #CC0000;
+			}
+
+			.summary_table {
+				border: 5px solid white;
+				margin: 0px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.summary_table tr {
+				border: 1px solid #a5ada2;
+			}
+
+			.summary_table td {
+				border: 1px solid #a5ada2;
+				padding: 2px 10px 2px 10px;
+				background-color: #faf9ec;
+				font-weight: bold;
+				font-size: 13px;
+				text-align: center;
+			}
+
+			.summary_table td a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.summary_table th {
+				border: 1px solid #a5ada2;
+				padding: 3px 10px 3px 10px;
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				/*line-height: 36px;*/
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.summary_table tr td:first-child {
+				background-color: #a9c79b;
+				font-weight: bold;
+				color: white;
+				font-size: 15px;
+			}
+			.planCount {
+				color: blue;
+			}
+
+			.execCount {
+				color: green;
+			}
+
+			.noRunCount {
+				color: red;
+			}
+
+			.passCount {
+				color: green;
+			}
+
+			.failCount {
+				color: red;
+			}
+
+			.tab_box select {
+				margin-left: 25px;
+				margin: 10px 25px;
+			}
+
+			.showCaseText {
+				margin-left: 25px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+			.inputText {
+				margin-left: 3px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.main_down {
+				margin-top: 10px;
+			}
+
+			.caseTable {
+				border: 5px solid white;
+				margin: 15px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.caseTable tr {
+				border: 1px solid white;
+				margin: 0px 0px 0px 20px;
+			}
+
+			.caseTable td {
+				font-size: 13px;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				text-align: left;
+			}
+
+			.caseTable th {
+				font-size: 15px;
+				text-align: center;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				background: #a1a1a1;
+				font-weight: bold;
+				color: white;
+			}
+			.fail td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.ANR td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.FC td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Tombstone td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Reset td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.pass td {
+				background: #648566;
+				color: white;
+				font-weight: bold;
+			}
+			#tailer {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			#tailer span {
+				margin-top: 10px;
+				font-size: 12px;
+				line-height: 40px;
+				color: #4e4c4d;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+			}
+			.tab_on {
+				float: left;
+				background: #e3e3e3;
+				padding: 0 10px;
+				border-top: ridge;
+				border-top-color: brown;
+			}
+			.tab_off {
+				float: left;
+				cursor: pointer;
+				text-align: center;
+				padding: 0 10px;
+			}
+			.tab_off:hover {
+				background: #e3e3e3;
+			}
+			.tab {
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				line-height: 36px;
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold
+			}
+			.tab_box {
+				padding-top: 10px;
+				line-height: 20px;
+				padding: 5px;
+				background: #e3e3e3;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+			function changeLoop(selectValue, device) {
+
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+
+				if (selectValue == 0) {
+					var list = document.getElementById("showAll_" + device);
+					//获取检索范围
+					var countLoop0 = 1;
+					var str = list.getElementsByTagName("tr");
+					//获取检索内容块
+					for (var i = 0; i < str.length; i++) {//遍历内容块
+						str[i].style.display = "table-row";
+						//重新定义序号
+						if (i != 0 && str[i].className != "faildetail") {
+							var td_index = str[i].cells[0];
+							td_index.innerHTML = countLoop0;
+							countLoop0++;
+						}
+					}
+
+				} else {
+					var countother = 1;
+					var list = document.getElementById("showAll_" + device);
+					//获取id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取showAll的行
+					for (var i = 1; i < str.length; i++) {//遍历所有的行
+						if (str[i].getAttribute("name") == selectValue) {//如果当前行的为选中显示的loop
+							str[i].style.display = "table-row";
+							//显示出当前行
+
+							//重新定义序号
+							if (i != 0 && str[i].className != "faildetail") {//i=0时的行为表头不需要添加序号
+								var td_index = str[i].cells[0];
+								td_index.innerHTML = countother;
+								countother++;
+							}
+
+						} else {//不为当前选中的loop的行就不显示
+							str[i].style.display = "none";
+						}
+
+					}
+
+				}
+				for (var i = 0; i < faildetailCount; i++) {//所有失败后行的casedetail的详细信息默认不显示
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+				
+			    radioChecked = document.getElementsByName("showCaseCase_"+device);  
+			    for (var i=0; i<radioChecked.length; i++){  
+			        if (radioChecked[i].value=="1") {  
+			            radioChecked[i].checked= true;  
+			            break;  
+			        }  
+			    }  
+			}
+
+			function changeData(selectValue, device) {
+				var currentLoop = document.getElementById("mySelect_" + device).value;
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+				var countLoop0 = 1;
+				var countother = 1;
+				for (var i = 0; i < caseCount; i++) {
+					var list = document.getElementById("showAll_" + device);
+					//获取到id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取到table里的行
+
+					for (var i = 1; i < str.length; i++) {//遍历所有行
+
+						if (currentLoop == 0) {//当前loop为0默认是显示所有loop
+							if (selectValue == 1) {//selectValue是显示所有case（pass and fail）
+								str[i].style.display = "table-row";
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countLoop0;
+									countLoop0++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {//只显示fail的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {//只显示pass的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {//只显示ANR的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {//只显示FC的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {//只显示Tombstone的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {//只显示Reset的case
+								str[i].style.display = "table-row";
+							}else {
+								str[i].style.display = "none";
+							}
+
+						} else if (str[i].getAttribute("name")  == currentLoop) {//显示其他loop
+
+							if (selectValue == 1) {
+								str[i].style.display = "table-row";
+
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countother;
+									countother++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {
+								str[i].style.display = "table-row";
+							} else {
+								str[i].style.display = "none";
+							}
+
+						}
+
+					}
+
+				}
+
+				for (var i = 0; i < faildetailCount; i++) {
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+
+			}
+
+			function showTab(id) {
+				longth = document.getElementsByClassName('tab')[0].getElementsByTagName('div').length;
+				for (var i = 1; i <= longth; i++) {
+					if (id == i) {
+						document.getElementById('Tab_' + i).className = 'tab_on';
+						document.getElementById('cont_' + i).style.display = '';
+					} else {
+						document.getElementById('Tab_' + i).className = 'tab_off';
+						document.getElementById('cont_' + i).style.display = 'none';
+					}
+				}
+			}
+
+			function toggle(id) {
+
+				var tb = document.getElementById(id);
+
+				if (tb.style.display == 'none')
+					tb.style.display = 'table-row';
+				else
+					tb.style.display = 'none';
+			}
+			
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				table = document.getElementsByClassName("caseTable");
+				for (var i = 0; i < table.length; i++) {
+					trs = table[i].getElementsByTagName("tr");
+					//获取showAll的行
+					countother = 1;
+					for (var j = 0; j < trs.length; j++) {//遍历所有的行
+						//重新定义序号
+						if (j != 0 && trs[j].className != "faildetail") {//i=0时的行为表头不需要添加序号
+							td_index = trs[j].cells[0];
+							td_index.innerHTML = countother;
+							countother++;
+						}
+					}
+				}
+				
+				//计算Total数值
+			});
+		</script>
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="header">
+
+				<span>LeTV STRESS Report</span>
+
+			</div>
+
+			<hr color=#CC0000 SIZE=3>
+			<div class="main">
+				<div class="main_up">
+					<div class="subtittle_up" >
+						Test Result Summary
+					</div>
+
+					<div>
+						
+<table class="summary_table">
+	<tr>
+		<th>STRESS Test Result</th>
+		
+		<th>648TV</th>
+		
+		<th>648TV2</th>
+		
+	</tr>
+	<tr>
+		<td>SW</td>
+		
+		<td>6.0.064S_1228</td>
+		
+		<td>6.0.064S_1228</td>
+		
+	</tr>
+	<tr>
+		<td>Release Time</td>
+		
+		<td>2017-12-28</td>
+		
+		<td>2017-12-28</td>
+		
+	</tr>
+	<tr>
+		<td>Test Start Time</td>
+		
+		<td>2018-05-09 15:34:32</td>
+		
+		<td>2018-05-09 15:34:32</td>
+		
+	</tr>
+	<tr>
+		<td>Test Stop Time</td>
+		
+		<td>2018-05-10 09:10:12</td>
+		
+		<td>2018-05-10 09:10:12</td>
+		
+	</tr>
+	<tr>
+		<td>Test Total Execution Time</td>
+		
+		<td>17.6Hrs</td>
+		
+		<td>17.6Hrs</td>
+		
+	</tr>
+	<tr>
+		<td>ANR</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Tombstone</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Force Close</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>TV Reboot</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td><span class="passCount">Total Error Num</span></td>
+		<td colspan="2"><span class="passCount">0</span></td>
+	</tr>
+        <tr>
+                 <td>Case Pass Rate</td>
+                 
+                 <td><span class="passCount">4/4=100.00%</span></td>
+                 
+                 <td><span class="passCount">4/4=100.00%</span></td>
+                 
+          </tr>
+  	<tr>
+		<td><span class="passCount">STRESS Value</span></td>
+		<td colspan="2"><span class="passCount">Total Execution Time / Total Error Num = 35.2</span></td>
+	</tr>
+</table>
+
+					</div>
+				</div>
+
+				<div class="main_down">
+					
+<div class="subtittle_down" >
+	Test Case Execute Detail
+	<span> Click the test case to view the detail steps</span>
+</div>
+<div class="tab">
+
+	
+	<div class="tab_on" id="Tab_1" onclick="showTab('1');">
+		648TV
+	</div>
+	
+	<div class="tab_off" id="Tab_2" onclick="showTab('2');">
+		648TV2
+	</div>
+	
+</div>
+<div style="clear:both;"></div>
+
+<div class="tab_box" id="cont_1" >
+	<select id="mySelect_1" onchange="changeLoop(this.value,1)" autocomplete="off">
+		<option value="0" selected=true>Display All Loop Results</option>
+		
+		<option value="1">loop1</option>
+		
+	</select>
+	<br/>
+
+	<span class="showCaseText">Current Loop：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="1" checked="checked" onchange="changeData(this.value,1)">
+	<span class="inputText">All Test Cases&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="2" onchange="changeData(this.value,1)">
+	<span class="inputText">Case Failed&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="3" onchange="changeData(this.value,1)">
+	<span class="inputText">Case Pass&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="4" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:ANR&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="5" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:FC&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="6" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:Tombstone&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="7" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:Reset&nbsp;</span></input>
+	<table id="showAll_1"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>No.</th><th>CASE NAME</th><th>CASE STEP</th><th>RESULT</th><th>RUN TIME</th><th>COMMENTS</th>
+		</tr>
+		
+		
+		
+		<tr class="pass" name="1" onclick="toggle('648TVloop1_1')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopSwitchStress#testDesktop</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV/LOOP1/testDesktop_20180509_153433" target="_blank">各个桌面切换</a></td>
+			<td>PASS</td>
+			<td>229.377</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TVloop1_1" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面
+2.............looper : 0
+3.在桌面向左滑动15次
+4.在桌面向右滑动15次
+5.............looper : 1
+6.在桌面向左滑动15次
+7.在桌面向右滑动15次
+8.............looper : 2
+9.在桌面向左滑动15次
+10.在桌面向右滑动15次
+11.............looper : 3
+12.在桌面向左滑动15次
+13.在桌面向右滑动15次
+14.............looper : 4
+15.在桌面向左滑动15次
+16.在桌面向右滑动15次
+17.............looper : 5
+18.在桌面向左滑动15次
+19.在桌面向右滑动15次
+20.............looper : 6
+21.在桌面向左滑动15次
+22.在桌面向右滑动15次
+23.............looper : 7
+24.在桌面向左滑动15次
+25.在桌面向右滑动15次
+26.............looper : 8
+27.在桌面向左滑动15次
+28.在桌面向右滑动15次
+29.............looper : 9
+30.在桌面向左滑动15次
+31.在桌面向右滑动15次
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TVloop1_2')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopManger#testDeskSwitch648</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV/LOOP1/testDeskSwitch648_20180509_153914" target="_blank">进入桌面管理调整桌面顺序</a></td>
+			<td>PASS</td>
+			<td>313.221</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TVloop1_2" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入管理桌面
+2.调整开机默认桌面
+3.调整桌面顺序
+4.调整开机默认桌面
+5.调整桌面顺序
+6.调整开机默认桌面
+7.调整桌面顺序
+8.调整开机默认桌面
+9.调整桌面顺序
+10.调整开机默认桌面
+11.调整桌面顺序
+12.调整开机默认桌面
+13.调整桌面顺序
+14.调整开机默认桌面
+15.调整桌面顺序
+16.调整开机默认桌面
+17.调整桌面顺序
+18.调整开机默认桌面
+19.调整桌面顺序
+20.调整开机默认桌面
+21.调整桌面顺序
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TVloop1_3')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopApplicationRedact#testApplicationRedact</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV/LOOP1/testApplicationRedact_20180509_170425" target="_blank">进入应用桌面新建文件夹编辑</a></td>
+			<td>PASS</td>
+			<td>655.577</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TVloop1_3" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.............looper: 0
+2.进入应用桌面
+3.进入新建文件夹
+4.应用app移动新建文件夹里
+5.新建文件夹app移动到应用桌面
+6.............looper: 1
+7.进入应用桌面
+8.进入新建文件夹
+9.应用app移动新建文件夹里
+10.新建文件夹app移动到应用桌面
+11.............looper: 2
+12.进入应用桌面
+13.进入新建文件夹
+14.应用app移动新建文件夹里
+15.新建文件夹app移动到应用桌面
+16.............looper: 3
+17.进入应用桌面
+18.进入新建文件夹
+19.应用app移动新建文件夹里
+20.新建文件夹app移动到应用桌面
+21.............looper: 4
+22.进入应用桌面
+23.进入新建文件夹
+24.应用app移动新建文件夹里
+25.新建文件夹app移动到应用桌面
+26.............looper: 5
+27.进入应用桌面
+28.进入新建文件夹
+29.应用app移动新建文件夹里
+30.新建文件夹app移动到应用桌面
+31.............looper: 6
+32.进入应用桌面
+33.进入新建文件夹
+34.应用app移动新建文件夹里
+35.新建文件夹app移动到应用桌面
+36.............looper: 7
+37.进入应用桌面
+38.进入新建文件夹
+39.应用app移动新建文件夹里
+40.新建文件夹app移动到应用桌面
+41.............looper: 8
+42.进入应用桌面
+43.进入新建文件夹
+44.应用app移动新建文件夹里
+45.新建文件夹app移动到应用桌面
+46.............looper: 9
+47.进入应用桌面
+48.进入新建文件夹
+49.应用app移动新建文件夹里
+50.新建文件夹app移动到应用桌面
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TVloop1_4')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.LetvStoreStressApp#testLetvStoreAllapp648</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514" target="_blank">应用桌面app逐个遍历</a></td>
+			<td>PASS</td>
+			<td>4,686.622</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TVloop1_4" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入应用
+2.遍历应用桌面app
+3.第0次遍历
+4.进入应用
+5.遍历应用桌面app
+6.第1次遍历
+7.进入应用
+8.遍历应用桌面app
+9.第2次遍历
+10.进入应用
+11.遍历应用桌面app
+12.第3次遍历
+13.进入应用
+14.遍历应用桌面app
+15.第4次遍历
+16.进入应用
+17.遍历应用桌面app
+18.第5次遍历
+19.进入应用
+20.遍历应用桌面app
+21.第6次遍历
+22.进入应用
+23.遍历应用桌面app
+24.第7次遍历
+25.进入应用
+26.遍历应用桌面app
+27.第8次遍历
+28.进入应用
+29.遍历应用桌面app
+30.第9次遍历
+31.进入应用
+32.遍历应用桌面app
+33.第10次遍历
+34.进入应用
+35.遍历应用桌面app
+36.第11次遍历
+37.进入应用
+38.遍历应用桌面app
+39.第12次遍历
+40.进入应用
+41.遍历应用桌面app
+42.第13次遍历
+43.进入应用
+44.遍历应用桌面app
+45.第14次遍历
+46.进入应用
+47.遍历应用桌面app
+48.第15次遍历
+49.进入应用
+50.遍历应用桌面app
+51.第16次遍历
+52.进入应用
+53.遍历应用桌面app
+54.第17次遍历
+55.进入应用
+56.遍历应用桌面app
+57.第18次遍历
+58.进入应用
+59.遍历应用桌面app
+60.第19次遍历
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		
+		
+	</table>
+</div>
+
+<div class="tab_box" id="cont_2" style="display: none">
+	<select id="mySelect_2" onchange="changeLoop(this.value,2)" autocomplete="off">
+		<option value="0" selected=true>Display All Loop Results</option>
+		
+		<option value="1">loop1</option>
+		
+	</select>
+	<br/>
+
+	<span class="showCaseText">Current Loop：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="1" checked="checked" onchange="changeData(this.value,2)">
+	<span class="inputText">All Test Cases&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="2" onchange="changeData(this.value,2)">
+	<span class="inputText">Case Failed&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="3" onchange="changeData(this.value,2)">
+	<span class="inputText">Case Pass&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="4" onchange="changeData(this.value,2)">
+	<span class="inputText">Error:ANR&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="5" onchange="changeData(this.value,2)">
+	<span class="inputText">Error:FC&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="6" onchange="changeData(this.value,2)">
+	<span class="inputText">Error:Tombstone&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_2" value="7" onchange="changeData(this.value,2)">
+	<span class="inputText">Error:Reset&nbsp;</span></input>
+	<table id="showAll_2"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>No.</th><th>CASE NAME</th><th>CASE STEP</th><th>RESULT</th><th>RUN TIME</th><th>COMMENTS</th>
+		</tr>
+		
+		
+		
+		<tr class="pass" name="1" onclick="toggle('648TV2loop1_1')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopSwitchStress#testDesktop</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV2/LOOP1/testDesktop_20180509_153433" target="_blank">各个桌面切换</a></td>
+			<td>PASS</td>
+			<td>229.377</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TV2loop1_1" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面
+2.............looper : 0
+3.在桌面向左滑动15次
+4.在桌面向右滑动15次
+5.............looper : 1
+6.在桌面向左滑动15次
+7.在桌面向右滑动15次
+8.............looper : 2
+9.在桌面向左滑动15次
+10.在桌面向右滑动15次
+11.............looper : 3
+12.在桌面向左滑动15次
+13.在桌面向右滑动15次
+14.............looper : 4
+15.在桌面向左滑动15次
+16.在桌面向右滑动15次
+17.............looper : 5
+18.在桌面向左滑动15次
+19.在桌面向右滑动15次
+20.............looper : 6
+21.在桌面向左滑动15次
+22.在桌面向右滑动15次
+23.............looper : 7
+24.在桌面向左滑动15次
+25.在桌面向右滑动15次
+26.............looper : 8
+27.在桌面向左滑动15次
+28.在桌面向右滑动15次
+29.............looper : 9
+30.在桌面向左滑动15次
+31.在桌面向右滑动15次
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TV2loop1_2')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopManger#testDeskSwitch648</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV2/LOOP1/testDeskSwitch648_20180509_153914" target="_blank">进入桌面管理调整桌面顺序</a></td>
+			<td>PASS</td>
+			<td>313.221</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TV2loop1_2" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入管理桌面
+2.调整开机默认桌面
+3.调整桌面顺序
+4.调整开机默认桌面
+5.调整桌面顺序
+6.调整开机默认桌面
+7.调整桌面顺序
+8.调整开机默认桌面
+9.调整桌面顺序
+10.调整开机默认桌面
+11.调整桌面顺序
+12.调整开机默认桌面
+13.调整桌面顺序
+14.调整开机默认桌面
+15.调整桌面顺序
+16.调整开机默认桌面
+17.调整桌面顺序
+18.调整开机默认桌面
+19.调整桌面顺序
+20.调整开机默认桌面
+21.调整桌面顺序
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TV2loop1_3')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.DesktopApplicationRedact#testApplicationRedact</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV2/LOOP1/testApplicationRedact_20180509_170425" target="_blank">进入应用桌面新建文件夹编辑</a></td>
+			<td>PASS</td>
+			<td>655.577</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TV2loop1_3" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.............looper: 0
+2.进入应用桌面
+3.进入新建文件夹
+4.应用app移动新建文件夹里
+5.新建文件夹app移动到应用桌面
+6.............looper: 1
+7.进入应用桌面
+8.进入新建文件夹
+9.应用app移动新建文件夹里
+10.新建文件夹app移动到应用桌面
+11.............looper: 2
+12.进入应用桌面
+13.进入新建文件夹
+14.应用app移动新建文件夹里
+15.新建文件夹app移动到应用桌面
+16.............looper: 3
+17.进入应用桌面
+18.进入新建文件夹
+19.应用app移动新建文件夹里
+20.新建文件夹app移动到应用桌面
+21.............looper: 4
+22.进入应用桌面
+23.进入新建文件夹
+24.应用app移动新建文件夹里
+25.新建文件夹app移动到应用桌面
+26.............looper: 5
+27.进入应用桌面
+28.进入新建文件夹
+29.应用app移动新建文件夹里
+30.新建文件夹app移动到应用桌面
+31.............looper: 6
+32.进入应用桌面
+33.进入新建文件夹
+34.应用app移动新建文件夹里
+35.新建文件夹app移动到应用桌面
+36.............looper: 7
+37.进入应用桌面
+38.进入新建文件夹
+39.应用app移动新建文件夹里
+40.新建文件夹app移动到应用桌面
+41.............looper: 8
+42.进入应用桌面
+43.进入新建文件夹
+44.应用app移动新建文件夹里
+45.新建文件夹app移动到应用桌面
+46.............looper: 9
+47.进入应用桌面
+48.进入新建文件夹
+49.应用app移动新建文件夹里
+50.新建文件夹app移动到应用桌面
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('648TV2loop1_4')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.LetvStoreStressApp#testLetvStoreAllapp648</td>
+
+			<td><a href="/home/pc7/pydjgo/apptest_tv/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514" target="_blank">应用桌面app逐个遍历</a></td>
+			<td>PASS</td>
+			<td>4,686.622</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="648TV2loop1_4" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入应用
+2.遍历应用桌面app
+3.第0次遍历
+4.进入应用
+5.遍历应用桌面app
+6.第1次遍历
+7.进入应用
+8.遍历应用桌面app
+9.第2次遍历
+10.进入应用
+11.遍历应用桌面app
+12.第3次遍历
+13.进入应用
+14.遍历应用桌面app
+15.第4次遍历
+16.进入应用
+17.遍历应用桌面app
+18.第5次遍历
+19.进入应用
+20.遍历应用桌面app
+21.第6次遍历
+22.进入应用
+23.遍历应用桌面app
+24.第7次遍历
+25.进入应用
+26.遍历应用桌面app
+27.第8次遍历
+28.进入应用
+29.遍历应用桌面app
+30.第9次遍历
+31.进入应用
+32.遍历应用桌面app
+33.第10次遍历
+34.进入应用
+35.遍历应用桌面app
+36.第11次遍历
+37.进入应用
+38.遍历应用桌面app
+39.第12次遍历
+40.进入应用
+41.遍历应用桌面app
+42.第13次遍历
+43.进入应用
+44.遍历应用桌面app
+45.第14次遍历
+46.进入应用
+47.遍历应用桌面app
+48.第15次遍历
+49.进入应用
+50.遍历应用桌面app
+51.第16次遍历
+52.进入应用
+53.遍历应用桌面app
+54.第17次遍历
+55.进入应用
+56.遍历应用桌面app
+57.第18次遍历
+58.进入应用
+59.遍历应用桌面app
+60.第19次遍历
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		
+		
+	</table>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

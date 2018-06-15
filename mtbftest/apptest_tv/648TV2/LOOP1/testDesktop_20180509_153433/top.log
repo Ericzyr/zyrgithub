@@ -1,0 +1,34 @@
+
+
+
+User 5%, System 1%, IOW 0%, IRQ 0%
+User 40 + Nice 28 + Sys 19 + Idle 1089 + IOW 0 + IRQ 0 + SIRQ 0 = 1176
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+25501 808464393   5% S   109 1376464K 250628K  fg system   com.stv.launcher
+ 1267  1   1% S    42 255880K  18408K  fg system   /system/bin/surfaceflinger
+ 1280  1   1% S    58 885372K  18680K  fg root     /applications/bin/tvos
+ 1274  1   0% S    25 409904K  16552K  fg media    /system/bin/mediaserver
+27969  0   0% R     1   3584K   1084K  fg root     top
+ 1788 -1471301376   0% S   102 1465312K  99304K  fg system   system_server
+27902  0   0% S     1      0K      0K  fg root     kworker/0:0
+26352  1   0% S    45 1043100K  45444K  bg u0_a41   com.tencent.qqmusictv.qing:wns
+27886  0   0% S     1      0K      0K  fg root     kworker/u9:0
+    8  1   0% S     1      0K      0K  fg root     rcu_preempt
+
+
+
+User 5%, System 1%, IOW 0%, IRQ 0%
+User 36 + Nice 31 + Sys 16 + Idle 1093 + IOW 0 + IRQ 0 + SIRQ 2 = 1178
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+25501  2   5% S   109 1376464K 250628K  fg system   com.stv.launcher
+ 1267  1   1% S    42 255880K  18408K  fg system   /system/bin/surfaceflinger
+ 1280  1   1% S    58 885372K  18680K  fg root     /applications/bin/tvos
+ 1274  1   0% S    25 409904K  16552K  fg media    /system/bin/mediaserver
+27902  0   0% S     1      0K      0K  fg root     kworker/0:0
+27969  0   0% R     1   3592K   1084K  fg root     top
+ 1788  1   0% S   102 1465312K  99304K  fg system   system_server
+ 3360  3   0% S    11 720388K  24404K  bg system   letv.remotemanager
+ 1281  2   0% S     2  36900K   3932K  fg system   /system/bin/virtualkeypad
+27886  0   0% S     1      0K      0K  fg root     kworker/u9:0

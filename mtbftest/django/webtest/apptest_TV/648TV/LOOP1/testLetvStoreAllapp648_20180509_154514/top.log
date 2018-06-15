@@ -1,0 +1,34 @@
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 6 + Nice 0 + Sys 10 + Idle 1176 + IOW 0 + IRQ 0 + SIRQ 4 = 1196
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1280  1   1% S    58 885372K  10516K  fg root     /applications/bin/tvos
+30966  0   0% S     1      0K      0K  fg root     kworker/0:1
+31060  3   0% R     1   3592K   1080K  fg root     top
+ 1274  1   0% S    25 412168K   7928K  fg media    /system/bin/mediaserver
+24236  0   0% S     1   1360K    708K  fg mdnsr    /system/bin/mdnsd
+ 1267  0   0% S    42 255108K  10596K  fg system   /system/bin/surfaceflinger
+ 1788 -2018143760   0% S   102 1484896K  83616K  fg system   system_server
+ 1281  1   0% S     2  36900K   2884K  fg system   /system/bin/virtualkeypad
+ 1246  0   0% S     1      0K      0K  fg root     irq/202-scaler
+30014  1   0% S    50 1054056K  47636K  bg u0_a41   com.tencent.qqmusictv.qing
+
+
+
+User 1%, System 0%, IOW 0%, IRQ 0%
+User 13 + Nice 0 + Sys 11 + Idle 1170 + IOW 0 + IRQ 0 + SIRQ 2 = 1196
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1280  1   1% S    58 885372K  10516K  fg root     /applications/bin/tvos
+ 1274  1   0% S    25 412168K   7928K  fg media    /system/bin/mediaserver
+30966  0   0% S     1      0K      0K  fg root     kworker/0:1
+31060  3   0% R     1   3596K   1080K  fg root     top
+ 2593  0   0% S     1      0K      0K  fg root     RTW_CMD_THREAD
+ 1282  0   0% S     5  32532K   1028K  fg root     /system/bin/livecap
+10775  1   0% S    53 1067788K  90988K  fg u0_a13   com.android.browser
+30014  1   0% S    50 1054056K  47636K  bg u0_a41   com.tencent.qqmusictv.qing
+ 1267  0   0% S    42 255108K  10596K  fg system   /system/bin/surfaceflinger
+30037  3   0% S    43 1041308K  42444K  bg u0_a41   com.tencent.qqmusictv.qing:wns
