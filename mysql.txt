@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.linuxidc.com/Linux/2017-06/144805.htm
+https://blog.csdn.net/xs1102/article/details/77312282
+
+
+ Ubuntu mysql安装，还有可视化界面
+
+安装mysql
+1
+2
+3
+	
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+sudo apt-get install libmysqlclient-dev
+
+
+
+mysql密码登陆设置
+https://www.cnblogs.com/roadofstudy/p/7446690.html
+https://www.2cto.com/database/201706/652854.html
+
+
+
+
+
+
+安装mysql的可视化界面（mysql workbench）
+1
+	
+sudo apt-get install mysql-workbench
+
+类中各接口https://blog.csdn.net/iiiiher/article/details/72935275
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the command is look at pc size
+df -h
+
+date +%Y-%m-%d"  "%H:%M
+
+the command is look at you file size
+ du -h --max-depth=1 AAA is file
+
+sort -h 排列从大到小
+
+sort -nrk 5  按照第几列，从大到小  k代表第几列  r代表 从大到小
+
+
+自动增加脚本的目录
+root@pc7:/etc# vim crontab
+
+
+tr ' ' '\n'   # \n 表示换行的意思 
