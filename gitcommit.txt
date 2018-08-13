@@ -1,8 +1,13 @@
 
 ssh-keygen -t rsa -C "your_email@youremail.com"
 
+
+
+
+创建好的git第一次你设置全局
 $ git config --global user.name "your name"
 $ git config --global user.email "your_email@youremail.com"
+$ git config --global color.ui true
 
 ssh -T git@github.com
 
