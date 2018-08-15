@@ -1,0 +1,4 @@
+
+
+sudo apt-get update
+然后更新flashplayer，输入命令：sudo apt-get install flashplugin-installer，然后回车

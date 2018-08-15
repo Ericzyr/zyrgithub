@@ -1,5 +1,30 @@
+
+1.安装
+
+ubuntu 14.04中安装Jenkins
+要求java1.8版本的
+
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update -y
+sudo apt-get install jenkins -y
+
+2.安装文件位置
+安装目录：/var/lib/jenkins
+日志目录：/var/log/jenkins/jenkins.log
+
+3.启动/停止
+sudo /etc/init.d/jenkins start
+sudo /etc/init.d/jenkins stop
+
+4.访问（当前IP）
+http://192.168.1.100:8080/
+
+
 jenjins服务重启命令 systemctl restart jenkins
 
+
+https://www.linuxidc.com/Linux/2017-10/147773.htm
 
 tomcat 
 https://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.0.48/bin/apache-tomcat-8.0.48.tar.gz
@@ -8,3 +33,27 @@ https://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.0.48/bin/apache-t
 在jenjins上如何创建一个节点，
 
 下载一个 agent.jar 文件，切换到在当前目录， 在命令中 输入上面的文字就可以了。
+
+
+
+ubuntu 16.04 安装 Jenkins
+https://blog.csdn.net/mingjie1212/article/details/51810689
+https://blog.csdn.net/crj121624/article/details/81109035
+
+wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+
+
+服务的启动/停止：
+sudo service jenkins start
+sudo service jenkins stop
+
+4.路径：
+访问路径：http://localhost:8080
+安装路径：/var/lib/jenkins
+日志路径：/var/log/jenkins
+
+
+
