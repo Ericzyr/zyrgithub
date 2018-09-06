@@ -57,3 +57,20 @@ sudo service jenkins stop
 
 
 
+ jenkins换端口号
+https://www.cnblogs.com/zipon/p/5875678.html
+两个地方
+
+1，检查 /etc/init.d/jenkins 脚本，修改 do_start 函数的 check_tcp_port 命令，端口号从 8080 换成 8082：
+
+      
+
+ 
+
+2，修改 /etc/default/jenkins 文件，将端口 8080 改成 8082
+
+     
+
+3，重启Jenkins
+
+

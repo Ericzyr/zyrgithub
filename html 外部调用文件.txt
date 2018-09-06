@@ -1,0 +1,16 @@
+image 外部调用 
+<img src="../static/images/12.png">
+
+css 外部调用 
+<style type="text/css">
+@import '../static/css/a.css';
+</style>
+<link rel="stylesheet" href="../static/css/a.css" type="text/css">
+
+javaScript  外部调用 
+<script type="text/javascript" src="../static/js/attack.js"></script>
+
+
+
+/home/pc7/pydjango/djweb4/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433
+/home/pc7/pydjango/djweb4/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433
