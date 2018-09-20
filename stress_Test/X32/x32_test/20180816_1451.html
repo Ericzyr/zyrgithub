@@ -1,0 +1,1304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+	<head>
+		<title>LeTV STRESS Report</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Test Report" />
+
+		<style type="text/css">
+			/*css reset code */
+
+			/****  文字大小初始化,使1em=10px *****/
+			body {
+				font-size: 62.5%;
+			}/* for IE/Win */
+			html > body {
+				font-size: 10px;
+			}/* for everything else */
+
+			/*字体边框等初始化*/
+			body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+				padding: 0;
+				margin: 0;
+			}
+			pre{
+				white-space:pre-wrap;
+				word-wrap:break-word;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			fieldset, img {
+				border: 0;
+			}
+			img {
+				display: block;
+			}
+			address, caption, cite, code, dfn, th, var {
+				font-weight: normal;
+				font-style: normal;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			caption, th {
+				text-align: left;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: normal;
+				font-size: 100%;
+			}
+			q:before, q:after {
+				content: '';
+			}
+			abbr, acronym {
+				border: 0;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			/*-----以下是报告样式*/
+
+			body {
+
+				color: #4f6b72;
+				background: #eff0f0;
+			}
+			.container {
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			.header {
+				/* background: #DDDDDD; */
+				height: 40px;
+				width: 1210px;
+				margin: 30px 0px 20px 0px;
+				border-radius: 15px 15px 15px 15px;
+				/* box-shadow: 3px 3px 4px #818181; */
+
+			}
+
+			.header span {
+				margin: 0px 0px 0px 10px;
+				font-size: 30px;
+				line-height: 60px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: #CC0000;
+				font-weight: bold;
+			}
+
+			.header a {
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 95px;
+				margin-left: 460px;
+			}
+			.header a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.header a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.header a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.main {
+				width: 1200px;
+				margin: 10px 0px 10px 0px;
+			}
+
+			.subtittle_up {
+				width: 850px;
+				height: 30px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down {
+				width: 1150px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				height: 30px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down span {
+				margin-left: 20px;
+				font-size: 15px;
+				color: #CC0000;
+			}
+
+			.summary_table {
+				border: 5px solid white;
+				margin: 0px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.summary_table tr {
+				border: 1px solid #a5ada2;
+			}
+
+			.summary_table td {
+				border: 1px solid #a5ada2;
+				padding: 2px 10px 2px 10px;
+				background-color: #faf9ec;
+				font-weight: bold;
+				font-size: 13px;
+				text-align: center;
+			}
+
+			.summary_table td a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.summary_table th {
+				border: 1px solid #a5ada2;
+				padding: 3px 10px 3px 10px;
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				/*line-height: 36px;*/
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.summary_table tr td:first-child {
+				background-color: #a9c79b;
+				font-weight: bold;
+				color: white;
+				font-size: 15px;
+			}
+			.planCount {
+				color: blue;
+			}
+
+			.execCount {
+				color: green;
+			}
+
+			.noRunCount {
+				color: red;
+			}
+
+			.passCount {
+				color: green;
+			}
+
+			.failCount {
+				color: red;
+			}
+
+			.tab_box select {
+				margin-left: 25px;
+				margin: 10px 25px;
+			}
+
+			.showCaseText {
+				margin-left: 25px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+			.inputText {
+				margin-left: 3px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.main_down {
+				margin-top: 10px;
+			}
+
+			.caseTable {
+				border: 5px solid white;
+				margin: 15px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.caseTable tr {
+				border: 1px solid white;
+				margin: 0px 0px 0px 20px;
+			}
+
+			.caseTable td {
+				font-size: 13px;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				text-align: left;
+			}
+
+			.caseTable th {
+				font-size: 15px;
+				text-align: center;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				background: #a1a1a1;
+				font-weight: bold;
+				color: white;
+			}
+			.fail td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.ANR td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.FC td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Tombstone td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Reset td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.pass td {
+				background: #648566;
+				color: white;
+				font-weight: bold;
+			}
+			#tailer {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			#tailer span {
+				margin-top: 10px;
+				font-size: 12px;
+				line-height: 40px;
+				color: #4e4c4d;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+			}
+			.tab_on {
+				float: left;
+				background: #e3e3e3;
+				padding: 0 10px;
+				border-top: ridge;
+				border-top-color: brown;
+			}
+			.tab_off {
+				float: left;
+				cursor: pointer;
+				text-align: center;
+				padding: 0 10px;
+			}
+			.tab_off:hover {
+				background: #e3e3e3;
+			}
+			.tab {
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				line-height: 36px;
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold
+			}
+			.tab_box {
+				padding-top: 10px;
+				line-height: 20px;
+				padding: 5px;
+				background: #e3e3e3;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+			function changeLoop(selectValue, device) {
+
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+
+				if (selectValue == 0) {
+					var list = document.getElementById("showAll_" + device);
+					//获取检索范围
+					var countLoop0 = 1;
+					var str = list.getElementsByTagName("tr");
+					//获取检索内容块
+					for (var i = 0; i < str.length; i++) {//遍历内容块
+						str[i].style.display = "table-row";
+						//重新定义序号
+						if (i != 0 && str[i].className != "faildetail") {
+							var td_index = str[i].cells[0];
+							td_index.innerHTML = countLoop0;
+							countLoop0++;
+						}
+					}
+
+				} else {
+					var countother = 1;
+					var list = document.getElementById("showAll_" + device);
+					//获取id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取showAll的行
+					for (var i = 1; i < str.length; i++) {//遍历所有的行
+						if (str[i].getAttribute("name") == selectValue) {//如果当前行的为选中显示的loop
+							str[i].style.display = "table-row";
+							//显示出当前行
+
+							//重新定义序号
+							if (i != 0 && str[i].className != "faildetail") {//i=0时的行为表头不需要添加序号
+								var td_index = str[i].cells[0];
+								td_index.innerHTML = countother;
+								countother++;
+							}
+
+						} else {//不为当前选中的loop的行就不显示
+							str[i].style.display = "none";
+						}
+
+					}
+
+				}
+				for (var i = 0; i < faildetailCount; i++) {//所有失败后行的casedetail的详细信息默认不显示
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+				
+			    radioChecked = document.getElementsByName("showCaseCase_"+device);  
+			    for (var i=0; i<radioChecked.length; i++){  
+			        if (radioChecked[i].value=="1") {  
+			            radioChecked[i].checked= true;  
+			            break;  
+			        }  
+			    }  
+			}
+
+			function changeData(selectValue, device) {
+				var currentLoop = document.getElementById("mySelect_" + device).value;
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+				var countLoop0 = 1;
+				var countother = 1;
+				for (var i = 0; i < caseCount; i++) {
+					var list = document.getElementById("showAll_" + device);
+					//获取到id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取到table里的行
+
+					for (var i = 1; i < str.length; i++) {//遍历所有行
+
+						if (currentLoop == 0) {//当前loop为0默认是显示所有loop
+							if (selectValue == 1) {//selectValue是显示所有case（pass and fail）
+								str[i].style.display = "table-row";
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countLoop0;
+									countLoop0++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {//只显示fail的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {//只显示pass的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {//只显示ANR的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {//只显示FC的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {//只显示Tombstone的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {//只显示Reset的case
+								str[i].style.display = "table-row";
+							}else {
+								str[i].style.display = "none";
+							}
+
+						} else if (str[i].getAttribute("name")  == currentLoop) {//显示其他loop
+
+							if (selectValue == 1) {
+								str[i].style.display = "table-row";
+
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countother;
+									countother++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {
+								str[i].style.display = "table-row";
+							} else {
+								str[i].style.display = "none";
+							}
+
+						}
+
+					}
+
+				}
+
+				for (var i = 0; i < faildetailCount; i++) {
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+
+			}
+
+			function showTab(id) {
+				longth = document.getElementsByClassName('tab')[0].getElementsByTagName('div').length;
+				for (var i = 1; i <= longth; i++) {
+					if (id == i) {
+						document.getElementById('Tab_' + i).className = 'tab_on';
+						document.getElementById('cont_' + i).style.display = '';
+					} else {
+						document.getElementById('Tab_' + i).className = 'tab_off';
+						document.getElementById('cont_' + i).style.display = 'none';
+					}
+				}
+			}
+
+			function toggle(id) {
+
+				var tb = document.getElementById(id);
+
+				if (tb.style.display == 'none')
+					tb.style.display = 'table-row';
+				else
+					tb.style.display = 'none';
+			}
+			
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				table = document.getElementsByClassName("caseTable");
+				for (var i = 0; i < table.length; i++) {
+					trs = table[i].getElementsByTagName("tr");
+					//获取showAll的行
+					countother = 1;
+					for (var j = 0; j < trs.length; j++) {//遍历所有的行
+						//重新定义序号
+						if (j != 0 && trs[j].className != "faildetail") {//i=0时的行为表头不需要添加序号
+							td_index = trs[j].cells[0];
+							td_index.innerHTML = countother;
+							countother++;
+						}
+					}
+				}
+				
+				//计算Total数值
+			});
+		</script>
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="header">
+
+				<span>LeTV STRESS Report</span>
+
+			</div>
+
+			<hr color=#CC0000 SIZE=3>
+			<div class="main">
+				<div class="main_up">
+					<div class="subtittle_up" >
+						Test Result Summary
+					</div>
+
+					<div>
+						
+<table class="summary_table">
+	<tr>
+		<th>STRESS Test Result</th>
+		
+		<th>938TV1_X43</th>
+		
+	</tr>
+	<tr>
+		<td>SW</td>
+		
+		<td>6.5.307D_0801</td>
+		
+	</tr>
+	<tr>
+		<td>Release Time</td>
+		
+		<td>2018-08-01</td>
+		
+	</tr>
+	<tr>
+		<td>Test Start Time</td>
+		
+		<td>2018-08-16 14:13:36</td>
+		
+	</tr>
+	<tr>
+		<td>Test Stop Time</td>
+		
+		<td>2018-08-16 14:50:16</td>
+		
+	</tr>
+	<tr>
+		<td>Test Total Execution Time</td>
+		
+		<td>0.6Hrs</td>
+		
+	</tr>
+	<tr>
+		<td>ANR</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Tombstone</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Force Close</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>TV Reboot</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td><span class="passCount">Total Error Num</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+        <tr>
+                 <td>Case Pass Rate</td>
+                 
+                 <td><span class="passCount">17/22=77.27%</span></td>
+                 
+          </tr>
+  	<tr>
+		<td><span class="passCount">STRESS Value</span></td>
+		<td colspan="1"><span class="passCount">Total Execution Time / Total Error Num = 0.6</span></td>
+	</tr>
+</table>
+
+					</div>
+				</div>
+
+				<div class="main_down">
+					
+<div class="subtittle_down" >
+	Test Case Execute Detail
+	<span> Click the test case to view the detail steps</span>
+</div>
+<div class="tab">
+
+	
+	<div class="tab_on" id="Tab_1" onclick="showTab('1');">
+		938TV1_X43
+	</div>
+	
+</div>
+<div style="clear:both;"></div>
+
+<div class="tab_box" id="cont_1" >
+	<select id="mySelect_1" onchange="changeLoop(this.value,1)" autocomplete="off">
+		<option value="0" selected=true>Display All Loop Results</option>
+		
+		<option value="1">loop1</option>
+		
+	</select>
+	<br/>
+
+	<span class="showCaseText">Current Loop：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="1" checked="checked" onchange="changeData(this.value,1)">
+	<span class="inputText">All Test Cases&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="2" onchange="changeData(this.value,1)">
+	<span class="inputText">Case Failed&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="3" onchange="changeData(this.value,1)">
+	<span class="inputText">Case Pass&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="4" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:ANR&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="5" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:FC&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="6" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:Tombstone&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="7" onchange="changeData(this.value,1)">
+	<span class="inputText">Error:Reset&nbsp;</span></input>
+	<table id="showAll_1"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>No.</th><th>CASE NAME</th><th>CASE STEP</th><th>RESULT</th><th>RUN TIME</th><th>COMMENTS</th>
+		</tr>
+		
+		
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_1')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeDesktopSwitch#testDesktop</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testDesktop_20180816_141337" target="_blank">各个桌面切换</a></td>
+			<td>PASS</td>
+			<td>64.687</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_1" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.左右键切换桌面
+2.............looper : 0
+3.在桌面画面来回切换
+4.在桌面按主页键1次
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_2')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeAccount#testAccountLogin</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testAccountLogin_20180816_141548" target="_blank">删除、登录、乐视账号</a></td>
+			<td>PASS</td>
+			<td>130.868</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_2" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.launch app by package
+2.删除、登录、乐视账号 Loop 0
+3.已存在乐视帐号，退出登录
+4.使用账号密码登录
+5.launch app by package
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('938TV1_X43loop1_3')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeCalendar#testEntryCalendar</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testEntryCalendar_20180816_141847" target="_blank">多次进入日历界面显示</a></td>
+			<td>FAIL</td>
+			<td>47.365</td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_3" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.打开日历App
+2.launch app by package
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: Can not found 日历</span></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('938TV1_X43loop1_4')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeGallery#testSlideShow</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testSlideShow_20180816_142020" target="_blank">打开相册浏览切换</a></td>
+			<td>FAIL</td>
+			<td>48.726</td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_4" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入相册
+2.launch app by package
+3.相册从大到小排序
+4.进入一相册文件夹,选择一图片打开
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有进入相册</span></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_5')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeHousekeeper#testHousekeeper</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testHousekeeper_20180816_142149" target="_blank">打开电视管家并进入各模块</a></td>
+			<td>PASS</td>
+			<td>67.889</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_5" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入电视管家应用
+2.launch app by package
+3.............looper : 0
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('938TV1_X43loop1_6')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeMessage#testStatusBar</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testStatusBar_20180816_142348" target="_blank">进入状态栏消息</a></td>
+			<td>FAIL</td>
+			<td>22.838</td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_6" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1............looper:1
+2.进入状态栏
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: Attempt to invoke virtual method &#39;android.support.test.uiautomator.UiObject2 android.support.test.uiautomator.UiObject2.getParent()&#39; on a null object reference</span></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('938TV1_X43loop1_7')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeMessage#testMessage</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testMessage_20180816_142505" target="_blank">消息中心查看和删除消息</a></td>
+			<td>FAIL</td>
+			<td>48.468</td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_7" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入消息中心
+2........Loop0
+3.launch app by package
+4.消息查看
+5.消息删除
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 示进入取消</span></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_8')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeWeather#testWeatherApp</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testWeatherApp_20180816_142636" target="_blank">进入天气并切换城市</a></td>
+			<td>PASS</td>
+			<td>59.974</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_8" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1....................looper : 0
+2.打开应用桌面，进入天气应用
+3.launch app by package
+4.更新天气
+5.切换城市
+6.查看武汉的天气
+7.查看沈阳的天气
+8.退出天气应用
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_9')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeFeedback#testFeedbackLabel</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testFeedbackLabel_20180816_142820" target="_blank">问题反馈标签切换</a></td>
+			<td>PASS</td>
+			<td>35.669</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_9" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入问题反馈
+2.launch app by package
+3.........Loop0
+4.切换标签
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_10')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeFeedback#testFeedbackSubmitQuestion</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testFeedbackSubmitQuestion_20180816_142948" target="_blank">问题反馈提交问题</a></td>
+			<td>PASS</td>
+			<td>33.135</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_10" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入问题反馈
+2.launch app by package
+3..........Loop0
+4.进入提交问题
+5.问题描述
+6.提交问题
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_11')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeFeedback#testMySubitQuestion</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testMySubitQuestion_20180816_143101" target="_blank">问题反馈我的反馈</a></td>
+			<td>PASS</td>
+			<td>89.504</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_11" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入问题反馈
+2.launch app by package
+3..........Loop0
+4.进入我的反馈
+5.查出我的反馈状态
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_12')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeFeedback#testCommonProblem</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testCommonProblem_20180816_143315" target="_blank">问题反馈常见问题</a></td>
+			<td>PASS</td>
+			<td>58.409</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_12" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入问题反馈
+2.launch app by package
+3..........Loop0
+4.进入常见问题
+5.查看常见问题详情
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('938TV1_X43loop1_13')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeDownLoad#testLoadCenterAdd</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testLoadCenterAdd_20180816_143458" target="_blank">下载中心添加下载</a></td>
+			<td>FAIL</td>
+			<td>42.101</td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_13" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.进入到应用文件管理
+2.launch app by package
+3.进入远程存储SMB服务
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: Attempt to invoke virtual method &#39;void android.support.test.uiautomator.UiObject2.click()&#39; on a null object reference</span></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_14')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testSetting</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testSetting_20180816_143629" target="_blank">进入设置图像</a></td>
+			<td>PASS</td>
+			<td>42.75</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_14" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到桌面打开设置
+2.............looper : 0
+3.打开设置
+4.进入设置中的图像
+5.进入图像各功能
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_15')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testScreenSaver</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testScreenSaver_20180816_143758" target="_blank">设置屏幕保护</a></td>
+			<td>PASS</td>
+			<td>44.069</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_15" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入屏幕保护
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_16')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testAudioOutput</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testAudioOutput_20180816_143926" target="_blank">设置声音输出</a></td>
+			<td>PASS</td>
+			<td>16.238</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_16" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入系统设置
+3.进入系统设置中声音
+4.进入电视声音扬声器输出
+5.进入电视声音扬声器输出
+6.进入电视声音扬声器输出
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_17')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testSound_Mode</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testSound_Mode_20180816_144024" target="_blank">设置声音模式</a></td>
+			<td>PASS</td>
+			<td>22.725</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_17" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入系统设置
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_18')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testWallHangingtestBalance</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testWallHangingtestBalance_20180816_144138" target="_blank">设置声音音频平衡</a></td>
+			<td>PASS</td>
+			<td>89.181</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_18" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入设置声音
+3.进入声音壁挂音效
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_19')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testWifiSwitch</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testWifiSwitch_20180816_144351" target="_blank">设置网络打开关闭Wifi</a></td>
+			<td>PASS</td>
+			<td>64.894</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_19" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.打开设置-网络设置
+2.打开无线
+3.关闭无线
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_20')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testScreenInteraction</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testScreenInteraction_20180816_144550" target="_blank">设置多屏互动打开关闭</a></td>
+			<td>PASS</td>
+			<td>67.89</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_20" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.打开设置-网络设置
+2.打开互动
+3.关闭互动
+4.打开互动
+5.关闭互动
+6.打开互动
+7.关闭互动
+8.打开互动
+9.关闭互动
+10.打开互动
+11.关闭互动
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_21')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testTime24r</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testTime24r_20180816_144750" target="_blank">设置通用时间和语言_24小时制</a></td>
+			<td>PASS</td>
+			<td>19.407</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_21" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入系统设置
+3.进入系统设置中通用
+4.进入时间和语言
+5.进入24小时开启与关闭
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('938TV1_X43loop1_22')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.SmokeSetting#testsyteminfo</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testsyteminfo_20180816_144903" target="_blank">设置系统设置关于</a></td>
+			<td>PASS</td>
+			<td>24.662</td>
+			<td>
+			
+			
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_22" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>1.切换到应用桌面通过按键打开设置
+2.进入关于并查看
+</pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		<tr class="notrun" name="1" onclick="toggle('938TV1_X43loop1_23')">
+			<td name="index" class="index"></td><td>#/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testUnkownApp_20180816_145016</td>
+
+			<td><a href="/home/pc6/stress_Test/X32/x32_test/938TV1_X43/LOOP1/testUnkownApp_20180816_145016" target="_blank">case.log不存在</a></td>
+			<td>NOTRUN</td>
+			<td></td>
+			<td>
+			
+			
+			
+			
+			
+			<div name="other">
+				click to show the error log
+			</div></td>
+
+		</tr>
+
+		<tr id="938TV1_X43loop1_23" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre></pre></td>
+		<td 			valign="top" colspan="1"></td>
+		<td valign="top" colspan="1"></td>
+		</tr>
+		
+		
+		
+	</table>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+[511150.615296] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[511150.615314] CMA_Pool_Alloc:1528, heapid 19, flags=4, [24935,1758,name=MS_OMX_MessageH]
+[511150.627572] [35mmigration data is 0 kb[m
+[511150.632770] [35malloc_contig_range costs 9 ms[m
+[511150.632770] 
+[511150.669816] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[511150.669824] [35mCMA_POOL_IOC_ALLOC costs 54 ms[m
+[511150.669824] 
+[511150.669978] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[511150.956289] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511150.976907] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511150.985368] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511158.509274] [4423194249][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[511158.662781] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[511158.662792] CMA_Pool_Free:1961 heapid 19, [24935,1758,name=MS_OMX_MessageH]
+[511158.670674] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[511158.670681] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[511158.700110] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[511158.700119] [35mCMA_POOL_IOC_FREE costs 37 ms[m
+[511158.700119] 
+[511158.826085] init: Starting service 'cpudvfsscaling'...
+[511158.832942] init: Starting service 'gts_rules'...
+[511159.069780] init: Service 'gts_rules' (pid 24988) exited with status 0
+[511161.324579] init: Service 'cpudvfsscaling' is being killed...
+[511161.331457] init: Service 'cpudvfsscaling' (pid 24987) killed by signal 9
+[511161.338933] init: Starting service 'gts_rules'...
+[511161.632420] init: Service 'gts_rules' (pid 25024) exited with status 0
+[511162.172313] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[511162.172327] CMA_Pool_Alloc:1528, heapid 19, flags=4, [25063,1758,name=MS_OMX_MessageH]
+[511162.184811] [35mmigration data is 0 kb[m
+[511162.191657] [35malloc_contig_range costs 10 ms[m
+[511162.191657] 
+[511162.218656] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[511162.218665] [35mCMA_POOL_IOC_ALLOC costs 46 ms[m
+[511162.218665] 
+[511162.218801] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[511162.482421] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511162.511097] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511162.519883] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511162.778543] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[511162.778553] CMA_Pool_Free:1961 heapid 19, [25063,1758,name=MS_OMX_MessageH]
+[511162.786249] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[511162.786256] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[511162.811471] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[511162.811480] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[511162.811480] 
+[511163.053177] [4423195389][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[511170.811194] [4423197337][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[511175.657027] [4423198553][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[511184.243295] init: Starting service 'cpudvfsscaling'...
+[511184.250538] init: Starting service 'gts_rules'...
+[511184.524496] init: Service 'gts_rules' (pid 25151) exited with status 0
+[511189.266938] init: Service 'cpudvfsscaling' (pid 25149) exited with status 0
+[511195.256673] init: Starting service 'cpudvfsscaling'...
+[511195.262778] init: Starting service 'gts_rules'...
+[511195.499178] init: Service 'gts_rules' (pid 25188) exited with status 0
+[511196.522027] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[511200.309579] init: Service 'cpudvfsscaling' (pid 25187) exited with status 0
+[511200.784923] binder: release 24878:24885 transaction 233559657 in, still active
+[511200.785476] init: Untracked pid 24878 exited with status 0
+[511200.798470] binder: send failed reply for transaction 233559657 to 2207:3054
+[511200.806633] binder: 2207:2339 transaction failed 29189, size 80-0
+[511200.843165] binder: release 24886:24900 transaction 233559656 out, still active
+[511200.852828] binder: 2207:3054 transaction failed 29189, size 4-0
+[511200.859167] binder: send failed reply for transaction 233559656, target dead

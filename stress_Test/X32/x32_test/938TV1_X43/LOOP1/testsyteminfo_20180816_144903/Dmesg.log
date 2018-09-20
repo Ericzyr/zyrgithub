@@ -1,0 +1,18 @@
+[510969.648117] [4423146844][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[510976.972598] [4423148682][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[510978.460701] init: Starting service 'cpudvfsscaling'...
+[510978.468150] init: Starting service 'gts_rules'...
+[510978.769800] init: Service 'gts_rules' (pid 24324) exited with status 0
+[510983.544457] init: Service 'cpudvfsscaling' (pid 24323) exited with status 0
+[510986.818336] init: Starting service 'cpudvfsscaling'...
+[510986.826368] init: Starting service 'gts_rules'...
+[510987.041688] init: Service 'gts_rules' (pid 24363) exited with status 0
+[510991.864640] init: Service 'cpudvfsscaling' (pid 24359) exited with status 0
+[510992.367878] init: Untracked pid 24279 exited with status 0
+[510992.368540] binder: release 24279:24286 transaction 233475376 in, still active
+[510992.368545] binder: send failed reply for transaction 233475376 to 2207:2317
+[510992.369139] binder: 2207:2339 transaction failed 29189, size 80-0
+[510992.444067] binder: release 24288:24302 transaction 233475375 out, still active
+[510992.454584] binder: 2207:2317 transaction failed 29189, size 4-0
+[510992.461408] binder: send failed reply for transaction 233475375, target dead
+[511017.241866] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au

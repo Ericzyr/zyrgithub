@@ -1,0 +1,40 @@
+<6>[509339.405759] EXT4-fs (mmcblk0p14): re-mounted. Opts: (null)
+<12>[509343.961870] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[509350.813441] init: Starting service 'gts_rules'...
+<13>[509351.144153] init: Service 'gts_rules' (pid 15960) exited with status 0
+<13>[509355.879063] init: Service 'cpudvfsscaling' (pid 15959) exited with status 0
+<4>[509356.569287] [4422741955][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509356.576434] init: Starting service 'gts_rules'...
+<13>[509356.796005] init: Service 'gts_rules' (pid 16008) exited with status 0
+<13>[509361.761871] init: Starting service 'gts_rules'...
+<13>[509361.967351] init: Service 'gts_rules' (pid 16050) exited with status 0
+<4>[509364.290733] [4422743893][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509364.291489] init: Starting service 'gts_rules'...
+<13>[509364.583590] init: Service 'gts_rules' (pid 16073) exited with status 0
+<13>[509370.591202] init: Starting service 'gts_rules'...
+<13>[509370.771332] init: Service 'gts_rules' (pid 16114) exited with status 0
+<4>[509373.128775] [4422746111][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509373.139518] init: Starting service 'gts_rules'...
+<13>[509373.393998] init: Service 'gts_rules' (pid 16138) exited with status 0
+<13>[509378.216714] init: Starting service 'gts_rules'...
+<13>[509378.407509] init: Service 'gts_rules' (pid 16187) exited with status 0
+<13>[509381.018179] init: Service 'gts_rules' (pid 16210) exited with status 0
+<13>[509386.419449] init: Starting service 'gts_rules'...
+<13>[509386.722805] init: Service 'gts_rules' (pid 16280) exited with status 0
+<4>[509386.988276] [4422749590][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509387.007491] init: Starting service 'gts_rules'...
+<13>[509387.279207] init: Service 'gts_rules' (pid 16297) exited with status 0
+<13>[509392.261258] init: Service 'gts_rules' (pid 16330) exited with status 0
+<4>[509393.162562] [4422751140][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509397.106169] init: Service 'gts_rules' (pid 16369) exited with status 0
+<13>[509402.239216] init: Service 'gts_rules' (pid 16403) exited with status 0
+<13>[509402.618656] init: Starting service 'cpudvfsscaling'...
+<13>[509402.625098] init: Starting service 'gts_rules'...
+<13>[509402.894516] init: Service 'gts_rules' (pid 16423) exited with status 0
+<12>[509403.722087] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<6>[509408.326728] binder: release 15874:15908 transaction 233044742 in, still active
+<13>[509408.331380] init: Untracked pid 15874 exited with status 0
+<6>[509408.340180] binder: send failed reply for transaction 233044742 to 2207:3054
+<6>[509408.390199] binder: release 15883:15896 transaction 233044741 out, still active
+<6>[509408.399926] binder: 2207:3054 transaction failed 29189, size 4-0
+<6>[509408.406845] binder: send failed reply for transaction 233044741, target dead

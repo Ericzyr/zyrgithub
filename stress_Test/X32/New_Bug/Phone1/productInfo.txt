@@ -1,0 +1,4 @@
+product==x65Air
+product==x55Air
+projectname==938
+projectname==938ATV

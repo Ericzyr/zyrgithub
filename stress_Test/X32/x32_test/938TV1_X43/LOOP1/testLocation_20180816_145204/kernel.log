@@ -1,0 +1,33 @@
+<7>[511150.627572] [35mmigration data is 0 kb[m
+<7>[511150.632770] [35malloc_contig_range costs 9 ms[m
+<7>[511150.632770] 
+<4>[511150.976907] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+<4>[511150.985368] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+<4>[511158.509274] [4423194249][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<7>[511158.670674] [35mFunction = free_buffer_list, Line = 1854, free front[m
+<5>[511158.670681] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+<13>[511158.826085] init: Starting service 'cpudvfsscaling'...
+<13>[511158.832942] init: Starting service 'gts_rules'...
+<13>[511159.069780] init: Service 'gts_rules' (pid 24988) exited with status 0
+<13>[511161.632420] init: Service 'gts_rules' (pid 25024) exited with status 0
+<7>[511162.191657] [35malloc_contig_range costs 10 ms[m
+<7>[511162.191657] 
+<4>[511162.482421] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+<4>[511162.511097] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+<7>[511162.786249] [35mFunction = free_buffer_list, Line = 1854, free front[m
+<5>[511162.786256] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+<4>[511170.811194] [4423197337][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[511184.243295] init: Starting service 'cpudvfsscaling'...
+<13>[511184.250538] init: Starting service 'gts_rules'...
+<13>[511184.524496] init: Service 'gts_rules' (pid 25151) exited with status 0
+<13>[511189.266938] init: Service 'cpudvfsscaling' (pid 25149) exited with status 0
+<13>[511195.256673] init: Starting service 'cpudvfsscaling'...
+<13>[511195.499178] init: Service 'gts_rules' (pid 25188) exited with status 0
+<12>[511196.522027] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[511200.309579] init: Service 'cpudvfsscaling' (pid 25187) exited with status 0
+<6>[511200.784923] binder: release 24878:24885 transaction 233559657 in, still active
+<13>[511200.785476] init: Untracked pid 24878 exited with status 0
+<6>[511200.798470] binder: send failed reply for transaction 233559657 to 2207:3054
+<6>[511200.843165] binder: release 24886:24900 transaction 233559656 out, still active
+<6>[511200.852828] binder: 2207:3054 transaction failed 29189, size 4-0
+<6>[511200.859167] binder: send failed reply for transaction 233559656, target dead

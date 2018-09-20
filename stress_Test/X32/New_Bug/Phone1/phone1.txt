@@ -1,0 +1,3 @@
+ro.product.model X4-43 Letv Max4-70  LeTVX60 Letv X50 Air Letv X3-55 Pro Letv X3-55 Letv S40 Air X4_50Pro X4_50
+ro.product.uitype atv_us cibn full
+ro.product.device DemeterFHD Max4_70 msm8960 mstarnapoli_4k2k X3_55Pro X3_55 mstarnapoli X4_50Pro X4_50

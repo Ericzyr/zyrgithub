@@ -1,0 +1,22 @@
+[509252.392994] [4422715806][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509261.416129] init: Starting service 'cpudvfsscaling'...
+[509261.427153] init: Starting service 'gts_rules'...
+[509261.746759] init: Service 'gts_rules' (pid 15422) exited with status 0
+[509266.467781] init: Service 'cpudvfsscaling' (pid 15419) exited with status 0
+[509267.123001] [4422719503][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509272.426863] binder: 15405:15413 refcount change on invalid ref 40
+[509284.201997] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[509292.024990] binder: 15405:15475 refcount change on invalid ref 40
+[509292.034373] binder: 15405:15475 refcount change on invalid ref 40
+[509292.041689] binder: transaction release 232975378 bad handle 40
+[509294.125197] init: Starting service 'cpudvfsscaling'...
+[509294.137541] init: Starting service 'gts_rules'...
+[509294.327876] init: Service 'gts_rules' (pid 15684) exited with status 0
+[509299.178926] init: Service 'cpudvfsscaling' (pid 15683) exited with status 0
+[509299.829420] binder: release 15351:15632 transaction 232992561 in, still active
+[509299.829920] init: Untracked pid 15351 exited with status 0
+[509299.843008] binder: send failed reply for transaction 232992561 to 2207:3053
+[509299.854128] binder: 2207:2339 transaction failed 29189, size 80-0
+[509299.874221] binder: release 15359:15372 transaction 232992559 out, still active
+[509299.919797] binder: 2207:3053 transaction failed 29189, size 4-0
+[509299.927319] binder: send failed reply for transaction 232992559, target dead

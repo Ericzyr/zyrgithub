@@ -1,0 +1,23 @@
+<4>[509628.044915] [4422810096][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509637.000879] init: Starting service 'gts_rules'...
+<13>[509637.303843] init: Service 'gts_rules' (pid 17723) exited with status 0
+<13>[509642.037643] init: Service 'cpudvfsscaling' (pid 17722) exited with status 0
+<12>[509642.761878] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<4>[509646.067491] [4422814620][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[509653.584118] [4422816506][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509654.183615] init: Starting service 'gts_rules'...
+<13>[509654.361694] init: Service 'gts_rules' (pid 17875) exited with status 0
+<6>[509655.060113] binder: 2207:2207 transaction failed 29189, size 100-0
+<13>[509658.391180] init: Service 'gts_rules' (pid 17915) exited with status 0
+<4>[509665.093648] [4422819395][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509665.726694] init: Starting service 'gts_rules'...
+<13>[509665.917321] init: Service 'gts_rules' (pid 17957) exited with status 0
+<6>[509666.561655] binder: 2207:2207 transaction failed 29189, size 100-0
+<13>[509670.779652] init: Starting service 'gts_rules'...
+<13>[509670.996098] init: Service 'gts_rules' (pid 18008) exited with status 0
+<13>[509679.294530] init: Starting service 'gts_rules'...
+<13>[509679.507848] init: Service 'gts_rules' (pid 18056) exited with status 0
+<6>[509685.767717] binder: release 17655:17670 transaction 233120145 out, still active
+<6>[509685.778009] binder: 2207:2748 transaction failed 29189, size 4-0
+<6>[509685.784488] binder: send failed reply for transaction 233120145, target dead
+<13>[509685.977879] init: Untracked pid 17645 exited with status 0

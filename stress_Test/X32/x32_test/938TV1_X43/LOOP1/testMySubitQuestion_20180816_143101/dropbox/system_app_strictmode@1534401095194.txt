@@ -1,0 +1,36 @@
+Process: com.stv.feedback
+Flags: 0x38a8be45
+Package: com.stv.feedback v1 (1.0.0)
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+System-App: true
+Uptime-Millis: 511956589
+Loop-Violation-Number: 1
+Duration-Millis: 22
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=2621447 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1263)
+	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:292)
+	at java.io.File.length(File.java:722)
+	at android.media.SoundPool.load(SoundPool.java:220)
+	at letv.util.SoundEffectUtil.init(SoundEffectUtil.java:119)
+	at eui.tv.widget.BrowseView.onWindowVisibilityChanged(BrowseView.java:567)
+	at android.view.View.dispatchWindowVisibilityChanged(View.java:9649)
+	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1305)
+	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1309)
+	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1309)
+	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1309)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1388)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1112)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6023)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:974)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:786)
+	at android.view.Choreographer.doFrame(Choreographer.java:704)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:960)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5423)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+

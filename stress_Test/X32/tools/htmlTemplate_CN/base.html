@@ -1,0 +1,582 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+	<head>
+		<title>自动化冒烟测试结果</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="测试报告" />
+
+		<style type="text/css">
+			/*css reset code */
+
+			/****  文字大小初始化,使1em=10px *****/
+			body {
+				font-size: 62.5%;
+			}/* for IE/Win */
+			html > body {
+				font-size: 10px;
+			}/* for everything else */
+
+			/*字体边框等初始化*/
+			body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+				padding: 0;
+				margin: 0;
+			}
+			pre{
+				white-space:pre-wrap;
+				word-wrap:break-word;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			fieldset, img {
+				border: 0;
+			}
+			img {
+				display: block;
+			}
+			address, caption, cite, code, dfn, th, var {
+				font-weight: normal;
+				font-style: normal;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			caption, th {
+				text-align: left;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: normal;
+				font-size: 100%;
+			}
+			q:before, q:after {
+				content: '';
+			}
+			abbr, acronym {
+				border: 0;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			/*-----以下是报告样式*/
+
+			body {
+
+				color: #4f6b72;
+				background: #eff0f0;
+			}
+			.container {
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			.header {
+				/* background: #DDDDDD; */
+				height: 40px;
+				width: 1210px;
+				margin: 30px 0px 20px 0px;
+				border-radius: 15px 15px 15px 15px;
+				/* box-shadow: 3px 3px 4px #818181; */
+
+			}
+
+			.header span {
+				margin: 0px 0px 0px 10px;
+				font-size: 30px;
+				line-height: 60px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: #CC0000;
+				font-weight: bold;
+			}
+
+			.header a {
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 95px;
+				margin-left: 460px;
+			}
+			.header a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.header a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.header a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.main {
+				width: 1200px;
+				margin: 10px 0px 10px 0px;
+			}
+
+			.subtittle_up {
+				width: 850px;
+				height: 30px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down {
+				width: 1150px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				height: 30px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down span {
+				margin-left: 20px;
+				font-size: 15px;
+				color: #CC0000;
+			}
+
+			.summary_table {
+				border: 5px solid white;
+				margin: 0px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.summary_table tr {
+				border: 1px solid #a5ada2;
+			}
+
+			.summary_table td {
+				border: 1px solid #a5ada2;
+				padding: 2px 10px 2px 10px;
+				background-color: #faf9ec;
+				font-weight: bold;
+				font-size: 13px;
+				text-align: center;
+			}
+
+			.summary_table td a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.summary_table th {
+				border: 1px solid #a5ada2;
+				padding: 3px 10px 3px 10px;
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				/*line-height: 36px;*/
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.summary_table tr td:first-child {
+				background-color: #a9c79b;
+				font-weight: bold;
+				color: white;
+				font-size: 15px;
+			}
+			.planCount {
+				color: blue;
+			}
+
+			.execCount {
+				color: green;
+			}
+
+			.noRunCount {
+				color: red;
+			}
+
+			.passCount {
+				color: green;
+			}
+
+			.failCount {
+				color: red;
+			}
+
+			.tab_box select {
+				margin-left: 25px;
+				margin: 10px 25px;
+			}
+
+			.showCaseText {
+				margin-left: 25px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+			.inputText {
+				margin-left: 3px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.main_down {
+				margin-top: 10px;
+			}
+
+			.caseTable {
+				border: 5px solid white;
+				margin: 15px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.caseTable tr {
+				border: 1px solid white;
+				margin: 0px 0px 0px 20px;
+			}
+
+			.caseTable td {
+				font-size: 13px;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				text-align: left;
+			}
+
+			.caseTable th {
+				font-size: 15px;
+				text-align: center;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				background: #a1a1a1;
+				font-weight: bold;
+				color: white;
+			}
+			.fail td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.ANR td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.FC td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Tombstone td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.Reset td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.pass td {
+				background: #648566;
+				color: white;
+				font-weight: bold;
+			}
+			#tailer {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			#tailer span {
+				margin-top: 10px;
+				font-size: 12px;
+				line-height: 40px;
+				color: #4e4c4d;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+			}
+			.tab_on {
+				float: left;
+				background: #e3e3e3;
+				padding: 0 10px;
+				border-top: ridge;
+				border-top-color: brown;
+			}
+			.tab_off {
+				float: left;
+				cursor: pointer;
+				text-align: center;
+				padding: 0 10px;
+			}
+			.tab_off:hover {
+				background: #e3e3e3;
+			}
+			.tab {
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				line-height: 36px;
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold
+			}
+			.tab_box {
+				padding-top: 10px;
+				line-height: 20px;
+				padding: 5px;
+				background: #e3e3e3;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+			function changeLoop(selectValue, device) {
+
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+
+				if (selectValue == 0) {
+					var list = document.getElementById("showAll_" + device);
+					//获取检索范围
+					var countLoop0 = 1;
+					var str = list.getElementsByTagName("tr");
+					//获取检索内容块
+					for (var i = 0; i < str.length; i++) {//遍历内容块
+						str[i].style.display = "table-row";
+						//重新定义序号
+						if (i != 0 && str[i].className != "faildetail") {
+							var td_index = str[i].cells[0];
+							td_index.innerHTML = countLoop0;
+							countLoop0++;
+						}
+					}
+
+				} else {
+					var countother = 1;
+					var list = document.getElementById("showAll_" + device);
+					//获取id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取showAll的行
+					for (var i = 1; i < str.length; i++) {//遍历所有的行
+						if (str[i].getAttribute("name") == selectValue) {//如果当前行的为选中显示的loop
+							str[i].style.display = "table-row";
+							//显示出当前行
+
+							//重新定义序号
+							if (i != 0 && str[i].className != "faildetail") {//i=0时的行为表头不需要添加序号
+								var td_index = str[i].cells[0];
+								td_index.innerHTML = countother;
+								countother++;
+							}
+
+						} else {//不为当前选中的loop的行就不显示
+							str[i].style.display = "none";
+						}
+
+					}
+
+				}
+				for (var i = 0; i < faildetailCount; i++) {//所有失败后行的casedetail的详细信息默认不显示
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+				
+			    radioChecked = document.getElementsByName("showCaseCase_"+device);  
+			    for (var i=0; i<radioChecked.length; i++){  
+			        if (radioChecked[i].value=="1") {  
+			            radioChecked[i].checked= true;  
+			            break;  
+			        }  
+			    }  
+			}
+
+			function changeData(selectValue, device) {
+				var currentLoop = document.getElementById("mySelect_" + device).value;
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+				var countLoop0 = 1;
+				var countother = 1;
+				for (var i = 0; i < caseCount; i++) {
+					var list = document.getElementById("showAll_" + device);
+					//获取到id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取到table里的行
+
+					for (var i = 1; i < str.length; i++) {//遍历所有行
+
+						if (currentLoop == 0) {//当前loop为0默认是显示所有loop
+							if (selectValue == 1) {//selectValue是显示所有case（pass and fail）
+								str[i].style.display = "table-row";
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countLoop0;
+									countLoop0++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {//只显示fail的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {//只显示pass的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {//只显示ANR的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {//只显示FC的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {//只显示Tombstone的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {//只显示Reset的case
+								str[i].style.display = "table-row";
+							}else {
+								str[i].style.display = "none";
+							}
+
+						} else if (str[i].getAttribute("name")  == currentLoop) {//显示其他loop
+
+							if (selectValue == 1) {
+								str[i].style.display = "table-row";
+
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countother;
+									countother++;
+								}
+							} else if (selectValue == 2 && str[i].className == "fail") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "ANR") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 5 && str[i].className == "FC") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 6 && str[i].className == "Tombstone") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 7 && str[i].className == "Reset") {
+								str[i].style.display = "table-row";
+							} else {
+								str[i].style.display = "none";
+							}
+
+						}
+
+					}
+
+				}
+
+				for (var i = 0; i < faildetailCount; i++) {
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+
+			}
+
+			function showTab(id) {
+				longth = document.getElementsByClassName('tab')[0].getElementsByTagName('div').length;
+				for (var i = 1; i <= longth; i++) {
+					if (id == i) {
+						document.getElementById('Tab_' + i).className = 'tab_on';
+						document.getElementById('cont_' + i).style.display = '';
+					} else {
+						document.getElementById('Tab_' + i).className = 'tab_off';
+						document.getElementById('cont_' + i).style.display = 'none';
+					}
+				}
+			}
+
+			function toggle(id) {
+
+				var tb = document.getElementById(id);
+
+				if (tb.style.display == 'none')
+					tb.style.display = 'table-row';
+				else
+					tb.style.display = 'none';
+			}
+			
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				table = document.getElementsByClassName("caseTable");
+				for (var i = 0; i < table.length; i++) {
+					trs = table[i].getElementsByTagName("tr");
+					//获取showAll的行
+					countother = 1;
+					for (var j = 0; j < trs.length; j++) {//遍历所有的行
+						//重新定义序号
+						if (j != 0 && trs[j].className != "faildetail") {//i=0时的行为表头不需要添加序号
+							td_index = trs[j].cells[0];
+							td_index.innerHTML = countother;
+							countother++;
+						}
+					}
+				}
+				
+				//计算Total数值
+			});
+		</script>
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="header">
+
+				<span>LETV测试中心自动化测试报告</span>
+
+				<a class="clr" href="http://tc.letv.leshiren.com/index" target="_blank"
+				>启动新测试(乐视致新自动化管理系统)</a>
+
+			</div>
+
+			<hr color=#CC0000 SIZE=3>
+			<div class="main">
+				<div class="main_up">
+					<div class="subtittle_up" >
+						测试结果总结
+					</div>
+
+					<div>
+						{% block summary %}{% endblock %}
+					</div>
+				</div>
+
+				<div class="main_down">
+					{% block entry %}{% endblock %}
+				</div>
+			</div>
+		</div>
+		<div id="tailer">
+			<hr color=#CC0000 SIZE=2>
+			<span> &copy; 2014-2014 乐视致新测试中心自动化测试组
+				联系方式：<a href="mailto:lihaibo@letv.com">lihaibo@letv.com</a>李海波</span>
+		</div>
+	</body>
+</html>

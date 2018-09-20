@@ -1,0 +1,7 @@
+<4>[510218.664347] [4422958344][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510223.585691] [4422959579][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<6>[510259.359609] binder: release 21317:21343 transaction 233301876 in, still active
+<13>[510259.359900] init: Untracked pid 21317 exited with status 0
+<6>[510259.372731] binder: send failed reply for transaction 233301876 to 2207:2317
+<6>[510259.419580] binder: release 21326:21339 transaction 233301875 out, still active
+<6>[510259.434652] binder: send failed reply for transaction 233301875, target dead

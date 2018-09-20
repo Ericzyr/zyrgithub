@@ -1,0 +1,61 @@
+<6>[510656.141371] EXT4-fs (mmcblk0p14): re-mounted. Opts: (null)
+<12>[510658.682017] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<4>[510661.468871] [4423069490][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[510663.799034] init: Starting service 'gts_rules'...
+<13>[510664.101393] init: Service 'gts_rules' (pid 23251) exited with status 0
+<13>[510668.884359] init: Service 'cpudvfsscaling' (pid 23250) exited with status 0
+<4>[510680.680657] andes_suspend_CR_setting: 0ms for waiting UDMA EP4 Tx empty
+<4>[510680.688872] andes_suspend_CR_setting: 0ms for waiting UDMA EP5 Tx empty
+<4>[510680.696696] andes_suspend_CR_setting: 0ms for waiting UDMA EP6 Tx empty
+<4>[510680.704832] andes_suspend_CR_setting: 0ms for waiting UDMA EP7 Tx empty
+<4>[510680.712655] andes_suspend_CR_setting: 0ms for waiting UDMA EP8 Tx empty
+<4>[510680.722922] andes_suspend_CR_setting: 0ms for waiting UDMA EP9 Tx empty
+<4>[510680.730716] andes_suspend_CR_setting: 0ms for waiting UDMA Tx empty
+<4>[510680.738187] andes_suspend_CR_setting: 0ms for waiting FCE Tx1 empty
+<4>[510680.745649] andes_suspend_CR_setting: 0ms for waiting FCE Tx2 empty
+<4>[510680.752015] andes_suspend_CR_setting: Disable MAC Tx
+<4>[510680.758322] andes_suspend_CR_setting: 0ms for waiting MAC Tx idle
+<4>[510680.764513] andes_suspend_CR_setting: Disable MAC Rx
+<4>[510680.778060] andes_suspend_CR_setting: 0ms for waiting PBF Rx empty
+<4>[510680.785403] andes_suspend_CR_setting: 0ms for waiting FCE Rx1 queue empty
+<4>[510680.793350] andes_suspend_CR_setting: 0ms for waiting UDMA EP2 Rx queue empty
+<4>[510680.801672] andes_suspend_CR_setting: 0ms for waiting UDMA EP3 Rx empty
+<4>[510680.809488] andes_suspend_CR_setting: 0ms for waiting UDMA EP4 Rx queue empty
+<4>[510680.817784] andes_suspend_CR_setting: 0ms for waiting UDMA EP5 Rx queue empty
+<4>[510680.827082] tx_kickout_fail_count = 0
+<4>[510680.830850] tx_timeout_fail_count = 0
+<4>[510680.834586] rx_receive_fail_count = 0
+<4>[510680.838336] alloc_cmd_msg = 8899155
+<4>[510680.841918] free_cmd_msg = 8899155
+<4>[510680.899928] RTMP_TimerListRelease: release timer obj ffffff8006aa6a88!
+<4>[510680.906543] RTMP_TimerListRelease: release timer obj ffffff8006aa6ae8!
+<4>[510680.913157] RTMP_TimerListRelease: release timer obj ffffff8006aa6b48!
+<4>[510680.919761] RTMP_TimerListRelease: release timer obj ffffff8006aa6a28!
+<4>[510680.926382] RTMP_TimerListRelease: release timer obj ffffff8006aa6908!
+<4>[510680.933014] RTMP_TimerListRelease: release timer obj ffffff8006aa6968!
+<4>[510680.939634] RTMP_TimerListRelease: release timer obj ffffff8006a20e38!
+<4>[510680.946245] RTMP_TimerListRelease: release timer obj ffffff8006a0f488!
+<4>[510680.952865] RTMP_TimerListRelease: release timer obj ffffff8006a0f4f0!
+<4>[510680.959472] RTMP_TimerListRelease: release timer obj ffffff8006a20f78!
+<4>[510680.966092] RTMP_TimerListRelease: release timer obj ffffff8006a20d78!
+<4>[510680.972713] RTMP_TimerListRelease: release timer obj ffffff8006a20f18!
+<4>[510680.979338] RTMP_TimerListRelease: release timer obj ffffff8006aa69c8!
+<4>[510680.985955] RTMP_TimerListRelease: release timer obj ffffff8006a0d4e8!
+<4>[510680.992569] RTMP_TimerListRelease: release timer obj ffffff8006a0d488!
+<4>[510680.999178] RTMP_TimerListRelease: release timer obj ffffff8006a0d548!
+<4>[510681.005791] RTMP_TimerListRelease: release timer obj ffffff8006a0d428!
+<4>[510681.012401] RTMP_TimerListRelease: release timer obj ffffff8006be99a0!
+<4>[510681.025627] RTMP_TimerListRelease: release timer obj ffffff8006be9a60!
+<13>[510681.041439] init: Service 'startSuppl' (pid 3216) exited with status 0
+<13>[510716.562459] init: Starting service 'cpudvfsscaling'...
+<13>[510716.571715] init: Starting service 'gts_rules'...
+<13>[510716.761041] init: Service 'gts_rules' (pid 23442) exited with status 0
+<12>[510718.441999] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[510721.601543] init: Service 'cpudvfsscaling' (pid 23440) exited with status 0
+<6>[510722.230955] binder: release 23197:23204 transaction 233406806 in, still active
+<13>[510722.231465] init: Untracked pid 23197 exited with status 0
+<6>[510722.244598] binder: send failed reply for transaction 233406806 to 2207:14678
+<6>[510722.254235] binder: 2207:2339 transaction failed 29189, size 80-0
+<6>[510722.300877] binder: release 23206:23220 transaction 233406805 out, still active
+<6>[510722.311440] binder: 2207:14678 transaction failed 29189, size 4-0
+<6>[510722.318913] binder: send failed reply for transaction 233406805, target dead

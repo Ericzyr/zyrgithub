@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+
+{% block summary %}
+<table class="summary_table">
+	<tr>
+		<th>MTBF测试结果</th>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<th>{{device.phoneName}}</th>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>软件版本</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.release}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>版本发布时间</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.buildDate}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>测试启动时间</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.startTime}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>测试停止时间</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.EndTime}}</td>
+		{% endfor %}
+	</tr>	
+	<tr>
+		<td>总执行时间</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.exeTime}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>ANR</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.ANR == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.ANR}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Tombstone</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.Tombstone == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.Tombstone}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Force Close</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.FC == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.FC}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>TV Reboot</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.Reset == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.Reset}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td><span class="{% if totalError == 0 %}passCount{% else %}failCount{% endif %}">Rack故障数</span></td>
+		<td colspan="{{testresult|length}}"><span class="{% if totalError == 0 %}passCount{% else %}failCount{% endif %}">{{totalError}}</span></td>
+	</tr>
+        <tr>
+                 <td>Case Pass Rate</td>
+                 {% for device in testresult|dictsort:"phoneName" %}
+                 <td><span class="passCount">{{device.summary.Pass}}/{{device.summary.Exce}}={{device.summary.Rate}}%</span></td>
+                 {% endfor %}
+          </tr>
+  	<tr>
+		<td><span class="passCount">MTBF Value</span></td>
+		<td colspan="{{testresult|length}}"><span class="passCount">所有终端运行总时间 / 所有终端故障总数 = {{mtbfValue}}</span></td>
+	</tr>
+</table>
+{% endblock %}
+
+{% block entry %}
+
+<div class="subtittle_down" >
+	测试用例执行详情
+	<span> 单击具体用例可以查看用例详细步骤 </span>
+</div>
+<div class="tab">
+
+	{% for device in testresult|dictsort:"phoneName" %}
+	<div class="{% if forloop.first %}tab_on{% else %}tab_off{% endif %}" id="Tab_{{forloop.counter}}" onclick="showTab('{{forloop.counter}}');">
+		{{device.phoneName}}
+	</div>
+	{% endfor %}
+</div>
+<div style="clear:both;"></div>
+{% for device in testresult|dictsort:"phoneName" %}
+<div class="tab_box" id="cont_{{forloop.counter}}" {% if not forloop.first %}style="display: none"{% endif %}>
+	<select id="mySelect_{{forloop.counter}}" onchange="changeLoop(this.value,{{forloop.counter}})" autocomplete="off">
+		<option value="0" selected=true>显示全部Loop结果</option>
+		{% for loop in device.phoneData %}
+		<option value="{{forloop.counter}}">{{loop.loopName}}</option>
+		{% endfor %}
+	</select>
+	<br/>
+
+	<span class="showCaseText">当前loop用例显示方式：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="1" checked="checked" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">显示全部的测试用例&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="2" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">仅显示失败的用例&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="3" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">仅显示成功的用例&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="4" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:ANR&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="5" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:FC&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="6" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:Tombstone&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="7" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:Reset&nbsp;</span></input>
+	<table id="showAll_{{forloop.counter}}"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>序号</th><th>用例方法</th><th>用例中文描述</th><th>测试结果</th><th>用例执行时间</th><th>备注</th>
+		</tr>
+		{% for loop in device.phoneData %}
+		{% with entryid=device.phoneName|add:loop.loopName %}
+		{% for entry in loop.loopData %}
+		<tr class="{{entry.ispass}}" name="{{forloop.parentloop.counter}}" onclick="toggle('{{entryid}}_{{forloop.counter}}')">
+			<td name="index" class="index"></td><td>{{entry.caseclass}}{% if entry.casename %}#{% endif %}{{entry.casename}}</td>
+
+			<td><a href="{{entry.caseurl}}" target="_blank">{{entry.casechname}}</a></td>
+			<td>{{entry.ispass|upper}}</td>
+			<td>{{entry.exetime}}</td>
+			<td> 
+			{% if entry.fcCount != 0 %}
+			<div name="fc">
+				FC：{{entry.fcCount}}
+			</div>{% endif %}
+			{% if entry.resetCount != 0 %}
+			<div name="rs">
+				RESET：{{entry.resetCount}}
+			</div>{% endif %}
+			{% if entry.tombstoneCount != 0 %}
+			<div name="tb">
+				TOMBSTONE：{{entry.tombstoneCount}}
+			</div>{% endif %}
+			{% if entry.anrCount != 0 %}
+			<div name="anr">
+				ANR：{{entry.anrCount}}
+			</div>{% endif %}
+			{% if entry.ispass != "pass" and entry.fcCount == 0 and entry.tombstoneCount == 0 and entry.anrCount == 0 %}
+			<div name="other">
+				具体错误原因分析log
+			</div>{% endif %}</td>
+
+		</tr>
+
+		<tr id="{{entryid}}_{{forloop.counter}}" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>{{entry.casestep}}{% if entry.failreason %}<span style="color:#FF0000">{{entry.failreason}}</span>{% endif %}</pre></td><td valign="top" colspan="1">{% if entry.screencap %}<a href="{{entry.caseurl}}/{{entry.screencap}}" target="_blank">屏幕截图</a>{% endif %}</td><td valign="top" colspan="1">{% if entry.logstack %}<a href="{{entry.caseurl}}/{{entry.logstack}}" target="_blank">Error关键Log字段：点击打开</a>{% endif %}</td>
+		</tr>
+		{% endfor %}
+		{% endwith %}
+		{% endfor %}
+	</table>
+</div>
+{% endfor %}
+{% endblock %}
+{% debug %}

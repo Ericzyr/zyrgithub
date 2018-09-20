@@ -1,0 +1,34 @@
+
+
+
+User 9%, System 6%, IOW 0%, IRQ 2%
+User 115 + Nice 0 + Sys 79 + Idle 992 + IOW 0 + IRQ 0 + SIRQ 30 = 1216
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 4071  0   6% S    81 1001232K  41704K  bg system   com.stv.smartControl
+ 1803  3   2% S    62 1715864K  22772K  fg root     /applications/bin/tvos
+ 2207  0   1% S   104 2344624K 116976K  fg system   system_server
+ 3252  0   0% S     1      0K      0K  fg root     RtmpMlmeTask
+ 1774  3   0% S     4  29564K   3616K  fg system   /system/bin/sensorservice
+ 3007  0   0% S   175 1968564K 355056K  fg system   com.stv.launcher
+ 3216  1   0% S     1   8964K   3048K  fg wifi     wpa_supplicant
+ 1758  1   0% S    28 830500K  16892K  fg media    /system/bin/mediaserver
+21278  1   0% R     1   3588K   1084K  fg root     top
+21177  0   0% S     1      0K      0K  fg root     kworker/0:2
+
+
+
+User 6%, System 7%, IOW 0%, IRQ 1%
+User 75 + Nice 1 + Sys 88 + Idle 1034 + IOW 2 + IRQ 0 + SIRQ 14 = 1214
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 4071  3   4% S    80 1000200K  41520K  bg system   com.stv.smartControl
+ 1803  3   1% S    62 1715864K  22772K  fg root     /applications/bin/tvos
+ 1774  3   0% S     4  29564K   3616K  fg system   /system/bin/sensorservice
+ 1749  1   0% S    28 631752K  22776K  fg system   /system/bin/surfaceflinger
+ 3007  0   0% S   175 1968564K 355056K  fg system   com.stv.launcher
+ 1758  1   0% S    28 830500K  16892K  fg media    /system/bin/mediaserver
+21177  0   0% S     1      0K      0K  fg root     kworker/0:2
+ 2837  1   0% S    50 940840K  35604K  bg system   com.stv.reportlog
+ 2207  0   0% S   104 2344624K 116976K  fg system   system_server
+ 1075  3   0% S     1      0K      0K  fg root     irq/42-scaler

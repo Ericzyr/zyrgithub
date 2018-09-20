@@ -1,0 +1,39 @@
+Process: com.android.gallery3d
+Flags: 0x1898bc45
+Package: com.android.gallery3d v1 (1.0.0)
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+System-App: true
+Uptime-Millis: 513322687
+
+java.lang.Throwable: Explicit termination method 'end' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:180)
+	at java.util.zip.Inflater.<init>(Inflater.java:82)
+	at java.util.zip.ZipFile.getInputStream(ZipFile.java:343)
+	at java.util.jar.JarFile.getInputStream(JarFile.java:390)
+	at libcore.net.url.JarURLConnectionImpl.getInputStream(JarURLConnectionImpl.java:222)
+	at java.net.URL.openStream(URL.java:470)
+	at java.lang.ClassLoader.getResourceAsStream(ClassLoader.java:444)
+	at java.lang.Class.getResourceAsStream(Class.java:1169)
+	at net.sourceforge.pinyin4j.ResourceHelper.getResourceInputStream(Unknown)
+	at net.sourceforge.pinyin4j.ChineseToPinyinResource.initializeResource(Unknown)
+	at net.sourceforge.pinyin4j.ChineseToPinyinResource.<init>(Unknown)
+	at net.sourceforge.pinyin4j.ChineseToPinyinResource.<init>(Unknown)
+	at net.sourceforge.pinyin4j.ChineseToPinyinResource$ChineseToPinyinResourceHolder.<clinit>(Unknown)
+	at net.sourceforge.pinyin4j.ChineseToPinyinResource.getInstance(Unknown)
+	at net.sourceforge.pinyin4j.PinyinHelper.getUnformattedHanyuPinyinStringArray(Unknown)
+	at net.sourceforge.pinyin4j.PinyinHelper.toHanyuPinyinStringArray(Unknown)
+	at com.android.gallery3d.util.FileSortHelper.pinyin(FileSortHelper.java:25)
+	at com.android.gallery3d.util.FileSortHelper$ComparatorZtoA.compare(FileSortHelper.java:302)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:320)
+	at java.util.TimSort.sort(TimSort.java:185)
+	at java.util.Arrays.sort(Arrays.java:1998)
+	at java.util.Collections.sort(Collections.java:1900)
+	at com.android.gallery3d.data.LocalAlbumSet$AlbumsLoader.run(LocalAlbumSet.java:532)
+	at com.android.gallery3d.data.LocalAlbumSet$AlbumsLoader.run(LocalAlbumSet.java:479)
+	at com.android.gallery3d.util.ThreadPool$Worker.run(ThreadPool.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+	at com.android.gallery3d.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:43)
+
+A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.

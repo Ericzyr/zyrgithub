@@ -1,0 +1,35 @@
+remount succeeded
+14 KB/s (615 bytes in 0.040s)
+101 KB/s (4300 bytes in 0.041s)
+971 KB/s (41371 bytes in 0.041s)
+	pkg: /data/local/tmp/Utf7Ime.apk
+Success
+Input method com.android.testing.dummyime/.DummyIme: already enabled
+Input method com.android.testing.dummyime/.DummyIme selected
+Broadcasting: Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/sdcard/filemanager }
+Broadcast completed: result=0
+md5sum: ../twqrqer/938TV1/app-debug-androidTest.apk: 没有那个文件或目录
+Loop 1
+reconnect
+adb devices
+List of devices attached 
+10.75.111.75:5555	device
+
+reconnect1
+reconnect 0 times, connected!!! continue!!!
+=============================== copy MTBF code from server =============================
+WARNING: The "syslog" option is deprecated
+Domain=[WORKGROUP] OS=[Windows 6.1] Server=[Samba 4.3.9-Ubuntu]
+getting file \MTBFAPK\TVAPK\CN\app-debug.apk of size 1538666 as app-debug.apk (11297.8 KiloBytes/sec) (average 11297.8 KiloBytes/sec)
+getting file \MTBFAPK\TVAPK\CN\app-debug-androidTest.apk of size 85363 as app-debug-androidTest.apk (9262.4 KiloBytes/sec) (average 11168.8 KiloBytes/sec)
+area=CN
+2749 KB/s (1538666 bytes in 0.546s)
+366 KB/s (85363 bytes in 0.227s)
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+	pkg: /data/local/tmp/app-debug.apk
+Success
+	pkg: /data/local/tmp/app-debug-androidTest.apk
+Success
+remount succeeded
+

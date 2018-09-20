@@ -1,0 +1,18 @@
+<13>[509739.267521] init: Starting service 'cpudvfsscaling'...
+<13>[509739.275879] init: Starting service 'gts_rules'...
+<6>[509740.942854] binder: 2207:2207 transaction failed 29189, size 100-0
+<13>[509744.348598] init: Service 'cpudvfsscaling' (pid 18315) exited with status 0
+<4>[509744.478022] [4422839321][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[509759.073834] init: Starting service 'gts_rules'...
+<13>[509759.301902] init: Service 'gts_rules' (pid 18489) exited with status 0
+<6>[509759.951181] binder: undelivered transaction 233143499
+<6>[509759.962204] binder: 2207:2207 transaction failed 29189, size 100-0
+<6>[509759.970894] binder: 2207:2207 transaction failed 29189, size 100-0
+<12>[509762.282116] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[509764.114024] init: Service 'cpudvfsscaling' (pid 18488) exited with status 0
+<6>[509764.825849] binder: release 18246:18252 transaction 233145838 in, still active
+<6>[509764.834026] binder: send failed reply for transaction 233145838 to 2207:2316
+<13>[509764.834411] init: Untracked pid 18246 exited with status 0
+<6>[509764.898835] binder: release 18254:18267 transaction 233145835 out, still active
+<6>[509764.908572] binder: 2207:2316 transaction failed 29189, size 4-0
+<6>[509764.914787] binder: send failed reply for transaction 233145835, target dead

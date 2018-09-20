@@ -1,0 +1,47 @@
+#!/bin/sh
+device1="10.58.83.32"
+#device2="10.58.80.136"
+#device3="10.58.80.153"
+#device4="10.58.80.232"
+echo "*********************"
+echo "**   $device1   **"
+#echo "**   $device2   **"
+#echo "**   $device3   **"
+#echo "**   $device4  **"
+echo "*********************"
+function pause(){
+        read -n 1 -p "$*" INP
+}
+pause '检查startRack.sh中上述TV IP和对应的账号是否匹配 IP是否需要修改，请按任意键继续 ～'
+echo "=========================是否copy最新测试资源 Y or N=================="
+read chose
+echo $chose
+if [ $chose == "Y" ] || [ $chose == "y" ];then
+echo "**************************************************************************************"
+echo "*                                                                 *"
+echo "* 自动化测试即将开始，从10.58.81.227服务器copy测试资源（caselist,code,picture,video etc.)*"
+echo "*                                                                 *"
+echo "**************************************************************************************"
+expect -c "
+	spawn scp -r pc7@10.58.81.227:/home/share/tools ./
+  	expect {
+   		 \"*assword\" {set timeout 300; send \"admin\r\";}
+   		 \"yes/no\" {send \"yes\r\"; exp_continue;}
+  		}
+  	expect eof"
+echo "==================copy资源完成============================="
+fi
+
+echo "========================= input the Folder name of testing!!! ===================="
+read resultFolder
+echo $resultFolder
+cd tools
+gnome-terminal --maximize --tab -t "X32" -e "bash start.sh $device1 ../$resultFolder X32 device1" #--tab -t "648_TV" -e "bash start.sh $device2 ../$resultFolder 648TV device2" --tab -t "U4_box" -e "bash start.sh $device3 ../$resultFolder U4_box device3" --tab -t "8094_TV" -e "bash start.sh $device4 ../$resultFolder 8094_TV device4"
+echo "================================== MTBF Rack is Started =================================="
+echo " "
+echo "MTBF测试已经启动，可以执行以下命令来获取当前测试结果:"
+echo " "
+echo "python tools/parse.py "$resultFolder
+echo " "
+echo "================================== MTBF Rack is Started =================================="
+

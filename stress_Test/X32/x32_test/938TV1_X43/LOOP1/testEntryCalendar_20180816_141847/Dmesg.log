@@ -1,0 +1,12 @@
+[509160.619074] [4422692770][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509164.681875] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[509176.773251] init: Starting service 'letv_dumpbq'...
+[509176.880299] init: Service 'letv_dumpbq' (pid 15012) exited with status 0
+[509206.665205] binder: release 14923:14932 transaction 232963255 in, still active
+[509206.665669] init: Untracked pid 14923 exited with status 0
+[509206.678366] binder: send failed reply for transaction 232963255 to 2207:2864
+[509206.686896] binder: 2207:2339 transaction failed 29189, size 80-0
+[509206.743216] binder: release 14933:14946 transaction 232963252 out, still active
+[509206.752028] binder: 2207:2864 transaction failed 29189, size 4-0
+[509206.758280] binder: send failed reply for transaction 232963252, target dead
+[509224.441883] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au

@@ -1,0 +1,15 @@
+<13>[510034.386347] init: Service 'gts_rules' (pid 20210) exited with status 0
+<6>[510035.612094] binder: 2207:2207 transaction failed 29189, size 100-0
+<13>[510039.187128] init: Service 'cpudvfsscaling' (pid 20209) exited with status 0
+<4>[510040.413995] [4422913602][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<12>[510061.081891] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[510076.297048] init: Starting service 'cpudvfsscaling'...
+<13>[510076.526817] init: Service 'gts_rules' (pid 20435) exited with status 0
+<13>[510081.335770] init: Service 'cpudvfsscaling' (pid 20434) exited with status 0
+<6>[510081.985071] binder: release 20101:20177 transaction 233238572 in, still active
+<13>[510081.991308] init: Untracked pid 20101 exited with status 0
+<6>[510081.999036] binder: send failed reply for transaction 233238572 to 2207:3054
+<6>[510082.009141] binder: 2207:2339 transaction failed 29189, size 80-0
+<6>[510082.065265] binder: release 20114:20127 transaction 233238569 out, still active
+<6>[510082.078116] binder: 2207:3054 transaction failed 29189, size 4-0
+<6>[510082.086199] binder: send failed reply for transaction 233238569, target dead

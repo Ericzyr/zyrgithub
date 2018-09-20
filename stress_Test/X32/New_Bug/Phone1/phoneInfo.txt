@@ -1,0 +1,7 @@
+buildVersion==5.8.050S_CIBN_1009
+buildDate==Fri Apr 8 05:33:35 CST 2016
+projectname==938
+subproject==CN-X4-50
+buildPath==smb://imgrepo-cnbj.devops.letv.com/dailybuild/SuperTV/demeter/cn/aosp_mangosteen/stable_050/20161009/x450_x450_stable_050_20160920_V2401RCN02C058050D10091S_20161009_194920_cibn_ota_userdebug
+testStartTime==2016-04-08 14:39:04
+testEndTime==2016-04-08 15:18:53

@@ -1,0 +1,1008 @@
+--------- beginning of main
+08-16 14:47:55.335 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:55.585 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:55.762 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:47:55.836 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:56.086 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:56.218 I/Radio-JNI(24046): register_android_hardware_Radio DONE
+--------- beginning of system
+08-16 14:47:56.245 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: start instr
+08-16 14:47:56.257 I/art     (24055): Late-enabling -Xcheck:jni
+08-16 14:47:56.259 I/ActivityManager( 2207): Start proc 24055:com.le.tcauto.uitest/u0a97 for added application com.le.tcauto.uitest
+08-16 14:47:56.301 W/System  (24055): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest.test-1/lib/arm64
+08-16 14:47:56.301 W/System  (24055): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest-1/lib/arm64
+08-16 14:47:56.316 I/MonitoringInstrumentation(24055): Instrumentation Started!
+08-16 14:47:56.317 I/MonitoringInstrumentation(24055): Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]'
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): No JSBridge.
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.Class.classForName(Native Method)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.Class.forName(Class.java:324)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.Class.forName(Class.java:285)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.support.test.runner.MonitoringInstrumentation.tryLoadingJsBridge(MonitoringInstrumentation.java:612)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.support.test.runner.MonitoringInstrumentation.access$100(MonitoringInstrumentation.java:88)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.support.test.runner.MonitoringInstrumentation$3.run(MonitoringInstrumentation.java:223)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:1897)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.os.Handler.handleCallback(Handler.java:739)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at android.app.ActivityThread.main(ActivityThread.java:5423)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.test.espresso.web.bridge.JavaScriptBridge" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	... 14 more
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	Suppressed: java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 		at java.lang.Class.classForName(Native Method)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 		... 15 more
+08-16 14:47:56.320 I/MonitoringInstrumentation(24055): 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+08-16 14:47:56.337 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:56.357 I/TestRunner(24055): run started: 1 tests
+08-16 14:47:56.360 I/TestRunner(24055): started: testTime24r(com.letv.cases.leui.SmokeSetting)
+08-16 14:47:56.363 I/MonitoringInstrumentation(24055): Activities that are still in CREATED to STOPPED: 0
+08-16 14:47:56.376 I/LetvTestCase(24055): =====================case start time is :2018-8-16-2-47-56
+08-16 14:47:56.380 I/System.out(24055): The folder /sdcard/AutoSmoke_UI30/testTime24r_20180816_144750 has existed!
+08-16 14:47:56.380 I/System.out(24055): current_case_root_folder=testTime24r_20180816_144750
+08-16 14:47:56.587 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:56.837 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:56.881 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:56.885 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:57.088 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:57.338 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:57.395 I/WindowManager( 2207): startSettingMain------------------
+08-16 14:47:57.395 I/SettingUtil( 2207):  startSettingMain
+08-16 14:47:57.397 I/GlobalSettings( 2822): GlobalSettingService -- startSettingMain
+08-16 14:47:57.397 I/GlobalSettings( 2822): SettingsApp -- updateStartTime time=1534402077397
+08-16 14:47:57.397 I/GlobalSettings( 2822): GlobalSettingService -- isCanRecoverDialog=false
+08-16 14:47:57.399 I/System.out( 2822): From style:
+08-16 14:47:57.399 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:47:57.407 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:57.425 I/GlobalSettings( 2822): SettingDialog -- --------is main -------uiType:cibn
+08-16 14:47:57.427 I/GlobalSettings( 2822): SettingDialog -- ---------LetvManager.getLetvDimensions()-----------2D
+08-16 14:47:57.429 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.PqManager.updateBinder:2843 com.stv.settingadapter.PqManager.getInstance:616 com.stv.globalsetting.dialog.SettingDialog.onCreate:129 
+08-16 14:47:57.491 W/InputDispatcher( 2207): Focus left window: Window{23c0535 u0 com.stv.launcher/com.stv.launcher.ui.activity.Launcher}
+08-16 14:47:57.492 W/InputDispatcher( 2207): Focus entered window: Window{2b2cc17 u0 com.stv.globalsetting}
+08-16 14:47:57.495 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:47:57.496 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:766 android.content.ContextWrapper.sendBroadcast:396 com.stv.globalsetting.service.GlobalSettingService.sendSettingOpenMsg:433 com.stv.globalsetting.service.GlobalSettingService$ActionCreateAndShowDialog.run:321 android.os.Handler.handleCallback:739 
+08-16 14:47:57.497 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=quickSetOpen
+08-16 14:47:57.499 I/GlobalSettings( 2822): GlobalSettingService -- quick_open_result is: true
+08-16 14:47:57.515 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:57.523 I/GlobalSettings( 2822): SettingDialog -- gain focus, report lunch time
+08-16 14:47:57.523 I/GlobalSettings( 2822): SettingsApp -- reportStartTime time=1534402077523 lunch time=126
+08-16 14:47:57.523 I/GlobalSettings( 2822): SettingsApp -- upload  boot time json {"app.launch_time":126,"attr":{"name":"com.stv.globalsetting"}}
+08-16 14:47:57.555 W/InputMethodManagerService( 2207): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@7163e83 (uid=1000 pid=3007)
+08-16 14:47:57.562 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@8000b558; boundsInParent: Rect(0, 0 - 1920, 1080); boundsInScreen: Rect(0, 0 - 1920, 1080); packageName: com.stv.plugin.app; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.562 W/ByMatcher(24055): Skipping null child (0 of 1)
+08-16 14:47:57.564 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80009b11; boundsInParent: Rect(0, 0 - 1920, 105); boundsInScreen: Rect(0, 78 - 1920, 183); packageName: com.stv.launcher; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.stv.launcher:id/tabspace; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.564 W/ByMatcher(24055): Skipping null child (0 of 2)
+08-16 14:47:57.565 W/ByMatcher(24055): Skipping null child (1 of 2)
+08-16 14:47:57.567 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@8000b558; boundsInParent: Rect(0, 0 - 1920, 1080); boundsInScreen: Rect(0, 0 - 1920, 1080); packageName: com.stv.plugin.app; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.567 W/ByMatcher(24055): Skipping null child (0 of 1)
+08-16 14:47:57.570 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80009b11; boundsInParent: Rect(0, 0 - 1920, 105); boundsInScreen: Rect(0, 78 - 1920, 183); packageName: com.stv.launcher; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.stv.launcher:id/tabspace; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.570 W/ByMatcher(24055): Skipping null child (0 of 2)
+08-16 14:47:57.573 W/ByMatcher(24055): Skipping null child (1 of 2)
+08-16 14:47:57.575 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@8000b558; boundsInParent: Rect(0, 0 - 1920, 1080); boundsInScreen: Rect(0, 0 - 1920, 1080); packageName: com.stv.plugin.app; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.575 W/ByMatcher(24055): Skipping null child (0 of 1)
+08-16 14:47:57.577 W/ByMatcher(24055): Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80009b11; boundsInParent: Rect(0, 0 - 1920, 105); boundsInScreen: Rect(0, 78 - 1920, 183); packageName: com.stv.launcher; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.stv.launcher:id/tabspace; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+08-16 14:47:57.577 W/ByMatcher(24055): Skipping null child (0 of 2)
+08-16 14:47:57.578 W/ByMatcher(24055): Skipping null child (1 of 2)
+08-16 14:47:57.589 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:57.601 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:47:57.839 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.090 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.340 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.586 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:58.589 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:58.591 I/SoundPool( 2207): enter : func play
+08-16 14:47:58.591 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.597 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:47:58.597 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:47:58.597 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:47:58.602 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:47:58.604 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:47:58.604 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:47:58.604 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:58.604 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:47:58.604 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:47:58.604 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:47:58.604 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:58.604 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:47:58.605 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:47:58.605 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:47:58.605 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:47:58.607 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:47:58.607 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:47:58.607 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:47:58.608 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.609 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:47:58.609 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:47:58.612 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:47:58.612 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:47:58.612 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:58.612 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:58.612 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:58.612 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:47:58.612 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:47:58.612 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:47:58.612 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:47:58.614 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:47:58.628 E/audio_hw_primary( 1758): out_get_presentation_position pcm_get_htimestamp(pcm, &avail, timestamp) != 0!!!
+08-16 14:47:58.762 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:47:58.773 I/tvos    ( 1764): bq32kDriver:rtc_read_time.
+08-16 14:47:58.773 I/tvos    ( 1764): [hq]rtc_read_time: read 0x58 0x47 0xc6 0x05 0x16 0x08 0x18
+08-16 14:47:58.773 I/tvos    ( 1764): rtc_read_time: date 58s 47m 6h 16md 7m 118y
+08-16 14:47:58.773 I/tvos    ( 1764): rtc read time:2018-8-16 6:47:58.
+08-16 14:47:58.773 I/tvos    ( 1764): tm_year = 2018, tm_mon = 8, tm_mday = 16, tm_hour = 6,tm_min= 47,  tm_sec = 58
+08-16 14:47:58.773 I/tvos    ( 1764): timeSeconds:1534402078 rtcTimeSeconds:1534402078.
+08-16 14:47:58.841 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:58.843 I/System.out( 2822): From style:
+08-16 14:47:58.843 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:47:58.846 I/GlobalSettings( 2822): AdvanceDialog -- mFarSpeaker = 
+08-16 14:47:58.850 W/InputDispatcher( 2207): Focus left window: Window{2b2cc17 u0 com.stv.globalsetting}
+08-16 14:47:58.850 W/InputDispatcher( 2207): Focus entered window: Window{219d46e u0 com.stv.globalsetting}
+08-16 14:47:58.852 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:47:58.852 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perQuickSetClick&setModule=1
+08-16 14:47:58.853 I/GlobalSettings( 2822): SettingDialog -- Open_SettingActivity_Result is: true
+08-16 14:47:58.873 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:58.957 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:58.970 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=601, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:47:58.977 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.008 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:47:59.010 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=602, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:47:59.017 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.050 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=604, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:47:59.056 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.092 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:59.096 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.129 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:47:59.135 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.175 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.190 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=627, bufHeight=1080, front.active.{w=622, h=1080}
+08-16 14:47:59.197 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.210 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=629, bufHeight=1080, front.active.{w=622, h=1080}
+08-16 14:47:59.217 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:47:59.342 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:59.593 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:59.639 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:59.643 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:59.644 I/SoundPool( 2207): enter : func play
+08-16 14:47:59.651 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:47:59.655 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:59.657 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:47:59.661 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:47:59.661 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:47:59.663 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:47:59.665 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:47:59.665 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:47:59.665 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:47:59.665 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:47:59.665 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:47:59.665 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:47:59.665 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:47:59.665 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:47:59.665 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:47:59.667 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:47:59.667 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:47:59.667 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:47:59.668 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:59.671 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:47:59.671 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:47:59.671 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:47:59.671 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:47:59.671 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:59.671 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:59.671 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:47:59.671 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:47:59.671 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:47:59.671 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:47:59.671 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:47:59.673 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:47:59.675 I/SoundPool( 2207): enter : func play
+08-16 14:47:59.843 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:47:59.902 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perSystemSetClick&setModule=5
+08-16 14:47:59.904 I/GlobalSettings( 2822): AdvanceDialog -- Open_Advance_General_Result is: true
+08-16 14:47:59.905 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:659 android.content.ContextWrapper.startActivity:331 com.stv.globalsetting.dialog.AdvanceDialog.onKeyDown:111 com.stv.globalsetting.widget.LetvSettingAnimationLayout$OnMouseClickRunnable.run:565 android.os.Handler.handleCallback:739 
+08-16 14:47:59.906 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:671 android.app.ContextImpl.startActivity:660 android.content.ContextWrapper.startActivity:331 com.stv.globalsetting.dialog.AdvanceDialog.onKeyDown:111 com.stv.globalsetting.widget.LetvSettingAnimationLayout$OnMouseClickRunnable.run:565 
+08-16 14:47:59.906 E/ContextImpl( 2822): startAdManager() action is null
+08-16 14:47:59.907 I/ActivityManager( 2207): START u0 {flg=0x10008000 cmp=com.stv.globalsetting/.activity.UniversalActivity} from uid 1000 on display 0
+08-16 14:47:59.913 I/System.out( 2207): From style:
+08-16 14:47:59.913 I/System.out( 2207): Attrs: 3010001=0.6 3010002=res/drawable-hdpi-v4/ic_desk_app_bg.jpg 3010003=null 3010004=true
+08-16 14:47:59.915 W/InputDispatcher( 2207): setFocusedApplication
+08-16 14:47:59.915 I/TvLiveBaseFragment( 3007): onPause
+08-16 14:47:59.915 I/ShoppingPlugin-stv-PluginFragment( 3007): onPause ->in
+08-16 14:47:59.915 I/ShoppingPlugin-stv-PluginRootLayout( 3007): onFragmentPause ---> in
+08-16 14:47:59.915 I/Launcher( 3007): [com.stv.launcher] LauncherActivity -- onPause  mBootSignalFirst=false sCurrentScreen = com.stv.plugin.app
+08-16 14:47:59.919 I/Launcher( 3007): [com.stv.launcher] ===== enalbeAllKey =====
+08-16 14:47:59.920 I/WindowManager( 2207): setBlockVoiceKey = false
+08-16 14:47:59.923 I/WindowManager( 2207): setBlockSourceKey = false
+08-16 14:47:59.923 I/WindowManager( 2207): setBlockSettingKey = false
+08-16 14:47:59.923 I/WindowManager( 2207): setBlockFunctionKeys = false
+08-16 14:47:59.924 I/WindowManager( 2207): setBlockHomeKey = false
+08-16 14:47:59.925 W/InputDispatcher( 2207): Window went away: Window{2b2cc17 u0 com.stv.globalsetting}
+08-16 14:47:59.935 I/ActivityManager( 2207): TR12) TaskRecord{f5a351e #34 A=com.stv.globalsetting U=0 sz=1}
+08-16 14:47:59.935 I/ActivityManager( 2207): TR11) TaskRecord{14b0d11 #1 A=com.stv.launcher U=0 sz=1}
+08-16 14:47:59.935 I/ActivityManager( 2207): accel TR12) TaskRecord{f5a351e #34 A=com.stv.globalsetting U=0 sz=1}
+08-16 14:47:59.936 I/ActivityManager( 2207): accel TR11) TaskRecord{14b0d11 #1 A=com.stv.launcher U=0 sz=1}
+08-16 14:47:59.947 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:47:59.947 W/InputDispatcher( 2207): Focus left window: Window{219d46e u0 com.stv.globalsetting}
+08-16 14:47:59.947 W/InputDispatcher( 2207): Window went away: Window{219d46e u0 com.stv.globalsetting}
+08-16 14:47:59.961 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:47:59.962 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:47:59.962 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:47:59.963 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:47:59.963 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:47:59.963 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:47:59.963 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:47:59.963 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:47:59.963 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:47:59.968 I/Launcher( 3007): [com.stv.launcher] LauncherApplication -- ========= tryTrimMemoryCache =========20
+08-16 14:47:59.973 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:47:59.973 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:00.010 I/StvLogReport( 2837): StargazerReportTask, action=appClose&name=桌面&packagename=com.stv.launcher&versionCode=20180321&appVersionName=1.0.5&appType=1&mark=82&totalTime=62
+08-16 14:48:00.015 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:00.020 I/StvLogReport( 2837): StargazerReportTask, reponse2 : {"status":"OK","statusCode":200,"message":"succeefully"}
+08-16 14:48:00.020 I/System.out( 2822): From style:
+08-16 14:48:00.020 I/System.out( 2822): Attrs: 3010001=0.6 3010002=res/drawable-hdpi-v4/ic_desk_app_bg.jpg 3010003=null 3010004=true
+08-16 14:48:00.025 I/GlobalSettings( 2822): UniversalActivity --  is 8094 platform ?   false
+08-16 14:48:00.037 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:48:00.038 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:48:00.038 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:48:00.040 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- dialog is all dismiss,cancel timer
+08-16 14:48:00.041 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:48:00.041 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:00.042 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:48:00.044 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:48:00.051 W/InputDispatcher( 2207): Focus entered window: Window{15821f7 u0 com.stv.globalsetting/com.stv.globalsetting.activity.UniversalActivity}
+08-16 14:48:00.061 E/BufferQueueProducer( 1749): [com.stv.globalsetting/com.stv.globalsetting.activity.UniversalActivity] connect(P): already connected (cur=1 req=1)
+08-16 14:48:00.070 I/OMXClient( 2822): Using client-side OMX mux.
+08-16 14:48:00.093 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:00.097 E/critical_path_log( 3007): superlive_7799adbbe191b8ab_onTrimMemory: level = 20
+08-16 14:48:00.122 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:00.122 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:00.145 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:00.147 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:00.147 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:00.147 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:00.147 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:00.147 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:00.147 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:00.148 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:00.148 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:00.165 I/StvLogReport( 2837): StargazerReportTask, action=appOpen&name=设置&packagename=com.stv.globalsetting&versionCode=1&appVersionName=1.0&appType=1&mark=83
+08-16 14:48:00.168 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.PqManager.updateBinder:2843 com.stv.settingadapter.PqManager.getInstance:616 com.stv.globalsetting.fragment.BootFragment.initData:155 
+08-16 14:48:00.178 I/StvLogReport( 2837): StargazerReportTask, reponse2 : {"status":"OK","statusCode":200,"message":"succeefully"}
+08-16 14:48:00.220 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:00.227 I/tvos    ( 1764): MSrv_Control_common::GetLedStandySwitch to 1
+08-16 14:48:00.286 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:00.288 I/ActivityManager( 2207): Displayed com.stv.globalsetting/.activity.UniversalActivity: +358ms
+08-16 14:48:00.288 W/ContextImpl( 2207): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:766 com.android.server.am.ActivityRecord.reportLaunchTimeLocked:1056 com.android.server.am.ActivityRecord.windowsDrawnLocked:1080 com.android.server.am.ActivityRecord$Token.windowsDrawn:345 com.android.server.wm.WindowManagerService$H.handleMessage:8042 
+08-16 14:48:00.300 W/InputDispatcher( 2207): Window went away: Window{6410ea3 u0 Starting com.stv.globalsetting}
+08-16 14:48:00.344 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:00.411 I/AnalysisLog( 3007): Plugin:onFragmentShowChanged_hide:com.stv.plugin.app----start:time='512946845'
+08-16 14:48:00.426 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:00.427 I/AppPlugin( 3007): AppFragment -- onFragmentShowChanged gainSelect true screen = com.stv.plugin.app packageName = com.stv.plugin.app
+08-16 14:48:00.428 I/AnalysisLog( 3007): Plugin:onFragmentShowChanged_hide:com.stv.plugin.app----end:time='512946862'
+08-16 14:48:00.429 I/TvLiveBaseFragment( 3007): onStop
+08-16 14:48:00.441 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:00.446 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:00.447 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:00.448 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:00.448 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:00.448 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:00.448 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:00.448 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:00.448 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:00.448 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:00.456 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:00.456 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:00.594 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:00.633 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:00.681 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:00.684 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:00.711 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:00.716 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:00.782 I/BrowseView( 2822): --onItemClick position : 1
+08-16 14:48:00.782 I/SoundPool( 2207): enter : func play
+08-16 14:48:00.783 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:00.787 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:48:00.787 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:48:00.789 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:48:00.790 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:48:00.790 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:48:00.790 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:00.790 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:48:00.790 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:00.790 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:00.790 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:00.790 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:48:00.793 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:48:00.796 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:48:00.796 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:48:00.797 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:48:00.797 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:00.797 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:48:00.797 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:48:00.799 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:48:00.799 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:00.799 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:00.799 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:00.799 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:00.799 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:00.799 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:00.799 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:48:00.799 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:48:00.802 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:48:00.845 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:01.095 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:01.346 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:01.389 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:01.596 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:01.721 I/remotestatus( 2207): Msg.what is 101
+08-16 14:48:01.721 I/WindowManager( 2207): turn cursor off
+08-16 14:48:01.721 E/RemoteManager( 2207): RemoteManager is no longer support in eui6.5
+08-16 14:48:01.721 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:01.722 E/InputManager-JNI( 2207): call nativeDisableCursor method with hideCursor
+08-16 14:48:01.741 I/SoundPool( 2822): enter : func play
+08-16 14:48:01.743 W/AudioTrack( 2822): AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 44100 Hz, output 48000 Hz
+08-16 14:48:01.746 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:01.753 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:48:01.753 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:48:01.756 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:48:01.758 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:48:01.758 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:48:01.758 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:01.758 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:48:01.758 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:01.758 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:01.758 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:01.758 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:48:01.758 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:48:01.760 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:48:01.760 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:48:01.760 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:48:01.761 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:01.761 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:48:01.761 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:48:01.764 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:48:01.764 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:01.764 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:01.764 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:01.764 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:01.764 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:01.764 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:01.764 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:48:01.764 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:48:01.764 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:01.766 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:48:01.774 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:01.776 I/BrowseView( 2822): --onItemSelected i : 1
+08-16 14:48:01.841 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:01.846 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:02.036 E/InternetUtils( 4594): java.net.SocketTimeoutException: failed to connect to www.cibn.com/61.133.127.115 (port 80) after 3000ms
+08-16 14:48:02.097 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:02.347 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:02.372 I/remotestatus( 2207): Msg.what is 101
+08-16 14:48:02.372 I/WindowManager( 2207): turn cursor off
+08-16 14:48:02.372 E/RemoteManager( 2207): RemoteManager is no longer support in eui6.5
+08-16 14:48:02.373 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:02.373 E/InputManager-JNI( 2207): call nativeDisableCursor method with hideCursor
+08-16 14:48:02.376 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:02.597 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:02.848 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.098 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.349 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.599 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.849 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.907 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:03.910 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:03.911 I/SoundPool( 2207): enter : func play
+08-16 14:48:03.913 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:03.923 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:48:03.923 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:48:03.932 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:48:03.935 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:48:03.935 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:48:03.935 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:48:03.935 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:48:03.935 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:03.935 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:03.935 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:03.935 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:48:03.935 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:48:03.938 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:48:03.939 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:48:03.939 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:48:03.940 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:03.940 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:48:03.940 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:48:03.942 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:48:03.942 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:48:03.942 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:03.942 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:03.942 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:48:03.942 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:48:03.942 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:48:03.942 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:48:03.942 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:48:03.944 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:48:04.100 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:04.350 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:04.433 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:04.436 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:04.438 I/SoundPool( 2207): enter : func play
+08-16 14:48:04.601 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:04.715 I/reService( 2207): onReportKeyEvent  type=type0 keycode=4*176*22*22*23*23 
+08-16 14:48:04.716 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:04.721 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:04.723 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:04.723 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:04.724 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:04.724 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:04.724 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:04.724 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:04.724 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:04.724 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:04.730 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:04.730 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:04.765 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:04.851 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:04.955 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:04.958 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:04.959 I/SoundPool( 2207): enter : func play
+08-16 14:48:05.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:48:05.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:48:05.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:48:05.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:48:05.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:48:05.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:48:05.102 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:05.352 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:05.478 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:05.481 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:05.482 I/SoundPool( 2207): enter : func play
+08-16 14:48:05.602 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:05.853 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:06.002 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:06.005 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:06.007 I/SoundPool( 2207): enter : func play
+08-16 14:48:06.103 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:06.353 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:06.527 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:06.530 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:06.531 I/SoundPool( 2207): enter : func play
+08-16 14:48:06.604 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:06.854 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:07.051 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:07.055 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:07.056 I/SoundPool( 2207): enter : func play
+08-16 14:48:07.105 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:07.355 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:07.577 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:07.580 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:07.581 I/SoundPool( 2207): enter : func play
+08-16 14:48:07.606 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:07.765 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:07.856 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:08.104 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:08.106 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:08.108 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:08.109 I/SoundPool( 2207): enter : func play
+08-16 14:48:08.357 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:08.607 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:08.628 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:08.631 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:08.634 W/InputDispatcher( 2207): setFocusedApplication
+08-16 14:48:08.635 W/InputDispatcher( 2207): Focus left window: Window{15821f7 u0 com.stv.globalsetting/com.stv.globalsetting.activity.UniversalActivity}
+08-16 14:48:08.640 I/ActivityManager( 2207): TR12) TaskRecord{14b0d11 #1 A=com.stv.launcher U=0 sz=1}
+08-16 14:48:08.640 I/ActivityManager( 2207): TR11) TaskRecord{f5a351e #34 A=com.stv.globalsetting U=0 sz=1}
+08-16 14:48:08.641 I/ActivityManager( 2207): accel TR12) TaskRecord{14b0d11 #1 A=com.stv.launcher U=0 sz=1}
+08-16 14:48:08.641 I/ActivityManager( 2207): accel TR11) TaskRecord{f5a351e #34 A=com.stv.globalsetting U=0 sz=1}
+08-16 14:48:08.658 I/AnalysisLog( 3007): Activ:onStart----start:time='512955091'
+08-16 14:48:08.659 I/TvLiveBaseFragment( 3007): onStart
+08-16 14:48:08.661 I/Launcher( 3007): [com.stv.launcher] LauncherActivity -- onStart, switchByStr: false
+08-16 14:48:08.662 I/AnalysisLog( 3007): Plugin:onFragmentShowChanged_show:com.stv.plugin.app----start:time='512955095'
+08-16 14:48:08.662 I/AppPlugin( 3007): ReportLogUtil -- startExposureReport
+08-16 14:48:08.665 I/AnalysisLog( 3007): Plugin:onFragmentShowChanged_show:com.stv.plugin.app----end:time='512955098'
+08-16 14:48:08.666 I/AnalysisLog( 3007): Activ:onStart----end:time='512955099'
+08-16 14:48:08.667 I/Launcher( 3007): [com.stv.launcher] LauncherActivity --  debug_tag onResume
+08-16 14:48:08.667 I/AnalysisLog( 3007): Activ:onResume----start:time='512955101'
+08-16 14:48:08.668 I/Launcher( 3007): [com.stv.launcher] boot video finished=1 bootAnifinished = 1 str =  strAdFinished = 3
+08-16 14:48:08.668 I/Launcher( 3007): [com.stv.launcher] LauncherActivity -- onResume, switchByStr: false, bootAdFinish true
+08-16 14:48:08.668 I/Launcher( 3007): [com.stv.launcher] LauncherActivity -- onResume mHandDetectStarted: false mHandDetectType: 0 mLastSelectedScreen = null
+08-16 14:48:08.669 I/Launcher( 3007): [com.stv.launcher] PluginShell --  debug_tag  >>>>>> startLoadFirst <<<<<<
+08-16 14:48:08.669 I/Launcher( 3007): [com.stv.launcher] PluginShell --  debug_tag  >>>>>> createPlugin <<<<<<
+08-16 14:48:08.669 I/Launcher( 3007): [com.stv.launcher] PluginShell --  debug_tag  ** createPlugin but current has empty **
+08-16 14:48:08.669 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:08.669 I/AnalysisLog( 3007): Activ:onResume----end:time='512955102'
+08-16 14:48:08.669 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.letv.android.tv.letvlive----end:time='512955102'
+08-16 14:48:08.669 I/TvLiveBaseFragment( 3007): onResume
+08-16 14:48:08.669 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.tencent----end:time='512955103'
+08-16 14:48:08.669 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.video----end:time='512955103'
+08-16 14:48:08.669 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.search----end:time='512955103'
+08-16 14:48:08.670 I/ShoppingPlugin-stv-PluginFragment( 3007): onResume ->in
+08-16 14:48:08.670 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.shopping----end:time='512955103'
+08-16 14:48:08.670 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.kids----end:time='512955103'
+08-16 14:48:08.670 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.app----end:time='512955103'
+08-16 14:48:08.670 I/AnalysisLog( 3007): Plugin:onAttach2onResume:com.stv.plugin.ucenter----end:time='512955103'
+08-16 14:48:08.690 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:48:08.690 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:48:08.691 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:48:08.692 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:48:08.693 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:48:08.693 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:48:08.698 W/InputDispatcher( 2207): Focus entered window: Window{23c0535 u0 com.stv.launcher/com.stv.launcher.ui.activity.Launcher}
+08-16 14:48:08.703 E/BufferQueueProducer( 1749): [com.stv.launcher/com.stv.launcher.ui.activity.Launcher] connect(P): already connected (cur=1 req=1)
+08-16 14:48:08.708 I/AppPlugin( 3007): AppRecyclerView -- onTouchModeChanged itemInfo = [ title = 超级影视 packageName = com.letv.tv className = com.letv.tv.player.PlayActivity type = 0 flags = 953728709 ]
+08-16 14:48:08.711 I/GlobalFocusChangedListe( 3007): com.stv.plugin.app.widget.AppCellView
+08-16 14:48:08.716 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:08.720 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:08.721 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:08.722 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:08.722 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:08.722 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:08.722 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:08.722 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:08.722 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:08.729 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:48:08.731 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:08.731 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:08.738 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:08.739 I/StvLogReport( 2837): StargazerReportTask, action=appClose&name=设置&packagename=com.stv.globalsetting&versionCode=1&appVersionName=1.0&appType=1&mark=83&totalTime=8
+08-16 14:48:08.753 I/StvLogReport( 2837): StargazerReportTask, reponse2 : {"status":"OK","statusCode":200,"message":"succeefully"}
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x1F)[m
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x22)[m
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x25)[m
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x28)[m
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2B)[m
+08-16 14:48:08.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2C)[m
+08-16 14:48:08.846 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:08.858 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:08.874 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:08.876 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:08.876 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:08.876 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:08.876 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:08.876 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:08.876 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:08.876 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:08.876 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:08.879 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:08.880 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:08.886 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x2C)[m
+08-16 14:48:08.886 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x29)[m
+08-16 14:48:08.886 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x26)[m
+08-16 14:48:08.886 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x23)[m
+08-16 14:48:08.888 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x20)[m
+08-16 14:48:08.889 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x1F)[m
+08-16 14:48:08.941 I/ActivityManager( 2207): Displayed com.stv.launcher/.ui.activity.Launcher: +303ms
+08-16 14:48:08.941 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:48:08.941 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:48:08.941 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:48:08.941 W/ContextImpl( 2207): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:766 com.android.server.am.ActivityRecord.reportLaunchTimeLocked:1056 com.android.server.am.ActivityRecord.windowsDrawnLocked:1080 com.android.server.am.ActivityRecord$Token.windowsDrawn:345 com.android.server.wm.WindowManagerService$H.handleMessage:8042 
+08-16 14:48:08.942 I/AppPlugin( 3007): CellView --  updateSuperscriptView msg count = -1type = -1
+08-16 14:48:08.942 I/AppPlugin( 3007): CellView --  updateSuperscriptView msg count = -1type = -1
+08-16 14:48:08.943 W/ContextImpl( 2613): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.helper.service.TvMasterService.noteLaunchTime:169 letv.tvmaster.ITvMasterService$Stub.onTransact:136 android.os.Binder.execTransact:453 
+08-16 14:48:09.050 I/AppPlugin( 3007): ReportLogUtil -- startExposureReport
+08-16 14:48:09.051 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:09.108 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:09.359 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:09.360 W/InputDispatcher( 2207): Window went away: Window{15821f7 u0 com.stv.globalsetting/com.stv.globalsetting.activity.UniversalActivity}
+08-16 14:48:09.468 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:09.468 I/AppPlugin( 3007): AppWorkspace -- dispatchKeyEvent folderWorkspace back event no respose,so force hide folderWorkspace.
+08-16 14:48:09.471 I/GlobalFocusChangedListe( 3007): com.stv.launcher.ui.widget.TabItemNew
+08-16 14:48:09.485 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:09.530 I/AppPlugin( 3007): ReportLogUtil -- startExposureReport
+08-16 14:48:09.609 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:09.672 I/AppPlugin( 3007): AppFragment --  find index 0 view = Background {mUrl = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1532585612302_1103 isTimeOut = false type = 2 mPluginID = null isDied = false}
+08-16 14:48:09.673 I/AppPlugin( 3007): AppFragment --  remove bg 
+08-16 14:48:09.860 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:10.111 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:10.119 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:10.124 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:10.361 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:10.612 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:10.629 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:10.635 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:10.672 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:10.673 I/AppPlugin( 3007): AppFragment -- handlerData isRefreshedUI = true isCanUpdate() = true isCanInit() = true
+08-16 14:48:10.674 I/StvLogReport( 2837): StargazerReportTask, action=desktopShow&desktop=5&packageName=com.stv.plugin.app
+08-16 14:48:10.680 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:10.681 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:10.681 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:10.681 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:10.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:10.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:10.681 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:10.681 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:10.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:10.684 I/StvLogReport( 2837): StargazerReportTask, reponse2 : {"status":"OK","statusCode":200,"message":"succeefully"}
+08-16 14:48:10.687 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:10.687 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:10.765 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:10.859 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:10.862 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:11.113 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:11.141 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:11.145 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:11.363 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:11.532 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.532 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.533 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.533 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.534 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.534 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.535 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.535 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.536 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.537 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.539 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.539 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.540 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.540 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.541 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.541 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.541 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:48:11.541 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:48:11.614 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:11.651 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:11.655 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:11.672 I/Launcher( 3007): [com.stv.launcher] AdvertisingModel -- getData fromCache = false
+08-16 14:48:11.673 I/Launcher( 3007): [com.stv.launcher] AdvertisingModel -- getData url = http://stargazer-sandbox.scloud.cp21.ott.cibntv.net/proxy/api/v1/promotion?mac=b01bd2542d51&posid=launcher_tab,launcher_logo,launcher_background,launcher_tab_isnew
+08-16 14:48:11.717 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter -- launcher_logo beginTime :Wed Dec 13 00:00:00 GMT+08:00 2017 end :Thu Dec 14 14:00:00 GMT+08:00 2017 now :Thu Aug 16 14:48:11 GMT+08:00 2018 isTimeout :true
+08-16 14:48:11.717 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter -- launcher_tab beginTime :Tue Jul 17 00:00:00 GMT+08:00 2018 end :Mon Oct 01 00:00:00 GMT+08:00 2018 now :Thu Aug 16 14:48:11 GMT+08:00 2018 isTimeout :false
+08-16 14:48:11.717 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter -- launcher_background beginTime :Tue Jul 17 00:00:00 GMT+08:00 2018 end :Mon Oct 01 00:00:00 GMT+08:00 2018 now :Thu Aug 16 14:48:11 GMT+08:00 2018 isTimeout :false
+08-16 14:48:11.718 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter -- updateView dataList : [img_url = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1531809918780_3441 begin_time = 1531756800000 end_time = 1538323200000 open = 0 tab_id = com.stv.local.tencent position = launcher_tab, img_url = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1532585612302_1103 begin_time = 1531756800000 end_time = 1538323200000 open = 0 tab_id = null position = launcher_background]
+08-16 14:48:11.723 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateTab : img_url = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1531809918780_3441 begin_time = 1531756800000 end_time = 1538323200000 open = 0 tab_id = com.stv.local.tencent position = launcher_tab
+08-16 14:48:11.723 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateBackground img_url = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1532585612302_1103 begin_time = 1531756800000 end_time = 1538323200000 open = 0 tab_id = null position = launcher_background
+08-16 14:48:11.725 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:11.732 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateTab cachedView null
+08-16 14:48:11.732 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateTab pluginId = com.stv.local.tencent imageUrl = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1531809918780_3441
+08-16 14:48:11.732 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView begin ---
+08-16 14:48:11.732 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  setCacheViewDied type = 3
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter -- TAB beginTime :Tue Jul 17 00:00:00 GMT+08:00 2018 end :Mon Oct 01 00:00:00 GMT+08:00 2018 now :Thu Aug 16 14:48:11 GMT+08:00 2018 isTimeout :false
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView  canNew = true now = 1534402091732 nowSecond = 1534402091
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView ,find tabAdView = null
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  checkShowOrHide  
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView end ---
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateBackground cachedView Background {mUrl = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1532585612302_1103 isTimeOut = true type = 2 mPluginID = null isDied = false}
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView begin ---
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView  canNew = false now = 1534402091733 nowSecond = 1534402091
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  checkShowOrHide  
+08-16 14:48:11.733 I/Launcher( 3007): [com.stv.launcher] AdvertisingPresenter --  updateAdView end ---
+08-16 14:48:11.853 I/Launcher( 3007): [com.stv.launcher] AdvertisingView -- ---show ----Background {mUrl = http://picture-scloud.cp21.ott.cibntv.net/stargazer/1532585612302_1103 isTimeOut = false type = 2 mPluginID = null isDied = false}
+08-16 14:48:11.864 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:11.932 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:12.114 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:12.135 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:12.297 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:12.302 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:12.339 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:12.365 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:12.544 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:12.615 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:12.749 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:12.866 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:12.956 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:13.116 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:13.160 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:13.365 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:13.366 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:13.617 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:13.674 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:13.679 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:13.680 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:13.681 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:13.681 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:13.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:13.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:13.681 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:13.681 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:13.681 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:13.686 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:13.687 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:13.766 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:13.770 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:13.786 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:48:13.786 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:48:13.786 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:48:13.786 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:48:13.786 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:48:13.787 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:48:13.867 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:13.976 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:48:14.057 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:14.063 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:48:14.118 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:14.368 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:14.619 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:14.869 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:15.119 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:15.370 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:15.620 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:15.760 I/System.out(24055): The phone type is: X4-40M
+08-16 14:48:15.760 I/LetvTestCase(24055): ==========================case end time is :2018-8-16-2-48-15
+08-16 14:48:15.761 I/TestRunner(24055): finished: testTime24r(com.letv.cases.leui.SmokeSetting)
+08-16 14:48:15.764 I/MonitoringInstrumentation(24055): Activities that are still in CREATED to STOPPED: 0
+08-16 14:48:15.764 I/TestRunner(24055): run finished: 1 tests, 0 failed, 0 ignored
+08-16 14:48:15.766 I/MonitoringInstrumentation(24055): waitForActivitiesToComplete() took: 0ms
+08-16 14:48:15.766 I/MonitoringInstrumentation(24055): Activities that are still in CREATED to STOPPED: 0
+08-16 14:48:15.767 W/WindowManager( 2207): Attempted to remove non-existing token: android.os.Binder@43dfbb1
+08-16 14:48:15.871 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:16.033 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: finished inst
+08-16 14:48:16.034 I/ActivityManager( 2207): Killing 24055:com.le.tcauto.uitest/u0a97 (adj 0): stop com.le.tcauto.uitest
+08-16 14:48:16.041 W/ActivityManager( 2207): Error shutting down UiAutomationConnection
+08-16 14:48:16.121 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:16.372 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:16.622 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:16.766 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:16.872 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:17.123 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:17.373 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:17.624 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:17.874 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:18.124 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:18.375 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:18.625 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:18.876 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:19.126 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:19.377 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:19.627 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:19.725 I/reService( 2207): onReportKeyEvent  type=type0 keycode=23*23*23*23*23*23*23*4*4*4*4*4*4*4*4 
+08-16 14:48:19.726 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:48:19.740 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:19.742 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:48:19.742 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:48:19.742 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:48:19.742 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:48:19.742 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:48:19.742 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:48:19.742 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:48:19.742 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:48:19.754 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:48:19.754 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:48:19.766 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:19.877 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:20.128 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:20.378 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:20.629 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:20.879 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:21.130 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:21.380 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:21.631 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:21.881 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:22.131 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:22.380 E/InternetUtils( 4594): java.net.SocketTimeoutException: failed to connect to www.cibn.com/61.133.127.115 (port 80) after 3000ms
+08-16 14:48:22.382 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:22.632 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:22.767 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:22.883 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:23.133 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:23.384 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:23.634 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:23.885 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:24.135 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:24.386 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:24.636 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:24.886 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:25.137 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:25.387 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:25.638 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:25.767 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:25.888 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:26.138 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:26.389 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:26.639 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:26.890 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:27.140 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:27.391 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:27.641 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:27.892 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:28.142 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:28.392 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:28.643 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:28.768 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:28.775 I/tvos    ( 1764): bq32kDriver:rtc_read_time.
+08-16 14:48:28.775 I/tvos    ( 1764): [hq]rtc_read_time: read 0x28 0x48 0xc6 0x05 0x16 0x08 0x18
+08-16 14:48:28.775 I/tvos    ( 1764): rtc_read_time: date 28s 48m 6h 16md 7m 118y
+08-16 14:48:28.775 I/tvos    ( 1764): rtc read time:2018-8-16 6:48:28.
+08-16 14:48:28.775 I/tvos    ( 1764): tm_year = 2018, tm_mon = 8, tm_mday = 16, tm_hour = 6,tm_min= 48,  tm_sec = 28
+08-16 14:48:28.775 I/tvos    ( 1764): timeSeconds:1534402108 rtcTimeSeconds:1534402108.
+08-16 14:48:28.893 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:29.144 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:29.394 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:29.644 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:29.895 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:30.145 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:30.396 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:30.646 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:30.897 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:31.147 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:31.398 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:31.648 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:31.768 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:31.899 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:32.149 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:32.399 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:32.650 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:32.900 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:33.151 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:33.401 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:33.652 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:33.902 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:34.152 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:34.403 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:34.653 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:34.768 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:34.904 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:35.154 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:35.404 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:35.655 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:35.905 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:36.156 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:36.406 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:36.656 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:36.907 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:37.157 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:37.408 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:37.658 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:37.769 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:37.909 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:38.159 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:38.409 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:38.660 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:38.834 I/StvLogReport( 2837): Report Nielsen, handleMessage: 'send bd ok
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^816B705A0F27D860^10.58.80.116^2018-08-16 14:48:27^1^2.57^5^I^^^^^^^^^-100^10.58.80.116^5CD612C8331^5CD612C8331^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^D91FC80E776BC550^10.58.81.96^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.81.96^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^3F852E744EAFFCFA^10.58.82.164^2018-08-16 14:48:28^1^2.57^5^O^^^^^^^^^-100^10.58.82.164^ANDROID_FAFCAF^ANDROID_FAFCAF^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD251766B^10.58.81.28^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.81.28^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD251770D^10.58.83.78^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.83.78^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD25B6BC4^10.58.81.29^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.81.29^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD270D165^10.58.83.11^2018-08-16 14:48:28^1^2.57^5^O^^^^^^^^^-100^10.58.83.11^ANDROID_65D170^ANDROID_65D170^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^11AF009EC8D6CF59^10.58.83.57^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.83.57^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD2509651^10.58.81.27^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.81.27^^^
+08-16 14:48:38.834 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^^C12CB01BD25AAF23^10.58.81.106^2018-08-16 14:48:28^1^2.57^0^O^^^^^^^^^-100^10.58.81.106^^^ (104)'.
+08-16 14:48:38.910 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:39.161 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:39.411 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:39.662 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:39.912 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:40.162 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:40.413 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:40.663 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:40.769 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:48:40.914 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:41.164 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:48:41.414 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0

@@ -1,0 +1,34 @@
+
+
+
+User 1%, System 6%, IOW 0%, IRQ 0%
+User 13 + Nice 1 + Sys 84 + Idle 1108 + IOW 0 + IRQ 0 + SIRQ 9 = 1215
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1803  3   1% S    62 1715864K  23072K  fg root     /applications/bin/tvos
+ 2207  0   0% S   103 2344976K 115364K  fg system   system_server
+ 3007  0   0% S   175 1968344K 350836K  fg system   com.stv.launcher
+ 1774  3   0% S     4  29564K   3616K  fg system   /system/bin/sensorservice
+24143  0   0% S     1      0K      0K  fg root     kworker/0:2
+24256  2   0% R     1   3588K   1084K  fg root     top
+ 1749  1   0% S    28 631752K  22776K  fg system   /system/bin/surfaceflinger
+ 1075  3   0% S     1      0K      0K  fg root     irq/42-scaler
+ 1758  0   0% S    28 830500K  16816K  fg media    /system/bin/mediaserver
+ 4297  3   0% S    13 1465448K  30492K  bg system   letv.remotemanager
+
+
+
+User 1%, System 6%, IOW 0%, IRQ 0%
+User 18 + Nice 0 + Sys 76 + Idle 1113 + IOW 0 + IRQ 0 + SIRQ 7 = 1214
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1803  3   1% S    62 1715864K  23072K  fg root     /applications/bin/tvos
+ 3007  0   0% S   175 1968344K 350820K  fg system   com.stv.launcher
+ 1774  3   0% S     4  29564K   3616K  fg system   /system/bin/sensorservice
+ 1758  0   0% S    28 830500K  16816K  fg media    /system/bin/mediaserver
+24143  0   0% S     1      0K      0K  fg root     kworker/0:2
+ 1075  3   0% S     1      0K      0K  fg root     irq/42-scaler
+24256  2   0% R     1   3592K   1084K  fg root     top
+ 1749  1   0% S    28 631752K  22776K  fg system   /system/bin/surfaceflinger
+ 4297  3   0% S    13 1465448K  30492K  bg system   letv.remotemanager
+ 2837  0   0% S    50 940840K  35652K  bg system   com.stv.reportlog

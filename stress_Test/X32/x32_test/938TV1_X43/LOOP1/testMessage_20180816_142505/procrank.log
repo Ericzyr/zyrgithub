@@ -1,0 +1,91 @@
+warning: could not create process interface for 17527
+  PID       Vss      Rss      Pss      Uss  cmdline
+ 3007  2015700K  287164K  255381K  248812K  com.stv.launcher
+ 4876  2294680K  132256K   86344K   82856K  com.stv.signalsourcemanager
+ 2207  2300372K  133824K   84933K   79488K  system_server
+ 9287  2973532K  124528K   79553K   75936K  com.le.lepay.tv
+ 2822  1587340K   93780K   47278K   42936K  com.stv.globalsetting
+ 5085  1688172K   58848K   31642K   28144K  com.letv.tv
+ 9391  2250536K   70684K   29522K   27156K  com.stv.filemanager
+17114  1520632K   72420K   29319K   26208K  com.stv.message
+ 3380   933740K   48992K   27952K   25736K  com.stv.cdeapk:cde
+ 1803   575664K   22948K   19700K   18900K  /applications/bin/tvos
+ 2703  1520932K   57520K   19276K   17488K  com.android.systemui
+ 4071  1001228K   44544K   18333K   15384K  com.stv.smartControl
+ 3788  1623028K   45600K   17570K   13236K  com.letv.tvos.appstore
+ 3602  1530332K   47392K   13707K   12036K  com.stv.bootadmanager
+ 2837   940836K   38912K   13242K   10444K  com.stv.reportlog
+ 1749   196888K   20988K   13220K   11872K  /system/bin/surfaceflinger
+ 2613  1482776K   50368K   12701K   10908K  com.stv.helper.service
+14235  1521932K   54152K   12277K   10048K  com.stv.lekey
+ 1758   144588K   17432K   11873K   10504K  /system/bin/mediaserver
+ 4326  1497564K   48284K   11540K    9956K  com.kuyun.common.androidtv
+ 7946  2145224K   44812K   10877K    9396K  com.letv.leso
+ 3017  1485348K   46640K   10458K    8692K  com.stv.bq
+22962   908768K   35728K   10138K    7140K  sina.mobile.tianqitongstv
+ 5510  1575368K   33628K   10020K    7888K  com.stv.android.videochat
+ 3655  1510480K   45916K    9759K    8208K  com.stv.stvpush
+ 2644  1467428K   42296K    9105K    7848K  android.process.media
+ 1574  1485744K   41260K    8934K    7140K  com.stv.globalsetting:cde
+ 4635   899048K   32084K    8588K    6336K  com.kuyun.identifer
+14251   910424K   31756K    8584K    6096K  com.stv.voice
+ 3128   929576K   30428K    8289K    6316K  com.android.bluetooth
+ 7791  1513556K   46736K    8260K    6232K  com.stv.factorytest
+ 3031  1464824K   40304K    7777K    6672K  android.process.acore
+ 2808  1476748K   41032K    6687K    5072K  com.stv.commonservice
+ 4456  1465624K   39796K    6516K    5152K  com.android.packageinstaller
+ 2970  1465364K   41684K    6443K    4996K  com.amap.android.location
+ 2720  1473280K   36508K    5923K    4796K  com.mstar.tv.service
+14745  1468272K   35712K    5494K    4348K  com.stv.t2.account
+ 3538  1466076K   36488K    5312K    4292K  com.mstar.android.providers.tv
+ 2987  1460564K   34060K    5086K    4244K  com.stv.bsp.qccrashhandler
+ 3359   900156K   23692K    4928K    2912K  com.stv.cdeapk
+ 2881  1460312K   34912K    4267K    3112K  com.stv.settingadapter.service
+13940  2120440K   36596K    4160K    2964K  com.stv.thememanager
+ 1778  1539832K   27460K    3811K    1136K  zygote
+26524  2123652K   35460K    3735K    2716K  com.android.browser
+ 3512  1462188K   34660K    3735K    2764K  com.stv.network.diagnotics
+17329  1468844K   32912K    3372K    1956K  com.stv.bootadmanager:ui
+ 2999  1460488K   30800K    3327K    2520K  com.mstar.android.pppoe
+ 4594  1462568K   32152K    3252K    2360K  com.stv.net.misc
+ 1777  2108452K   39796K    3210K    1384K  zygote64
+ 4297  1465444K   30860K    3057K    2244K  letv.remotemanager
+14216  1459332K   32936K    3056K    1984K  com.android.defcontainer
+14282  1461436K   31712K    2943K    2068K  com.stv.systemcontrol
+ 1750    43776K    5300K    2921K    2748K  /system/bin/resourcemanager
+ 3283  1459460K   30164K    2610K    1808K  com.leeco.tv.bluetoothassist
+ 1788    33780K    4164K    2312K    2204K  /system/bin/kpService
+ 1717    12500K    3244K    2298K    2260K  /system/bin/logd
+ 1754    17112K    3124K    1993K    1932K  /system/bin/netd
+ 1774    29560K    3660K    1970K    1880K  /system/bin/sensorservice
+ 1826    33400K    3052K    1859K    1720K  /system/bin/kdmServer
+ 1757    26608K    3060K    1829K    1688K  /system/bin/drmserver
+ 3526    20116K    6000K    1749K     832K  /system/bin/virtualkeypad
+ 3216     8960K    3048K    1728K    1680K  wpa_supplicant
+ 2661     7300K    2436K    1662K    1644K  /system/bin/sdcard
+ 1780    26796K    2516K    1153K    1104K  /system/bin/letvmanager
+ 1742    15416K    2300K    1013K     952K  /system/bin/vold
+ 1761    20048K    2128K     816K     772K  /system/bin/keystore
+17585     3184K    1288K     573K     556K  procrank
+ 1782     7488K    1656K     513K     480K  /system/bin/gatekeeperd
+    1     1512K     672K     482K     348K  /init
+ 1884     3340K    1248K     437K     412K  /system/bin/Letv_logcat
+ 1759     3640K    1224K     382K     356K  /system/bin/installd
+ 1753     3116K    1144K     376K     256K  /system/bin/sh
+ 2598     3268K    1160K     373K     352K  /system/bin/dhcpcd
+ 1787     3092K    1132K     356K     236K  /system/bin/sh
+ 1768     6552K    1372K     350K     324K  /system/bin/tee_shmem
+ 4013     4888K     380K     332K     332K  /sbin/adbd
+ 1748     3540K    1116K     311K     288K  /system/bin/servicemanager
+ 1746    11064K     320K     308K     308K  /sbin/healthd
+ 1755     2500K     908K     296K     232K  /system/bin/debuggerd
+ 1786     3584K    1064K     291K     272K  /system/xbin/perfprofd
+ 1756     4216K    1092K     285K     264K  /system/bin/debuggerd64
+ 1747     4156K    1116K     284K     264K  /system/bin/lmkd
+ 1144     1352K     404K     260K     128K  /sbin/ueventd
+ 1781     3036K     988K     234K     216K  /system/bin/bcmdld
+ 1764     2784K     940K     233K     216K  /system/bin/Letv_logwrapper
+                           ------   ------  ------
+                          1067100K  958096K  TOTAL
+
+RAM: 3535368K total, 515296K free, 156708K buffers, 913728K cached, 4040K shmem, 282028K slab

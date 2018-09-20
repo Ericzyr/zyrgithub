@@ -1,0 +1,165 @@
+[508862.504808] init: Starting service 'cpudvfsscaling'...
+[508862.511628] init: Starting service 'gts_rules'...
+[508862.713940] init: Service 'gts_rules' (pid 12453) exited with status 0
+[508863.113825] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508863.113836] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12500,1758,name=MS_OMX_MessageH]
+[508863.125274] [35mmigration data is 0 kb[m
+[508863.130354] [35malloc_contig_range costs 7 ms[m
+[508863.130354] 
+[508863.158357] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508863.158365] [35mCMA_POOL_IOC_ALLOC costs 44 ms[m
+[508863.158365] 
+[508863.158491] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508863.408556] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508863.444935] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508863.453484] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508865.884603] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[508867.542882] init: Service 'cpudvfsscaling' (pid 12452) exited with status 0
+[508878.682530] [4422622003][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[508878.836096] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508878.836107] CMA_Pool_Free:1961 heapid 19, [12500,1758,name=MS_OMX_MessageH]
+[508878.844016] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508878.844024] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508878.873327] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508878.873336] [35mCMA_POOL_IOC_FREE costs 37 ms[m
+[508878.873336] 
+[508878.983997] init: Starting service 'cpudvfsscaling'...
+[508878.990960] init: Starting service 'gts_rules'...
+[508879.203354] init: Service 'gts_rules' (pid 12632) exited with status 0
+[508881.848812] init: Service 'cpudvfsscaling' is being killed...
+[508881.855483] init: Service 'cpudvfsscaling' (pid 12631) killed by signal 9
+[508881.863701] init: Starting service 'gts_rules'...
+[508882.031317] init: Service 'gts_rules' (pid 12678) exited with status 0
+[508882.627941] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508882.627953] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12720,1758,name=MS_OMX_MessageH]
+[508882.639974] [35mmigration data is 0 kb[m
+[508882.646981] [35malloc_contig_range costs 10 ms[m
+[508882.646981] 
+[508882.678896] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508882.678908] [35mCMA_POOL_IOC_ALLOC costs 51 ms[m
+[508882.678908] 
+[508882.679055] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508883.043255] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508883.068495] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508883.077916] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508883.484885] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508883.484894] CMA_Pool_Free:1961 heapid 19, [12720,1758,name=MS_OMX_MessageH]
+[508883.492436] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508883.492444] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508883.516866] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508883.516875] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508883.516875] 
+[508883.625531] [4422623244][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[508892.841495] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508892.841508] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12831,1758,name=MS_OMX_MessageH]
+[508892.855106] [35mmigration data is 0 kb[m
+[508892.859381] [35malloc_contig_range costs 7 ms[m
+[508892.859381] 
+[508892.900675] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508892.900686] [35mCMA_POOL_IOC_ALLOC costs 59 ms[m
+[508892.900686] 
+[508892.900807] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508893.100377] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508893.134730] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508893.143660] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508893.270417] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508893.270427] CMA_Pool_Free:1961 heapid 19, [12831,1758,name=MS_OMX_MessageH]
+[508893.278219] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508893.278228] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508893.303194] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508893.303202] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508893.303202] 
+[508893.538971] [4422625732][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[508895.718076] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508895.718093] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12887,1758,name=MS_OMX_MessageH]
+[508895.734166] [35mmigration data is 0 kb[m
+[508895.738996] [35malloc_contig_range costs 9 ms[m
+[508895.738996] 
+[508895.784760] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508895.784838] [35mCMA_POOL_IOC_ALLOC costs 67 ms[m
+[508895.784838] 
+[508895.784970] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508895.969563] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508895.994552] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508896.003336] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508896.240600] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508896.240610] CMA_Pool_Free:1961 heapid 19, [12887,1758,name=MS_OMX_MessageH]
+[508896.248621] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508896.248631] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508896.274030] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508896.274038] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[508896.274038] 
+[508898.597373] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508898.597385] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12942,1758,name=MS_OMX_MessageH]
+[508898.607987] [35mmigration data is 0 kb[m
+[508898.612271] [35malloc_contig_range costs 6 ms[m
+[508898.612271] 
+[508898.650622] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508898.650632] [35mCMA_POOL_IOC_ALLOC costs 53 ms[m
+[508898.650632] 
+[508898.650940] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508898.876563] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508898.899030] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508898.907759] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508899.148713] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508899.148722] CMA_Pool_Free:1961 heapid 19, [12942,1758,name=MS_OMX_MessageH]
+[508899.156454] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508899.156461] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508899.181081] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508899.181089] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508899.181089] 
+[508901.563585] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508901.563600] CMA_Pool_Alloc:1528, heapid 19, flags=4, [12988,1758,name=MS_OMX_MessageH]
+[508901.574336] [35mmigration data is 0 kb[m
+[508901.578689] [35malloc_contig_range costs 6 ms[m
+[508901.578689] 
+[508901.624076] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508901.624087] [35mCMA_POOL_IOC_ALLOC costs 60 ms[m
+[508901.624087] 
+[508901.624205] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508901.825427] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508901.860348] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508901.869510] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508902.115716] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508902.115725] CMA_Pool_Free:1961 heapid 19, [12988,1758,name=MS_OMX_MessageH]
+[508902.123675] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508902.123685] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508902.149006] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508902.149015] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[508902.149015] 
+[508904.633554] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508904.633565] CMA_Pool_Alloc:1528, heapid 19, flags=4, [13045,1758,name=MS_OMX_MessageH]
+[508904.648351] [35mmigration data is 0 kb[m
+[508904.660987] [35malloc_contig_range costs 15 ms[m
+[508904.660987] 
+[508904.686112] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508904.686129] [35mCMA_POOL_IOC_ALLOC costs 52 ms[m
+[508904.686129] 
+[508904.686273] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508905.095613] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508905.132550] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508905.144625] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508925.641820] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[508926.593121] binder: release 12422:12449 transaction 232823898 in, still active
+[508926.593515] init: Untracked pid 12422 exited with status 0
+[508926.606297] binder: send failed reply for transaction 232823898 to 2207:2409
+[508926.621613] binder: 2207:2339 transaction failed 29189, size 80-0
+[508926.660034] binder: release 12434:12448 transaction 232823896 out, still active
+[508926.673314] binder: 2207:2409 transaction failed 29189, size 4-0
+[508926.680042] binder: send failed reply for transaction 232823896, target dead
+[508957.169722] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508957.169731] CMA_Pool_Free:1961 heapid 19, [13045,1758,name=MS_OMX_MessageH]
+[508957.177851] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508957.177859] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508957.202485] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508957.202493] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508957.202493] 
+[508957.248483] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508957.248494] CMA_Pool_Alloc:1528, heapid 19, flags=4, [13317,1758,name=MS_OMX_MessageH]
+[508957.262144] [35mmigration data is 0 kb[m
+[508957.267531] [35malloc_contig_range costs 11 ms[m
+[508957.267531] 
+[508957.292122] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508957.292130] [35mCMA_POOL_IOC_ALLOC costs 43 ms[m
+[508957.292130] 
+[508957.292262] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m

@@ -1,0 +1,6 @@
+<12>[510539.161877] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<12>[510598.921871] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<6>[510612.927881] binder: release 22762:22775 transaction 233391640 out, still active
+<6>[510612.943433] binder: send failed reply for transaction 233391640, target dead
+<6>[510613.120868] binder: undelivered transaction 233391646
+<13>[510613.124008] init: Untracked pid 22752 exited with status 0

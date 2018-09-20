@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Test Report</title>
+</head>
+<body>
+
+{% for item in person_list %}
+    <p>{{ item.name }},{{ item.age }}</p>
+{% endfor %}
+
+
+
+
+{% with name=person_list.2.name %}
+    <p>{{ name }}</p>
+{% endwith %}
+
+
+{% for k,v in d.items %}
+    <li>{{ forloop.counter }}_{{ k }}:{{ v }}</li>
+{% endfor %}
+
+
+
+<h1>hello world!</h1>
+{{ name }}
+</body>
+</html>

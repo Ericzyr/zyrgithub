@@ -1,0 +1,3 @@
+com.letv.cases.leui.CalendarStress#testEntryCalendar,Loop:20
+com.letv.cases.leui.CalendarStress#testOpertionCalendar,Loop:20
+com.letv.cases.leui.CalendarStress#testCalendarSwitchDate,Loop:20

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            width: 800px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            color: black;
+        }
+
+        td {
+            font-size: 13px;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+        }
+
+        th {
+            font-size: 15px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            background: #a1a1a1;
+            font-weight: bold;
+        }
+
+        .autolinefeed {
+            text-align: left;
+            width: 500px;
+            word-break: break-all;
+        }
+
+        .exactionTable th, .infoTable th {
+            width: 88px;
+        }
+    </style>
+</head>
+<body style="font-family: 'Microsoft Yahei', SimHei, sans-serif;">
+<p>Hi,all</p>
+<b>Buglist:</b>
+
+{% if buglist %}
+    <p></p>
+    <table class="bugTable">
+        <tr>
+            <th>Keyword</th>
+            <th>Summary</th>
+            <th>Status</th>
+            <th>Assignee</th>
+            <th>Resolution</th>
+        </tr>
+        {% for bug in buglist %}
+            <tr>
+                <td><a href=http://jira.letv.cn/browse/{{ bug.id }}>{{ bug.id }}</a></td>
+                <td class="autolinefeed">{{ bug.summary }}</td>
+                <td>{{ bug.status }}</td>
+                <td>{{ bug.assignee }}</td>
+                <td>{{ bug.resolution }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <b>none</b>
+{% endif %}
+
+
+</br>
+<p><b>Version Information:</b></p>
+<table class="infoTable">
+    <tr>
+        <th colspan="4">{{ title }}</th>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td>{{ date }}</td>
+        <th>Tester</th>
+        <td>{{ tester }}</td>
+    </tr>
+    <tr>
+        <th>HW</th>
+        <td colspan="3">{{ hw }}</td>
+    </tr>
+    <tr>
+        <th>SW</th>
+        <td colspan="3">{{ sw }}</td>
+    </tr>
+</table>
+
+
+</br>
+<p><b>Auto Case Passing Rate：</b></p>
+<table class="exactionTable">
+    <tr>
+        <th>Test Range</th>
+        <th>Tester</th>
+        <th>Test Type</th>
+        <th style="background-color: chartreuse">Totally</th>
+        <th>Pass Rate</th>
+    </tr>
+    <tr>
+        <td>Full Sanity</td>
+        <td>Automation Test Team</td>
+        <td>Auto</td>
+        <td>{{ totallynum }}</td>
+        <td>{{ passrate }}</td>
+    </tr>
+</table>
+
+</br>
+<p><b>Bug Occurrences：</b></p>
+<table class="bugTable" style="width: 200px">
+    <tr>
+        <th style="background-color: lightskyblue">ANR</th>
+        <th style="background-color: white">{{ anrnum }}</th>
+    </tr>
+    <tr>
+        <th style="background-color: lightskyblue">FC</th>
+        <th style="background-color: white">{{ fcnum }}</th>
+    </tr>
+    <tr>
+        <th style="background-color: lightskyblue">Reboot</th>
+        <th style="background-color: white">{{ rebootrnum }}</th>
+    </tr>
+    <tr>
+        <th style="background-color: lightskyblue">Tombstone</th>
+        <th style="background-color: white">{{ tombstonenum }}</th>
+    </tr>
+    <tr>
+        <th style="background-color: lightskyblue">Function Error</th>
+        <th style="background-color: white">{{ Functionnum }}</th>
+    </tr>
+</table>
+
+
+<p><b>Version Path:</b><a href={{ versionpath }}>{{ versionpath }}</a></p>
+<p><b>Automated test report:</b><a href={{ report }}>{{ report }}</a></p>
+<p>Automated test report please refer to link and annex：<b>index.html</b></p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<p>
+    BestRegards</br>
+    {{tester}}</br>
+</p>
+</body>
+</html>

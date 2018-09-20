@@ -1,0 +1,2 @@
+am instrument -w -r -e class com.letv.cases.leui.SmokeFileManage#LocalplayVideo -e caseFolder LocalplayVideo_20180816_145516  -e LetvUser1 plasma002@126.com -e LetvPWD1 plasma -e LetvUser2 252389844@qq.com -e LetvPWD2 qqqqqq -e DuomiUser myblinko@gmail.com -e DuomiPwd ithink -e GameCenterUser1 15625036458 -e GameCenterPwd1 123456 -e USERNAME 18910799590 -e PASSWORD letv123  -e Loop 1 com.le.tcauto.uitest.test/android.support.test.runner.AndroidJUnitRunner >> /sdcard/case.log &
+exit

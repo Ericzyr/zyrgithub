@@ -1,0 +1,128 @@
+[508984.230216] /home/allen/mtk_wifi/work/letv_ms938_mt7632TU/driver/os/linux/../../common/rtusb_bulk.c:1217 assert (pRxContext->InUse == pRxContext->IRPPending)failed
+[508985.402065] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[508990.274300] [4422650013][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[508990.487438] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508990.487447] CMA_Pool_Free:1961 heapid 19, [13317,1758,name=MS_OMX_MessageH]
+[508990.495110] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508990.495117] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508990.519796] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508990.519803] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508990.519803] 
+[508990.660655] init: Starting service 'cpudvfsscaling'...
+[508990.677909] init: Starting service 'gts_rules'...
+[508990.871587] init: Service 'gts_rules' (pid 13558) exited with status 0
+[508993.528638] init: Service 'cpudvfsscaling' is being killed...
+[508993.535578] init: Service 'cpudvfsscaling' (pid 13557) killed by signal 9
+[508993.543113] init: Starting service 'cpudvfsscaling'...
+[508993.549168] init: Starting service 'gts_rules'...
+[508993.761237] init: Service 'gts_rules' (pid 13601) exited with status 0
+[508994.362901] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[508994.362912] CMA_Pool_Alloc:1528, heapid 19, flags=4, [13650,1758,name=MS_OMX_MessageH]
+[508994.376002] [35mmigration data is 0 kb[m
+[508994.379947] [35malloc_contig_range costs 5 ms[m
+[508994.379947] 
+[508994.410760] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[508994.410771] [35mCMA_POOL_IOC_ALLOC costs 48 ms[m
+[508994.410771] 
+[508994.410913] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[508994.803922] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508994.827289] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508994.838043] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[508995.048024] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[508995.048034] CMA_Pool_Free:1961 heapid 19, [13650,1758,name=MS_OMX_MessageH]
+[508995.055653] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[508995.055661] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[508995.080580] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[508995.080588] [35mCMA_POOL_IOC_FREE costs 32 ms[m
+[508995.080588] 
+[508995.317487] [4422651279][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[508998.572267] init: Service 'cpudvfsscaling' (pid 13600) exited with status 0
+[509003.209271] [4422653260][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509012.492565] init: Starting service 'cpudvfsscaling'...
+[509012.512038] init: Starting service 'gts_rules'...
+[509012.731338] init: Service 'gts_rules' (pid 13782) exited with status 0
+[509017.538538] init: Service 'cpudvfsscaling' (pid 13778) exited with status 0
+[509034.055238] [4422661002][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509039.488969] init: Starting service 'gts_rules'...
+[509039.743923] init: Service 'gts_rules' (pid 13937) exited with status 0
+[509043.162953] init: Starting service 'gts_rules'...
+[509043.382142] init: Service 'gts_rules' (pid 14005) exited with status 0
+[509043.926239] binder: 2207:2207 transaction failed 29189, size 100-0
+[509045.161865] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[509054.769917] [4422666202][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509055.588389] init: Starting service 'gts_rules'...
+[509055.794338] init: Service 'gts_rules' (pid 14098) exited with status 0
+[509056.348245] binder: 2207:2207 transaction failed 29189, size 100-0
+[509057.935090] init: Starting service 'cpudvfsscaling'...
+[509057.942225] init: Starting service 'gts_rules'...
+[509058.168678] init: Service 'gts_rules' (pid 14132) exited with status 0
+[509062.979597] init: Service 'cpudvfsscaling' (pid 14129) exited with status 0
+[509066.859214] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[509066.859230] CMA_Pool_Alloc:1528, heapid 19, flags=4, [14230,1758,name=MS_OMX_MessageH]
+[509066.871933] [35mmigration data is 0 kb[m
+[509066.876449] [35malloc_contig_range costs 9 ms[m
+[509066.876449] 
+[509066.926563] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[509066.926572] [35mCMA_POOL_IOC_ALLOC costs 67 ms[m
+[509066.926572] 
+[509066.926717] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[509067.194003] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509067.221869] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509067.237682] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509074.779043] [4422671224][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509074.893526] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[509074.893539] CMA_Pool_Free:1961 heapid 19, [14230,1758,name=MS_OMX_MessageH]
+[509074.901297] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[509074.901309] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[509074.930382] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[509074.930392] [35mCMA_POOL_IOC_FREE costs 37 ms[m
+[509074.930392] 
+[509075.062277] init: Starting service 'cpudvfsscaling'...
+[509075.072903] init: Starting service 'gts_rules'...
+[509075.363343] init: Service 'gts_rules' (pid 14332) exited with status 0
+[509077.448185] init: Service 'cpudvfsscaling' is being killed...
+[509077.454760] init: Service 'cpudvfsscaling' (pid 14329) killed by signal 9
+[509077.462457] init: Starting service 'gts_rules'...
+[509077.802050] init: Service 'gts_rules' (pid 14382) exited with status 0
+[509078.163549] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[509078.163562] CMA_Pool_Alloc:1528, heapid 19, flags=4, [14423,1758,name=MS_OMX_MessageH]
+[509078.174730] [35mmigration data is 0 kb[m
+[509078.180048] [35malloc_contig_range costs 8 ms[m
+[509078.180048] 
+[509078.239142] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[509078.239151] [35mCMA_POOL_IOC_ALLOC costs 75 ms[m
+[509078.239151] 
+[509078.239269] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[509078.499849] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509078.524940] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509078.535200] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[509078.827145] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[509078.827155] CMA_Pool_Free:1961 heapid 19, [14423,1758,name=MS_OMX_MessageH]
+[509078.834864] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[509078.834873] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[509078.860484] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[509078.860492] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[509078.860492] 
+[509079.084515] [4422672305][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509087.032802] [4422674300][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509096.222150] init: Starting service 'cpudvfsscaling'...
+[509096.231460] init: Starting service 'gts_rules'...
+[509096.444350] init: Service 'gts_rules' (pid 14560) exited with status 0
+[509101.251226] init: Service 'cpudvfsscaling' (pid 14558) exited with status 0
+[509101.468987] [4422677923][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[509101.475948] init: Starting service 'cpudvfsscaling'...
+[509104.856748] init: Service 'cpudvfsscaling' is being killed...
+[509104.864089] init: Service 'cpudvfsscaling' (pid 14623) killed by signal 9
+[509104.922049] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[509105.780886] binder: release 5053:5053 transaction 232940475 out, still active
+[509105.795644] binder: 2207:2405 transaction failed 29189, size 324-0
+[509105.844730] binder: 2207:2317 transaction failed 29189, size 4-0
+[509105.851242] binder: send failed reply for transaction 232940475, target dead
+[509105.921115] init: Starting service 'cpudvfsscaling'...
+[509105.927193] init: Starting service 'gts_rules'...
+[509106.119194] init: Service 'gts_rules' (pid 14720) exited with status 0
+[509110.944672] init: Service 'cpudvfsscaling' (pid 14719) exited with status 0
+[509111.402762] binder: release 13472:13487 transaction 232943590 out, still active
+[509111.412916] binder: 2207:8186 transaction failed 29189, size 4-0
+[509111.419760] binder: send failed reply for transaction 232943590, target dead
+[509111.587065] init: Untracked pid 13462 exited with status 0

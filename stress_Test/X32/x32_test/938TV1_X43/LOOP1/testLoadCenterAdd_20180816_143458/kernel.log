@@ -1,0 +1,20 @@
+<6>[510125.231519] EXT4-fs (mmcblk0p14): re-mounted. Opts: (null)
+<13>[510136.747103] init: Starting service 'cpudvfsscaling'...
+<13>[510136.758285] init: Starting service 'gts_rules'...
+<13>[510137.029962] init: Service 'gts_rules' (pid 20700) exited with status 0
+<13>[510141.792364] init: Service 'cpudvfsscaling' (pid 20698) exited with status 0
+<4>[510141.946539] [4422939087][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[510142.599590] init: Starting service 'gts_rules'...
+<13>[510142.860079] init: Service 'gts_rules' (pid 20754) exited with status 0
+<13>[510151.353665] init: Starting service 'gts_rules'...
+<13>[510162.860623] init: Service 'gts_rules' (pid 20958) exited with status 0
+<13>[510163.578231] init: Service 'gts_rules' (pid 20992) exited with status 0
+<13>[510164.060815] init: Starting service 'gts_rules'...
+<13>[510164.261738] init: Service 'gts_rules' (pid 21010) exited with status 0
+<6>[510168.429283] binder: release 20636:20649 transaction 233267640 out, still active
+<6>[510168.438857] binder: 2207:8186 transaction failed 29189, size 4-0
+<6>[510168.445129] binder: send failed reply for transaction 233267640, target dead
+<6>[510168.640377] binder: undelivered transaction 233267653
+<13>[510168.640571] init: Untracked pid 20624 exited with status 0
+<13>[510169.098836] init: Service 'cpudvfsscaling' (pid 21009) exited with status 0
+<12>[510180.602010] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au

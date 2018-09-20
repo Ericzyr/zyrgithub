@@ -1,0 +1,61 @@
+###,common,EOS,DEMETER,IRIS,HERACLES,EUISIX
+com.letv.tvos.gamecenter,,游戏中心,Game Center,Game Center,Game Center_App,
+com.stv.userguider,,Guide,APP-Guide,Guider,Guider,开机引导
+com.android.bcm.bluetooth,,AB_Bluetooth,TVBSP_Bluetooth,Framework,AB_bluetooth,EUI框架
+com.android.providers.calendar,,AB_Framework,AB_Framework,Framework,AB_Framework,EUI框架
+com.android.tv.settings,,AB_Framework,AB_Framework,Framework,AB_Framework,EUI框架
+com.android.providers.media,,AB_Framework,AB_Framework,Framework,Media Center,EUI框架
+com.android.wallpapercropper,,AB_Framework,AB_Framework,Framework,AB_Framework,EUI框架
+com.lesports.tv,,桌面_体育,乐视体育,Launcher,Launcher-Sport,
+com.jiajia.yundonghui.letv,,桌面_游戏,乐迷运动汇,Launcher,Launcher-Game,
+com.android.providers.downloads,,AB_Framework,AB_Framework,Framework,AB_Framework,EUI框架
+com.android.providers.tv,,AB_Framework,AB_Framework,Framework,AB_Framework,EUI框架
+com.stv.systemupgrade,,APP-System update,APP-System update,APP-System update,APP-System update,系统更新
+com.android.browser,,Browser,APP-Browser,Browser-UI,Browser-UI,
+com.android.inputmethod.pinyin,,PinyinIME,PinyinIME,PinyinIME,PinyinIME,
+com.stv.videohistory,,History,APP-History,History,History,播放记录
+com.stv.stvremoterupdate,,CTS_BSP,AB_Upgrade,CTS_BSP,CTS_BSP,EUI框架
+com.stv.stvpush,,推送消息服务,LePush,推送消息服务,推送消息服务,推送服务
+com.stv.camera,,Le Camera,Le Camera,Le Camera,AB_Camera,乐拍
+com.stv.signalsourcemanager,,Signal source-China,Signal source,Signal source,Signal source,信号源
+com.letv.lecloud.disk,,Cloud disk,Cloud disk,Cloud disk,Cloud disk,云备份
+com.stv.guider,,Guide,APP-Guide,Guider,Guider,开机引导
+com.letv.tvos.appstore,,LetvStore,Store,LeEco_Store,Store_App,
+com.stv.reportlog,,LogReport,LogReport,Feedback,Feedback,数据统计上报
+com.stv.filemanager,,File management-local storage,File management-local storage,File management-local storage,File management-local storage,文件管理
+com.stv.tvweibo,,Weibo,Weibo,第三方,Weibo,微博
+system_server,,AB_System,AB_Framework,Framework,AB_System,EUI框架
+com.stv.stvappupdate,,AB_Upgrade,AB_Upgrade,CTS_BSP,AB_System,EUI框架
+com.stv.launcher,,Launcher,Launcher frame,Launcher,Launcher,EUI框架
+com.stv.t2.account,,Member account,APP-Member account,Member account,Member account,账号
+com.android.gallery3d,,Gallery,APP-Gallery,Gallary,Gallery,图库
+com.android.packageinstaller,,AB_Framework,APP-Package install,File management-local storage,,
+com.stv.miracast,,AB_Miracast,AB_Miracast,TVBSP_Miracast,AB_Miracast,
+com.stv.videoplayer,,Video Player,VideoPlayer,VideoPlayer,VideoPlayer,本地播放器
+com.letv.leso,,APP_Leso,APP-Leso,LeEco_Leso,APP_Leso,
+com.stv.helper.main,,APP-乐视电视助手,Letv helper,APP-乐视电视助手,APP-乐视电视助手,电视管家
+com.stv.lekey,,LeKey,LeKey,LeKey,LeKey,
+com.stv.music,,Music,Music,Music,Music,音乐
+com.stv.voice,,Voice,SuperVoice,TVBSP_voice control,voice,
+com.stv.downloads,,Download center,Download center,Download center,Download center,下载中心
+com.stv.shopping,,STV Shopping,购物桌面,STV Shopping,Launcher-Shopping,购物
+com.letv.tv,,LetvSuperTV,LetvSuperTV,LetvSuperTV,LetvSuperTV,
+mstar.factorymenu.ui,,AB_Factory,Factory_Menu,CTS_BSP,AB_Factory,
+com.stv.feedback,,Feedback,APP-Feedback,Feedback,Feedback,问题反馈
+com.stv.calendar,,APP-Calendar,APP-Calendar,APP-Calendar,APP-Calendar,日历
+com.stv.globalsetting,,设置--系统设置,APP-Settings,Settings,Settings,设置
+com.android.bluetoothmidiservice,,AB_Bluetooth,AB_Bluetooth,TVBSP_bluetooth,AB_bluetooth,
+com.golive.letvcinema,,Launcher,同步院线,golive,Launcher,
+com.stv.message,,Messages,APP-Messages,Messages,Messages,消息中心
+com.android.bluetooth,,AB_Bluetooth,AB_Bluetooth,TVBSP_bluetooth,AB_bluetooth,
+com.stv.weather,,Weather,APP-Weather,Weather,Weather,天气
+com.stv.bootadmanager,,CTS_BSP,BootAD,CTS_BSP,AD,
+/system/bin/mediaserver,,AB_Multimedia,Mediascan,TVBSP_multimedia,AB_multimedia,
+com.stv.thememanager,,APP-TV manager,APP-Theme,APP-Theme,APP-Theme,主题
+com.stv.android.videochat,,Home Time,Home Time,HOME TIME,HOME TIME,HomeTime
+sina.mobile.tianqitongstv,,Weather,APP-Weather,Weather,Weather,天气
+com.stv.dtmb,,CTS_BSP,CTS_BSP,DTMB,CTS_BSP,EUI框架
+com.sup.cloud.driver,,Cloud disk,Cloud disk,Cloud disk,Cloud disk,云备份
+com.stv.cloudgallery,,Cloud disk,Cloud disk,Cloud disk,Cloud disk,云相册
+com.android.systemui,,AB_Framework,AB_Framework,Framework,AB_System,EUI框架
+com.stv.screenflyter,,Screensaver,Screensaver,Screensaver,Screensaver,屏保

@@ -1,0 +1,241 @@
+MemTotal:        3535368 kB
+MemFree:          505272 kB
+Buffers:          121600 kB
+Cached:           914488 kB
+SwapCached:            0 kB
+Active:          1304820 kB
+Inactive:         515880 kB
+Active(anon):     795444 kB
+Inactive(anon):     3836 kB
+Active(file):     509376 kB
+Inactive(file):   512044 kB
+Unevictable:       10624 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+AnonPages:        795464 kB
+Mapped:           251748 kB
+Shmem:              4044 kB
+Slab:             328536 kB
+SReclaimable:     285236 kB
+SUnreclaim:        43300 kB
+KernelStack:       26352 kB
+PageTables:        33532 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1767684 kB
+Committed_AS:   57273428 kB
+VmallocTotal:   251658176 kB
+VmallocUsed:      165236 kB
+VmallocChunk:   251371264 kB
+CMA Free: 383400 kB 
+CMA heap info(name,alloc,in cache,fail,total free): 
+ DEFAULT_CMA_BUFFER (352kb 0kb 0kb 16032kb) OTHERS (126976kb 0kb 0kb 0kb) VDEC1 (0kb 0kb 0kb 253952kb) OTHERS2 (102400kb 0kb 0kb 0kb) VDEC0 (0kb 0kb 0kb 106496kb) MALI_GOP (0kb 0kb 0kb 122880kb) OTHERS3 (229376kb 0kb 0kb 0kb) XC0 (0kb 0kb 0kb 98304kb) 
+Applications Memory Usage (kB):
+Uptime: 513001810 Realtime: 513001810
+
+Total PSS by process:
+   204986 kB: com.stv.launcher (pid 3007 / activities)
+    85475 kB: com.stv.signalsourcemanager (pid 4876 / activities)
+    79291 kB: com.le.lepay.tv (pid 9287)
+    70573 kB: system (pid 2207)
+    70176 kB: com.stv.globalsetting (pid 2822)
+    47690 kB: sina.mobile.tianqitongstv (pid 17709)
+    46345 kB: surfaceflinger (pid 1749)
+    36708 kB: com.stv.feedback (pid 20195)
+    31620 kB: com.letv.tv (pid 5085)
+    28744 kB: com.stv.message (pid 17114)
+    27939 kB: com.stv.cdeapk:cde (pid 3380)
+    20179 kB: tvos (pid 1803)
+    19017 kB: com.android.systemui (pid 2703)
+    17272 kB: com.letv.tvos.appstore (pid 3788)
+    13756 kB: com.stv.bootadmanager (pid 3602)
+    13212 kB: com.stv.reportlog (pid 2837)
+    12180 kB: com.stv.lekey (pid 14235)
+    12038 kB: com.stv.helper.service (pid 2613)
+    11526 kB: mediaserver (pid 1758)
+    11474 kB: com.kuyun.common.androidtv (pid 4326)
+    10823 kB: com.stv.bq (pid 3017)
+    10388 kB: com.letv.leso (pid 7946)
+    10037 kB: com.stv.android.videochat (pid 5510)
+     9540 kB: com.stv.stvpush (pid 3655)
+     9187 kB: android.process.media (pid 2644)
+     8760 kB: com.stv.globalsetting:cde (pid 1574)
+     8598 kB: com.kuyun.identifer (pid 4635)
+     8518 kB: com.stv.voice (pid 14251)
+     8194 kB: com.stv.factorytest (pid 7791 / activities)
+     7688 kB: com.android.bluetooth (pid 3128)
+     7580 kB: android.process.acore (pid 3031)
+     6422 kB: com.android.packageinstaller (pid 4456)
+     6126 kB: com.stv.commonservice (pid 2808)
+     6082 kB: com.amap.android.location (pid 2970)
+     5966 kB: com.stv.settingadapter.service (pid 2881)
+     5939 kB: com.mstar.tv.service (pid 2720)
+     5500 kB: com.stv.t2.account (pid 14745)
+     5290 kB: com.stv.bsp.qccrashhandler (pid 2987)
+     4905 kB: com.stv.cdeapk (pid 3359)
+     4749 kB: com.mstar.android.providers.tv (pid 22042)
+     4014 kB: com.stv.thememanager (pid 13940)
+     3716 kB: com.stv.network.diagnotics (pid 3512)
+     3651 kB: zygote (pid 1778)
+     3306 kB: zygote64 (pid 1777)
+     3271 kB: com.stv.bootadmanager:ui (pid 17329)
+     3263 kB: com.mstar.android.pppoe (pid 2999)
+     3154 kB: letv.remotemanager (pid 4297)
+     3075 kB: com.stv.net.misc (pid 4594)
+     2952 kB: com.android.defcontainer (pid 14216)
+     2883 kB: resourcemanager (pid 1750)
+     2871 kB: com.stv.systemcontrol (pid 14282)
+     2542 kB: com.leeco.tv.bluetoothassist (pid 3283)
+     2294 kB: logd (pid 1717)
+     2288 kB: kpService (pid 1788)
+     2000 kB: netd (pid 1754)
+     1953 kB: sensorservice (pid 1774)
+     1836 kB: kdmServer (pid 1826)
+     1802 kB: drmserver (pid 1757)
+     1745 kB: virtualkeypad (pid 3526)
+     1711 kB: sdcard (pid 2661)
+     1149 kB: letvmanager (pid 1780)
+     1005 kB: vold (pid 1742)
+      808 kB: keystore (pid 1761)
+      507 kB: gatekeeperd (pid 1782)
+      482 kB: /init (pid 1)
+      433 kB: Letv_logcat (pid 1884)
+      376 kB: installd (pid 1759)
+      374 kB: sh (pid 1753)
+      365 kB: dumpsys (pid 24252)
+      354 kB: sh (pid 1787)
+      346 kB: tee_shmem (pid 1768)
+      346 kB: dhcpcd (pid 2598)
+      332 kB: adbd (pid 4013)
+      308 kB: healthd (pid 1746)
+      306 kB: servicemanager (pid 1748)
+      291 kB: debuggerd (pid 1755)
+      288 kB: perfprofd (pid 1786)
+      282 kB: debuggerd64 (pid 1756)
+      280 kB: lmkd (pid 1747)
+      260 kB: ueventd (pid 1144)
+      231 kB: Letv_logwrapper (pid 1764)
+      231 kB: bcmdld (pid 1781)
+
+Total PSS by OOM adjustment:
+   112873 kB: Native
+               46345 kB: surfaceflinger (pid 1749)
+               20179 kB: tvos (pid 1803)
+               11526 kB: mediaserver (pid 1758)
+                3651 kB: zygote (pid 1778)
+                3306 kB: zygote64 (pid 1777)
+                2883 kB: resourcemanager (pid 1750)
+                2294 kB: logd (pid 1717)
+                2288 kB: kpService (pid 1788)
+                2000 kB: netd (pid 1754)
+                1953 kB: sensorservice (pid 1774)
+                1836 kB: kdmServer (pid 1826)
+                1802 kB: drmserver (pid 1757)
+                1745 kB: virtualkeypad (pid 3526)
+                1711 kB: sdcard (pid 2661)
+                1149 kB: letvmanager (pid 1780)
+                1005 kB: vold (pid 1742)
+                 808 kB: keystore (pid 1761)
+                 507 kB: gatekeeperd (pid 1782)
+                 482 kB: /init (pid 1)
+                 433 kB: Letv_logcat (pid 1884)
+                 376 kB: installd (pid 1759)
+                 374 kB: sh (pid 1753)
+                 365 kB: dumpsys (pid 24252)
+                 354 kB: sh (pid 1787)
+                 346 kB: tee_shmem (pid 1768)
+                 346 kB: dhcpcd (pid 2598)
+                 332 kB: adbd (pid 4013)
+                 308 kB: healthd (pid 1746)
+                 306 kB: servicemanager (pid 1748)
+                 291 kB: debuggerd (pid 1755)
+                 288 kB: perfprofd (pid 1786)
+                 282 kB: debuggerd64 (pid 1756)
+                 280 kB: lmkd (pid 1747)
+                 260 kB: ueventd (pid 1144)
+                 231 kB: Letv_logwrapper (pid 1764)
+                 231 kB: bcmdld (pid 1781)
+   348696 kB: Persistent
+              204986 kB: com.stv.launcher (pid 3007 / activities)
+               70573 kB: system (pid 2207)
+               19017 kB: com.android.systemui (pid 2703)
+               12038 kB: com.stv.helper.service (pid 2613)
+               10823 kB: com.stv.bq (pid 3017)
+                9187 kB: android.process.media (pid 2644)
+                7580 kB: android.process.acore (pid 3031)
+                5939 kB: com.mstar.tv.service (pid 2720)
+                5290 kB: com.stv.bsp.qccrashhandler (pid 2987)
+                3263 kB: com.mstar.android.pppoe (pid 2999)
+     7688 kB: Persistent Service
+                7688 kB: com.android.bluetooth (pid 3128)
+   123362 kB: Visible
+               70176 kB: com.stv.globalsetting (pid 2822)
+               27939 kB: com.stv.cdeapk:cde (pid 3380)
+                8760 kB: com.stv.globalsetting:cde (pid 1574)
+                6082 kB: com.amap.android.location (pid 2970)
+                5500 kB: com.stv.t2.account (pid 14745)
+                4905 kB: com.stv.cdeapk (pid 3359)
+    15506 kB: A Services
+                9540 kB: com.stv.stvpush (pid 3655)
+                5966 kB: com.stv.settingadapter.service (pid 2881)
+   241926 kB: B Services
+               85475 kB: com.stv.signalsourcemanager (pid 4876 / activities)
+               31620 kB: com.letv.tv (pid 5085)
+               17272 kB: com.letv.tvos.appstore (pid 3788)
+               13756 kB: com.stv.bootadmanager (pid 3602)
+               13212 kB: com.stv.reportlog (pid 2837)
+               12180 kB: com.stv.lekey (pid 14235)
+               11474 kB: com.kuyun.common.androidtv (pid 4326)
+               10037 kB: com.stv.android.videochat (pid 5510)
+                8598 kB: com.kuyun.identifer (pid 4635)
+                8518 kB: com.stv.voice (pid 14251)
+                6422 kB: com.android.packageinstaller (pid 4456)
+                6126 kB: com.stv.commonservice (pid 2808)
+                4749 kB: com.mstar.android.providers.tv (pid 22042)
+                3716 kB: com.stv.network.diagnotics (pid 3512)
+                3154 kB: letv.remotemanager (pid 4297)
+                3075 kB: com.stv.net.misc (pid 4594)
+                2542 kB: com.leeco.tv.bluetoothassist (pid 3283)
+   224123 kB: Cached
+               79291 kB: com.le.lepay.tv (pid 9287)
+               47690 kB: sina.mobile.tianqitongstv (pid 17709)
+               36708 kB: com.stv.feedback (pid 20195)
+               28744 kB: com.stv.message (pid 17114)
+               10388 kB: com.letv.leso (pid 7946)
+                8194 kB: com.stv.factorytest (pid 7791 / activities)
+                4014 kB: com.stv.thememanager (pid 13940)
+                3271 kB: com.stv.bootadmanager:ui (pid 17329)
+                2952 kB: com.android.defcontainer (pid 14216)
+                2871 kB: com.stv.systemcontrol (pid 14282)
+
+Total PSS by category:
+   266462 kB: Dalvik
+   232887 kB: Native
+   182775 kB: Dalvik Other
+    82353 kB: .so mmap
+    79620 kB: .dex mmap
+    54242 kB: .art mmap
+    48017 kB: .oat mmap
+    36267 kB: .apk mmap
+    33152 kB: EGL mtrack
+    19040 kB: Stack
+    18825 kB: Unknown
+    12176 kB: Other mmap
+     7095 kB: Other dev
+     1064 kB: Ashmem
+      171 kB: .ttf mmap
+       28 kB: Cursor
+        0 kB: Gfx dev
+        0 kB: .jar mmap
+        0 kB: GL mtrack
+        0 kB: Other mtrack
+
+Total RAM: 3535368 kB (status moderate)
+ Free RAM: 1513923 kB (224123 cached pss + 784284 cached kernel + 505516 free)
+ Used RAM: 1242543 kB (850051 used pss + 392492 kernel)
+ Lost RAM: 778902 kB
+   Tuning: 192 (large 512), oom 35840 kB, restore limit 11946 kB (high-end-gfx)

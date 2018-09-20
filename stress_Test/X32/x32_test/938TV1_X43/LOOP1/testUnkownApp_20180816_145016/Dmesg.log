@@ -1,0 +1,42 @@
+[511042.345403] [4423165091][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[511043.649402] init: Starting service 'cpudvfsscaling'...
+[511043.661795] init: Starting service 'gts_rules'...
+[511043.930618] init: Service 'gts_rules' (pid 24513) exited with status 0
+[511048.727263] init: Service 'cpudvfsscaling' (pid 24512) exited with status 0
+[511060.317763] [ir_boost] starts
+[511060.449363] init: Starting service 'cpudvfsscaling'...
+[511060.456625] init: Starting service 'gts_rules'...
+[511060.671774] init: Service 'gts_rules' (pid 24561) exited with status 0
+[511060.806128] [ir_boost] extend the expiration time
+[511061.800877] [ir_boost] stops
+[511062.347986] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 40 bytes[m
+[511062.347999] CMA_Pool_Alloc:1528, heapid 19, flags=4, [24611,1758,name=MS_OMX_MessageH]
+[511062.400823] [35mmigration data is 3500 kb[m
+[511062.404785] [35malloc_contig_range costs 47 ms[m
+[511062.404785] 
+[511062.440294] [35mFunction = CMA_Pool_Alloc, Line = 1778, mapping from 0x50800000 to 0x58A00000[m
+[511062.440307] [35mCMA_POOL_IOC_ALLOC costs 92 ms[m
+[511062.440307] 
+[511062.440476] [35mFunction = Compat_CMA_Pool_ioctl, Line = 2377, ERROR!!! CAN NOT FIND CMD_TYPE[m
+[511062.592388] [ir_boost] starts
+[511062.692763] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511062.719279] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511062.728784] [31m[MHal_XC_SetSWDRInfo 6269]Warning:SWDR Data Incorrect[m
+[511062.961530] [35mFunction = CMA_Pool_ioctl, Line = 2418, copy_from_user: 24 bytes[m
+[511062.961540] CMA_Pool_Free:1961 heapid 19, [24611,1758,name=MS_OMX_MessageH]
+[511062.969449] [35mFunction = free_buffer_list, Line = 1854, free front[m
+[511062.969458] [35mFunction = free_buffer_list, Line = 1878, list is empty[m
+[511062.994951] dump heap_id 19 information: min_start 0xFFFFFFFFFFFFFFFF, max_end 0x0
+[511062.994960] [35mCMA_POOL_IOC_FREE costs 33 ms[m
+[511062.994960] 
+[511063.564589] [ir_boost] extend the expiration time
+[511064.557795] [ir_boost] stops
+[511065.469421] init: Service 'cpudvfsscaling' (pid 24559) exited with status 0
+[511077.002015] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[511097.200160] binder: release 24485:24494 transaction 233513232 in, still active
+[511097.200659] init: Untracked pid 24485 exited with status 0
+[511097.213109] binder: send failed reply for transaction 233513232 to 2207:3053
+[511097.221496] binder: 2207:2339 transaction failed 29189, size 80-0
+[511097.262739] binder: release 24495:24508 transaction 233513231 out, still active
+[511097.271708] binder: 2207:3053 transaction failed 29189, size 4-0
+[511097.277918] binder: send failed reply for transaction 233513231, target dead

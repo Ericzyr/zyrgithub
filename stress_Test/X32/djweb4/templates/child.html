@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+
+{% block summary %}
+<table class="summary_table">
+	<tr>
+		<th>STRESS Test Result</th>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<th>{{device.phoneName}}</th>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>SW</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.release}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Release Time</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.buildDate}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Test Start Time</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.startTime}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Test Stop Time</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.EndTime}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Test Total Execution Time</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td>{{device.summary.exeTime}}</td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>ANR</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.ANR == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.ANR}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Tombstone</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.Tombstone == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.Tombstone}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>Force Close</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.FC == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.FC}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td>TV Reboot</td>
+		{% for device in testresult|dictsort:"phoneName" %}
+		<td><span class="{% if device.summary.Reset == 0 %}passCount{% else %}failCount{% endif %}">{{device.summary.Reset}}</span></td>
+		{% endfor %}
+	</tr>
+	<tr>
+		<td><span class="{% if totalError == 0 %}passCount{% else %}failCount{% endif %}">Total Error Num</span></td>
+		<td colspan="{{testresult|length}}"><span class="{% if totalError == 0 %}passCount{% else %}failCount{% endif %}">{{totalError}}</span></td>
+	</tr>
+        <tr>
+                 <td>Case Pass Rate</td>
+                 {% for device in testresult|dictsort:"phoneName" %}
+                 <td><span class="passCount">{{device.summary.Pass}}/{{device.summary.Exce}}={{device.summary.Rate}}%</span></td>
+                 {% endfor %}
+          </tr>
+  	<tr>
+		<td><span class="passCount">STRESS Value</span></td>
+		<td colspan="{{testresult|length}}"><span class="passCount">Total Execution Time / Total Error Num = {{mtbfValue}}</span></td>
+	</tr>
+</table>
+{% endblock %}
+
+{% block entry %}
+<div class="subtittle_down" >
+	Test Case Execute Detail
+	<span> Click the test case to view the detail steps</span>
+</div>
+<div class="tab">
+
+	{% for device in testresult|dictsort:"phoneName" %}
+	<div class="{% if forloop.first %}tab_on{% else %}tab_off{% endif %}" id="Tab_{{forloop.counter}}" onclick="showTab('{{forloop.counter}}');">
+		{{device.phoneName}}
+	</div>
+	{% endfor %}
+</div>
+<div style="clear:both;"></div>
+{% for device in testresult|dictsort:"phoneName" %}
+<div class="tab_box" id="cont_{{forloop.counter}}" {% if not forloop.first %}style="display: none"{% endif %}>
+	<select id="mySelect_{{forloop.counter}}" onchange="changeLoop(this.value,{{forloop.counter}})" autocomplete="off">
+		<option value="0" selected=true>Display All Loop Results</option>
+		{% for loop in device.phoneData %}
+		<option value="{{forloop.counter}}">{{loop.loopName}}</option>
+		{% endfor %}
+	</select>
+	<br/>
+
+	<span class="showCaseText">Current Loop：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="1" checked="checked" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">All Test Cases&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="2" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Case Failed&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="3" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Case Pass&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="4" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:ANR&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="5" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:FC&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="6" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:Tombstone&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_{{forloop.counter}}" value="7" onchange="changeData(this.value,{{forloop.counter}})">
+	<span class="inputText">Error:Reset&nbsp;</span></input>
+	<table id="showAll_{{forloop.counter}}"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>No.</th><th>CASE NAME</th><th>CASE STEP</th><th>RESULT</th><th>RUN TIME</th><th>COMMENTS</th>
+		</tr>
+		{% for loop in device.phoneData %}
+		{% with entryid=device.phoneName|add:loop.loopName %}
+		{% for entry in loop.loopData %}
+		<tr class="{{entry.ispass}}" name="{{forloop.parentloop.counter}}" onclick="toggle('{{entryid}}_{{forloop.counter}}')">
+			<td name="index" class="index"></td><td>{{entry.caseclass}}{% if entry.casename %}#{% endif %}{{entry.casename}}</td>
+
+			<td><a href="{{entry.caseurl}}" target="_blank">{{entry.casechname}}</a></td>
+			<td>{{entry.ispass|upper}}</td>
+			<td>{{entry.exetime}}</td>
+			<td>
+			{% if entry.fcCount != 0 %}
+			<div name="fc">
+				FC：{{entry.fcCount}}
+			</div>{% endif %}
+			{% if entry.resetCount != 0 %}
+			<div name="rs">
+				RESET：{{entry.resetCount}}
+			</div>{% endif %}
+			{% if entry.tombstoneCount != 0 %}
+			<div name="tb">
+				TOMBSTONE：{{entry.tombstoneCount}}
+			</div>{% endif %}
+			{% if entry.anrCount != 0 %}
+			<div name="anr">
+				ANR：{{entry.anrCount}}
+			</div>{% endif %}
+			{% if entry.ispass != "pass" and entry.fcCount == 0 and entry.tombstoneCount == 0 and entry.anrCount == 0 %}
+			<div name="other">
+				click to show the error log
+			</div>{% endif %}</td>
+
+		</tr>
+
+		<tr id="{{entryid}}_{{forloop.counter}}" class="faildetail" name="faildetail" style="display:none">
+		<td></td><td colspan="3">			<pre>{{entry.casestep}}{% if entry.failreason %}<span style="color:#FF0000">{{entry.failreason}}</span>{% endif %}</pre></td>
+		<td 			valign="top" colspan="1">{% if entry.screencap %}<a href="{{entry.caseurl}}/{{entry.screencap}}" target="_blank">ScreenShot</a>{% endif %}</td>
+		<td valign="top" colspan="1">{% if entry.logstack %}<a href="{{entry.caseurl}}/{{entry.logstack}}" target="_blank">Click to open it</a>{% endif %}</td>
+		</tr>
+		{% endfor %}
+		{% endwith %}
+		{% endfor %}
+	</table>
+</div>
+{% endfor %}
+{% endblock %}
+{% debug %}

@@ -1,0 +1,42 @@
+Process: com.stv.filemanager.remotemanager
+Flags: 0x3888be45
+Package: com.stv.filemanager.remotemanager v1 (1.0)
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+System-App: true
+Uptime-Millis: 513335923
+Loop-Violation-Number: 1
+Duration-Millis: 3
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=6815751 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1263)
+	at libcore.io.BlockGuardOs.statvfs(BlockGuardOs.java:297)
+	at java.io.File.getTotalSpace(File.java:1126)
+	at android.os.storage.StorageManager.getStorageLowBytes(StorageManager.java:943)
+	at android.os.storage.VolumeInfo.buildStorageVolume(VolumeInfo.java:390)
+	at com.android.server.MountService.getVolumeList(MountService.java:2914)
+	at android.os.storage.IMountService$Stub.onTransact(IMountService.java:1782)
+	at android.os.Binder.execTransact(Binder.java:453)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1911)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1580)
+	at android.os.Parcel.readException(Parcel.java:1549)
+	at android.os.storage.IMountService$Stub$Proxy.getVolumeList(IMountService.java:772)
+	at android.os.storage.StorageManager.getVolumeList(StorageManager.java:883)
+	at android.os.Environment$UserEnvironment.getExternalDirs(Environment.java:83)
+	at android.os.Environment.getExternalStorageDirectory(Environment.java:337)
+	at com.stv.filemanager.remotemanager.ui.PreferActivity.a(Unknown Source)
+	at com.stv.filemanager.remotemanager.ui.PreferActivity.a(Unknown Source)
+	at com.stv.filemanager.remotemanager.ui.a.d(Unknown Source)
+	at com.stv.filemanager.remotemanager.ui.WSActivity.g(Unknown Source)
+	at com.stv.filemanager.remotemanager.ui.WSActivity.a(Unknown Source)
+	at com.stv.filemanager.remotemanager.a.a.onReceive(Unknown Source)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:881)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5423)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+

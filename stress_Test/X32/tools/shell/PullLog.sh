@@ -1,0 +1,12 @@
+#!/system/bin/sh
+filename=$1
+procrank > /sdcard/AutoSmoke_UI30/${filename}/Procrank.log
+dmesg > /sdcard/AutoSmoke_UI30/${filename}/Dmesg.log
+mount >/sdcard/AutoSmoke_UI30/${filename}/Mount.log
+netcfg > /sdcard/AutoSmoke_UI30/${filename}/Netcfg.log
+#dumpsys > /sdcard/AutoSmoke_UI30/${filename}/dumpsys.log
+top -m 10 -n 3 > /sdcard/AutoSmoke_UI30/${filename}/top.log
+tcpdump -c 3 > /sdcard/AutoSmoke_UI30/${filename}/tcpdump.log
+#cp -r /data/log /sdcard/AutoSmoke_UI30/${filename}/log_kernel
+#dumpstate > /sdcard/AutoSmoke_UI30/${filename}/Dumpstate.log
+#bugreport > /sdcard/AutoSmoke_UI30/${filename}/bugreport.log

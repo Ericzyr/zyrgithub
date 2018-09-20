@@ -1,0 +1,1107 @@
+--------- beginning of main
+08-16 14:39:31.716 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:31.967 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:32.217 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:32.468 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:32.718 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:32.853 I/Radio-JNI(21998): register_android_hardware_Radio DONE
+--------- beginning of system
+08-16 14:39:32.881 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: start instr
+08-16 14:39:32.892 I/art     (22010): Late-enabling -Xcheck:jni
+08-16 14:39:32.893 I/ActivityManager( 2207): Start proc 22010:com.le.tcauto.uitest/u0a97 for added application com.le.tcauto.uitest
+08-16 14:39:32.937 W/System  (22010): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest.test-1/lib/arm64
+08-16 14:39:32.937 W/System  (22010): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest-1/lib/arm64
+08-16 14:39:32.952 I/MonitoringInstrumentation(22010): Instrumentation Started!
+08-16 14:39:32.952 I/MonitoringInstrumentation(22010): Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]'
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): No JSBridge.
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.Class.classForName(Native Method)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.Class.forName(Class.java:324)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.Class.forName(Class.java:285)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.support.test.runner.MonitoringInstrumentation.tryLoadingJsBridge(MonitoringInstrumentation.java:612)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.support.test.runner.MonitoringInstrumentation.access$100(MonitoringInstrumentation.java:88)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.support.test.runner.MonitoringInstrumentation$3.run(MonitoringInstrumentation.java:223)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:1897)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.os.Handler.handleCallback(Handler.java:739)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at android.app.ActivityThread.main(ActivityThread.java:5423)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.test.espresso.web.bridge.JavaScriptBridge" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	... 14 more
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	Suppressed: java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 		at java.lang.Class.classForName(Native Method)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 		... 15 more
+08-16 14:39:32.956 I/MonitoringInstrumentation(22010): 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+08-16 14:39:32.969 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:32.992 I/TestRunner(22010): run started: 1 tests
+08-16 14:39:32.995 I/TestRunner(22010): started: testAudioOutput(com.letv.cases.leui.SmokeSetting)
+08-16 14:39:32.998 I/MonitoringInstrumentation(22010): Activities that are still in CREATED to STOPPED: 0
+08-16 14:39:33.010 I/LetvTestCase(22010): =====================case start time is :2018-8-16-2-39-33
+08-16 14:39:33.015 I/System.out(22010): The folder /sdcard/AutoSmoke_UI30/testAudioOutput_20180816_143926 has existed!
+08-16 14:39:33.015 I/System.out(22010): current_case_root_folder=testAudioOutput_20180816_143926
+08-16 14:39:33.219 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:33.470 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:33.516 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:33.520 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:33.720 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:33.971 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:34.030 I/WindowManager( 2207): startSettingMain------------------
+08-16 14:39:34.030 I/SettingUtil( 2207):  startSettingMain
+08-16 14:39:34.031 I/GlobalSettings( 2822): GlobalSettingService -- startSettingMain
+08-16 14:39:34.031 I/GlobalSettings( 2822): SettingsApp -- updateStartTime time=1534401574031
+08-16 14:39:34.032 I/GlobalSettings( 2822): GlobalSettingService -- isCanRecoverDialog=false
+08-16 14:39:34.034 I/System.out( 2822): From style:
+08-16 14:39:34.034 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:39:34.040 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:34.057 I/GlobalSettings( 2822): SettingDialog -- --------is main -------uiType:cibn
+08-16 14:39:34.059 I/GlobalSettings( 2822): SettingDialog -- ---------LetvManager.getLetvDimensions()-----------2D
+08-16 14:39:34.062 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.PqManager.updateBinder:2843 com.stv.settingadapter.PqManager.getInstance:616 com.stv.globalsetting.dialog.SettingDialog.onCreate:129 
+08-16 14:39:34.119 W/InputDispatcher( 2207): Focus left window: Window{23c0535 u0 com.stv.launcher/com.stv.launcher.ui.activity.Launcher}
+08-16 14:39:34.119 W/InputDispatcher( 2207): Focus entered window: Window{210aa71 u0 com.stv.globalsetting}
+08-16 14:39:34.125 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:34.126 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:766 android.content.ContextWrapper.sendBroadcast:396 com.stv.globalsetting.service.GlobalSettingService.sendSettingOpenMsg:433 com.stv.globalsetting.service.GlobalSettingService$ActionCreateAndShowDialog.run:321 android.os.Handler.handleCallback:739 
+08-16 14:39:34.127 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=quickSetOpen
+08-16 14:39:34.129 I/GlobalSettings( 2822): GlobalSettingService -- quick_open_result is: true
+08-16 14:39:34.154 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:34.162 I/GlobalSettings( 2822): SettingDialog -- gain focus, report lunch time
+08-16 14:39:34.162 I/GlobalSettings( 2822): SettingsApp -- reportStartTime time=1534401574162 lunch time=131
+08-16 14:39:34.162 I/GlobalSettings( 2822): SettingsApp -- upload  boot time json {"app.launch_time":131,"attr":{"name":"com.stv.globalsetting"}}
+08-16 14:39:34.167 W/InputMethodManagerService( 2207): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@7163e83 (uid=1000 pid=3007)
+08-16 14:39:34.185 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:34.221 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:34.376 I/reService( 2207): onReportKeyEvent  type=type0 keycode=4*176 
+08-16 14:39:34.378 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:39:34.398 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:39:34.399 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:39:34.399 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:39:34.399 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:39:34.400 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:39:34.400 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:39:34.400 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:39:34.400 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:39:34.400 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:39:34.409 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:39:34.409 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:39:34.472 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:34.689 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:34.722 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:34.972 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:35.057 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:35.060 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:35.061 I/SoundPool( 2207): enter : func play
+08-16 14:39:35.068 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:35.068 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:35.068 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:35.069 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:35.072 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:35.072 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:35.072 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:35.072 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:35.072 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:35.072 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:35.072 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:35.072 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:35.072 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:35.073 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:35.073 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:35.073 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:35.075 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:35.075 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:35.077 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:35.077 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:35.078 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:35.078 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:35.081 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:35.081 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:35.081 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:35.081 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:35.081 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:35.081 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:35.081 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:35.081 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:35.081 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:35.084 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:35.099 E/audio_hw_primary( 1758): out_get_presentation_position pcm_get_htimestamp(pcm, &avail, timestamp) != 0!!!
+08-16 14:39:35.223 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:35.323 I/System.out( 2822): From style:
+08-16 14:39:35.323 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:39:35.328 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.EqManager.updateBinder:869 com.stv.settingadapter.EqManager.getInstance:176 com.stv.globalsetting.dialog.SoundDialog.initData:79 
+08-16 14:39:35.394 I/ActivityManager( 2207): Start proc 22042:com.mstar.android.providers.tv/1000 for content provider com.mstar.android.providers.tv/.TvUserSettingProvider
+08-16 14:39:35.428 W/System  (22042): ClassLoader referenced unknown path: /system/app/MTvProvider/lib/arm64
+08-16 14:39:35.434 E/TvUserSettingProvider(22042): open db start
+08-16 14:39:35.444 E/TvUserSettingProvider(22042): open db success
+08-16 14:39:35.455 I/TvManager(22042): customerIni=/tvconfig/config/model/Customer_36.ini
+08-16 14:39:35.456 I/TvManager(22042): dbPath=/factory/Database/factory_priv_X440M_SAMSUNG_DLED.db
+08-16 14:39:35.456 I/TvManager(22042): dbPath=/factory/Database/factory_priv_X440M_SAMSUNG_DLED.db
+08-16 14:39:35.456 I/FactorypriProvider(22042): dbPath=/factory/Database/factory_priv_X440M_SAMSUNG_DLED.db
+08-16 14:39:35.456 E/FactoryProvider(22042): ================>>>>>> open db start
+08-16 14:39:35.459 E/FactoryProvider(22042): ================>>>>>> open db success
+08-16 14:39:35.460 E/TvFactoryProvider(22042): open db start
+08-16 14:39:35.464 E/TvFactoryProvider(22042): open db success
+08-16 14:39:35.473 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:35.538 W/InputDispatcher( 2207): Focus left window: Window{210aa71 u0 com.stv.globalsetting}
+08-16 14:39:35.538 W/InputDispatcher( 2207): Focus entered window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:35.540 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:35.540 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perQuickSetClick&setModule=7
+08-16 14:39:35.543 I/GlobalSettings( 2822): SettingDialog -- Open_SoundDialog_Result is: true
+08-16 14:39:35.575 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.591 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:35.601 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:35.659 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.670 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=601, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.677 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.710 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=602, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.716 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.724 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:35.750 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=607, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.757 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.790 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=610, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.797 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.830 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=616, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.836 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.870 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=622, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.877 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.890 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=627, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.896 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.910 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=629, bufHeight=1080, front.active.{w=600, h=1080}
+08-16 14:39:35.917 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:35.974 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:36.119 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:36.122 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:36.124 I/SoundPool( 2207): enter : func play
+08-16 14:39:36.132 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:36.133 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:36.133 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:36.135 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:36.138 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:36.138 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:36.138 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:36.138 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:36.138 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:36.138 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:36.138 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:36.138 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:36.138 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:36.139 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:36.140 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:36.140 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:36.141 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:36.141 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:36.141 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:36.141 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:36.145 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:36.145 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:36.145 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:36.145 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:36.145 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:36.145 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:36.145 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:36.145 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:36.145 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:36.145 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:36.145 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:36.147 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:36.149 I/SoundPool( 2207): enter : func play
+08-16 14:39:36.224 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:36.386 I/System.out( 2822): From style:
+08-16 14:39:36.386 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:39:36.394 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.EqManager.updateBinder:869 com.stv.settingadapter.EqManager.getInstance:176 com.stv.globalsetting.dialog.SoundOutputDialog.<init>:34 
+08-16 14:39:36.458 W/InputDispatcher( 2207): Focus left window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:36.458 W/InputDispatcher( 2207): Focus entered window: Window{1c5253a u0 com.stv.globalsetting}
+08-16 14:39:36.460 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:36.460 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=speakerClick
+08-16 14:39:36.461 I/GlobalSettings( 2822): SoundDialog -- open_speaker_value is: true
+08-16 14:39:36.475 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:36.494 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.579 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.596 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:36.601 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.618 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.636 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.657 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.677 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.697 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.718 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.726 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:36.729 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:36.737 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.757 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.761 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=512443194/512443194 -2 34141 ic=1 proc(ms):15013 dur:2869 cnt=34141 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:12907] from screen [on:0 period:1098252089]
+08-16 14:39:36.763 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:39:36.764 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:39:36.781 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.797 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.816 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.838 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.857 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.877 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:36.976 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:37.193 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:37.196 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:37.197 I/SoundPool( 2207): enter : func play
+08-16 14:39:37.204 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:37.205 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:37.205 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:37.207 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:37.211 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:37.211 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:37.211 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:37.211 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:37.211 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:37.211 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:37.211 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:37.211 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:37.211 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:37.213 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:37.214 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:37.217 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:37.217 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:37.218 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:37.219 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:37.219 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:37.219 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:37.221 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:37.221 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:37.221 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.221 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.221 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.221 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:37.221 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:37.221 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:37.221 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:37.223 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:37.225 I/SoundPool( 2207): enter : func play
+08-16 14:39:37.227 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:37.478 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:37.480 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:37.481 I/AudioManager_JNI( 2881): native_setAudioOutputDevice
+08-16 14:39:37.484 I/tvos    ( 1764): SetAudioOutputDevice, device : 1, mode:0
+08-16 14:39:37.484 I/tvos    ( 1764): [1;40;32m[sora]line11063: u8SubCmd:5,m_AudioPreSoundMode:0,m_AudioPreOutDevice:1[0m
+08-16 14:39:37.484 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:37.534 I/tvos    ( 1764): [LETV_OUT]::sound mode is 5, close wall sound mode
+08-16 14:39:37.534 I/tvos    ( 1764): [Dolby][SetDolbyDapMode]eMode:5, m_DolbyDAPMode = 0 for zhengyang!
+08-16 14:39:37.534 I/tvos    ( 1764): [SetDolbyDapMode] model:X440M
+08-16 14:39:37.534 I/tvos    ( 1764):  it's x440N dolbyeffect 
+08-16 14:39:37.537 I/tvos    ( 1764): [SetDolbyDapMode]:sora[16640] m_AudioPreOutDevice:1, DOLBY_DAP_EN_:0  
+08-16 14:39:37.588 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:37.588 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:37.591 I/tvos    ( 1764): [SetAudioEffectEnable] set audio effect mode to off success!
+08-16 14:39:37.591 I/tvos    ( 1764): [SetAudioOutputDevice]:[11242], Audio - DRC RF Mode and disable bulletin11 for SPDIF output!
+08-16 14:39:37.591 I/tvos    ( 1764): SPDIF_SetMode, spdif_mode=0 
+08-16 14:39:37.592 I/tvos    ( 1764): mapi_audio_customer::audioOutPolicy: project name is X440M
+08-16 14:39:37.592 I/tvos    ( 1764): [audioOutPolicy] 938F cost down X44xM project!
+08-16 14:39:37.592 I/tvos    ( 1764): [audioOutPolicy] device:1, OnOff : 1, lastAudioOutDevice : 0, m_lastAudioDevBeforeBT :0, m_bBTConnectState : 0 
+08-16 14:39:37.592 I/tvos    ( 1764): [audioOutPolicy] disable SPDIF! 
+08-16 14:39:37.595 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:37.595 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:37.595 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.596 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.596 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.596 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:37.596 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:37.596 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:37.596 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:37.598 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:37.598 I/tvos    ( 1764): [audioOutPolicy] enable SPDIF then unmute SPFID out! 
+08-16 14:39:37.601 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:37.601 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.601 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.601 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:37.601 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 0 ..
+08-16 14:39:37.601 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:37.601 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:0<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:37.634 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:37.634 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 0, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:37.634 I/tvos    ( 1764): [audioOutPolicy] device: MSAPI_AUD_OUTPUT_SPDIF_ 
+08-16 14:39:37.635 I/CECManager_JNI( 2720): setCecConfiguration
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8CECStatus = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->bAutoStandby = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8ARCStatus = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8AudioModeStatus = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8TvAutpPowerOn = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8AmplifierControl = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8SpearkerPreference = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] CECSetting->u8QuickMenuSpeakerPreference = 1 
+08-16 14:39:37.654 I/tvos    ( 1764): [bspaudio_arc] OldARCStatus: 1,NewARCStatus: 1
+08-16 14:39:37.654 I/tvos    ( 1764): [CEC] reset flags to resend Give Physical Address message to AVR!
+08-16 14:39:37.654 I/tvos    ( 1764): get machine type is:0 
+08-16 14:39:37.658 I/TvUserSettingProvider(22042): update in progress
+08-16 14:39:37.673 I/DatabaseManager_JNI(22042): JNI_OnLoad
+08-16 14:39:37.673 I/DatabaseManager_JNI(22042): native_init
+08-16 14:39:37.673 I/DatabaseManager_JNI(22042): native_setup
+08-16 14:39:37.675 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:37.676 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 25
+08-16 14:39:37.690 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:37.709 I/tvos    ( 1764): @@@MSrv_System_Database::GetUserSystemSetting [CEC] GUI has updated the Ctrl state
+08-16 14:39:37.728 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:37.728 I/tvos    ( 1764): yuepff boot video finished , when connect coaxial or arc, set spdif volume...
+08-16 14:39:37.728 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:37.728 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 100, path=53(speaker), VolumeInt=e, VolumeFra=0
+08-16 14:39:37.728 I/tvos    ( 1764): SetAbsoluteVolume: not save current volume when spdif connect!
+08-16 14:39:37.728 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 100, realPath=53(default), VolumeInt=e, VolumeFra=0
+08-16 14:39:37.841 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:37.875 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:37.907 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 23
+08-16 14:39:37.932 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perSpeakerClick&speakerModule=1
+08-16 14:39:37.934 I/GlobalSettings( 2822): SoundOutputDialog -- set_speaker_value is: true and value is: 1
+08-16 14:39:37.941 W/InputDispatcher( 2207): Focus left window: Window{1c5253a u0 com.stv.globalsetting}
+08-16 14:39:37.941 W/InputDispatcher( 2207): Focus entered window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:37.941 W/InputDispatcher( 2207): Window went away: Window{1c5253a u0 com.stv.globalsetting}
+08-16 14:39:37.979 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x1F)[m
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x22)[m
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x25)[m
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x28)[m
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2B)[m
+08-16 14:39:37.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2C)[m
+08-16 14:39:38.000 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:38.017 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.038 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.056 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.076 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x2C)[m
+08-16 14:39:38.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x29)[m
+08-16 14:39:38.086 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x26)[m
+08-16 14:39:38.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x23)[m
+08-16 14:39:38.088 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x20)[m
+08-16 14:39:38.092 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x1F)[m
+08-16 14:39:38.229 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:38.266 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:38.269 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:38.269 I/SoundPool( 2207): enter : func play
+08-16 14:39:38.273 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:38.282 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:38.283 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:38.286 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:38.287 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:38.287 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:38.287 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:38.287 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:38.287 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:38.287 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:38.287 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:38.287 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 0 ..
+08-16 14:39:38.287 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:0<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:38.287 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:38.287 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 0, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:38.289 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:38.289 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:38.289 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:38.289 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:38.289 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:38.289 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:38.289 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:38.289 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:38.289 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 0 ..
+08-16 14:39:38.289 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:0<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:38.289 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:38.289 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 0, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:38.301 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:38.303 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:38.303 I/SoundPool( 2207): enter : func play
+08-16 14:39:38.479 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:38.523 I/System.out( 2822): From style:
+08-16 14:39:38.523 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:39:38.527 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.EqManager.updateBinder:869 com.stv.settingadapter.EqManager.getInstance:176 com.stv.globalsetting.dialog.SoundOutputDialog.<init>:34 
+08-16 14:39:38.589 W/InputDispatcher( 2207): Focus left window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:38.589 W/InputDispatcher( 2207): Focus entered window: Window{65f07f4 u0 com.stv.globalsetting}
+08-16 14:39:38.592 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:38.592 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=speakerClick
+08-16 14:39:38.594 I/GlobalSettings( 2822): SoundDialog -- open_speaker_value is: true
+08-16 14:39:38.606 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:38.614 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.697 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.716 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.730 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:38.737 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.757 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.777 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.796 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.816 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.837 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.858 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.879 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.897 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.905 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:38.916 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.936 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.957 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.978 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:38.980 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:38.997 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:39.231 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:39.348 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:39.350 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:39.353 I/SoundPool( 2207): enter : func play
+08-16 14:39:39.358 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:39.364 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:39.366 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:39.367 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:39.367 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:39.374 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:39.376 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:39.376 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:39.376 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:39.376 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:39.376 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:39.376 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 0 ..
+08-16 14:39:39.376 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:0<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:39.376 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:39.376 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 0, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:39.378 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:39.378 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:39.379 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:39.380 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:39.380 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:39.382 I/SoundPool( 2207): enter : func play
+08-16 14:39:39.382 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:39.382 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:39.382 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.382 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.382 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.382 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 0 ..
+08-16 14:39:39.382 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:0<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:39.382 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:39.382 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 0, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:39.482 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:39.633 I/AudioManager_JNI( 2881): native_setAudioOutputDevice
+08-16 14:39:39.638 I/tvos    ( 1764): SetAudioOutputDevice, device : 2, mode:0
+08-16 14:39:39.638 I/tvos    ( 1764): [SetAudioOutputDevice]sora m_AudioPreOutDevice == MSAPI_AUD_OUTPUT_SPDIF_, SET MUTE_Flag = 0
+08-16 14:39:39.665 I/tvos    ( 1764): @@@MSrv_System_Database::GetAudioSettingSPDIF_SetMode, spdif_mode=0 
+08-16 14:39:39.665 I/tvos    ( 1764): [1;40;32m[sora]line11063: u8SubCmd:5,m_AudioPreSoundMode:0,m_AudioPreOutDevice:2[0m
+08-16 14:39:39.666 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:39.677 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=512446110/512446110 0 0 found=177 known=0 got=177 bcn=0 con=0
+08-16 14:39:39.677 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=512446110/512446110 0 0 found=177 known=0 got=177 bcn=0 con=0
+08-16 14:39:39.677 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=512446110/512446111 0 0 found=177 known=0 got=177 bcn=0 con=0
+08-16 14:39:39.678 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=512446111/512446111 0 0 found=177 known=0 got=177 bcn=0 con=0
+08-16 14:39:39.716 I/tvos    ( 1764): [LETV_OUT]::sound mode is 5, close wall sound mode
+08-16 14:39:39.716 I/tvos    ( 1764): [Dolby][SetDolbyDapMode]eMode:5, m_DolbyDAPMode = 5 for zhengyang!
+08-16 14:39:39.716 I/tvos    ( 1764): [SetDolbyDapMode] model:X440M
+08-16 14:39:39.716 I/tvos    ( 1764):  it's x440N dolbyeffect 
+08-16 14:39:39.716 I/tvos    ( 1764): [SetDolbyDapMode]:sora[16640] m_AudioPreOutDevice:2, DOLBY_DAP_EN_:0  
+08-16 14:39:39.732 I/tvos    ( 1764): GetAudioOutputDevice, retval : 1
+08-16 14:39:39.749 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:39:39.768 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:39.768 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:39.773 I/tvos    ( 1764): [SetAudioEffectEnable] set audio effect mode to off success!
+08-16 14:39:39.773 I/tvos    ( 1764): mapi_audio_customer::audioOutPolicy: project name is X440M
+08-16 14:39:39.773 I/tvos    ( 1764): [audioOutPolicy] 938F cost down X44xM project!
+08-16 14:39:39.773 I/tvos    ( 1764): [audioOutPolicy] device:2, OnOff : 1, lastAudioOutDevice : 1, m_lastAudioDevBeforeBT :0, m_bBTConnectState : 0 
+08-16 14:39:39.773 I/tvos    ( 1764): [audioOutPolicy] disable SPDIF! 
+08-16 14:39:39.773 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:39.773 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.773 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.773 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.773 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:39.773 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:39.773 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:39.773 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:39.775 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:39.775 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:39.775 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:39.775 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.775 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:39.775 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:39.775 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.775 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.775 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:39.775 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:39.775 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:39.775 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:39.776 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:39.776 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:39.776 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:39.776 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:39.776 I/tvos    ( 1764): [audioOutPolicy] device: MSAPI_AUD_OUTPUT_HEADPHONE_ 
+08-16 14:39:39.777 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:39.788 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:39.789 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 25
+08-16 14:39:39.973 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:39.983 I/tvos    ( 1764): @@@MSrv_System_Database::GetUserSystemSettingGetAudioOutputDevice, retval : 2
+08-16 14:39:39.987 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:39.989 W/art     (22042): Long monitor contention event with owner method=void com.mstar.android.providers.tv.TvUserSettingProvider$UserSQLiteDatabase$1.run() from TvUserSettingProvider.java:1222 waiters=1 for 199ms
+08-16 14:39:39.999 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 23
+08-16 14:39:40.029 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perSpeakerClick&speakerModule=2
+08-16 14:39:40.031 I/GlobalSettings( 2822): SoundOutputDialog -- set_speaker_value is: true and value is: 2
+08-16 14:39:40.038 W/InputDispatcher( 2207): Focus left window: Window{65f07f4 u0 com.stv.globalsetting}
+08-16 14:39:40.038 W/InputDispatcher( 2207): Focus entered window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:40.038 W/InputDispatcher( 2207): Window went away: Window{65f07f4 u0 com.stv.globalsetting}
+08-16 14:39:40.117 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.138 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.156 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.176 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.212 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:40.233 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:40.404 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:40.407 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:40.407 I/SoundPool( 2207): enter : func play
+08-16 14:39:40.409 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:40.415 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:40.415 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:40.417 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:40.418 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:40.418 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:40.418 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:40.418 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:40.418 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:40.418 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:40.418 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:40.418 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 0 ..|->SDK_bUsrHpAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:40.418 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:40.418 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:40.418 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 0, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:40.418 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:40.419 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:40.419 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:40.420 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:40.420 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:40.420 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:40.420 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:40.420 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:40.420 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:40.420 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:40.420 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:40.420 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:40.423 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:40.426 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:40.426 I/SoundPool( 2207): enter : func play
+08-16 14:39:40.483 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:40.664 I/System.out( 2822): From style:
+08-16 14:39:40.664 I/System.out( 2822): Attrs: 3010001=0.6 3010002=#0 3010003=null 3010004=true
+08-16 14:39:40.668 W/ContextImpl( 2822): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1224 android.content.ContextWrapper.startService:581 com.stv.settingadapter.EqManager.updateBinder:869 com.stv.settingadapter.EqManager.getInstance:176 com.stv.globalsetting.dialog.SoundOutputDialog.<init>:34 
+08-16 14:39:40.691 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:40.732 W/InputDispatcher( 2207): Focus left window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:40.732 W/InputDispatcher( 2207): Focus entered window: Window{9001c19 u0 com.stv.globalsetting}
+08-16 14:39:40.734 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:40.735 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:40.735 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=speakerClick
+08-16 14:39:40.737 I/GlobalSettings( 2822): SoundDialog -- open_speaker_value is: true
+08-16 14:39:40.775 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.817 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:40.857 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.877 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.897 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.917 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.937 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.957 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.977 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:40.985 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:40.996 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.016 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.038 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.045 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:41.057 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.076 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.098 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.116 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.137 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.156 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:41.235 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:41.469 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:41.473 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:41.475 I/SoundPool( 2207): enter : func play
+08-16 14:39:41.480 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:41.482 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:39:41.483 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:39:41.484 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:39:41.485 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:39:41.485 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:39:41.485 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:39:41.485 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.485 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.485 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:39:41.485 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:39:41.485 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.486 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:39:41.486 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 0 ..|->SDK_bUsrHpAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:41.486 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 0, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:39:41.486 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:41.486 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:39:41.486 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:39:41.486 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:41.486 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:41.486 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:41.486 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:41.486 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:41.503 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:41.505 W/InputDispatcher( 2207): findTouchedWindow finished: injectionResult=0, injectionPermission=1, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:41.507 I/SoundPool( 2207): enter : func play
+08-16 14:39:41.736 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:41.758 I/AudioManager_JNI( 2881): native_setAudioOutputDevice
+08-16 14:39:41.760 I/tvos    ( 1764): SetAudioOutputDevice, device : 0, mode:0
+08-16 14:39:41.760 I/tvos    ( 1764): SPDIF_SetMode, spdif_mode=0 
+08-16 14:39:41.762 I/tvos    ( 1764): @@@MSrv_System_Database::GetSoundSetting[1;40;32m[sora]line11063: u8SubCmd:0,m_AudioPreSoundMode:0,m_AudioPreOutDevice:0[0m
+08-16 14:39:41.896 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:41.946 I/tvos    ( 1764): [LETV_OUT]::sound mode is 0, close wall sound mode
+08-16 14:39:41.946 I/tvos    ( 1764): audio effect active, will use dolby or dts
+08-16 14:39:41.946 I/tvos    ( 1764): [Dolby][SetDolbyDapMode]eMode:0, m_DolbyDAPMode = 5 for zhengyang!
+08-16 14:39:41.946 I/tvos    ( 1764): [SetDolbyDapMode] model:X440M
+08-16 14:39:41.946 I/tvos    ( 1764):  it's x440N dolbyeffect 
+08-16 14:39:41.947 I/tvos    ( 1764): [SetDolbyDapMode]:sora[16635] m_AudioPreOutDevice:0, DOLBY_DAP_EN_:1  
+08-16 14:39:41.987 I/tvos    ( 1764): GetAudioOutputDevice, retval : 2
+08-16 14:39:41.999 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:39:41.999 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:39:42.003 I/tvos    ( 1764): [SetAudioEffectEnable] restore audio effect mode to:0 success!
+08-16 14:39:42.003 I/tvos    ( 1764): mapi_audio_customer::audioOutPolicy: project name is X440M
+08-16 14:39:42.003 I/tvos    ( 1764): [audioOutPolicy] 938F cost down X44xM project!
+08-16 14:39:42.003 I/tvos    ( 1764): [audioOutPolicy] device:0, OnOff : 1, lastAudioOutDevice : 2, m_lastAudioDevBeforeBT :0, m_bBTConnectState : 0 
+08-16 14:39:42.003 I/tvos    ( 1764): [audioOutPolicy] disable SPDIF! 
+08-16 14:39:42.003 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:42.003 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.003 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.003 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.003 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:42.003 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:42.003 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:39:42.003 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:39:42.005 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:42.005 I/tvos    ( 1764): [audioOutPolicy] Mute AMP for a while when open DRC! , line:6300
+08-16 14:39:42.012 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:42.105 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:39:42.206 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:39:42.206 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.206 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.206 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:39:42.206 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:39:42.206 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:39:42.206 I/tvos    ( 1764): Mute ,mute Status repetition!
+08-16 14:39:42.206 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:39:42.206 I/tvos    ( 1764): [audioOutPolicy] device: MSAPI_AUD_OUTPUT_SPK_ 
+08-16 14:39:42.206 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:42.207 I/CECManager_JNI( 2720): setCecConfiguration
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8CECStatus = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->bAutoStandby = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8ARCStatus = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8AudioModeStatus = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8TvAutpPowerOn = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8AmplifierControl = 1 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8SpearkerPreference = 0 
+08-16 14:39:42.233 I/tvos    ( 1764): [CEC] CECSetting->u8QuickMenuSpeakerPreference = 0 
+08-16 14:39:42.233 I/tvos    ( 1764): [bspaudio_arc] OldARCStatus: 1,NewARCStatus: 1
+08-16 14:39:42.233 I/tvos    ( 1764):  [CEC] Switch Speaker = 0
+08-16 14:39:42.233 I/tvos    ( 1764): get machine type is:0 
+08-16 14:39:42.234 I/TvUserSettingProvider(22042): update in progress
+08-16 14:39:42.238 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:42.246 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:42.250 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 25
+08-16 14:39:42.446 I/DatabaseManager_JNI(22042): setDatabaseDirtyByApplication
+08-16 14:39:42.448 W/art     (22042): Long monitor contention event with owner method=int android.database.sqlite.SQLiteConnection.nativeExecuteForChangedRowCount(long, long) from SQLiteConnection.java:4294967294 waiters=1 for 197ms
+08-16 14:39:42.462 E/DataBaseDeskImpl( 4876): ===========>>>> now change Index = 23
+08-16 14:39:42.489 I/tvos    ( 1764): @@@MSrv_System_Database::GetUserSystemSettingGetAudioOutputDevice, retval : 0
+08-16 14:39:42.496 I/GlobalSettings( 2822): ReportEuiLog_U -- ReportEuiLog action is: tvaction and reportmsg is: action=perSpeakerClick&speakerModule=3
+08-16 14:39:42.498 I/GlobalSettings( 2822): SoundOutputDialog -- set_speaker_value is: true and value is: 3
+08-16 14:39:42.504 W/InputDispatcher( 2207): Focus left window: Window{9001c19 u0 com.stv.globalsetting}
+08-16 14:39:42.504 W/InputDispatcher( 2207): Focus entered window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:42.504 W/InputDispatcher( 2207): Window went away: Window{9001c19 u0 com.stv.globalsetting}
+08-16 14:39:42.507 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.509 W/ViewRootImpl( 2822): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=512448440, downTime=512448440, deviceId=-1, source=0x101 }
+08-16 14:39:42.521 I/tvos    ( 1764):  [CEC] GUI has updated the Ctrl state
+08-16 14:39:42.577 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:42.598 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:42.617 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:42.621 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:39:42.637 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:42.738 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:42.988 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:43.201 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:43.204 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:43.207 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:43.208 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:43.213 W/InputDispatcher( 2207): Focus left window: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:43.213 W/InputDispatcher( 2207): Focus entered window: Window{210aa71 u0 com.stv.globalsetting}
+08-16 14:39:43.213 W/InputDispatcher( 2207): Window went away: Window{84936a9 u0 com.stv.globalsetting}
+08-16 14:39:43.216 W/InputEventReceiver( 2822): Attempted to finish an input event but the input event receiver has already been disposed.
+08-16 14:39:43.239 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:43.278 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:43.290 E/SurfaceFlinger( 1749): rejecting buffer: bufWidth=608, bufHeight=1080, front.active.{w=630, h=1080}
+08-16 14:39:43.297 E/BufferQueueProducer( 1749): [] connect(P): already connected (cur=1 req=1)
+08-16 14:39:43.489 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:43.691 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:43.740 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:43.838 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:43.839 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:43.842 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:43.843 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- setDisMissTime on start
+08-16 14:39:43.848 W/InputDispatcher( 2207): Focus left window: Window{210aa71 u0 com.stv.globalsetting}
+08-16 14:39:43.848 W/InputDispatcher( 2207): Focus entered window: Window{23c0535 u0 com.stv.launcher/com.stv.launcher.ui.activity.Launcher}
+08-16 14:39:43.848 W/InputDispatcher( 2207): Window went away: Window{210aa71 u0 com.stv.globalsetting}
+08-16 14:39:43.852 I/GlobalSettings( 2822): SettingDialog --  onBackPressed 
+08-16 14:39:43.852 W/InputEventReceiver( 2822): Attempted to finish an input event but the input event receiver has already been disposed.
+08-16 14:39:43.852 I/GlobalSettings( 2822): BaseMultiLayerDialogHelper -- dialog is all dismiss,cancel timer
+08-16 14:39:43.991 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:44.241 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:44.360 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:44.364 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:44.491 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:44.742 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:44.867 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:44.871 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:44.992 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:45.243 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:45.374 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:45.378 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:45.493 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:45.743 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:45.881 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:45.884 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:45.994 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:46.244 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:46.495 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:46.692 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:46.745 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:46.996 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:47.246 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:47.496 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:39:47.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:39:47.596 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:47.599 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:39:47.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:39:47.747 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:47.997 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:48.248 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:48.498 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:48.749 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:48.999 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:49.227 I/System.out(22010): The phone type is: X4-40M
+08-16 14:39:49.227 I/LetvTestCase(22010): ==========================case end time is :2018-8-16-2-39-49
+08-16 14:39:49.227 I/TestRunner(22010): finished: testAudioOutput(com.letv.cases.leui.SmokeSetting)
+08-16 14:39:49.229 I/MonitoringInstrumentation(22010): Activities that are still in CREATED to STOPPED: 0
+08-16 14:39:49.230 I/TestRunner(22010): run finished: 1 tests, 0 failed, 0 ignored
+08-16 14:39:49.231 I/MonitoringInstrumentation(22010): waitForActivitiesToComplete() took: 0ms
+08-16 14:39:49.231 I/MonitoringInstrumentation(22010): Activities that are still in CREATED to STOPPED: 0
+08-16 14:39:49.232 W/WindowManager( 2207): Attempted to remove non-existing token: android.os.Binder@331d7fb
+08-16 14:39:49.249 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:49.395 I/reService( 2207): onReportKeyEvent  type=type0 keycode=4*4*4*4*4*4*4*4 
+08-16 14:39:49.396 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:39:49.415 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:39:49.416 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:39:49.484 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: finished inst
+08-16 14:39:49.485 I/ActivityManager( 2207): Killing 22010:com.le.tcauto.uitest/u0a97 (adj 0): stop com.le.tcauto.uitest
+08-16 14:39:49.491 W/ActivityManager( 2207): Error shutting down UiAutomationConnection
+08-16 14:39:49.500 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:49.532 W/art     ( 2207): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.finishInstrumentation(android.app.IApplicationThread, int, android.os.Bundle) from ActivityManagerService.java:17778 waiters=0 for 124ms
+08-16 14:39:49.546 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:39:49.547 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:39:49.547 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:39:49.548 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:39:49.548 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:39:49.548 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:39:49.548 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:39:49.548 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:39:49.548 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:39:49.692 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:49.750 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:50.001 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:50.251 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:50.502 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:50.752 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:51.002 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:51.253 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:51.503 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:51.754 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:51.771 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=512458204/512458204 -2 34142 ic=1 proc(ms):15010 dur:2914 cnt=34142 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:15005] from screen [on:0 period:1098267099]
+08-16 14:39:51.771 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:39:51.771 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:39:52.004 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:52.255 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:52.505 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:52.692 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:52.755 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:53.006 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:53.256 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:53.507 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:53.757 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:54.008 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:54.258 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:54.508 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:54.617 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=512461050/512461050 0 0 found=167 known=0 got=167 bcn=0 con=0
+08-16 14:39:54.617 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=512461050/512461050 0 0 found=167 known=0 got=167 bcn=0 con=0
+08-16 14:39:54.618 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=512461051/512461051 0 0 found=167 known=0 got=167 bcn=0 con=0
+08-16 14:39:54.618 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=512461051/512461051 0 0 found=167 known=0 got=167 bcn=0 con=0
+08-16 14:39:54.686 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:39:54.759 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:55.009 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:55.260 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:55.510 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:55.693 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:55.761 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:56.011 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:56.262 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:56.512 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:56.762 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:57.013 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:57.263 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:57.514 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:57.764 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:58.014 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:58.265 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:58.515 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:58.693 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:39:58.752 I/tvos    ( 1764): bq32kDriver:rtc_read_time.
+08-16 14:39:58.752 I/tvos    ( 1764): [hq]rtc_read_time: read 0x58 0x39 0xc6 0x05 0x16 0x08 0x18
+08-16 14:39:58.752 I/tvos    ( 1764): rtc_read_time: date 58s 39m 6h 16md 7m 118y
+08-16 14:39:58.752 I/tvos    ( 1764): rtc read time:2018-8-16 6:39:58.
+08-16 14:39:58.752 I/tvos    ( 1764): tm_year = 2018, tm_mon = 8, tm_mday = 16, tm_hour = 6,tm_min= 39,  tm_sec = 58
+08-16 14:39:58.752 I/tvos    ( 1764): timeSeconds:1534401598 rtcTimeSeconds:1534401598.
+08-16 14:39:58.766 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:59.016 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:59.266 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:59.517 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:39:59.767 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:00.018 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:00.268 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:00.518 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:00.769 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:01.019 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:01.270 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:01.520 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:01.694 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:40:01.771 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:02.021 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:02.272 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:02.522 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:40:02.772 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0

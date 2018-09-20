@@ -1,0 +1,1 @@
+com.letv.cases.leui.VideoPlayStress#testVideoPlay,Loop:2

@@ -1,0 +1,14 @@
+<6>[510304.116040] EXT4-fs (mmcblk0p14): re-mounted. Opts: (null)
+<4>[510307.455898] [4422980631][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[510310.745630] init: Starting service 'cpudvfsscaling'...
+<13>[510310.752268] init: Starting service 'gts_rules'...
+<13>[510311.126661] init: Service 'gts_rules' (pid 21683) exited with status 0
+<13>[510315.865385] init: Service 'cpudvfsscaling' (pid 21682) exited with status 0
+<13>[510341.585883] init: Starting service 'cpudvfsscaling'...
+<13>[510341.592207] init: Starting service 'gts_rules'...
+<13>[510341.827001] init: Service 'gts_rules' (pid 21781) exited with status 0
+<13>[510346.633749] init: Service 'cpudvfsscaling' (pid 21780) exited with status 0
+<6>[510349.274457] binder: 2207:3055 transaction failed 29189, size 4-0
+<6>[510349.281315] binder: send failed reply for transaction 233319246, target dead
+<13>[510349.459190] init: Untracked pid 21645 exited with status 0
+<12>[510359.882017] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au

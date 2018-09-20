@@ -1,0 +1,21 @@
+<4>[510777.965733] [4423098731][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[510778.234492] init: Starting service 'gts_rules'...
+<13>[510778.554582] init: Service 'gts_rules' (pid 23714) exited with status 0
+<13>[510783.331888] init: Service 'cpudvfsscaling' (pid 23713) exited with status 0
+<4>[510799.852576] [4423104224][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510803.902494] [4423105241][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510807.926463] [4423106251][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510811.985924] [4423107270][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510816.022229] [4423108283][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510820.070173] [4423109299][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510824.113141] [4423110314][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510828.161361] [4423111330][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<4>[510832.193950] [4423112342][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+<13>[510835.696477] init: Starting service 'gts_rules'...
+<13>[510835.946728] init: Service 'gts_rules' (pid 23880) exited with status 0
+<12>[510837.962011] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+<13>[510840.785652] init: Service 'cpudvfsscaling' (pid 23879) exited with status 0
+<6>[510843.373345] binder: 2207:3053 transaction failed 29189, size 4-0
+<6>[510843.381106] binder: send failed reply for transaction 233434119, target dead
+<13>[510843.569152] init: Untracked pid 23682 exited with status 0
+<6>[510852.293457] binder: 4071:4079 refcount change on invalid ref 7

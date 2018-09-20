@@ -1,0 +1,90 @@
+<!--
+body {
+	color: #4f6b72;
+	background: #E6EAE9;
+}
+
+table {
+	border: 1px solid black;
+}
+
+th {
+	border: 1px solid black;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+td {
+	border: 1px solid black;
+	padding: 6px 6px 6px 12px;
+	font: bold 16px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+	color: #800080;
+	text-decoration: none
+}
+
+a:visited {
+	color: #800080;
+	text-decoration: none
+}
+
+a:hover {
+	color: #800080;
+	text-decoration: underline
+}
+
+a:active {
+	color: #800080;
+	text-decoration: none
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 1px;
+	text-indent: 2em;
+}
+
+.M {
+	POSITION: absolute;
+	LEFT: 250PX;
+	TOP: 10PX;
+}
+
+.F {
+	POSITION: FIXED;
+	WIDTH: 200PX;
+	LEFT: 10PX;
+	TOP: 10PX;
+}
+
+.title {
+	color: white;
+	background: #48D1CC
+}
+
+.pass {
+	color: white;
+	background: #9CB381
+}
+
+.fail {
+	color: white;
+	background: #CD7E9B;
+}
+
+.needtocheck {
+	color: white;
+	background: #B69C4A
+}
+
+.notapplicable {
+	color: white;
+	background: #A0A0A0
+}
+
+-->

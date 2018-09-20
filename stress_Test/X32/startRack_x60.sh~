@@ -1,0 +1,16 @@
+#!/bin/sh
+device1="10.57.2.83"
+echo "========================= input the Folder name of testing!!! ===================="
+read resultFolder
+echo $resultFolder
+#resultFolder="testResult"_`date '+%Y%m%d_%H%M%S'`
+cd tools
+gnome-terminal --maximize --tab -t "8064_X60Air" -e "bash start_x60.sh $device1 ../$resultFolder X60Air device1"
+echo "================================== MTBF Rack is Started =================================="
+echo " "
+echo "MTBF测试已经启动，可以执行以下命令来获取当前测试结果:"
+echo " "
+echo "python tools/parse.py "$resultFolder
+echo " "
+echo "================================== MTBF Rack is Started =================================="
+

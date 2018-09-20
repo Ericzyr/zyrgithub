@@ -1,0 +1,63 @@
+Process: com.stv.t2.account
+Flags: 0x38a8be45
+Package: com.stv.t2.account v9 (1.0.9.004)
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+System-App: true
+Uptime-Millis: 511080533
+Loop-Violation-Number: 1
+Duration-Millis: 100
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=2621447 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1263)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:182)
+	at libcore.io.IoUtils.canOpenReadOnly(IoUtils.java:163)
+	at java.lang.Runtime.loadLibrary(Runtime.java:384)
+	at java.lang.System.loadLibrary(System.java:1076)
+	at android.media.SoundPool.<clinit>(SoundPool.java:115)
+	at letv.util.SoundEffectUtil.<init>(SoundEffectUtil.java:95)
+	at letv.util.SoundEffectUtil.get(SoundEffectUtil.java:100)
+	at com.stv.t2.account.activity.AccountRecordsActivity.setupViews(AccountRecordsActivity.java:256)
+	at com.stv.t2.account.activity.AccountRecordsActivity.onCreate(AccountRecordsActivity.java:152)
+	at android.app.Activity.performCreate(Activity.java:6242)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2374)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)
+	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1345)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5423)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+Process: com.stv.t2.account
+Flags: 0x38a8be45
+Package: com.stv.t2.account v9 (1.0.9.004)
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+System-App: true
+Uptime-Millis: 511080555
+Loop-Violation-Number: 3
+Duration-Millis: 78
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=2621447 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1263)
+	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:292)
+	at java.io.File.length(File.java:722)
+	at android.media.SoundPool.load(SoundPool.java:220)
+	at letv.util.SoundEffectUtil.init(SoundEffectUtil.java:119)
+	at com.stv.t2.account.activity.AccountRecordsActivity.setupViews(AccountRecordsActivity.java:257)
+	at com.stv.t2.account.activity.AccountRecordsActivity.onCreate(AccountRecordsActivity.java:152)
+	at android.app.Activity.performCreate(Activity.java:6242)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2374)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)
+	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1345)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5423)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+

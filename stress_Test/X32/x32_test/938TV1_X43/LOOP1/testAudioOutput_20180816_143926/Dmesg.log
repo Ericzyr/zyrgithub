@@ -1,0 +1,9 @@
+[510395.286845] [4423002677][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[510409.601362] binder: release 21998:22038 transaction 233342387 in, still active
+[510409.601649] init: Untracked pid 21998 exited with status 0
+[510409.614305] binder: send failed reply for transaction 233342387 to 2207:2409
+[510409.622081] binder: 2207:2339 transaction failed 29189, size 80-0
+[510409.660224] binder: release 22010:22023 transaction 233342385 out, still active
+[510409.669621] binder: 2207:2409 transaction failed 29189, size 4-0
+[510409.675918] binder: send failed reply for transaction 233342385, target dead
+[510419.641867] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au

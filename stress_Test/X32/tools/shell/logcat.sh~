@@ -1,0 +1,2 @@
+#!/system/bin/sh
+{ adb -s $1:5555 logcat -v time >logcat.log & } 2>pid.txt

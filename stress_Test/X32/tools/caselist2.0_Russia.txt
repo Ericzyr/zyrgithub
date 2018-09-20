@@ -1,0 +1,22 @@
+com.letv.cases.leui.UI55_AllApp#testAppDesk,Loop:10
+com.letv.cases.leui.UI55_Browser#testActionBar,Loop:10
+com.letv.cases.leui.UI55_Browser#testLable,Loop:10
+com.letv.cases.leui.UI55_DesktopSwitch#testDesktop,Loop:10
+com.letv.cases.leui.UI55_Account#testAccountLogin,Loop:10   #not run
+com.letv.cases.leui.UI55_FileManager#testLocalVideo,Loop:5
+com.letv.cases.leui.UI55_FileManager#testCopyAAAFolder,Loop:10
+com.letv.cases.leui.UI55_FileManager#testExtVideo,Loop:5
+com.letv.cases.leui.UI55_FileManager#testLocalMedia,Loop:10
+com.letv.cases.leui.UI55_FileManager#testExtMedia,Loop:10
+com.letv.cases.leui.UI55_FileManager#testAddDelFiles,Loop:10
+com.letv.cases.leui.UI55_FileManager#testDelAAAFolder,Loop:10
+com.letv.cases.leui.UI55_Settings#testImageSetting,Loop:2
+com.letv.cases.leui.UI55_StatusBar#testStatusBar,Loop:10
+com.letv.cases.leui.UI55_Weather#testWeather,Loop:5
+com.letv.cases.leui.UI55_LeCamera#testTakePicture,Loop:10
+com.letv.cases.leui.UI55_LeCamera#testVideoRecorder,Loop:10
+com.letv.cases.leui.UI55_SingalSource#testChangeSignal,Loop:10
+com.letv.cases.leui.UI55_AllApp#testAppFolder,Loop:10
+com.letv.cases.leui.UI55_Housekeeper#testHousekeeper,Loop:10
+com.letv.cases.leui.UI55_Settings#testSingalSetting,Loop:2
+com.letv.cases.leui.UI55_Wifi#testWifiSwitch,Loop:20

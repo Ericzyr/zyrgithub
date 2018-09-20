@@ -1,0 +1,165 @@
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.SmokeGallery#testSlideShow,Loop:1
+New death recipient: com.android.commands.am.Am$InstrumentationWatcher$AmsDeathRecipient@653805b for ams service!!!
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.letv.cases.leui.SmokeGallery:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=testSlideShow
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.SmokeGallery
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: title=打开相册浏览切换
+INSTRUMENTATION_STATUS_CODE: 16
+INSTRUMENTATION_STATUS: caseStep=进入相册
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: current time=2018/08/16 14:20:26
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=launch app by package
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: current time=2018/08/16 14:20:35
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=相册从大到小排序
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: current time=2018/08/16 14:20:41
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=进入一相册文件夹,选择一图片打开
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: current time=2018/08/16 14:20:48
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: screencap=1534400459900.png
+INSTRUMENTATION_STATUS_CODE: 17
+INSTRUMENTATION_STATUS: screencap=1534400463632.png
+INSTRUMENTATION_STATUS_CODE: 17
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+Error in testSlideShow(com.letv.cases.leui.SmokeGallery):
+junit.framework.AssertionFailedError: 没有进入相册
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.letv.common.LetvTestCase.verify(LetvTestCase.java:401)
+	at com.letv.cases.leui.SmokeGallery.enterAlbum(SmokeGallery.java:132)
+	at com.letv.cases.leui.SmokeGallery.SlideShow(SmokeGallery.java:53)
+	at com.letv.cases.leui.SmokeGallery.testSlideShow(SmokeGallery.java:38)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at com.letv.common.LeRunAfters.evaluate(LeRunAfters.java:38)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:54)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:240)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=testSlideShow
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.SmokeGallery
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: 没有进入相册
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.letv.common.LetvTestCase.verify(LetvTestCase.java:401)
+	at com.letv.cases.leui.SmokeGallery.enterAlbum(SmokeGallery.java:132)
+	at com.letv.cases.leui.SmokeGallery.SlideShow(SmokeGallery.java:53)
+	at com.letv.cases.leui.SmokeGallery.testSlideShow(SmokeGallery.java:38)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at com.letv.common.LeRunAfters.evaluate(LeRunAfters.java:38)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:54)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:240)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)
+
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 48.726
+There was 1 failure:
+1) testSlideShow(com.letv.cases.leui.SmokeGallery)
+junit.framework.AssertionFailedError: 没有进入相册
+	at junit.framework.Assert.fail(Assert.java:50)
+	at com.letv.common.LetvTestCase.verify(LetvTestCase.java:401)
+	at com.letv.cases.leui.SmokeGallery.enterAlbum(SmokeGallery.java:132)
+	at com.letv.cases.leui.SmokeGallery.SlideShow(SmokeGallery.java:53)
+	at com.letv.cases.leui.SmokeGallery.testSlideShow(SmokeGallery.java:38)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at com.letv.common.LeRunAfters.evaluate(LeRunAfters.java:38)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:54)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:240)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+---------case end time is 2018-08-16 14:21:27

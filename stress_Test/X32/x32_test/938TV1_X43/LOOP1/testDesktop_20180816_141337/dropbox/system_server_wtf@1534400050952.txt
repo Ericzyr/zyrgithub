@@ -1,0 +1,13 @@
+Process: system_server
+Subject: ActivityManager
+Build: Letv/DemeterFHD/DemeterFHD:6.0/V2409RCN02C065307D08011D/180801.225815:userdebug/test-keys
+
+android.util.Log$TerribleFailure: Already have existing proc ProcessRecord{69d60e 23339:com.stv.bootadmanager:ui/1000} when adding ProcessRecord{69d60e 23339:com.stv.bootadmanager:ui/1000}
+	at android.util.Log.wtf(Log.java:291)
+	at android.util.Slog.wtf(Slog.java:82)
+	at com.android.server.am.ActivityManagerService.addProcessNameLocked(ActivityManagerService.java:6118)
+	at com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked(ActivityManagerService.java:16153)
+	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:4722)
+	at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:4894)
+	at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1338)
+	at android.os.BinderProxy.sendDeathNotice(Binder.java:558)

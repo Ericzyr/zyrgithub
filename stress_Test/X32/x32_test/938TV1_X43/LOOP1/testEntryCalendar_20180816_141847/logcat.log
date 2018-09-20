@@ -1,0 +1,980 @@
+--------- beginning of main
+08-16 14:18:53.017 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:53.267 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:53.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:18:53.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:18:53.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:18:53.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:18:53.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:18:53.387 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:18:53.518 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:53.631 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511200064/511200064 0 0 found=188 known=0 got=188 bcn=0 con=0
+08-16 14:18:53.631 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511200064/511200064 0 0 found=188 known=0 got=188 bcn=0 con=0
+08-16 14:18:53.631 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511200064/511200064 0 0 found=188 known=0 got=188 bcn=0 con=0
+08-16 14:18:53.631 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511200064/511200064 0 0 found=188 known=0 got=188 bcn=0 con=0
+08-16 14:18:53.703 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:18:53.768 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:53.956 I/Radio-JNI(14923): register_android_hardware_Radio DONE
+--------- beginning of system
+08-16 14:18:53.980 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: start instr
+08-16 14:18:53.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:18:53.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:18:53.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:18:53.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:18:53.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:18:53.988 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:18:53.994 I/art     (14933): Late-enabling -Xcheck:jni
+08-16 14:18:53.995 I/ActivityManager( 2207): Start proc 14933:com.le.tcauto.uitest/u0a97 for added application com.le.tcauto.uitest
+08-16 14:18:54.019 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:54.037 W/System  (14933): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest.test-1/lib/arm64
+08-16 14:18:54.037 W/System  (14933): ClassLoader referenced unknown path: /data/app/com.le.tcauto.uitest-1/lib/arm64
+08-16 14:18:54.053 I/MonitoringInstrumentation(14933): Instrumentation Started!
+08-16 14:18:54.053 I/MonitoringInstrumentation(14933): Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]]'
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): No JSBridge.
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.Class.classForName(Native Method)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.Class.forName(Class.java:324)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.Class.forName(Class.java:285)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.support.test.runner.MonitoringInstrumentation.tryLoadingJsBridge(MonitoringInstrumentation.java:612)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.support.test.runner.MonitoringInstrumentation.access$100(MonitoringInstrumentation.java:88)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.support.test.runner.MonitoringInstrumentation$3.run(MonitoringInstrumentation.java:223)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:1897)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.os.Handler.handleCallback(Handler.java:739)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at android.app.ActivityThread.main(ActivityThread.java:5423)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:744)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.test.espresso.web.bridge.JavaScriptBridge" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.le.tcauto.uitest.test-1/base.apk", zip file "/data/app/com.le.tcauto.uitest-1/base.apk"],nativeLibraryDirectories=[/data/app/com.le.tcauto.uitest.test-1/lib/arm64, /data/app/com.le.tcauto.uitest-1/lib/arm64, /vendor/lib64, /system/lib64]]
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	... 14 more
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	Suppressed: java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 		at java.lang.Class.classForName(Native Method)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 		... 15 more
+08-16 14:18:54.057 I/MonitoringInstrumentation(14933): 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+08-16 14:18:54.088 I/TestRunner(14933): run started: 1 tests
+08-16 14:18:54.091 I/TestRunner(14933): started: testEntryCalendar(com.letv.cases.leui.SmokeCalendar)
+08-16 14:18:54.095 I/MonitoringInstrumentation(14933): Activities that are still in CREATED to STOPPED: 0
+08-16 14:18:54.110 I/LetvTestCase(14933): =====================case start time is :2018-8-16-2-18-54
+08-16 14:18:54.114 I/System.out(14933): The folder /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847 has existed!
+08-16 14:18:54.114 I/System.out(14933): current_case_root_folder=testEntryCalendar_20180816_141847
+08-16 14:18:54.270 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:54.290 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:18:54.290 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:18:54.290 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:18:54.290 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:18:54.290 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:18:54.291 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:18:54.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:18:54.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:18:54.385 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:18:54.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:18:54.387 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:18:54.387 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:18:54.520 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:54.612 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:54.617 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:54.771 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:55.021 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:55.277 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:55.432 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:55.432 I/remotestatus( 2207): Msg.what is 101
+08-16 14:18:55.432 I/WindowManager( 2207): turn cursor off
+08-16 14:18:55.432 I/AppPlugin( 3007): AppFragment -- onFocusRequested requestDirection = 18
+08-16 14:18:55.432 E/RemoteManager( 2207): RemoteManager is no longer support in eui6.5
+08-16 14:18:55.432 I/AppPlugin( 3007): AppRecyclerView --  onFocus mFocusedView = null direction = 130
+08-16 14:18:55.433 I/AppPlugin( 3007): AppRecyclerView -- onFocus mFocusedView = com.stv.plugin.app.widget.RecommPosterCellView{354fae1 VFE...C.. ........ 0,0-312,416 #7f0a001e app:id/item_01}
+08-16 14:18:55.433 E/InputManager-JNI( 2207): call nativeDisableCursor method with hideCursor
+08-16 14:18:55.434 I/GlobalFocusChangedListe( 3007): com.stv.plugin.app.widget.RecommPosterCellView
+08-16 14:18:55.440 I/SoundPool( 3007): enter : func play
+08-16 14:18:55.441 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:55.441 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:18:55.441 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:18:55.444 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:18:55.446 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:18:55.446 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:18:55.446 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:55.446 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:18:55.446 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:55.446 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:55.446 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:55.447 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:55.447 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:55.447 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:55.447 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:55.447 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:55.447 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:18:55.447 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:18:55.448 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:18:55.448 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:18:55.448 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:18:55.449 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:55.449 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:18:55.449 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:18:55.451 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:18:55.451 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:55.451 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:55.451 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:55.452 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:55.452 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:55.452 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:55.452 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:55.452 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:18:55.452 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:18:55.453 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:18:55.460 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:55.472 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:18:55.474 E/audio_hw_primary( 1758): out_get_presentation_position pcm_get_htimestamp(pcm, &avail, timestamp) != 0!!!
+08-16 14:18:55.489 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x1F)[m
+08-16 14:18:55.489 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x22)[m
+08-16 14:18:55.490 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x25)[m
+08-16 14:18:55.493 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x28)[m
+08-16 14:18:55.495 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2B)[m
+08-16 14:18:55.497 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1130 mV (0x2C)[m
+08-16 14:18:55.506 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:55.528 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x2C)[m
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x29)[m
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x26)[m
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x23)[m
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x20)[m
+08-16 14:18:55.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1000 mV (0x1F)[m
+08-16 14:18:55.778 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:56.029 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:56.279 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:56.386 I/WifiStateMachine( 2207):  DisconnectedState !CMD_GET_LINK_LAYER_STATS uid=1000  rt=511202819/511202819 0 0
+08-16 14:18:56.386 I/WifiStateMachine( 2207):  ConnectModeState !CMD_GET_LINK_LAYER_STATS uid=1000  rt=511202819/511202819 0 0
+08-16 14:18:56.386 I/WifiStateMachine( 2207):  DriverStartedState !CMD_GET_LINK_LAYER_STATS uid=1000  rt=511202819/511202819 0 0
+08-16 14:18:56.386 I/WifiStateMachine( 2207):  SupplicantStartedState !CMD_GET_LINK_LAYER_STATS uid=1000  rt=511202819/511202819 0 0
+08-16 14:18:56.442 I/remotestatus( 2207): Msg.what is 101
+08-16 14:18:56.442 I/WindowManager( 2207): turn cursor off
+08-16 14:18:56.442 E/RemoteManager( 2207): RemoteManager is no longer support in eui6.5
+08-16 14:18:56.442 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:56.442 E/InputManager-JNI( 2207): call nativeDisableCursor method with hideCursor
+08-16 14:18:56.447 W/Launcher( 3007): [SDK][EcoFrescoViewImpl]:UnSupport subscriber
+08-16 14:18:56.447 I/GlobalFocusChangedListe( 3007): com.stv.plugin.app.widget.RecommPosterCellView
+08-16 14:18:56.451 I/SoundPool( 2207): enter : func play
+08-16 14:18:56.456 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:56.458 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:56.459 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:18:56.459 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:18:56.466 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:18:56.468 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:18:56.468 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:18:56.468 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:56.468 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:18:56.468 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:56.468 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:56.468 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:56.468 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:18:56.468 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:18:56.471 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:18:56.471 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:18:56.471 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:18:56.471 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:56.471 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:18:56.471 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:18:56.473 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:18:56.473 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:56.474 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:56.474 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:56.474 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:56.474 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:56.474 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:56.474 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:18:56.474 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:18:56.476 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:18:56.529 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:56.553 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:56.780 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.031 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.281 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.452 I/remotestatus( 2207): Msg.what is 101
+08-16 14:18:57.452 I/WindowManager( 2207): turn cursor off
+08-16 14:18:57.452 E/RemoteManager( 2207): RemoteManager is no longer support in eui6.5
+08-16 14:18:57.452 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:57.453 E/InputManager-JNI( 2207): call nativeDisableCursor method with hideCursor
+08-16 14:18:57.457 W/Launcher( 3007): [SDK][EcoFrescoViewImpl]:UnSupport subscriber
+08-16 14:18:57.457 I/GlobalFocusChangedListe( 3007): com.stv.plugin.app.widget.AppCellView
+08-16 14:18:57.459 I/SoundPool( 2207): enter : func play
+08-16 14:18:57.461 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:57.462 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:18:57.463 I/audio_hw_primary( 1758): version:a00004 adev_create_audio_patch::mix->device 
+08-16 14:18:57.463 I/audio_hw_primary( 1758): adev_create_audio_patch *handle=-1420227928 num_audio_patch=3
+08-16 14:18:57.464 E/AudioManagerService( 1803): setAudioVolume(callingPid 1758, clientPid 1758, enSoundPath 0, volumn:0 )
+08-16 14:18:57.467 I/tvos    ( 1764): SetVolume, subWooExist 0!
+08-16 14:18:57.467 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=52(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=52(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=49(HP), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=49(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume, m_bBTDetect is false! 
+08-16 14:18:57.467 I/tvos    ( 1764): mapi_audio_customer::SetAbsoluteVolume: project name is X440M
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent : 0, path=255(speaker), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): SetAbsoluteVolume: uPercent(currVol) : 0, realPath=255(default), VolumeInt=7f, VolumeFra=0
+08-16 14:18:57.467 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 0 
+08-16 14:18:57.467 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:57.467 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 0 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:0 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:57.467 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:57.467 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(0)
+08-16 14:18:57.467 I/tvos    ( 1764): ALC1310 unmute good, addr: 0x13 readbackvalue: 4 
+08-16 14:18:57.469 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 0, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 0 
+08-16 14:18:57.469 I/AudioUtil( 1758): setParameters spk_volume=0
+08-16 14:18:57.469 I/audio_hw_primary( 1758): adev_set_parameters: spk_volume=0
+08-16 14:18:57.469 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.470 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 67108864, onOff : 1 
+08-16 14:18:57.470 I/tvos    ( 1764): _TransMSrvMuteTypeToSDKMuteType: Err! muteType(67108864) is out of Range
+08-16 14:18:57.472 I/tvos    ( 1764): [SetMuteStatus] call SetSoundMuteStatus, line : 10369, muteType: 4, onOff : 1 
+08-16 14:18:57.472 I/tvos    ( 1764): [audioBSP] #1 m_internalMute : 0 ..
+08-16 14:18:57.472 I/tvos    ( 1764): #1|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0 <-|->SDK_bBySyncAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|->SDK_bByVChipAudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #1|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal2AudioMute:0<-|->SDK_bInternal3AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #1|->SDK_bByScanInOutchgCHchg:0<-|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #1|->SDK_bMHEGApMute:0<-|->SDK_bAllAudioMuteCtrl:0<-|->SDK_bPowerOnMute:0<-|->SDK_bNullSourceMute0<-|->SDK_bSetInputSourceAudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): [audioBSP] #2 m_spkrMute : 1 ..|->SDK_bUsrSpkrAudioMute:0<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:57.472 I/tvos    ( 1764): [audioBSP] #3 m_PcmCapture2Mute:1 |->SDK_bByUserPcmCapture2Mute:0<-|->SDK_SUB_bByUserAudioMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:57.472 I/tvos    ( 1764): [audioBSP] #5 m_hpMute : 1 ..|->SDK_bUsrHpAudioMute:1<-|->SDK_bPowerOnMute:0<-|->SDK_bByUserAudioMute:1<-|
+08-16 14:18:57.472 I/tvos    ( 1764): [audioBSP] #12 m_spdifMute : 1 ..
+08-16 14:18:57.472 I/tvos    ( 1764): #12|->SDK_bPermanentAudioMute:0<-|->SDK_bMomentAudioMute:0<-|->SDK_bByBlockAudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #12|->SDK_bByVChipAudioMute:0<-|->SDK_bInternal1AudioMute:0<-|->SDK_bInternal4AudioMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #12|->SDK_bByDuringLimitedTimeAudioMute:0<-|->SDK_bSourceSwitchAudioMute:0<-|->SDK_bMHEGApMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): #12|->SDK_bPowerOnMute:0<-|->SDK_bUsrSpdifAudioMute:1<-|->SDK_bNullSourceMute:0<-|->SDK_bByAppMute:0<-|
+08-16 14:18:57.472 I/tvos    ( 1764): ---Amplifier_ALC1310_LR_SWMute(1)
+08-16 14:18:57.472 I/tvos    ( 1764): ALC1310 mute write good, addr: 0x13, readback data : 49164, write cmd times : 1
+08-16 14:18:57.474 I/tvos    ( 1764): SetSoundMuteStatus : m_hpMute : 1, m_spdifMute : 1, m_DataInMute : 0, m_channel7Mute : 0, m_internalMute : 0, m_spkrMute : 1, m_PcmCapture1Mute : 0, m_PcmCapture2Mute : 1 
+08-16 14:18:57.531 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.551 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:18:57.551 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:18:57.551 I/AppPlugin( 3007): AppFolderItem --  updateSuperscriptView msg count = -1type = -1
+08-16 14:18:57.552 I/AppPlugin( 3007): CellView --  updateSuperscriptView msg count = -1type = -1
+08-16 14:18:57.552 I/AppPlugin( 3007): CellView --  updateSuperscriptView msg count = -1type = -1
+08-16 14:18:57.557 I/APM::AudioPolicyEngine( 1758): getDeviceForStrategy, 359
+08-16 14:18:57.782 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:57.790 I/AppPlugin( 3007): ReportLogUtil -- startExposureReport
+08-16 14:18:58.032 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:58.097 W/CursorWrapperInner( 3788): Cursor finalized without prior close()
+08-16 14:18:58.101 W/CursorWrapperInner( 3788): Cursor finalized without prior close()
+08-16 14:18:58.283 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:58.473 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:18:58.533 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:58.693 I/tvos    ( 1764): bq32kDriver:rtc_read_time.
+08-16 14:18:58.693 I/tvos    ( 1764): [hq]rtc_read_time: read 0x58 0x18 0xc6 0x05 0x16 0x08 0x18
+08-16 14:18:58.693 I/tvos    ( 1764): rtc_read_time: date 58s 18m 6h 16md 7m 118y
+08-16 14:18:58.693 I/tvos    ( 1764): rtc read time:2018-8-16 6:18:58.
+08-16 14:18:58.693 I/tvos    ( 1764): tm_year = 2018, tm_mon = 8, tm_mday = 16, tm_hour = 6,tm_min= 18,  tm_sec = 58
+08-16 14:18:58.693 I/tvos    ( 1764): timeSeconds:1534400338 rtcTimeSeconds:1534400338.
+08-16 14:18:58.783 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:59.034 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:59.284 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:59.535 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:59.785 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:18:59.792 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:18:59.792 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:18:59.793 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:18:59.793 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:18:59.793 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:18:59.793 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:18:59.794 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:18:59.794 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:18:59.794 I/PluginFramework -- WidgetManager( 3007): getWidget id =#com.stv.plugin.app#
+08-16 14:18:59.794 I/PluginFramework -- WidgetManager( 3007): getWidget widget = Widget{, mWidgetId=com.stv.plugin.app, mState=15, mLocation='/data/user/0/com.stv.launcher/files/plugins/com.stv.plugin.app_LetvAppPlugin_2.5.0.005_2018050710.apk', mVersionName='2.5.0.005', mVersionCode=2018050710, mName='LetvAppPlugin', mDexDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/dex/', mLibDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app/libs/', mDataDir='/data/user/0/com.stv.launcher/files/plugins_data/com.stv.plugin.app'}
+08-16 14:18:59.979 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:00.036 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:00.184 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:00.286 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:00.391 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:00.536 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:00.594 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:00.787 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:00.802 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:01.037 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:01.288 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:01.473 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:01.538 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:01.788 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:02.039 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:02.289 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:02.540 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:02.790 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:03.040 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:03.291 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:03.530 I/reService( 2207): onReportKeyEvent  type=type0 keycode=4*20*20*20 
+08-16 14:19:03.531 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:19:03.538 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:19:03.539 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:19:03.539 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:19:03.540 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:19:03.540 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:19:03.540 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:19:03.540 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:19:03.540 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:19:03.540 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:19:03.541 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:03.548 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:19:03.548 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:19:03.792 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:04.042 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:04.144 I/Radio-JNI(14985): register_android_hardware_Radio DONE
+08-16 14:19:04.170 W/ActivityManager( 2207): Invalid packageName: com.stv.calendar
+08-16 14:19:04.292 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:04.421 I/ActivityManager( 2207): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.stv.calendar/.activity.CalendarActivity} from uid 0 on display 0
+08-16 14:19:04.473 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:04.543 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:04.793 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:05.044 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:05.294 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:05.545 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:05.772 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=511212205/511212205 -2 34059 ic=1 proc(ms):15008 dur:2867 cnt=34059 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:15007] from screen [on:0 period:1097021100]
+08-16 14:19:05.773 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:19:05.773 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:19:05.795 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:06.045 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:06.296 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:06.546 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:06.797 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:07.047 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:07.297 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:07.474 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:07.548 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:07.798 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:08.049 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:08.299 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:08.549 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:08.604 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511215037/511215037 0 0 found=185 known=0 got=185 bcn=0 con=0
+08-16 14:19:08.605 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511215038/511215038 0 0 found=185 known=0 got=185 bcn=0 con=0
+08-16 14:19:08.605 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511215038/511215038 0 0 found=185 known=0 got=185 bcn=0 con=0
+08-16 14:19:08.605 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511215039/511215039 0 0 found=185 known=0 got=185 bcn=0 con=0
+08-16 14:19:08.674 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:19:08.800 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:09.051 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:09.301 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:09.551 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:09.802 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:10.052 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:10.303 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:10.474 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:10.553 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:10.803 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:11.054 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:11.304 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:11.555 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:11.699 I/dumpstate(15012): begin
+08-16 14:19:11.699 I/dumpstate_bq(15012): bq_main enter!
+08-16 14:19:11.699 I/dumpstate_bq(15012): bq_main args = iopp.1.32
+08-16 14:19:11.699 I/dumpstate_bq(15012): out_format[0x1], field_mask[0x20]
+08-16 14:19:11.699 I/dumpstate_bq(15012): listenfd[10] timeout[3s]
+08-16 14:19:11.785 I/dumpstate_bq(15012): accept clientfd[4]
+08-16 14:19:11.791 I/dumpstate_bq(15012): field_cnt[1] ions_cnt[187]
+08-16 14:19:11.791 I/dumpstate_bq(15012): buff_len[1553] vs send_len[1553]
+08-16 14:19:11.791 I/dumpstate_bq(15012): bq_main leave ret[0]!
+08-16 14:19:11.805 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:11.815 W/ProcessIOManagerError( 2207): getCmdline error->/proc/15012/cmdline: open failed: ENOENT (No such file or directory)
+08-16 14:19:11.819 W/LetvKillerByIoUsageStrategy( 2207): get ioKillerStep1Threshold error:java.lang.NumberFormatException: Invalid int: "null"
+08-16 14:19:12.011 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/heartbeat
+08-16 14:19:12.056 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:12.306 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:12.557 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:12.807 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:13.058 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:13.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:13.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:13.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:13.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:13.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:13.187 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:13.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:13.308 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:13.474 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:13.558 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:13.809 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:14.059 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:14.310 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:14.560 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:14.810 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:15.061 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:15.311 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:15.562 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:15.700 I/lbplayer( 4071): [main]:ServiceDOWN:dlnaRender is running
+08-16 14:19:15.700 I/lbplayer( 4071): [main]:ServiceDOWN:LeLinkService is running
+08-16 14:19:15.700 I/lbplayer( 4071): [main]:ServiceDOWN:mainServer is running
+08-16 14:19:15.812 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:16.062 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:16.313 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:16.475 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:16.563 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:16.814 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:17.064 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:17.314 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:17.565 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:17.815 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:18.066 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:18.316 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:18.567 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:18.817 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:19.067 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:19.318 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:19.475 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:19.568 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:19.819 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:19.987 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:20.069 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:20.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:20.320 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:20.570 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:20.783 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=511227216/511227216 -2 34060 ic=1 proc(ms):15011 dur:2832 cnt=34060 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:15008] from screen [on:0 period:1097036111]
+08-16 14:19:20.783 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:19:20.783 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:19:20.821 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:21.071 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:21.321 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:21.572 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:21.822 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:22.073 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:22.323 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:22.476 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:22.573 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:22.824 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:23.074 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:23.325 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:23.575 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:23.639 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511230072/511230072 0 0 found=165 known=0 got=165 bcn=0 con=0
+08-16 14:19:23.640 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511230073/511230073 0 0 found=165 known=0 got=165 bcn=0 con=0
+08-16 14:19:23.640 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511230073/511230073 0 0 found=165 known=0 got=165 bcn=0 con=0
+08-16 14:19:23.640 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511230073/511230073 0 0 found=165 known=0 got=165 bcn=0 con=0
+08-16 14:19:23.705 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:19:23.825 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:23.842 I/WifiStateMachine( 2207):  DisconnectedState !CMD_NO_NETWORKS_PERIODIC_SCAN  rt=511230275/511230275 1705 0
+08-16 14:19:23.842 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=511230275/511230275 -1 -1 ic=1 proc(ms):0 dur:2857 cnt=34061 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:3058] from screen [on:0 period:1097039170]
+08-16 14:19:23.843 I/WifiStateMachine( 2207):  ConnectModeState !CMD_START_SCAN  rt=511230276/511230276 -1 -1 ic=1 proc(ms):1 dur:2857 cnt=34061 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:1097039171]
+08-16 14:19:23.843 I/WifiStateMachine( 2207):  DriverStartedState !CMD_START_SCAN  rt=511230276/511230276 -1 -1 ic=1 proc(ms):1 dur:2857 cnt=34061 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:1097039171]
+08-16 14:19:23.844 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:19:23.844 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:19:24.076 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:24.326 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:24.577 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:24.731 I/TimeProvider( 2837): sRetryCount = 0 ProcessId = 2837
+08-16 14:19:24.732 I/TimeProvider( 2837): startSyncTimeInternal timeFetcher is class com.letv.core.timer.HttpHeaderTimeFetcher sRetryCount = 0 ProcessId = 2837
+08-16 14:19:24.745 I/TimeProvider( 2837): startHttpGet host = https://sso.cp21.ott
+08-16 14:19:24.745 I/TimeProvider( 2837):  Host: https://sso.cp21.ott sync ready current time is :Thu Aug 16 14:19:24 GMT+08:00 2018
+08-16 14:19:24.745 I/TimeProvider( 2837): System time is :Thu Aug 16 14:19:24 GMT+08:00 2018
+08-16 14:19:24.745 I/TimeProvider( 2837): fetch time cost ms:13
+08-16 14:19:24.745 I/TimeProvider( 2837): sCurrentTime = 1534400364006 Date = Thu Aug 16 14:19:24 GMT+08:00 2018
+08-16 14:19:24.827 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:25.077 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:25.328 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:25.476 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:25.578 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:25.641 I/LetvTestCase(14933): screenShot: /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/1534400365641.png
+08-16 14:19:25.643 I/System.out(14933): The folder /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/ has existed!
+08-16 14:19:25.643 I/System.out(14933): current_case_root_folder=testEntryCalendar_20180816_141847
+08-16 14:19:25.643 I/LetvTestCase(14933): screenShot: /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/1534400365641.png
+08-16 14:19:25.685 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:25.685 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:25.685 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:25.686 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:25.687 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:25.688 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:25.829 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:26.079 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:26.330 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:26.580 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:26.705 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511233138/511233138 0 0 found=159 known=0 got=159 bcn=0 con=0
+08-16 14:19:26.706 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511233139/511233139 0 0 found=159 known=0 got=159 bcn=0 con=0
+08-16 14:19:26.706 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511233139/511233139 0 0 found=159 known=0 got=159 bcn=0 con=0
+08-16 14:19:26.707 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511233140/511233140 0 0 found=159 known=0 got=159 bcn=0 con=0
+08-16 14:19:26.782 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:19:26.831 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:27.081 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:27.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:27.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:27.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:27.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:27.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:27.187 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:27.331 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:27.582 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:27.832 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:27.948 I/Radio-JNI(15041): register_android_hardware_Radio DONE
+08-16 14:19:28.083 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:28.333 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:28.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:28.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:28.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:28.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:28.386 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:28.387 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:28.476 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:28.486 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:28.486 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:28.486 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:28.486 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:28.487 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:28.487 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:28.583 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:28.584 I/[T1.0.5]EuiAgnes_CleanUpThread( 7946): get folder size:/data/data/com.letv.leso/agnes_cache/unsent:0
+08-16 14:19:28.694 I/tvos    ( 1764): bq32kDriver:rtc_read_time.
+08-16 14:19:28.694 I/tvos    ( 1764): [hq]rtc_read_time: read 0x28 0x19 0xc6 0x05 0x16 0x08 0x18
+08-16 14:19:28.694 I/tvos    ( 1764): rtc_read_time: date 28s 19m 6h 16md 7m 118y
+08-16 14:19:28.694 I/tvos    ( 1764): rtc read time:2018-8-16 6:19:28.
+08-16 14:19:28.694 I/tvos    ( 1764): tm_year = 2018, tm_mon = 8, tm_mday = 16, tm_hour = 6,tm_min= 19,  tm_sec = 28
+08-16 14:19:28.694 I/tvos    ( 1764): timeSeconds:1534400368 rtcTimeSeconds:1534400368.
+08-16 14:19:28.834 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:29.084 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:29.335 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:29.585 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:29.836 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:30.086 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:30.286 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:30.286 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:30.286 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:30.286 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:30.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:30.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:30.337 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:30.587 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:30.778 I/Radio-JNI(15068): register_android_hardware_Radio DONE
+08-16 14:19:30.837 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:30.887 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:31.034 I/LetvTestCase(14933): screenShot: /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/1534400371034.png
+08-16 14:19:31.035 I/System.out(14933): The folder /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/ has existed!
+08-16 14:19:31.035 I/System.out(14933): current_case_root_folder=testEntryCalendar_20180816_141847
+08-16 14:19:31.035 I/LetvTestCase(14933): screenShot: /sdcard/AutoSmoke_UI30/testEntryCalendar_20180816_141847/1534400371034.png
+08-16 14:19:31.088 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:31.185 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:31.185 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:31.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:31.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:31.187 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:31.188 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:31.285 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:31.285 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:31.286 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:31.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:31.288 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:31.289 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:31.338 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:31.477 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:31.521 I/StvLogReport( 2837): Report Nielsen, handleMessage: 'send bd ok
+08-16 14:19:31.521 I/StvLogReport( 2837): 6^C2014082201^X440M-b01bd2542d51-^A1A90F9A1254CF6F^C12CB01BD2542D51^^^2018-08-16 14:19:25^1^2.57^1^H^^^^^^^^^^^^^ (104)'.
+08-16 14:19:31.589 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:31.839 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:32.090 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:32.340 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:32.591 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:32.841 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:33.087 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:33.091 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:33.342 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:33.585 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:33.585 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:33.585 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:33.587 I/Radio-JNI(15094): register_android_hardware_Radio DONE
+08-16 14:19:33.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:33.587 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:33.588 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:33.592 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:33.843 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:34.093 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:34.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:34.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:34.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:34.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:34.186 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:34.188 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:34.344 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:34.477 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:34.594 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:34.844 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:35.095 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:35.345 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:35.363 I/[T1.0.6]EuiAgnes_CleanUpThread( 3788): get folder size:/data/data/com.letv.tvos.appstore/agnes_cache/unsent:0
+08-16 14:19:35.490 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:35.490 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:35.490 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:35.490 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:35.491 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:35.492 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:35.596 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:35.660 E/InternetUtils( 4594): java.net.SocketTimeoutException: failed to connect to www.cibn.com/61.133.127.115 (port 80) after 3000ms
+08-16 14:19:35.791 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=511242224/511242224 -2 34061 ic=1 proc(ms):15008 dur:2863 cnt=34061 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:11946] from screen [on:0 period:1097051119]
+08-16 14:19:35.791 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:19:35.792 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:19:35.846 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:36.096 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:36.183 I/Radio-JNI(15117): register_android_hardware_Radio DONE
+08-16 14:19:36.347 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:36.445 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:36.445 I/AppPlugin( 3007): AppWorkspace -- dispatchKeyEvent folderWorkspace back event no respose,so force hide folderWorkspace.
+08-16 14:19:36.449 I/GlobalFocusChangedListe( 3007): com.stv.launcher.ui.widget.TabItemNew
+08-16 14:19:36.465 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:36.493 I/AppPlugin( 3007): ReportLogUtil -- startExposureReport
+08-16 14:19:36.598 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:36.848 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:37.083 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:37.088 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:37.099 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:37.350 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:37.478 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:37.593 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:37.598 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:37.600 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:37.851 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:38.103 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:38.104 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:38.108 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:38.354 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:38.604 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:38.679 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511245112/511245112 0 0 found=156 known=0 got=156 bcn=0 con=0
+08-16 14:19:38.680 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511245113/511245113 0 0 found=156 known=0 got=156 bcn=0 con=0
+08-16 14:19:38.680 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511245113/511245113 0 0 found=156 known=0 got=156 bcn=0 con=0
+08-16 14:19:38.680 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511245113/511245113 0 0 found=156 known=0 got=156 bcn=0 con=0
+08-16 14:19:38.774 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:19:38.855 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:39.105 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:39.355 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:39.606 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:39.815 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:39.818 W/InputDispatcher( 2207): findFocusedWindow finished: injectionResult=0, timeSpentWaitingForApplication=0.0ms
+08-16 14:19:39.856 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:40.107 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:40.357 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:40.478 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:40.608 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:40.858 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:41.108 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:41.359 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:41.443 I/System.out(14933): The phone type is: X4-40M
+08-16 14:19:41.444 I/LetvTestCase(14933): ==========================case end time is :2018-8-16-2-19-41
+08-16 14:19:41.444 I/TestRunner(14933): failed: testEntryCalendar(com.letv.cases.leui.SmokeCalendar)
+08-16 14:19:41.444 I/TestRunner(14933): ----- begin exception -----
+08-16 14:19:41.445 I/TestRunner(14933): junit.framework.AssertionFailedError: Can not found 日历
+08-16 14:19:41.445 I/TestRunner(14933): 	at junit.framework.Assert.fail(Assert.java:50)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.common.LetvTestCase.verify(LetvTestCase.java:401)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.common.LetvTestCase.launchApp(LetvTestCase.java:815)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.common.LetvTestCase.launchApp(LetvTestCase.java:738)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.cases.leui.SmokeCalendar.EntryCalendar(SmokeCalendar.java:52)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.cases.leui.SmokeCalendar.testEntryCalendar(SmokeCalendar.java:37)
+08-16 14:19:41.445 I/TestRunner(14933): 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+08-16 14:19:41.445 I/TestRunner(14933): 	at com.letv.common.LeRunAfters.evaluate(LeRunAfters.java:38)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.Suite.runChild(Suite.java:128)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.Suite.runChild(Suite.java:27)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+08-16 14:19:41.445 I/TestRunner(14933): 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+08-16 14:19:41.445 I/TestRunner(14933): 	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:54)
+08-16 14:19:41.445 I/TestRunner(14933): 	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:240)
+08-16 14:19:41.445 I/TestRunner(14933): 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)
+08-16 14:19:41.445 I/TestRunner(14933): ----- end exception -----
+08-16 14:19:41.446 I/TestRunner(14933): finished: testEntryCalendar(com.letv.cases.leui.SmokeCalendar)
+08-16 14:19:41.453 I/MonitoringInstrumentation(14933): Activities that are still in CREATED to STOPPED: 0
+08-16 14:19:41.454 I/TestRunner(14933): run finished: 1 tests, 1 failed, 0 ignored
+08-16 14:19:41.456 I/MonitoringInstrumentation(14933): waitForActivitiesToComplete() took: 0ms
+08-16 14:19:41.458 I/MonitoringInstrumentation(14933): Activities that are still in CREATED to STOPPED: 0
+08-16 14:19:41.459 W/WindowManager( 2207): Attempted to remove non-existing token: android.os.Binder@db8e027
+08-16 14:19:41.540 I/ShoppingPlugin-stv-UpdateService( 3007): UpdateService ---> MSG_START_UPDATE
+08-16 14:19:41.540 I/ShoppingPlugin-stv-UpdateService( 3007): runTaskUnderNetwork ---> tastType:1
+08-16 14:19:41.540 I/ShoppingPlugin-stv-UpdateService( 3007): runTaskUnderNetwork ---> ShoppingPluginFragment isn't shown, return
+08-16 14:19:41.540 I/ShoppingPlugin-stv-UpdateService( 3007): runTaskUnderNetwork ---> tastType:2
+08-16 14:19:41.540 I/ShoppingPlugin-stv-UpdateService( 3007): runTaskUnderNetwork ---> ShoppingPluginFragment isn't shown, return
+08-16 14:19:41.609 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:41.718 I/ActivityManager( 2207): Force stopping com.le.tcauto.uitest appid=10097 user=0: finished inst
+08-16 14:19:41.719 I/ActivityManager( 2207): Killing 14933:com.le.tcauto.uitest/u0a97 (adj 0): stop com.le.tcauto.uitest
+08-16 14:19:41.725 W/ActivityManager( 2207): Error shutting down UiAutomationConnection
+08-16 14:19:41.860 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:42.110 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:42.361 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:42.611 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:42.861 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:43.112 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:43.362 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:43.479 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:43.613 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:43.863 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:44.113 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:44.364 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:44.614 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:44.865 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:45.115 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:45.365 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:45.616 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:45.723 E/InternetUtils( 4594): java.net.SocketTimeoutException: failed to connect to www.cibn.com/61.133.127.115 (port 80) after 3000ms
+08-16 14:19:45.866 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:46.117 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:46.367 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:46.479 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:46.618 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:46.868 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:47.119 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:47.369 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:47.619 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:47.870 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:48.120 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:48.371 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:48.559 I/reService( 2207): onReportKeyEvent  type=type0 keycode=4*4*4*4*4 
+08-16 14:19:48.560 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:19:48.571 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:19:48.572 E/ActivityThread( 2837): Failed to find provider info for com.letv.agnes.InfoProvider
+08-16 14:19:48.574 W/System.err( 2837): java.lang.IllegalArgumentException: Unknown URL content://com.letv.agnes.InfoProvider
+08-16 14:19:48.574 W/System.err( 2837): 	at android.content.ContentResolver.insert(ContentResolver.java:1227)
+08-16 14:19:48.574 W/System.err( 2837): 	at com.letv.tracker2.agnes.Configuration.addDebugInfo(Configuration.java:289)
+08-16 14:19:48.574 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr$1.handleMessage(MessageProcessor.java:661)
+08-16 14:19:48.574 W/System.err( 2837): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-16 14:19:48.574 W/System.err( 2837): 	at android.os.Looper.loop(Looper.java:148)
+08-16 14:19:48.574 W/System.err( 2837): 	at com.letv.tracker2.agnes.MessageProcessor$SendEnvMsgTr.run(MessageProcessor.java:665)
+08-16 14:19:48.579 I/[T1.0.6.3]EuiAgnes_Server( 2837): resCode:1
+08-16 14:19:48.579 I/[T1.0.6.3]EuiAgnes_Server( 2837): b[0]:0
+08-16 14:19:48.621 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:48.872 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:49.122 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:49.373 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:49.479 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:49.623 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:49.874 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:50.124 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:50.375 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:50.625 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:50.803 I/WifiStateMachine( 2207):  DisconnectedState !CMD_START_SCAN  rt=511257236/511257236 -2 34062 ic=1 proc(ms):15012 dur:2889 cnt=34062 rssi=-127 f=-1 sc=0 link=-1 tx=0.0, 0.0, 0.0  rx=0.0 fiv=20000 [on:0 tx:0 rx:0 period:15009] from screen [on:0 period:1097066131]
+08-16 14:19:50.803 I/WifiStateMachine( 2207): handlescanrequest  starting scan for 
+08-16 14:19:50.803 I/WifiStateMachine( 2207): startscannative  starting scan for 
+08-16 14:19:50.875 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:51.126 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:51.376 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:51.627 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:51.782 I/LetvAccount(14745): UserInfoProvider -- appName: com.stv.bq, permission: system(true) app(false), match=1
+08-16 14:19:51.782 I/AccountManagerService( 2207): getTypesVisibleToCaller: isPermitted? true
+08-16 14:19:51.877 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:52.128 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:52.378 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:52.480 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:52.629 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:52.879 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:53.130 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:53.380 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:53.630 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:53.660 I/WifiStateMachine( 2207):  DisconnectedState !SCAN_RESULTS_EVENT  rt=511260093/511260093 0 0 found=181 known=0 got=181 bcn=0 con=0
+08-16 14:19:53.660 I/WifiStateMachine( 2207):  ConnectModeState !SCAN_RESULTS_EVENT  rt=511260093/511260093 0 0 found=181 known=0 got=181 bcn=0 con=0
+08-16 14:19:53.660 I/WifiStateMachine( 2207):  DriverStartedState !SCAN_RESULTS_EVENT  rt=511260094/511260094 0 0 found=181 known=0 got=181 bcn=0 con=0
+08-16 14:19:53.661 I/WifiStateMachine( 2207):  SupplicantStartedState !SCAN_RESULTS_EVENT  rt=511260094/511260094 0 0 found=181 known=0 got=181 bcn=0 con=0
+08-16 14:19:53.730 I/WifiStateMachine( 2207): setscanresults newsupplicantresult
+08-16 14:19:53.881 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:54.131 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:54.382 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:54.632 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:54.883 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:55.133 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:55.383 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:55.480 E/LetvRemoteupgradeManager-JNI( 2613): can't get LetvManager service!
+08-16 14:19:55.634 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:55.787 E/InternetUtils( 4594): java.net.SocketTimeoutException: failed to connect to www.cibn.com/61.133.127.115 (port 80) after 3000ms
+08-16 14:19:55.884 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:55.935 I/STVADLOG3( 3602): AlarmReceiverBootAdLoop, ******* onReceive() *******
+08-16 14:19:55.935 I/STVADLOG3( 3602): MagazineManager, requestMagazine()
+08-16 14:19:55.935 I/STVADLOG3( 3602): MagazineRequestTask, ******* run() Start *******
+08-16 14:19:55.936 I/STVADLOG3( 3602): MagazineRequestTask, retry count is 0
+08-16 14:19:55.936 I/STVADLOG3( 3602): AppopenAdListRequestTask, ******* run() Start *******
+08-16 14:19:55.938 I/CommonService( 2808): [GetDomain][DomainUtil]:internet label : stargazer_proxy domain : stargazer-sandbox.scloud.cp21.ott.cibntv.net
+08-16 14:19:55.940 I/STVADLOG3( 3602): AlarmReceiverBootAdLoop, unRegisterAlarmTimer AlarmReceiverBootAdLoop!
+08-16 14:19:55.940 I/STVADLOG3( 3602): OrdinaryUpdateTask, ******* run() Start ******* p6
+08-16 14:19:55.940 I/STVADLOG3( 3602): OrdinaryUpdateTask, p6, retry count is 0
+08-16 14:19:55.940 I/STVADLOG3( 3602): OrdinaryUpdateTask, fastplay free size: 6551 MB
+08-16 14:19:55.940 I/STVADLOG3( 3602): OrdinaryUpdateTask, cache free size: 6551 MB
+08-16 14:19:55.942 I/CommonService( 2808): [Common][SystemCommonServcice]:label : stargazer_proxy  domain: stargazer-sandbox.scloud.cp21.ott.cibntv.net
+08-16 14:19:55.943 I/STVADLOG3( 3602): AlarmReceiverBootAdLoop, Registed AlarmReceiverBootAdLoop!
+08-16 14:19:55.948 I/StvManager( 3602): getDomain label : stargazer_proxy domain : stargazer-sandbox.scloud.cp21.ott.cibntv.net
+08-16 14:19:55.951 I/STVADLOG3( 3602): AppopenAdListRequestTask, request() url: http://stargazer-sandbox.scloud.cp21.ott.cibntv.net/proxy/api/v1/promotion?posid=AppSplashAd_White_List&mac=b01bd2542d51
+08-16 14:19:55.958 I/AccountManagerService( 2207): getTypesVisibleToCaller: isPermitted? true
+08-16 14:19:55.961 I/AccountManagerService( 2207): getTypesVisibleToCaller: isPermitted? true
+08-16 14:19:55.965 I/AccountManagerService( 2207): getTypesVisibleToCaller: isPermitted? true
+08-16 14:19:55.966 I/AccountManagerService( 2207): getTypesVisibleToCaller: isPermitted? true
+08-16 14:19:55.967 E/STVADLOG3( 3602): getUserData, Exception: uid 1000 cannot get user data for accounts of type: com.letv
+08-16 14:19:55.968 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:19:55.969 E/STVADLOG3( 3602): getUserData, Exception: uid 1000 cannot get user data for accounts of type: com.letv
+08-16 14:19:55.969 E/LETV_DEVICE( 1780): no name sn for Mstar
+08-16 14:19:55.973 I/STVADLOG3( 3602): AppopenAdListRequestTask, response {"errno":10000,"data":{"AppSplashAd_White_List":[{"errno":10000,"type":"promotion","promotion":{"gid":"sandbox_5adeea7c57140","portraitid":"sandbox_5adeea7c57180","reqid":"f630017a4d1843f4bfcd0ffb329616c8","sessionid":"cf8453c87c7a4d26b19928348bb79aa9","promoid":"5954d53e3d90ec59003a60d9","timeout":-1,"trace":"{\"traceid\":\"f630017a4d1843f4bfcd0ffb329616c8\",\"traceactid\":\"5954d53e3d90ec59003a60d9\",\"tracepos\":\"AppSplashAd_White_List\",\"tracecid\":\"5a7136353d90ec56008b4567-1522658473\",\"tracegid\":\"sandbox_5adeea7c57140\",\"tracepid\":\"sandbox_5adeea7c57180\"}","creative":{"id":"5a7136353d90ec56008b4567-1522658473","template":"AppSplash_List_White","material":{"appList":"{\"Test\":{\"pkgName\":\"com.le.test\"}}"},"track":{"admaster":{"click":"","imp":""},"miaozhen":{"click":"","imp":""},"nielsen":{"open":0}}},"portrait":""}}]}}
+08-16 14:19:55.974 E/STVADLOG3( 3602): AppopenAdListRequestTask, get AppOpenAdInfo List return [AppOpenAdInfo{appName='Test', pkgName='com.le.test'}]
+08-16 14:19:55.988 I/STVADLOG3( 3602): MagazineRequestTask, request uuid: X440M-b01bd2542d51-0000000000000_1534400395954, url: http://test.ark.letv.com/s?ark=729&ct=18&n=0&offline=0&type=8&res=json&cuid=X440M-b01bd2542d51-0000000000000&v=TV_2_tvEUI_6.5.307D.0801&did=1254cf6fa1a90f9a&t=1534400395954&nv=TV_6.5.307D.0801_tvEUI_2&vvid=X440M-b01bd2542d51-0000000000000_1534400395954&dtype=TV&sdkv=aps_tm_03_3.0.8.4&version=V2409RCN02C065307D08011D&versionName=6.5.307D_0801&model=X440M&ui=6.5&hwVersion=H5000&mac=b01bd2542d51&region=CN&user-prefer-language=zh-cn
+08-16 14:19:55.995 I/STVADLOG3( 3602): OrdinaryUpdateTask, p=6, uuid=X440M-b01bd2542d51-0000000000000_1534400395959, url=http://test.ark.letv.com/s?p=6&ark=295&ct=0&offline=0&n=0&res=json&cuid=X440M-b01bd2542d51-0000000000000&v=TV_2_tvEUI_6.5.307D.0801&did=1254cf6fa1a90f9a&t=1534400395959&nv=TV_6.5.307D.0801_tvEUI_2&vvid=X440M-b01bd2542d51-0000000000000_1534400395959&dtype=TV&sdkv=aps_tm_03_3.0.8.4&version=V2409RCN02C065307D08011D&versionName=6.5.307D_0801&model=X440M&ui=6.5&hwVersion=H5000&mac=b01bd2542d51&region=CN&user-prefer-language=zh-cn
+08-16 14:19:55.996 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 网络验证 pkg com.android.browser
+08-16 14:19:56.005 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 超级电视帐号 pkg com.stv.t2.account
+08-16 14:19:56.008 I/STVADLOG3( 3602): ArkRespondUtils, Ad Type:8, got 0 ads.
+08-16 14:19:56.008 I/STVADLOG3( 3602): MagazineRequestTask, ads size: 0, smallAd list: []
+08-16 14:19:56.008 E/STVADLOG3( 3602): MagazineRequestTask, has no ad. retry to reqeust after 1 minute.
+08-16 14:19:56.011 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 电视乐拍 pkg com.stv.camera
+08-16 14:19:56.017 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 问题反馈 pkg com.stv.feedback
+08-16 14:19:56.022 E/STVADLOG3( 3602): LapResponseUtils, parseBootAdInfo(): could not found NonLinearAds in 'Creatives'(Ad[0], Creatives[0])
+08-16 14:19:56.024 I/STVADLOG3( 3602): LapResponseUtils, AD1, TYPE:1, ID:37325944, OIID:3732, DELIVER:1, DATE:2018-08-17
+08-16 14:19:56.030 I/STVADLOG3( 3602): LapResponseUtils, AD2, TYPE:1, ID:37325944, OIID:3732, DELIVER:1, DATE:2018-08-18
+08-16 14:19:56.032 I/STVADLOG3( 3602): LapResponseUtils, AD3, TYPE:1, ID:37325944, OIID:3732, DELIVER:1, DATE:2018-08-19
+08-16 14:19:56.032 I/STVADLOG3( 3602): LapResponseUtils, Ad Type:1, got 3 ads.
+08-16 14:19:56.032 I/STVADLOG3( 3602): OrdinaryUpdateTask, ads: 3
+08-16 14:19:56.032 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 文件管理 pkg com.stv.filemanager
+08-16 14:19:56.033 I/LetvManager-LogReport( 1780): [send_msg] line: 490 report url = http://log.hdtv.cp21.ott.cibntv.net:80/api/log/tvAction
+08-16 14:19:56.041 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 相册 pkg com.android.gallery3d
+08-16 14:19:56.045 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 音乐 pkg com.stv.music
+08-16 14:19:56.049 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 万象搜索 pkg com.letv.leso
+08-16 14:19:56.056 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 芒果TV pkg com.hunantv.license
+08-16 14:19:56.061 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 云视听极光 pkg com.ktcp.tvvideo
+08-16 14:19:56.065 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 设置 pkg com.stv.globalsetting
+08-16 14:19:56.070 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 消息 pkg com.stv.message
+08-16 14:19:56.076 I/STVADLOG3( 3602): OrdinaryUpdateTask, setDuration() ad id: 37325944, vast duration: 15, cdn duration: 14
+08-16 14:19:56.081 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 下载中心 pkg com.stv.downloads
+08-16 14:19:56.087 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 电视管家 pkg com.stv.helper.main
+08-16 14:19:56.090 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x22)[m
+08-16 14:19:56.090 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x25)[m
+08-16 14:19:56.090 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x28)[m
+08-16 14:19:56.090 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2B)[m
+08-16 14:19:56.091 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:56.092 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1150 mV (0x2E)[m
+08-16 14:19:56.098 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 购物 pkg com.stv.shopping
+08-16 14:19:56.111 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 主题 pkg com.stv.thememanager
+08-16 14:19:56.119 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName HomeTime pkg com.stv.android.videochat
+08-16 14:19:56.124 I/STVADLOG3( 3602): OrdinaryUpdateTask, setDuration() ad id: 37325944, vast duration: 15, cdn duration: 14
+08-16 14:19:56.131 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 系统更新 pkg com.stv.systemupgrade
+08-16 14:19:56.135 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:56.137 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 播放记录 pkg com.stv.videohistory
+08-16 14:19:56.140 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 霸屏榜 pkg com.stv.watchinghot
+08-16 14:19:56.143 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 天气 pkg sina.mobile.tianqitongstv
+08-16 14:19:56.145 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 应用商店 pkg com.letv.tvos.appstore
+08-16 14:19:56.151 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 我的乐范 pkg com.stv.ucenter
+08-16 14:19:56.159 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 超级影视 pkg com.letv.tv
+08-16 14:19:56.159 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 超级影视 pkg com.letv.tv
+08-16 14:19:56.168 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName 盈盈彩 pkg com.yyc.lottery
+08-16 14:19:56.173 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName Basic UiAutomator sample pkg com.le.tvtest
+08-16 14:19:56.178 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName ADB Change Language pkg net.sanapeli.adbchangelanguage
+08-16 14:19:56.185 E/STVADLOG3( 3602): AppopenAdListRequestTask,  appName mtbf2.0 pkg com.le.tcauto.uitest
+08-16 14:19:56.186 I/STVADLOG3( 3602): AppopenAdListRequestTask, ******* run() End *******
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2E)[m
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x2B)[m
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x28)[m
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x25)[m
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:56.287 I/tvos    ( 1764): [37m[INFO] Change to Voltage: 1030 mV (0x22)[m
+08-16 14:19:56.386 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:56.636 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:56.886 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:57.137 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:57.161 I/STVADLOG3( 3602): OrdinaryUpdateTask, setDuration() ad id: 37325944, vast duration: 15, cdn duration: 14
+08-16 14:19:57.387 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:57.513 I/STVADLOG3( 3602): OrdinaryUpdateTask, All ad downloaded.
+08-16 14:19:57.513 I/STVADLOG3( 3602): OrdinaryUpdateTask, setConcatAds() p: 6, ads: 3
+08-16 14:19:57.513 I/STVADLOG3( 3602): OrdinaryUpdateTask, setConcatAds() P6
+08-16 14:19:57.514 I/STVADLOG3( 3602): OrdinaryUpdateTask, setConcatAds() date: 2018-08-17, ad1: LapAd{adType=1, id='37325944', orderItemId='3732', date='2018-08-17', start='2018-06-11', end='2018-08-31', ord=1, url='http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100&splatid=10000&gugtype=6&mmsid=66849259&type=tv_1080p', link='null', duration='14', relatedId='null', relatedOiid='null', deliverType=1, mediaType='null', settleType=1, uuid='X440M-b01bd2542d51-0000000000000_1534400395959', adParameters='{"cuid":"X440M-b01bd2542d51-0000000000000","duration":"15","mzsdk":"","oid":"3732","pair":["1_1"],"rotation":"1","skip_time":"10","type":"on","url":"http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100\u0026splatid=10000\u0026gugtype=6\u0026mmsid=66849259\u0026type=tv_1080p","uuid":"X440M-b01bd2542d51-0000000000000_1534400395959"}', playTime=0}, ad2: null
+08-16 14:19:57.516 I/STVADLOG3( 3602): OrdinaryUpdateTask, setConcatAds() date: 2018-08-18, ad1: LapAd{adType=1, id='37325944', orderItemId='3732', date='2018-08-18', start='2018-06-11', end='2018-08-31', ord=3, url='http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100&splatid=10000&gugtype=6&mmsid=66849259&type=tv_1080p', link='null', duration='14', relatedId='null', relatedOiid='null', deliverType=1, mediaType='null', settleType=1, uuid='X440M-b01bd2542d51-0000000000000_1534400395959', adParameters='{"cuid":"X440M-b01bd2542d51-0000000000000","duration":"15","mzsdk":"","oid":"3732","pair":["1_1"],"rotation":"1","skip_time":"10","type":"on","url":"http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100\u0026splatid=10000\u0026gugtype=6\u0026mmsid=66849259\u0026type=tv_1080p","uuid":"X440M-b01bd2542d51-0000000000000_1534400395959"}', playTime=0}, ad2: null
+08-16 14:19:57.516 I/STVADLOG3( 3602): OrdinaryUpdateTask, setConcatAds() date: 2018-08-19, ad1: LapAd{adType=1, id='37325944', orderItemId='3732', date='2018-08-19', start='2018-06-11', end='2018-08-31', ord=5, url='http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100&splatid=10000&gugtype=6&mmsid=66849259&type=tv_1080p', link='null', duration='14', relatedId='null', relatedOiid='null', deliverType=1, mediaType='null', settleType=1, uuid='X440M-b01bd2542d51-0000000000000_1534400395959', adParameters='{"cuid":"X440M-b01bd2542d51-0000000000000","duration":"15","mzsdk":"","oid":"3732","pair":["1_1"],"rotation":"1","skip_time":"10","type":"on","url":"http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100\u0026splatid=10000\u0026gugtype=6\u0026mmsid=66849259\u0026type=tv_1080p","uuid":"X440M-b01bd2542d51-0000000000000_1534400395959"}', playTime=0}, ad2: null
+08-16 14:19:57.540 I/STVADLOG3( 3602): OrdinaryUpdateTask, work index: 2, work ts: /fastplay/ordinary/ad_2.ts, work xml: /fastplay/ordinary/ad_2.xml
+08-16 14:19:57.540 E/STVADLOG3( 3602): OrdinaryUpdateTask, date: 2018-08-17, ad_1: LapAd{adType=1, id='37325944', orderItemId='3732', date='2018-08-17', start='2018-06-11', end='2018-08-31', ord=1, url='http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100&splatid=10000&gugtype=6&mmsid=66849259&type=tv_1080p', link='null', duration='14', relatedId='null', relatedOiid='null', deliverType=1, mediaType='null', settleType=1, uuid='X440M-b01bd2542d51-0000000000000_1534400395959', adParameters='{"cuid":"X440M-b01bd2542d51-0000000000000","duration":"15","mzsdk":"","oid":"3732","pair":["1_1"],"rotation":"1","skip_time":"10","type":"on","url":"http://g3com.cp21.ott.cibntv.net/vod/v1/MjcyLzE4LzUyL2xldHYtZ3VnLzE3LzExMjEwNjIyMjctYXZjLTc3Ny1hYWMtNzctMTQ0ODAtNjI5NDYxNi1hZTU0YWRkZjUyODkyY2Y5Y2NlODRjY2U5YTViYmRkMy0xNTI4MzUwOTc2ODkxLnRz?platid=100\u0026splatid=10000\u0026gugtype=6\u0026mmsid=66849259\u0026type=tv_1080p","uuid":"X440M-b01bd2542d51-0000000000000_1534400395959"}', playTime=0}, ad_2: null
+08-16 14:19:57.540 I/STVADLOG3( 3602): OrdinaryAdConcater, out: /fastplay/ordinary/ad_2.ts
+08-16 14:19:57.540 I/STVADLOG3( 3602): OrdinaryAdConcater, src: /data/user/0/com.stv.bootadmanager/files/letv/boot/b6ff76d75d32bed8ca8ea9d6f7850e9c/b6ff76d75d32bed8ca8ea9d6f7850e9c.ts
+08-16 14:19:57.540 I/System.out( 3602): path=/data/user/0/com.stv.bootadmanager/files/letv/boot/b6ff76d75d32bed8ca8ea9d6f7850e9c/b6ff76d75d32bed8ca8ea9d6f7850e9c.ts, header=474011
+08-16 14:19:57.638 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:57.888 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0
+08-16 14:19:58.139 I/tvos    ( 1764): GetAudioOutputDevice, retval : 0

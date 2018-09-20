@@ -1,0 +1,8 @@
+[510526.146637] [4423035523][MAD_ALSA][001007]     6Wake up Playback Monitor 0
+[510539.161877] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[510598.921871] healthd: battery l=100 v=3 t=2.6 h=2 st=3 chg=au
+[510612.927881] binder: release 22762:22775 transaction 233391640 out, still active
+[510612.937239] binder: 2207:2409 transaction failed 29189, size 4-0
+[510612.943433] binder: send failed reply for transaction 233391640, target dead
+[510613.120868] binder: undelivered transaction 233391646
+[510613.124008] init: Untracked pid 22752 exited with status 0
